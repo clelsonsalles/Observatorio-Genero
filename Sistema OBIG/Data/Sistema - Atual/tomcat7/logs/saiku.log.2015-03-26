@@ -1,0 +1,13 @@
+2015-03-26 11:46:25,047 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-03-26 11:46:36,060 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/0017B179-47D1-BBD9-A92F-ADB74461D3BA	POST	 xml:false
+2015-03-26 11:46:45,753 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/0017B179-47D1-BBD9-A92F-ADB74461D3BA/axis/COLUMNS/dimension/Ⓣ Período/hierarchy/[Ⓣ Período]/[Ⓣ Período].[Mês]	POST
+2015-03-26 11:46:45,754 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 0017B179-47D1-BBD9-A92F-ADB74461D3BA dimension Ⓣ Período to axis COLUMNS  position0
+2015-03-26 11:46:48,634 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/0017B179-47D1-BBD9-A92F-ADB74461D3BA/axis/ROWS/dimension/Measures/member/[Measures].[Famílias]	POST
+2015-03-26 11:46:48,634 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 0017B179-47D1-BBD9-A92F-ADB74461D3BA dimension Measures to axis ROWS  position0
+2015-03-26 11:46:49,592 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/0017B179-47D1-BBD9-A92F-ADB74461D3BA/resultflattened	GET
+2015-03-26 11:46:49,592 INFO  [org.saiku.service.olap.OlapQueryService] runId:195	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Ⓣ Período].[Mês].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-03-26 11:46:49,881 INFO  [org.saiku.service.olap.OlapQueryService] runId:195	Size: 4/2	Execute:	288ms	Format:	1ms	 Total: 289ms

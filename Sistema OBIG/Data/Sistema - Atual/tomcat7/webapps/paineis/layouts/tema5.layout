@@ -1,0 +1,263 @@
+﻿[
+  {
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Taxa de Homicídio de Mulheres",
+		"source": "Mapa da Violência, 2015",
+		"dataUrl": "csv/taxa_de_homicidios_de_mulheres.csv",
+		"columnDelimiter": ";",
+  		"charts": [
+  				{ "type": "SVGMap",
+  				  "data": {
+  				  	"title": "Por UF (100.000 habitantes)",
+  				  	"file": "svg/brasil_uf_map.svg",
+					"width": 410,
+					"height": 480,
+					"xAxisCol": "UF",
+					"yAxisCol": "Taxa de Homicídios",
+					"minColor": "#8FBC8F",
+					"maxColor": "#FFA500",
+					"colorSteps": 4,
+					"colorize": "fixed",
+					"numberFormat": ".1f",					
+					"colorizeModel": {
+							"intervals": [[0,3.50],[3.51,5.09],[5.10,7,50],[7.51,100]],
+							"colors": ["#8FBC8F","#B7B765","#FFA500","#A0522D"],
+							"labels": [ "Até 3,5", "De 3,5 a 5,0","De 5,1 a 7,5", "Acima de 7,5"]
+						},
+					"info":"</br>",					
+					"selectionBoxPosition": "bottom-left",
+					"filters": {
+						"excluded": [ { "column": "UF", "value": "Todas as UFs" },
+							      { "column": "Raça/Cor", "value": "Branca" },
+							      { "column": "Raça/Cor", "value": "Negra" } ] 
+					  }
+																
+				   }
+				  },
+				  {
+				  	"type": "RowValue",
+				  	"data": {
+				  			"defaultRow": "Todas as UFs",
+				  			"defaultLabel": "Brasil",
+				  			"xAxisCol": "UF",
+				  			"yAxisCol": "Taxa de Homicídios",
+				  			"suffix": "",
+				  			"prefix": "Taxa:",
+				  			"numberFormat": ".1f",
+				  			"icon": "",
+					"filters": {
+						"excluded": [  { "column": "Raça/Cor", "value": "Branca" },
+							      { "column": "Raça/Cor", "value": "Negra" } ] 
+					  }
+				  		}
+				  } ]
+			 
+		  }
+  },
+ {
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Taxa de Homicídio de Mulheres",		
+		"dataUrl": "csv/taxa_de_homicidios_de_mulheres.csv",
+		"columnDelimiter": ";",
+		"source": "Mapa da Violência, 2015",
+  		"charts": [
+			{ "type": "Plot2D",
+				  "data": {
+				  	"title": "Por Raça/Cor (100.000 habitantes)",
+				  	
+                    "yUnit": "Taxa",
+                    "type": "column",
+                    "width": 220,
+                    "height": 190,
+                    "marginLeft": 50,
+                    "marginBottom": 58,
+                    "xRotation": -25,
+                    "xAxisCol": "Raça/Cor",
+                    "yAxisCol": ["Taxa de Homicídios"],
+                    "colors": ["#FFA500"],
+		    "numberFormat": ".1f",
+                    "legendNumCols": 1,
+					"filters": {
+						"included": [ { "column": "UF","value": "Todas as UFs" }  ],
+						"excluded": [ { "column": "Raça/Cor","value": "Todas as raças" }  ] 
+					  }						
+                        }
+                    }
+  			 ]
+     }
+  }, 
+ {
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Relação agressor/a com vítima",		
+		"dataUrl": "csv/relacao_do_agressor_com_a_vitima.csv",
+		"columnDelimiter": ";",
+		"source": "Disque 180/ SPM, 2015",
+  		"charts": [
+					
+  				
+				{ "type": "Pie",
+	  			  "data": {
+	  			  	"title": "</br>",
+	  			  	
+					"width": 500,
+					"height": 250,
+					"labelPosition": "outer",
+
+					"decimals": 1,
+					"order": "label-desc",
+					"xAxisCol": "Relação",
+					"yAxisCol": "Relatos",
+					"colors": ["#FFA500","#556B2F","#006400","#D2691E","#8FBC8F","#556B2F","#A0522D"],
+					"selectionAxisCol": "UF",
+					 "filters": {    "included": [ { "column": "UF","value": "Todas as UFs" } ]
+                        }															
+				  }
+				 }
+  			 ]
+     }
+  },
+ {
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Serviços especializados da rede de enfrentamento à violência contra as mulheres",		
+		"dataUrl": "csv/rede_atendimento.csv",
+		"columnDelimiter": ";",
+		"source": "SPM",
+  		"charts": [
+				{ "type": "Datatable",
+				  "data": {
+				  	"title": "por UF",
+				  	"id": "UF",
+                    "width": 750,
+                    "height": 350,
+                    "colsIncluded": [
+                    		{ "name": "UF", "label": "UF", "width": "5%" },
+                    		{ "name": "MUNICÍPIO", "label": "Município", "width": "10%" },
+                    		{ "name": "NOME DA UNIDADE", "label": "Nome da Unidade", "width": "20%" },
+                    		{ "name": "ENDEREÇO ", "label": "Endereço", "width": "10%" }
+                    	],
+                     "selectionFilterCol": 0
+                   }                    
+                 }
+            ]
+     }
+  }
+, 
+ {
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Relatos de violência contra mulheres lésbicas",		
+		"dataUrl": "csv/tipos_de_violencia_contra_mulheres_lesbicas_100.csv",
+		"columnDelimiter": ";",
+		"source": "Disque 100/ SDH, 2014",
+  		"charts": [
+					
+  				{ "type": "Pie",
+				  "data": {
+				  	"title": "<br/>",
+				  	
+                    
+					"width": 550,
+					"height": 250,
+					"labelPosition": "outer",
+
+					"decimals": 1,
+					"order": "value-asc",
+					"xAxisCol": "Tipo de Violência",
+					"yAxisCol": "Denúncias",
+					"colors": ["#FFA500","#556B2F","#006400","#D2691E","#8FBC8F"],
+					"selectionAxisCol": "UF",
+					 "filters": {    "included": [ { "column": "UF","value": "Todas as UFs" } ]
+										
+                      			  }															
+				  }
+				 }
+  			 ]
+     }
+  }, 
+ {
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Relatos de violência - Ligue 180",		
+		"dataUrl": "csv/relatos_de_violencia_disque_180.csv",
+		"columnDelimiter": ";",
+		"source": "Disque 180/ SPM, 2015",
+  		"charts": [
+					
+  				{ "type": "Plot2D",
+				  "data": {
+				  	"title": "Série Histórica",
+				  	
+                    "yUnit": "Relatos",
+                    "type": "line",
+		    "numberFormat": ",.0f",
+                    "width": 550,
+                    "height": 200,
+                    "marginLeft": 80,
+                    "marginBottom": 58,
+                    "xRotation": -25,
+                    "xAxisCol": "Ano",
+                    "selectionAxisCol": "UF",
+                    "yAxisCol": ["Relatos"],
+                    "colors": ["#8FBC8F"],
+                    "legendNumCols": 1,
+					"filters": {
+						"included": [ { "column": "UF","value": "Todas as UFs" } ] 
+					  }						
+                        }
+                    }
+  			 ]
+     }
+  },
+ {
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Violência doméstica, sexual e/ou outras",		
+		"dataUrl": "csv/sinan_tipos_de_violencia_por_uf.csv",
+		"columnDelimiter": ";",
+		"source": "SINAN",
+  		"charts": [
+					
+  				{ "type": "Pie",
+				  "data": {
+				  	"title": "Mulheres",
+				  	
+                    
+					"width": 550,
+					"height": 250,
+					"labelPosition": "outer",
+					"order": "value-asc",
+					"xAxisCol": "Tipos de Violências",
+					"yAxisCol": "Mulheres",
+					"colors": ["#FFA500","#556B2F","#006400","#D2691E","#8FBC8F"],
+					"selectionAxisCol": "UF",
+					 "filters": {    "included": [ { "column": "UF","value": "Todas as UFs" } ]
+										
+                      			  }															
+				  }
+				 },
+ 					{"type": "Pie",
+				  "data": {
+				  	"title": "Homens",
+				  	
+                    
+					"width": 550,
+					"height": 250,
+					"labelPosition": "outer",
+					"order": "value-asc",
+					"xAxisCol": "Tipos de Violências",
+					"yAxisCol": "Homens",
+					"colors": ["#FFA500","#556B2F","#006400","#D2691E","#8FBC8F"],
+					"selectionAxisCol": "UF",
+					 "filters": {    "included": [ { "column": "UF","value": "Todas as UFs" } ]
+										
+                      			  }															
+				  }
+				 }
+  			 ]
+     }
+  }
+]

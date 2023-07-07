@@ -1,0 +1,21 @@
+2014-11-28 09:02:59,692 WARN  [mondrian.rolap.RolapUtil] Mondrian: Warning: JDBC driver sun.jdbc.odbc.JdbcOdbcDriver not found
+2014-11-28 09:02:59,694 WARN  [mondrian.rolap.RolapUtil] Mondrian: Warning: JDBC driver oracle.jdbc.OracleDriver not found
+2014-11-28 09:04:50,364 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@1a6c5: Username: mme; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER]
+2014-11-28 09:05:01,901 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/BA85D2FC-5CB9-7233-A567-B3A8AF3C4DB4	POST	 xml:false
+2014-11-28 09:05:01,937 INFO  [org.saiku.olap.util.SaikuProperties] Saiku: properties loaded from 'file:/home/opt/tomcat7/webapps/saiku/WEB-INF/classes/saiku.properties'
+2014-11-28 09:05:01,938 INFO  [org.saiku.olap.util.SaikuProperties] Saiku: loaded 0 system properties
+2014-11-28 09:05:12,920 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/BA85D2FC-5CB9-7233-A567-B3A8AF3C4DB4/axis/COLUMNS/dimension/Local de Domicílio/hierarchy/[Local de Domicílio]/[Local de Domicílio].[UF]	POST
+2014-11-28 09:05:12,921 DEBUG [org.saiku.service.olap.OlapQueryService] move query: BA85D2FC-5CB9-7233-A567-B3A8AF3C4DB4 dimension Local de Domicílio to axis COLUMNS  position0
+2014-11-28 09:05:15,469 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/BA85D2FC-5CB9-7233-A567-B3A8AF3C4DB4/axis/ROWS/dimension/Measures/member/[Measures].[Famílias]	POST
+2014-11-28 09:05:15,469 DEBUG [org.saiku.service.olap.OlapQueryService] move query: BA85D2FC-5CB9-7233-A567-B3A8AF3C4DB4 dimension Measures to axis ROWS  position0
+2014-11-28 09:05:15,799 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/BA85D2FC-5CB9-7233-A567-B3A8AF3C4DB4/resultflattened	GET
+2014-11-28 09:05:15,817 INFO  [org.saiku.service.olap.OlapQueryService] runId:0	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Domicílio].[UF].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [Hist. MDS CadUnico (Familias)]
+2014-11-28 09:05:19,409 INFO  [org.saiku.service.olap.OlapQueryService] runId:0	Size: 28/2	Execute:	3574ms	Format:	33ms	 Total: 3607ms
+2014-11-28 09:05:54,978 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN,ROLE_USER]
+2014-11-28 09:18:54,714 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/2425A90B-8157-48DF-8081-8C972A379736	POST	 xml:false
+2014-11-28 09:21:29,524 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/BA85D2FC-5CB9-7233-A567-B3A8AF3C4DB4	DELETE
+2014-11-28 09:21:29,543 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/51B7800A-407E-B49E-A774-14CF95319CB6	POST	 xml:false

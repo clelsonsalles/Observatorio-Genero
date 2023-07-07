@@ -1,0 +1,2 @@
+2015-08-06 16:55:48,192 WARN  [mondrian.rolap.RolapUtil] Mondrian: Warning: JDBC driver sun.jdbc.odbc.JdbcOdbcDriver not found
+2015-08-06 16:55:48,195 WARN  [mondrian.rolap.RolapUtil] Mondrian: Warning: JDBC driver oracle.jdbc.OracleDriver not found

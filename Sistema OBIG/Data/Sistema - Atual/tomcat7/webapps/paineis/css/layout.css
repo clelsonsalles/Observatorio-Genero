@@ -1,0 +1,275 @@
+/*
+Template Name: OnlineFolio
+File: Layout CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share Alike 3.0 Unported License</a>
+*/
+
+
+@import url(forms.css);
+/*@import url(tables.css);*/
+
+html {
+  height: 100%;
+}
+
+body{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-family:verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	background-color:#000;
+	height:100%;
+	}
+
+
+br.clear{clear:both; margin-top:-15px;}
+
+a{outline:none; text-decoration:none;}
+
+/* -------- Panel layout ------------- */
+
+
+.column33 {
+  display: inline;
+  float: left;
+  width: 33%;
+  vertical-align: middle;
+}
+
+.column50 {
+  display: inline;
+  float: left;
+  width: 50%;
+  vertical-align: middle;
+}
+
+.column25 {
+  display: inline;
+  float: left;
+  width: 25%;
+  vertical-align: middle;
+}
+
+.row {
+	clear:both;
+	width: 100%;
+	vertical-align: middle;
+}
+
+.h_expander {
+	width: 100%;
+}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{
+	position:relative;
+	float:left;
+	width:100%;
+	margin:0;
+	text-align:left;
+	}
+
+div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{
+	margin:0;
+	padding:0;
+	line-height:normal;
+	font-weight:normal;
+	font-size:18px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	}
+	
+	
+div.mainwrapper{
+	position:relative;
+	float:left;
+	width:100%;
+	margin:0;
+	text-align:left;
+	/*height: auto !important;
+        min-height: 100%;
+        height: 100%;*/
+	}
+
+div.mainwrapper h1 {
+	margin:0;
+	padding:0;
+	line-height:normal;
+	font-weight:normal;
+	font-size:18px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	}
+
+/*  Axis selection   */
+.col1{color:#333333; background-color:#FFF; border-bottom:1px dotted #666666;}
+/*  Logo   */
+.col2{color:#D2D2D2; background-color:#222222;}
+/*  Current Axis   */
+.col3{color:#666666; background-color:#F3F3F3;}
+.col3 a{color:#02A2C4; background-color:#F3F3F3;}
+
+/*  MAIN   */
+.col4{color:#333333; background-color:#FFFFFF;}
+.col4 a{color:#60E1FD; background-color:#FFFFFF;}
+/*  Bottom   */
+.col5{color:#FFFFFF; background-color:#000000;}
+.col5 a{color:#60E1FD; background-color:#000000;}
+/* Footer */
+.col6, .col6 a{color:#FFFFFF; background-color:#333333;}
+
+/* ----------------------------------------------Generalise-------------------------------------*/
+
+#socialise, #header, #intro, .overview, #breadcrumb, #container,  #copyright{
+
+	margin:0 auto 0;
+	text-align:left;
+	/*width:1100px;*/
+	width: 90%;
+	}
+
+
+/* ----------------------------------------------Social Bar-------------------------------------*/
+
+#socialise{
+	padding:20px 0;
+	}
+
+#socialise ul{
+	display:inline;
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-size:20px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	}
+
+#socialise li{
+	display:block;
+	float:left;
+	margin:0 103px 0 0;
+	text-align:center;
+	}
+
+#socialise li span{
+	display:block;
+	margin:8px 0 0 0;
+	}
+
+#socialise li.last{
+	margin-right:0;
+	}
+
+#socialise a{
+	color:navy;
+	background-color:#FFF;
+	}
+
+#socialise a:hover{
+	color:navy;
+	background-color:#BBB;
+	}
+
+/* ----------------------------------------------Header (Logo) -------------------------------------*/
+
+#header{
+	padding:0 0 0 0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	}
+
+#header h1, #header p{
+	margin:0;
+	padding:0;
+	}
+
+#header #logo{
+	display:block;
+	float:left;
+	vertical-align: middle;
+	width: 400px;	
+	margin-top:5px;
+	}
+
+
+#header #logo h1{
+	float:left;
+	}
+
+#header #logo p{
+	float:right;
+	}
+
+#header h1{
+	margin:0 0 7px 0;
+	font-size:56px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	}
+
+#header h1 a{
+	color:#F3F3F3;
+	background-color:#222222;
+	}
+
+#header p {
+	display:inline;
+	}
+
+#header p.toggler a{
+	display:block;
+	width:180px;
+	padding:5px 0;
+	text-align:center;
+	text-transform:uppercase;
+	color:#FFF;
+	background-color:#860;
+	}
+
+
+
+/* ----------------------------------------------BreadCrumb-------------------------------------*/
+
+#breadcrumb{
+	padding:10px 0;
+	}
+
+#breadcrumb p{
+	margin:0;
+	padding:0;
+        display:inline;
+        font-weight: bold;
+	}
+
+
+
+/* ----------------------------------------------Content-------------------------------------*/
+
+#container{
+        padding:5px 0;
+		line-height:1.4em;
+        /*padding-bottom: 65px; /* This should match the height of the footer */
+
+	}
+
+#container h1, #container h2, #container h3, #container h4, #container h5, #container h6{
+	margin-bottom:15px;
+	padding-bottom:8px;
+	border-bottom:1px dotted #CCCCCC;
+	}
+
+
+
+
+/* ----------------------------------------------Footer-------------------------------------*/
+
+#footer{
+	padding:5px 0;
+	height: 40px; /* Define height of the footer */
+        position: relative;        
+        width: 100%; /* As wide as it's allowed */
+        background-color: black;
+	}
+
+
+

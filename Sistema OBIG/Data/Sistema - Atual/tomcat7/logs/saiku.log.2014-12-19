@@ -1,0 +1,76 @@
+2014-12-19 15:51:04,862 WARN  [mondrian.rolap.RolapUtil] Mondrian: Warning: JDBC driver sun.jdbc.odbc.JdbcOdbcDriver not found
+2014-12-19 15:51:04,864 WARN  [mondrian.rolap.RolapUtil] Mondrian: Warning: JDBC driver oracle.jdbc.OracleDriver not found
+2014-12-19 16:04:23,462 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2014-12-19 16:04:28,913 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DADC5AA8-F58E-595A-88F8-89BE0EF5E688	POST	 xml:false
+2014-12-19 16:04:28,927 INFO  [org.saiku.olap.util.SaikuProperties] Saiku: properties loaded from 'file:/home/opt/tomcat7/webapps/saiku/WEB-INF/classes/saiku.properties'
+2014-12-19 16:04:28,927 INFO  [org.saiku.olap.util.SaikuProperties] Saiku: loaded 0 system properties
+2014-12-19 16:04:33,018 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DADC5AA8-F58E-595A-88F8-89BE0EF5E688/axis/COLUMNS/dimension/Ⓣ Ano/hierarchy/[Ⓣ Ano]/[Ⓣ Ano].[Ano ]	POST
+2014-12-19 16:04:33,018 DEBUG [org.saiku.service.olap.OlapQueryService] move query: DADC5AA8-F58E-595A-88F8-89BE0EF5E688 dimension Ⓣ Ano to axis COLUMNS  position0
+2014-12-19 16:04:36,216 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DADC5AA8-F58E-595A-88F8-89BE0EF5E688/axis/ROWS/dimension/Measures/member/[Measures].[Óbitos]	POST
+2014-12-19 16:04:36,216 DEBUG [org.saiku.service.olap.OlapQueryService] move query: DADC5AA8-F58E-595A-88F8-89BE0EF5E688 dimension Measures to axis ROWS  position0
+2014-12-19 16:04:36,290 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DADC5AA8-F58E-595A-88F8-89BE0EF5E688/resultflattened	GET
+2014-12-19 16:04:36,306 INFO  [org.saiku.service.olap.OlapQueryService] runId:0	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Ⓣ Ano].[Ano ].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Óbitos]} ON ROWS
+FROM [Hist. MS SIM]
+2014-12-19 16:04:39,840 INFO  [org.saiku.service.olap.OlapQueryService] runId:0	Size: 3/2	Execute:	3516ms	Format:	31ms	 Total: 3547ms
+2014-12-19 16:04:47,195 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DADC5AA8-F58E-595A-88F8-89BE0EF5E688/axis/ROWS/dimension/RaçaCor/hierarchy/[RaçaCor]/[RaçaCor].[Grupo]	POST
+2014-12-19 16:04:47,195 DEBUG [org.saiku.service.olap.OlapQueryService] move query: DADC5AA8-F58E-595A-88F8-89BE0EF5E688 dimension RaçaCor to axis ROWS  position0
+2014-12-19 16:04:47,271 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DADC5AA8-F58E-595A-88F8-89BE0EF5E688/resultflattened	GET
+2014-12-19 16:04:47,271 INFO  [org.saiku.service.olap.OlapQueryService] runId:1	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Ⓣ Ano].[Ano ].Members})} ON COLUMNS,
+NON EMPTY CrossJoin([RaçaCor].[Grupo].Members, {[Measures].[Óbitos]}) ON ROWS
+FROM [Hist. MS SIM]
+2014-12-19 16:04:54,135 INFO  [org.saiku.service.olap.OlapQueryService] runId:1	Size: 4/4	Execute:	6861ms	Format:	3ms	 Total: 6864ms
+2014-12-19 16:05:08,208 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DADC5AA8-F58E-595A-88F8-89BE0EF5E688/axis/ROWS/dimension/RaçaCor/hierarchy/[RaçaCor]/[RaçaCor].[Grupo]	DELETE
+2014-12-19 16:05:08,210 DEBUG [org.saiku.service.olap.OlapQueryService] move query: DADC5AA8-F58E-595A-88F8-89BE0EF5E688 dimension RaçaCor to axis UNUSED  position-1
+2014-12-19 16:05:08,299 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DADC5AA8-F58E-595A-88F8-89BE0EF5E688/resultflattened	GET
+2014-12-19 16:05:08,300 INFO  [org.saiku.service.olap.OlapQueryService] runId:2	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Ⓣ Ano].[Ano ].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Óbitos]} ON ROWS
+FROM [Hist. MS SIM]
+2014-12-19 16:05:08,308 INFO  [org.saiku.service.olap.OlapQueryService] runId:2	Size: 3/2	Execute:	8ms	Format:	1ms	 Total: 9ms
+2014-12-19 16:05:09,332 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DADC5AA8-F58E-595A-88F8-89BE0EF5E688/axis/ROWS/dimension/Measures/member/[Measures].[Óbitos]	DELETE
+2014-12-19 16:05:09,332 DEBUG [org.saiku.service.olap.OlapQueryService] query: DADC5AA8-F58E-595A-88F8-89BE0EF5E688 remove:MEMBER 2
+2014-12-19 16:05:09,332 DEBUG [org.saiku.service.olap.OlapQueryService] move query: DADC5AA8-F58E-595A-88F8-89BE0EF5E688 dimension Measures to axis UNUSED  position-1
+2014-12-19 16:05:10,458 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DADC5AA8-F58E-595A-88F8-89BE0EF5E688/axis/COLUMNS/dimension/Ⓣ Ano/hierarchy/[Ⓣ Ano]/[Ⓣ Ano].[Ano ]	DELETE
+2014-12-19 16:05:10,458 DEBUG [org.saiku.service.olap.OlapQueryService] move query: DADC5AA8-F58E-595A-88F8-89BE0EF5E688 dimension Ⓣ Ano to axis UNUSED  position-1
+2014-12-19 16:08:16,228 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DADC5AA8-F58E-595A-88F8-89BE0EF5E688	DELETE
+2014-12-19 16:08:16,272 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/30B54248-48D8-79B8-B43F-CC703AA717BD	POST	 xml:false
+2014-12-19 16:08:21,698 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/30B54248-48D8-79B8-B43F-CC703AA717BD/axis/COLUMNS/dimension/Ⓣ Ano/hierarchy/[Ⓣ Ano]/[Ⓣ Ano].[Ano ]	POST
+2014-12-19 16:08:21,698 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 30B54248-48D8-79B8-B43F-CC703AA717BD dimension Ⓣ Ano to axis COLUMNS  position0
+2014-12-19 16:08:23,918 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/30B54248-48D8-79B8-B43F-CC703AA717BD/axis/ROWS/dimension/Measures/member/[Measures].[Óbitos de Jovens]	POST
+2014-12-19 16:08:23,918 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 30B54248-48D8-79B8-B43F-CC703AA717BD dimension Measures to axis ROWS  position0
+2014-12-19 16:08:23,942 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/30B54248-48D8-79B8-B43F-CC703AA717BD/resultflattened	GET
+2014-12-19 16:08:23,943 INFO  [org.saiku.service.olap.OlapQueryService] runId:3	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Ⓣ Ano].[Ano ].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Óbitos de Jovens]} ON ROWS
+FROM [Hist. MS SIM - Homicidios]
+2014-12-19 16:08:25,032 INFO  [org.saiku.service.olap.OlapQueryService] runId:3	Size: 14/2	Execute:	1087ms	Format:	3ms	 Total: 1090ms
+2014-12-19 16:08:29,894 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/30B54248-48D8-79B8-B43F-CC703AA717BD/axis/ROWS/dimension/RaçaCor/hierarchy/[RaçaCor]/[RaçaCor].[Grupo]	POST
+2014-12-19 16:08:29,894 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 30B54248-48D8-79B8-B43F-CC703AA717BD dimension RaçaCor to axis ROWS  position1
+2014-12-19 16:08:29,970 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/30B54248-48D8-79B8-B43F-CC703AA717BD/resultflattened	GET
+2014-12-19 16:08:29,970 INFO  [org.saiku.service.olap.OlapQueryService] runId:4	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Ⓣ Ano].[Ano ].Members})} ON COLUMNS,
+NON EMPTY CrossJoin({[Measures].[Óbitos de Jovens]}, [RaçaCor].[Grupo].Members) ON ROWS
+FROM [Hist. MS SIM - Homicidios]
+2014-12-19 16:08:31,928 INFO  [org.saiku.service.olap.OlapQueryService] runId:4	Size: 15/4	Execute:	1952ms	Format:	6ms	 Total: 1958ms
+2014-12-19 16:08:43,638 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/30B54248-48D8-79B8-B43F-CC703AA717BD/axis/ROWS/dimension/Measures/member/[Measures].[Óbitos de Jovens]	DELETE
+2014-12-19 16:08:43,638 DEBUG [org.saiku.service.olap.OlapQueryService] query: 30B54248-48D8-79B8-B43F-CC703AA717BD remove:MEMBER 2
+2014-12-19 16:08:43,638 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 30B54248-48D8-79B8-B43F-CC703AA717BD dimension Measures to axis UNUSED  position-1
+2014-12-19 16:08:43,696 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/30B54248-48D8-79B8-B43F-CC703AA717BD/resultflattened	GET
+2014-12-19 16:08:43,696 INFO  [org.saiku.service.olap.OlapQueryService] runId:5	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Ⓣ Ano].[Ano ].Members})} ON COLUMNS,
+NON EMPTY {Hierarchize({[RaçaCor].[Grupo].Members})} ON ROWS
+FROM [Hist. MS SIM - Homicidios]
+2014-12-19 16:08:44,509 INFO  [org.saiku.service.olap.OlapQueryService] runId:5	Size: 14/4	Execute:	807ms	Format:	6ms	 Total: 813ms
+2014-12-19 16:08:46,022 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/30B54248-48D8-79B8-B43F-CC703AA717BD/axis/ROWS/dimension/RaçaCor/hierarchy/[RaçaCor]/[RaçaCor].[Grupo]	DELETE
+2014-12-19 16:08:46,023 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 30B54248-48D8-79B8-B43F-CC703AA717BD dimension RaçaCor to axis UNUSED  position-1
+2014-12-19 16:08:47,082 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/30B54248-48D8-79B8-B43F-CC703AA717BD/axis/COLUMNS/dimension/Ⓣ Ano/hierarchy/[Ⓣ Ano]/[Ⓣ Ano].[Ano ]	DELETE
+2014-12-19 16:08:47,082 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 30B54248-48D8-79B8-B43F-CC703AA717BD dimension Ⓣ Ano to axis UNUSED  position-1

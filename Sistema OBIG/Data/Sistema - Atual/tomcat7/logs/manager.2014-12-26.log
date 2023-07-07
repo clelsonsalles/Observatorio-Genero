@@ -1,0 +1,6 @@
+Dez 26, 2014 1:58:43 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 26, 2014 1:58:48 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: start: Starting web application '/dataseppir-admin'
+Dez 26, 2014 1:58:50 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'

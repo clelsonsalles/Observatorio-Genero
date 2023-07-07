@@ -1,0 +1,394 @@
+﻿[
+ {
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "População",
+		"source": "Censo demográfico/IBGE, 2010 ",
+		"dataUrl": "csv/censo_pessoas_por_uf.csv",
+		"columnDelimiter": ";",
+  		"charts": [
+				
+				
+  				{ "type": "SVGMap",
+  				  "data": {
+  				  	"title": "Por UF",
+  				  	"file": "svg/brasil_uf_map.svg",
+					"width": 450,
+					"height": 440,
+					"xAxisCol": "UF",
+					"yAxisCol": "Mulheres",
+				  	"numberFormat": ",.0f",
+					"colorSteps": 6,
+					"colorize": "fixed",
+							
+					"colorizeModel": {
+							"intervals": [[1,500000], [500001,1400000], [1400001,2000000],[2000001,6000000],[6000001,20000000],[20000001,100000000]],
+							"colors": ["#bbd0d5","#d6c548","#d3890b", "#1a715e","#4c5136","#944228"],
+							"labels": [ "Até 500 mil", "500 mil - 1,4 milhões", "1,4 milhões - 2 milhões", "2 milhões - 6 milhões", "6 milhões - 20 milhões", "Acima de 20 milhões" ]
+						},				
+					"selectionBoxPosition": "bottom-left",
+					"info": "</br>",
+					"filters": {
+						"excluded": [ { "column": "UF", "value": "Todas as UFs" } ]
+					            }
+																
+				             }
+				  },
+			{
+				  	"type": "RowValue",
+				  	"data": {
+				  			"defaultRow": "Todas as UFs",
+				  			"defaultLabel": "Brasil",
+				  			"xAxisCol": "UF",
+				  			"yAxisCol": "Mulheres",
+				  			"suffix": "Mulheres",
+				  			"numberFormat": ",.0f",
+				  			"icon": "img/icon/users_woman_gray.png"
+				  		}
+				  }	,
+			{
+				  	"type": "RowValue",
+				  	"data": {
+				  			"defaultRow": "Todas as UFs",
+				  			"defaultLabel": "</br>",
+				  			"xAxisCol": "UF",
+				  			"yAxisCol": "População",
+				  			"suffix": "Habitantes",
+				  			"numberFormat": ",.0f",
+				  			"icon": "img/icon/users_people_gray.png"
+				  		}
+				  }	
+					
+					
+			 ]
+			 
+		  }
+  },
+{
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "População residente por situação do domicílio",	
+		"dataUrl": "csv/pnad_populacao_domicilio_por_uf.csv",
+		"columnDelimiter": ";",
+		"source": "Pesquisa Nacional por Amostra de Domicílios/ IBGE, 2014",
+  		"charts": [
+  				
+                 
+			{
+				  	"type": "RowValue",
+				  	"data": {
+				  			"defaultRow": "Todas as UFs",
+				  			"defaultLabel": "Brasil",
+				  			"xAxisCol": "UF",
+				  			"yAxisCol": "Urbana",
+				  			"suffix": "% População Urbana",
+				  			"numberFormat": ".1f",
+							"icon": "",
+				  			"filters": {                                                            				
+		                    			"included": [ { "column": "UF", "value": "Todas as UFs" }
+		                    				  
+								],
+							"excluded": [
+									{ "column": "Sexo", "value": "Homens"},
+									{ "column": "Sexo", "value": "Mulheres"}
+									]
+							}
+		                        
+                   	} 
+				  },
+				{ "type": "Plot2D",
+				  "data": {
+				  	"title": "Por Sexo",
+		    "yUnit": "habitantes",
+                    "numberFormat": ".1f",
+                    "type": "column+line",
+                    "width": 600,
+                    "height": 200,
+                    "marginLeft": 80,
+                    "marginBottom": 40,
+                    "xRotation": -25,
+                    "xAxisCol": "Sexo",
+		    "suffix": "%",
+                    "selectionAxisCol": "UF",
+                    "yAxisCol": ["Urbana", "Rural"],
+                    "colors": ["#d3890b", "#1a715e"],
+                    "legendNumCols": 2,
+                    "filters": {                                                            				
+                    	"included": [ { "column": "UF", "value": "Todas as UFs" }
+										],
+			"excluded": [
+					{ "column": "Sexo", "value": "Todos os sexos"}
+									]
+                        }
+                    }
+                 },
+					
+                 { "type": "LINE_BREAK" },
+			{
+				  	"type": "RowValue",
+				  	"data": {
+				  			"defaultRow": "Todas as UFs",
+				  			"defaultLabel": "Brasil",
+				  			"xAxisCol": "UF",
+				  			"yAxisCol": "Rural",
+				  			"suffix": "% População Rural",
+				  			"numberFormat": ".1f",
+							"icon": "",
+				  			"filters": {                                                            				
+		                    			"included": [ { "column": "UF", "value": "Todas as UFs" }
+		                    				  
+								],
+							"excluded": [
+									{ "column": "Sexo", "value": "Homens"},
+									{ "column": "Sexo", "value": "Mulheres"}
+									]
+							}
+		                        
+                   	} 
+				  }
+                
+                 
+            ]
+     }
+  },
+
+ 
+
+{
+  "type": "IndicatorGraphicView",
+  "data": {
+  			"name": "Distribuição Percentual de Mulheres",
+		    "dataUrl": "csv/censo_mulheres_raca_cor.csv",
+		    "source": "Censo demográfico/IBGE, 2010 ",
+		    "columnDelimiter": ";",
+   			"charts": [
+				
+                		 { "type": "Pie",
+	  			  "data": {
+	  			  	"title": "Por Raça/Cor",
+	  			  	
+					"width": 350,
+					"height": 200,
+					"labelPosition": "outer",
+					"order": "label-asc",
+					"decimals": 1,
+					"xAxisCol": "Raça/Cor",
+					"yAxisCol": "Mulheres",
+					"suffix": "",
+					"prefix": "",
+					"numberFormat": ",.0f",
+					"colors": ["#d3890b", "#1a715e","#944228"],
+					"selectionAxisCol": "UF",
+					"filters": {                                                            				
+	                	"included": [ { "column": "UF", "value": "Todas as UFs" }
+	                                ]
+	                  }																
+				  }
+				 }					
+             ]
+ 	}
+ },
+
+ 
+
+{
+  "type": "IndicatorGraphicView",
+  "data": {
+  			"name": "Distribuição Percentual da Pessoa de Referência",
+		    "dataUrl": "csv/pnad_distribuicao_perc_pessoa_de_referencia.csv",
+		    "source": "Pesquisa Nacional por Amostra</br> de Domicílios (PNAD)/ IBGE, 2014",
+		    "columnDelimiter": ";",
+   			"charts": [
+				
+                		 { "type": "Pie",
+	  			  "data": {
+	  			  	"title": "Por Sexo",
+	  			  	
+					"width": 340,
+					"height": 200,
+					"labelPosition": "outer",
+					"order": "label-asc",
+					"decimals": 1,
+					"xAxisCol": "Sexo",
+					"yAxisCol": "Total",
+					"suffix": "",
+					"prefix": "",
+					"tooltips": "false",
+					"colors": ["#d3890b", "#1a715e"],
+					"selectionAxisCol": "UF",
+					"filters": {                                                            				
+	                	"included": [ { "column": "UF", "value": "Todas as UFs" }
+	                                ]
+	                  }																
+				  }
+				 }					
+             ]
+ 	}
+ },
+
+{
+  "type": "IndicatorGraphicView",
+  "data": {
+  			"name": "Famílias com pessoa de referência do sexo feminino",
+		    "dataUrl": "csv/pnad_familia_pessoa_ref_mulher.csv",
+		    "source": " Pesquisa Nacional por Amostra de Domicílios (PNAD)/ IBGE, 2014",
+		    "columnDelimiter": ";",
+   			"charts": [
+					
+				
+                 
+				  { "type": "Pie",
+	  			  "data": {
+	  			  	"title": "Por Tipo de Família",
+	  			  	
+					"width": 450,
+					"height": 240,
+					"labelPosition": "outer",
+					"order": "label-desc",
+					"decimals": 1,
+					"tooltips": "false",
+					"xAxisCol": "Tipo de família",
+					"yAxisCol": "Famílias",
+					"colors": ["#d3890b", "#1a715e","#944228","#d6c548","#4c5136"],
+					"selectionAxisCol": "UF",
+					"filters": {                                                            				
+	                		"included": [ { "column": "UF", "value": "Todas as UFs" }
+	                                			],
+						"excluded": [
+								{ "column": "Tipo de família", "value": ["Todos os tipos"] }, 
+								{ "column": "Tipo de família", "value": ["Outros Tipos"] }
+									]
+	                  }																		
+				}  
+				},
+				 { "type": "Pie",
+	  			  "data": {
+	  			  	"title": "Por Raça/Cor",
+	  			  	
+					"width": 347.5,
+					"height": 240,
+					"labelPosition": "outer",
+					"order": "label-asc",
+					"decimals": 1,
+					"xAxisCol": "Raça/Cor",
+					"yAxisCol": "Famílias",
+					"tooltips": "false",
+					"colors": ["#d3890b", "#1a715e"],
+					"selectionAxisCol": "UF",
+					"filters": {                                                            				
+	                			"included": [ { "column": "UF", "value": "Todas as UFs" }],
+						"excluded": [ { "column": "Raça/Cor", "value": "Todas as Raças" },
+								{ "column": "Raça/Cor", "value": "Outras" }]
+	               			  }	
+				  }
+				},
+				 { "type": "Pie",
+	  			  "data": {
+	  			  	"title": "Por Situação do Domicílio",
+	  			  	
+					"width": 345,
+					"height": 240,
+					"labelPosition": "outer",
+					"order": "label-asc",
+					"decimals": 1,
+					"xAxisCol": "Situação do Domicílio",
+					"yAxisCol": "Famílias",
+					"tooltips": "false",
+					"colors": ["#d3890b", "#1a715e"],
+					"selectionAxisCol": "UF",
+					"filters": {                                                            				
+	                			"included": [ { "column": "UF", "value": "Todas as UFs" }],
+						"excluded": [ { "column": "Situação do Domicílio", "value": "Todas as situações" }]
+	               			  }	
+				  }
+				}
+	
+             ]
+ 	}
+ },
+
+{"type": "IndicatorGraphicView",
+  "data": {
+  			"name": "Mulheres em idade reprodutiva (15 a 49 anos)",
+		    "dataUrl": "csv/pnad_mulheres_15_a_49_anos.csv",
+		    "source": " Pesquisa Nacional por Amostra de Domicílios (PNAD)/ IBGE, 2014",
+		    "columnDelimiter": ";",
+   			"charts": [
+				{
+				  	"type": "RowValue",
+				  	"data": {
+				  			"defaultRow": "Todas as UFs",
+				  			"defaultLabel": "Brasil",
+				  			"xAxisCol": "UF",
+				  			"yAxisCol": "Mulheres",
+				  			"suffix": "% de mulheres em idade reprodutiva",
+				  			"numberFormat": ".1f",
+				  			"icon": "img/icon/users_woman_gray.png",
+				  	"filters": {     
+						"excluded": [
+							{ "column": "Faixa Etária", "value": "15 a 19 anos"}, 
+				     			{ "column": "Faixa Etária", "value": "15 a 19 anos com filhos"}, 
+				    			{ "column": "Faixa Etária", "value": "15 a 19 anos sem filhos"}, 
+				    			{ "column": "Faixa Etária", "value": "15 a 49 anos"}, 
+				    			{ "column": "Faixa Etária", "value": "20 a 49 anos"}
+							
+									]
+							}
+				  }
+				},
+
+                		 { "type": "Pie",
+	  			  "data": {
+	  			  	"title": "Porcentagem de mulheres por grupos de idade",
+	  			  	
+					"width": 550,
+					"height": 250,
+					"labelPosition": "outer",
+					"order": "label-asc",
+					"decimals": 1,
+					"xAxisCol": "Faixa Etária",
+					"yAxisCol": "Mulheres",
+					"tooltips": "false",
+					"colors": ["#d3890b", "#1a715e","#944228"],
+					"selectionAxisCol": "UF",
+					"filters": {                                                            				
+	                			"included": [ { "column": "UF", "value": "Todas as UFs" }],
+						"excluded": [{ "column": "Faixa Etária", "value": "15 a 49 anos"}, 
+				     			{ "column": "Faixa Etária", "value": "15 a 19 anos com filhos"}, 
+				    			{ "column": "Faixa Etária", "value": "15 a 19 anos sem filhos"}, 
+				    			{ "column": "Faixa Etária", "value": "Mulheres de 15 a 49 anos"}, 
+				    			{ "column": "Faixa Etária", "value": "Todas as mulheres"}]
+	                 			 }																
+				  }
+				 },
+
+                		 { "type": "Pie",
+	  			  "data": {
+	  			  	"title": "Mulheres de 15 a 19 anos com e sem filhos",
+	  			  	
+					"width": 550,
+					"height": 250,
+					"labelPosition": "outer",
+					"order": "label-asc",
+					"decimals": 1,
+					"xAxisCol": "Faixa Etária",
+					"yAxisCol": "Mulheres",
+					"tooltips": "false",
+					"colors": ["#d3890b", "#1a715e","#944228"],
+					"selectionAxisCol": "UF",
+					"filters": {                                                            				
+	                			"included": [ { "column": "UF", "value": "Todas as UFs" }],
+						"excluded": [{ "column": "Faixa Etária", "value": "15 a 49 anos"}, 
+				     			{ "column": "Faixa Etária", "value": "15 a 19 anos"}, 
+				    			{ "column": "Faixa Etária", "value": "20 a 49 anos"}, 
+				    			{ "column": "Faixa Etária", "value": "Mulheres de 15 a 49 anos"}, 
+				    			{ "column": "Faixa Etária", "value": "Todas as mulheres"}]
+	                 			 }																
+				  }
+				 }					
+             ]
+ 	}
+}
+
+
+]

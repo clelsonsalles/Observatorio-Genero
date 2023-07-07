@@ -1,0 +1,21 @@
+2015-02-20 16:30:16,699 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-02-20 16:33:47,804 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/2AE3D62F-C350-AE3F-A895-991BC38AACB0	POST	 xml:false
+2015-02-20 16:34:01,323 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/2AE3D62F-C350-AE3F-A895-991BC38AACB0/axis/COLUMNS/dimension/Banheiro/hierarchy/[Banheiro]/[Banheiro].[Banheiro]	POST
+2015-02-20 16:34:01,323 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 2AE3D62F-C350-AE3F-A895-991BC38AACB0 dimension Banheiro to axis COLUMNS  position0
+2015-02-20 16:34:05,546 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/2AE3D62F-C350-AE3F-A895-991BC38AACB0/axis/ROWS/dimension/Measures/member/[Measures].[Famílias]	POST
+2015-02-20 16:34:05,547 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 2AE3D62F-C350-AE3F-A895-991BC38AACB0 dimension Measures to axis ROWS  position0
+2015-02-20 16:34:05,587 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/2AE3D62F-C350-AE3F-A895-991BC38AACB0/resultflattened	GET
+2015-02-20 16:34:05,587 INFO  [org.saiku.service.olap.OlapQueryService] runId:180	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Banheiro].[Banheiro].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [MDS CadUnico (Familias)]
+2015-02-20 16:34:16,209 INFO  [org.saiku.service.olap.OlapQueryService] runId:180	Size: 3/2	Execute:	10621ms	Format:	0ms	 Total: 10621ms
+2015-02-20 16:36:34,967 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/2AE3D62F-C350-AE3F-A895-991BC38AACB0/swapaxes	PUT
+2015-02-20 16:36:35,019 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/2AE3D62F-C350-AE3F-A895-991BC38AACB0/resultflattened	GET
+2015-02-20 16:36:35,019 INFO  [org.saiku.service.olap.OlapQueryService] runId:181	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Famílias]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Banheiro].[Banheiro].Members})} ON ROWS
+FROM [MDS CadUnico (Familias)]
+2015-02-20 16:36:35,023 INFO  [org.saiku.service.olap.OlapQueryService] runId:181	Size: 2/3	Execute:	4ms	Format:	0ms	 Total: 4ms

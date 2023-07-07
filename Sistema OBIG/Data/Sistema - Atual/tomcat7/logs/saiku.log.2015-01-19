@@ -1,0 +1,13 @@
+2015-01-19 13:19:36,917 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-01-19 13:19:49,519 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/830389F0-B076-553B-B45D-D2682B9718E5	POST	 xml:false
+2015-01-19 13:19:54,607 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/830389F0-B076-553B-B45D-D2682B9718E5/axis/COLUMNS/dimension/Localização/hierarchy/[Localização]/[Localização].[Todas]	POST
+2015-01-19 13:19:54,607 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 830389F0-B076-553B-B45D-D2682B9718E5 dimension Localização to axis COLUMNS  position0
+2015-01-19 13:19:57,523 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/830389F0-B076-553B-B45D-D2682B9718E5/axis/ROWS/dimension/Measures/member/[Measures].[Comunidades]	POST
+2015-01-19 13:19:57,523 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 830389F0-B076-553B-B45D-D2682B9718E5 dimension Measures to axis ROWS  position0
+2015-01-19 13:19:57,863 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/830389F0-B076-553B-B45D-D2682B9718E5/resultflattened	GET
+2015-01-19 13:19:57,863 INFO  [org.saiku.service.olap.OlapQueryService] runId:19	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Todas as localidades]})} ON COLUMNS,
+NON EMPTY {[Measures].[Comunidades]} ON ROWS
+FROM [PBQ Dados Integrados]
+2015-01-19 13:19:57,880 INFO  [org.saiku.service.olap.OlapQueryService] runId:19	Size: 2/2	Execute:	15ms	Format:	2ms	 Total: 17ms

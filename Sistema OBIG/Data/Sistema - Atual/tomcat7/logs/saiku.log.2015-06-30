@@ -1,0 +1,14 @@
+2015-06-30 10:27:59,277 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-06-30 10:28:10,829 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7C03E39E-95B9-5CF3-B225-33BCD4774F4E	POST	 xml:false
+2015-06-30 10:28:17,022 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7C03E39E-95B9-5CF3-B225-33BCD4774F4E/axis/COLUMNS/dimension/Measures/member/[Measures].[Famílias]	POST
+2015-06-30 10:28:17,022 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 7C03E39E-95B9-5CF3-B225-33BCD4774F4E dimension Measures to axis COLUMNS  position0
+2015-06-30 10:28:23,013 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7C03E39E-95B9-5CF3-B225-33BCD4774F4E/axis/ROWS/dimension/Local de Domicílio/hierarchy/[Local de Domicílio]/[Local de Domicílio].[Todas]	POST
+2015-06-30 10:28:23,013 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 7C03E39E-95B9-5CF3-B225-33BCD4774F4E dimension Local de Domicílio to axis ROWS  position0
+2015-06-30 10:28:23,042 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7C03E39E-95B9-5CF3-B225-33BCD4774F4E/resultflattened	GET
+2015-06-30 10:28:23,042 INFO  [org.saiku.service.olap.OlapQueryService] runId:10	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Famílias]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Local de Domicílio].[Todas as localidades]})} ON ROWS
+FROM [MDS CadUnico (Familias)]
+2015-06-30 10:30:32,591 INFO  [org.saiku.service.olap.OlapQueryService] runId:10	Size: 2/2	Execute:	129548ms	Format:	1ms	 Total: 129549ms
+2015-06-30 17:52:02,312 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]

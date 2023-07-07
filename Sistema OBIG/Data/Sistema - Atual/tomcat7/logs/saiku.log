@@ -1,0 +1,283 @@
+2016-01-26 15:01:42,743 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2016-01-26 15:01:48,115 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F66369C0-CF70-F7E0-86F1-66679179DF42	POST	 xml:false
+2016-01-26 15:01:52,042 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F66369C0-CF70-F7E0-86F1-66679179DF42/axis/COLUMNS/dimension/Calçamento no Entorno/hierarchy/[Calçamento no Entorno]/[Calçamento no Entorno].[Calçamento no Entorno]	POST
+2016-01-26 15:01:52,042 DEBUG [org.saiku.service.olap.OlapQueryService] move query: F66369C0-CF70-F7E0-86F1-66679179DF42 dimension Calçamento no Entorno to axis COLUMNS  position0
+2016-01-26 15:01:54,068 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F66369C0-CF70-F7E0-86F1-66679179DF42/axis/ROWS/dimension/Measures/member/[Measures].[Famílias]	POST
+2016-01-26 15:01:54,069 DEBUG [org.saiku.service.olap.OlapQueryService] move query: F66369C0-CF70-F7E0-86F1-66679179DF42 dimension Measures to axis ROWS  position0
+2016-01-26 15:01:54,135 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F66369C0-CF70-F7E0-86F1-66679179DF42/resultflattened	GET
+2016-01-26 15:01:54,136 INFO  [org.saiku.service.olap.OlapQueryService] runId:80	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Calçamento no Entorno].[Calçamento no Entorno].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [Hist. MDS CadUnico (Familias)]
+2016-01-26 15:01:56,388 INFO  [org.saiku.service.olap.OlapQueryService] runId:80	Size: 4/2	Execute:	2252ms	Format:	1ms	 Total: 2253ms
+2016-01-26 15:01:59,462 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F66369C0-CF70-F7E0-86F1-66679179DF42/axis/ROWS/dimension/Measures/member/[Measures].[Famílias]	DELETE
+2016-01-26 15:01:59,462 DEBUG [org.saiku.service.olap.OlapQueryService] query: F66369C0-CF70-F7E0-86F1-66679179DF42 remove:MEMBER 2
+2016-01-26 15:01:59,463 DEBUG [org.saiku.service.olap.OlapQueryService] move query: F66369C0-CF70-F7E0-86F1-66679179DF42 dimension Measures to axis UNUSED  position-1
+2016-01-26 15:02:00,779 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F66369C0-CF70-F7E0-86F1-66679179DF42/axis/COLUMNS/dimension/Calçamento no Entorno/hierarchy/[Calçamento no Entorno]/[Calçamento no Entorno].[Calçamento no Entorno]	DELETE
+2016-01-26 15:02:00,779 DEBUG [org.saiku.service.olap.OlapQueryService] move query: F66369C0-CF70-F7E0-86F1-66679179DF42 dimension Calçamento no Entorno to axis UNUSED  position-1
+2016-01-26 15:02:06,318 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F66369C0-CF70-F7E0-86F1-66679179DF42/axis/COLUMNS/dimension/Ruralidade/hierarchy/[Ruralidade]/[Ruralidade].[Ruralidade]	POST
+2016-01-26 15:02:06,318 DEBUG [org.saiku.service.olap.OlapQueryService] move query: F66369C0-CF70-F7E0-86F1-66679179DF42 dimension Ruralidade to axis COLUMNS  position0
+2016-01-26 15:02:09,533 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F66369C0-CF70-F7E0-86F1-66679179DF42/axis/ROWS/dimension/Measures/member/[Measures].[Média das Rendas Médias]	POST
+2016-01-26 15:02:09,533 DEBUG [org.saiku.service.olap.OlapQueryService] move query: F66369C0-CF70-F7E0-86F1-66679179DF42 dimension Measures to axis ROWS  position0
+2016-01-26 15:02:09,599 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F66369C0-CF70-F7E0-86F1-66679179DF42/resultflattened	GET
+2016-01-26 15:02:09,599 INFO  [org.saiku.service.olap.OlapQueryService] runId:81	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Ruralidade].[Ruralidade].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Média das Rendas Médias]} ON ROWS
+FROM [Hist. MDS CadUnico (Familias)]
+2016-01-26 15:02:12,528 INFO  [org.saiku.service.olap.OlapQueryService] runId:81	Size: 3/2	Execute:	2062ms	Format:	867ms	 Total: 2929ms
+2016-01-26 15:02:14,739 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F66369C0-CF70-F7E0-86F1-66679179DF42/axis/ROWS/dimension/Measures/member/[Measures].[Média das Rendas Médias]	DELETE
+2016-01-26 15:02:14,739 DEBUG [org.saiku.service.olap.OlapQueryService] query: F66369C0-CF70-F7E0-86F1-66679179DF42 remove:MEMBER 2
+2016-01-26 15:02:14,739 DEBUG [org.saiku.service.olap.OlapQueryService] move query: F66369C0-CF70-F7E0-86F1-66679179DF42 dimension Measures to axis UNUSED  position-1
+2016-01-26 15:02:16,928 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F66369C0-CF70-F7E0-86F1-66679179DF42/axis/ROWS/dimension/Measures/member/[Measures].[Média de Despesas com Aluguel]	POST
+2016-01-26 15:02:16,928 DEBUG [org.saiku.service.olap.OlapQueryService] move query: F66369C0-CF70-F7E0-86F1-66679179DF42 dimension Measures to axis ROWS  position0
+2016-01-26 15:02:16,970 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F66369C0-CF70-F7E0-86F1-66679179DF42/resultflattened	GET
+2016-01-26 15:02:16,970 INFO  [org.saiku.service.olap.OlapQueryService] runId:82	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Ruralidade].[Ruralidade].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Média de Despesas com Aluguel]} ON ROWS
+FROM [Hist. MDS CadUnico (Familias)]
+2016-01-26 15:02:19,192 INFO  [org.saiku.service.olap.OlapQueryService] runId:82	Size: 3/2	Execute:	2220ms	Format:	2ms	 Total: 2222ms
+2016-01-26 15:02:24,226 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F66369C0-CF70-F7E0-86F1-66679179DF42/axis/COLUMNS/dimension/Ruralidade/hierarchy/[Ruralidade]/[Ruralidade].[Ruralidade]	DELETE
+2016-01-26 15:02:24,226 DEBUG [org.saiku.service.olap.OlapQueryService] move query: F66369C0-CF70-F7E0-86F1-66679179DF42 dimension Ruralidade to axis UNUSED  position-1
+2016-01-26 15:02:26,698 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F66369C0-CF70-F7E0-86F1-66679179DF42/axis/COLUMNS/dimension/Quilombola/hierarchy/[Quilombola]/[Quilombola].[Recorte Quilombola]	POST
+2016-01-26 15:02:26,698 DEBUG [org.saiku.service.olap.OlapQueryService] move query: F66369C0-CF70-F7E0-86F1-66679179DF42 dimension Quilombola to axis COLUMNS  position0
+2016-01-26 15:02:26,747 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F66369C0-CF70-F7E0-86F1-66679179DF42/resultflattened	GET
+2016-01-26 15:02:26,747 INFO  [org.saiku.service.olap.OlapQueryService] runId:83	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Quilombola].[Recorte Quilombola].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Média de Despesas com Aluguel]} ON ROWS
+FROM [Hist. MDS CadUnico (Familias)]
+2016-01-26 15:02:28,912 INFO  [org.saiku.service.olap.OlapQueryService] runId:83	Size: 3/2	Execute:	2164ms	Format:	1ms	 Total: 2165ms
+2016-01-26 15:02:37,019 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F66369C0-CF70-F7E0-86F1-66679179DF42	DELETE
+2016-01-26 15:02:37,019 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/42AD87A8-6948-5FD2-BA55-AE74122A0B2B	POST	 xml:false
+2016-01-26 15:02:42,400 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/42AD87A8-6948-5FD2-BA55-AE74122A0B2B/axis/COLUMNS/dimension/Acidente de Trabalho/hierarchy/[Acidente de Trabalho]/[Acidente de Trabalho].[Acidente de Trabalho]	POST
+2016-01-26 15:02:42,400 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 42AD87A8-6948-5FD2-BA55-AE74122A0B2B dimension Acidente de Trabalho to axis COLUMNS  position0
+2016-01-26 15:02:45,837 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/42AD87A8-6948-5FD2-BA55-AE74122A0B2B/axis/ROWS/dimension/Measures/member/[Measures].[Óbitos]	POST
+2016-01-26 15:02:45,837 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 42AD87A8-6948-5FD2-BA55-AE74122A0B2B dimension Measures to axis ROWS  position0
+2016-01-26 15:02:45,902 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/42AD87A8-6948-5FD2-BA55-AE74122A0B2B/resultflattened	GET
+2016-01-26 15:02:45,903 INFO  [org.saiku.service.olap.OlapQueryService] runId:84	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Acidente de Trabalho].[Acidente de Trabalho].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Óbitos]} ON ROWS
+FROM [Hist. MS SIM]
+2016-01-26 15:02:46,330 INFO  [org.saiku.service.olap.OlapQueryService] runId:84	Size: 4/2	Execute:	426ms	Format:	1ms	 Total: 427ms
+2016-01-26 15:02:51,499 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/42AD87A8-6948-5FD2-BA55-AE74122A0B2B/axis/COLUMNS/dimension/Anos de Estudo Concluídos/hierarchy/[Anos de Estudo Concluídos]/[Anos de Estudo Concluídos].[Anos de Estudo Concluídos]	POST
+2016-01-26 15:02:51,499 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 42AD87A8-6948-5FD2-BA55-AE74122A0B2B dimension Anos de Estudo Concluídos to axis COLUMNS  position1
+2016-01-26 15:02:51,616 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/42AD87A8-6948-5FD2-BA55-AE74122A0B2B/resultflattened	GET
+2016-01-26 15:02:51,617 INFO  [org.saiku.service.olap.OlapQueryService] runId:85	Type:QM:
+SELECT
+NON EMPTY CrossJoin([Acidente de Trabalho].[Acidente de Trabalho].Members, [Anos de Estudo Concluídos].[Anos de Estudo Concluídos].Members) ON COLUMNS,
+NON EMPTY {[Measures].[Óbitos]} ON ROWS
+FROM [Hist. MS SIM]
+2016-01-26 15:02:52,547 INFO  [org.saiku.service.olap.OlapQueryService] runId:85	Size: 19/3	Execute:	928ms	Format:	3ms	 Total: 931ms
+2016-01-26 15:03:25,123 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/42AD87A8-6948-5FD2-BA55-AE74122A0B2B	DELETE
+2016-01-26 15:03:25,170 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9A62A442-73A2-DA10-BA2C-0050675B9F54	POST	 xml:false
+2016-01-26 15:03:28,326 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9A62A442-73A2-DA10-BA2C-0050675B9F54/axis/COLUMNS/dimension/RaçaCor/hierarchy/[RaçaCor]/[RaçaCor].[Raça]	POST
+2016-01-26 15:03:28,326 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9A62A442-73A2-DA10-BA2C-0050675B9F54 dimension RaçaCor to axis COLUMNS  position0
+2016-01-26 15:03:30,794 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9A62A442-73A2-DA10-BA2C-0050675B9F54/axis/ROWS/dimension/Measures/member/[Measures].[Média de Idade]	POST
+2016-01-26 15:03:30,794 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9A62A442-73A2-DA10-BA2C-0050675B9F54 dimension Measures to axis ROWS  position0
+2016-01-26 15:03:30,869 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9A62A442-73A2-DA10-BA2C-0050675B9F54/resultflattened	GET
+2016-01-26 15:03:30,870 INFO  [org.saiku.service.olap.OlapQueryService] runId:86	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[RaçaCor].[Raça].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Média de Idade]} ON ROWS
+FROM [Hist. MS SIM - Homicidios]
+2016-01-26 15:03:31,663 INFO  [org.saiku.service.olap.OlapQueryService] runId:86	Size: 7/2	Execute:	792ms	Format:	2ms	 Total: 794ms
+2016-01-26 15:03:35,267 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9A62A442-73A2-DA10-BA2C-0050675B9F54/axis/ROWS/dimension/Measures/member/[Measures].[Óbitos de Jovens]	POST
+2016-01-26 15:03:35,267 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9A62A442-73A2-DA10-BA2C-0050675B9F54 dimension Measures to axis ROWS  position0
+2016-01-26 15:03:35,353 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9A62A442-73A2-DA10-BA2C-0050675B9F54/resultflattened	GET
+2016-01-26 15:03:35,353 INFO  [org.saiku.service.olap.OlapQueryService] runId:87	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[RaçaCor].[Raça].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Média de Idade], [Measures].[Óbitos de Jovens]} ON ROWS
+FROM [Hist. MS SIM - Homicidios]
+2016-01-26 15:03:36,267 INFO  [org.saiku.service.olap.OlapQueryService] runId:87	Size: 7/3	Execute:	912ms	Format:	2ms	 Total: 914ms
+2016-01-26 15:03:38,123 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9A62A442-73A2-DA10-BA2C-0050675B9F54/axis/ROWS/dimension/Measures/member/[Measures].[Média de Idade]	DELETE
+2016-01-26 15:03:38,123 DEBUG [org.saiku.service.olap.OlapQueryService] query: 9A62A442-73A2-DA10-BA2C-0050675B9F54 remove:MEMBER 2
+2016-01-26 15:03:38,201 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9A62A442-73A2-DA10-BA2C-0050675B9F54/resultflattened	GET
+2016-01-26 15:03:38,201 INFO  [org.saiku.service.olap.OlapQueryService] runId:88	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[RaçaCor].[Raça].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Óbitos de Jovens]} ON ROWS
+FROM [Hist. MS SIM - Homicidios]
+2016-01-26 15:03:38,209 INFO  [org.saiku.service.olap.OlapQueryService] runId:88	Size: 7/2	Execute:	6ms	Format:	2ms	 Total: 8ms
+2016-01-26 15:04:11,879 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7474FAFA-15A6-DEEC-976A-A1240AC893C2	POST	 xml:false
+2016-01-26 15:04:11,903 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9A62A442-73A2-DA10-BA2C-0050675B9F54	DELETE
+2016-01-26 15:04:16,820 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7474FAFA-15A6-DEEC-976A-A1240AC893C2/axis/COLUMNS/dimension/Banheiro/hierarchy/[Banheiro]/[Banheiro].[Banheiro]	POST
+2016-01-26 15:04:16,820 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 7474FAFA-15A6-DEEC-976A-A1240AC893C2 dimension Banheiro to axis COLUMNS  position0
+2016-01-26 15:04:21,816 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7474FAFA-15A6-DEEC-976A-A1240AC893C2/axis/ROWS/dimension/Measures/member/[Measures].[Famílias]	POST
+2016-01-26 15:04:21,816 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 7474FAFA-15A6-DEEC-976A-A1240AC893C2 dimension Measures to axis ROWS  position0
+2016-01-26 15:04:21,902 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7474FAFA-15A6-DEEC-976A-A1240AC893C2/resultflattened	GET
+2016-01-26 15:04:21,903 INFO  [org.saiku.service.olap.OlapQueryService] runId:89	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Banheiro].[Banheiro].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2016-01-26 15:04:22,060 INFO  [org.saiku.service.olap.OlapQueryService] runId:89	Size: 3/2	Execute:	156ms	Format:	1ms	 Total: 157ms
+2016-01-26 15:05:50,797 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7474FAFA-15A6-DEEC-976A-A1240AC893C2	DELETE
+2016-01-26 15:05:50,836 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F92BF75B-42E3-63E9-9CCD-962A8A2F21C4	POST	 xml:false
+2016-01-26 15:05:58,483 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F92BF75B-42E3-63E9-9CCD-962A8A2F21C4/axis/COLUMNS/dimension/Capacidade de Ler e Escrever/hierarchy/[Capacidade de Ler e Escrever]/[Capacidade de Ler e Escrever].[Capacidade de Ler e Escrever]	POST
+2016-01-26 15:05:58,483 DEBUG [org.saiku.service.olap.OlapQueryService] move query: F92BF75B-42E3-63E9-9CCD-962A8A2F21C4 dimension Capacidade de Ler e Escrever to axis COLUMNS  position0
+2016-01-26 15:06:01,318 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F92BF75B-42E3-63E9-9CCD-962A8A2F21C4/axis/ROWS/dimension/Measures/member/[Measures].[Pessoas]	POST
+2016-01-26 15:06:01,318 DEBUG [org.saiku.service.olap.OlapQueryService] move query: F92BF75B-42E3-63E9-9CCD-962A8A2F21C4 dimension Measures to axis ROWS  position0
+2016-01-26 15:06:01,384 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F92BF75B-42E3-63E9-9CCD-962A8A2F21C4/resultflattened	GET
+2016-01-26 15:06:01,384 INFO  [org.saiku.service.olap.OlapQueryService] runId:90	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Capacidade de Ler e Escrever].[Capacidade de Ler e Escrever].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Pessoas]} ON ROWS
+FROM [Hist. PBQ CadUnico (Pessoas Quilombolas)]
+2016-01-26 15:06:02,288 INFO  [org.saiku.service.olap.OlapQueryService] runId:90	Size: 3/2	Execute:	903ms	Format:	1ms	 Total: 904ms
+2016-01-26 15:07:54,595 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/91F4849F-482C-C6BA-BF02-B02DB4BCC9BD	POST	 xml:false
+2016-01-26 15:07:54,660 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F92BF75B-42E3-63E9-9CCD-962A8A2F21C4	DELETE
+2016-01-26 15:08:04,658 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/91F4849F-482C-C6BA-BF02-B02DB4BCC9BD/axis/ROWS/dimension/Measures/member/[Measures].[Alunos]	POST
+2016-01-26 15:08:04,658 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 91F4849F-482C-C6BA-BF02-B02DB4BCC9BD dimension Measures to axis ROWS  position0
+2016-01-26 15:08:09,707 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/91F4849F-482C-C6BA-BF02-B02DB4BCC9BD/axis/COLUMNS/dimension/Local da Escola/hierarchy/[Local da Escola]/[Local da Escola].[Município]	POST
+2016-01-26 15:08:09,707 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 91F4849F-482C-C6BA-BF02-B02DB4BCC9BD dimension Local da Escola to axis COLUMNS  position0
+2016-01-26 15:08:09,819 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/91F4849F-482C-C6BA-BF02-B02DB4BCC9BD/resultflattened	GET
+2016-01-26 15:08:09,819 INFO  [org.saiku.service.olap.OlapQueryService] runId:91	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local da Escola].[Município].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Alunos]} ON ROWS
+FROM [Hist. PBQ Censo Escolar (Alunos de Escolas Quilombolas)]
+2016-01-26 15:08:32,877 INFO  [org.saiku.service.olap.OlapQueryService] runId:91	Size: 568/2	Execute:	23007ms	Format:	51ms	 Total: 23058ms
+2016-01-26 15:08:35,675 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/91F4849F-482C-C6BA-BF02-B02DB4BCC9BD/axis/COLUMNS/dimension/Local da Escola/hierarchy/[Local da Escola]/[Local da Escola].[Município]	DELETE
+2016-01-26 15:08:35,675 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 91F4849F-482C-C6BA-BF02-B02DB4BCC9BD dimension Local da Escola to axis UNUSED  position-1
+2016-01-26 15:08:38,493 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/91F4849F-482C-C6BA-BF02-B02DB4BCC9BD/axis/COLUMNS/dimension/Local de Residência/hierarchy/[Local de Residência]/[Local de Residência].[Município]	POST
+2016-01-26 15:08:38,493 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 91F4849F-482C-C6BA-BF02-B02DB4BCC9BD dimension Local de Residência to axis COLUMNS  position0
+2016-01-26 15:08:38,552 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/91F4849F-482C-C6BA-BF02-B02DB4BCC9BD/resultflattened	GET
+2016-01-26 15:08:38,552 INFO  [org.saiku.service.olap.OlapQueryService] runId:92	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Residência].[Município].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Alunos]} ON ROWS
+FROM [Hist. PBQ Censo Escolar (Alunos de Escolas Quilombolas)]
+2016-01-26 15:09:02,172 INFO  [org.saiku.service.olap.OlapQueryService] runId:92	Size: 1260/2	Execute:	23528ms	Format:	92ms	 Total: 23620ms
+2016-01-26 15:42:26,207 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/91F4849F-482C-C6BA-BF02-B02DB4BCC9BD	DELETE
+2016-01-26 15:42:26,207 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/C7CC5691-23C2-85A1-96AE-50DDCD071663	POST	 xml:false
+2016-01-26 15:42:41,336 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/C7CC5691-23C2-85A1-96AE-50DDCD071663/axis/COLUMNS/dimension/Existência de Esgoto Sanitário/hierarchy/[Existência de Esgoto Sanitário]/[Existência de Esgoto Sanitário].[Existência de Esgoto Sanitário]	POST
+2016-01-26 15:42:41,336 DEBUG [org.saiku.service.olap.OlapQueryService] move query: C7CC5691-23C2-85A1-96AE-50DDCD071663 dimension Existência de Esgoto Sanitário to axis COLUMNS  position0
+2016-01-26 15:42:43,857 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/C7CC5691-23C2-85A1-96AE-50DDCD071663/axis/ROWS/dimension/Measures/member/[Measures].[Escolas]	POST
+2016-01-26 15:42:43,857 DEBUG [org.saiku.service.olap.OlapQueryService] move query: C7CC5691-23C2-85A1-96AE-50DDCD071663 dimension Measures to axis ROWS  position0
+2016-01-26 15:42:43,930 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/C7CC5691-23C2-85A1-96AE-50DDCD071663/resultflattened	GET
+2016-01-26 15:42:43,930 INFO  [org.saiku.service.olap.OlapQueryService] runId:93	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Existência de Esgoto Sanitário].[Existência de Esgoto Sanitário].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas]} ON ROWS
+FROM [Hist. PBQ Censo Escolar (Escolas Quilombolas)]
+2016-01-26 15:42:43,996 INFO  [org.saiku.service.olap.OlapQueryService] runId:93	Size: 3/2	Execute:	57ms	Format:	9ms	 Total: 66ms
+2016-01-26 15:43:04,452 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/12A64081-E138-3F92-A66F-88870149D889	POST	 xml:false
+2016-01-26 15:43:04,469 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/C7CC5691-23C2-85A1-96AE-50DDCD071663	DELETE
+2016-01-26 15:43:07,971 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/12A64081-E138-3F92-A66F-88870149D889/axis/COLUMNS/dimension/Idade/hierarchy/[Idade]/[Idade].[Idade]	POST
+2016-01-26 15:43:07,972 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 12A64081-E138-3F92-A66F-88870149D889 dimension Idade to axis COLUMNS  position0
+2016-01-26 15:43:09,746 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/12A64081-E138-3F92-A66F-88870149D889/axis/ROWS/dimension/Measures/member/[Measures].[Alunos]	POST
+2016-01-26 15:43:09,746 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 12A64081-E138-3F92-A66F-88870149D889 dimension Measures to axis ROWS  position0
+2016-01-26 15:43:09,809 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/12A64081-E138-3F92-A66F-88870149D889/resultflattened	GET
+2016-01-26 15:43:09,809 INFO  [org.saiku.service.olap.OlapQueryService] runId:94	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Idade].[Idade].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Alunos]} ON ROWS
+FROM [Hist. PBQ Censo Escolar (Alunos de Escolas Quilombolas)]
+2016-01-26 15:43:10,574 INFO  [org.saiku.service.olap.OlapQueryService] runId:94	Size: 97/2	Execute:	757ms	Format:	8ms	 Total: 765ms
+2016-01-26 15:44:09,147 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/12A64081-E138-3F92-A66F-88870149D889	DELETE
+2016-01-26 15:44:09,147 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/B2901612-A4AE-6AF4-8AD8-632F958D2EB1	POST	 xml:false
+2016-01-26 15:44:19,163 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/B2901612-A4AE-6AF4-8AD8-632F958D2EB1/axis/ROWS/dimension/Measures/member/[Measures].[Obras de Saneamento: Valor em Contratações]	POST
+2016-01-26 15:44:19,164 DEBUG [org.saiku.service.olap.OlapQueryService] move query: B2901612-A4AE-6AF4-8AD8-632F958D2EB1 dimension Measures to axis ROWS  position0
+2016-01-26 15:44:22,369 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/B2901612-A4AE-6AF4-8AD8-632F958D2EB1/axis/ROWS/dimension/Ⓣ Período/hierarchy/[Ⓣ Período]/[Ⓣ Período].[Ano]	POST
+2016-01-26 15:44:22,369 DEBUG [org.saiku.service.olap.OlapQueryService] move query: B2901612-A4AE-6AF4-8AD8-632F958D2EB1 dimension Ⓣ Período to axis ROWS  position1
+2016-01-26 15:44:25,825 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/B2901612-A4AE-6AF4-8AD8-632F958D2EB1/axis/COLUMNS/dimension/UF/hierarchy/[UF]/[UF].[UF]	POST
+2016-01-26 15:44:25,825 DEBUG [org.saiku.service.olap.OlapQueryService] move query: B2901612-A4AE-6AF4-8AD8-632F958D2EB1 dimension UF to axis COLUMNS  position0
+2016-01-26 15:44:25,885 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/B2901612-A4AE-6AF4-8AD8-632F958D2EB1/resultflattened	GET
+2016-01-26 15:44:25,886 INFO  [org.saiku.service.olap.OlapQueryService] runId:95	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[UF].[UF].Members})} ON COLUMNS,
+NON EMPTY CrossJoin({[Measures].[Obras de Saneamento: Valor em Contratações]}, [Ⓣ Período].[Ano].Members) ON ROWS
+FROM [Hist. PBQ Servicos (Paineis)]
+2016-01-26 15:44:25,980 INFO  [org.saiku.service.olap.OlapQueryService] runId:95	Size: 29/12	Execute:	82ms	Format:	13ms	 Total: 95ms
+2016-01-26 15:46:13,498 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/B2901612-A4AE-6AF4-8AD8-632F958D2EB1	DELETE
+2016-01-26 15:46:13,498 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/201FAE02-CD26-F486-8AFA-C6A4616EEE2E	POST	 xml:false
+2016-01-26 15:46:17,220 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/201FAE02-CD26-F486-8AFA-C6A4616EEE2E/axis/COLUMNS/dimension/Calçamento no Entorno/hierarchy/[Calçamento no Entorno]/[Calçamento no Entorno].[Calçamento no Entorno]	POST
+2016-01-26 15:46:17,220 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 201FAE02-CD26-F486-8AFA-C6A4616EEE2E dimension Calçamento no Entorno to axis COLUMNS  position0
+2016-01-26 15:46:19,115 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/201FAE02-CD26-F486-8AFA-C6A4616EEE2E/axis/ROWS/dimension/Measures/member/[Measures].[Famílias]	POST
+2016-01-26 15:46:19,115 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 201FAE02-CD26-F486-8AFA-C6A4616EEE2E dimension Measures to axis ROWS  position0
+2016-01-26 15:46:19,178 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/201FAE02-CD26-F486-8AFA-C6A4616EEE2E/resultflattened	GET
+2016-01-26 15:46:19,178 INFO  [org.saiku.service.olap.OlapQueryService] runId:96	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Calçamento no Entorno].[Calçamento no Entorno].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [Hist. MDS CadUnico (Familias)]
+2016-01-26 15:46:19,186 INFO  [org.saiku.service.olap.OlapQueryService] runId:96	Size: 4/2	Execute:	7ms	Format:	1ms	 Total: 8ms
+2016-01-26 15:46:48,254 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/201FAE02-CD26-F486-8AFA-C6A4616EEE2E	DELETE
+2016-01-26 15:46:48,254 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AD1218DF-EFD5-F784-BE8A-2AFCC7F55463	POST	 xml:false
+2016-01-26 15:46:51,902 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AD1218DF-EFD5-F784-BE8A-2AFCC7F55463/axis/COLUMNS/dimension/Capacidade de Ler e Escrever/hierarchy/[Capacidade de Ler e Escrever]/[Capacidade de Ler e Escrever].[Capacidade de Ler e Escrever]	POST
+2016-01-26 15:46:51,902 DEBUG [org.saiku.service.olap.OlapQueryService] move query: AD1218DF-EFD5-F784-BE8A-2AFCC7F55463 dimension Capacidade de Ler e Escrever to axis COLUMNS  position0
+2016-01-26 15:46:54,513 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AD1218DF-EFD5-F784-BE8A-2AFCC7F55463/axis/ROWS/dimension/Measures/member/[Measures].[Pessoas]	POST
+2016-01-26 15:46:54,513 DEBUG [org.saiku.service.olap.OlapQueryService] move query: AD1218DF-EFD5-F784-BE8A-2AFCC7F55463 dimension Measures to axis ROWS  position0
+2016-01-26 15:46:54,579 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AD1218DF-EFD5-F784-BE8A-2AFCC7F55463/resultflattened	GET
+2016-01-26 15:46:54,579 INFO  [org.saiku.service.olap.OlapQueryService] runId:97	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Capacidade de Ler e Escrever].[Capacidade de Ler e Escrever].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Pessoas]} ON ROWS
+FROM [Hist. MDS CadUnico (Pessoas)]
+2016-01-26 15:47:17,818 INFO  [org.saiku.service.olap.OlapQueryService] runId:97	Size: 3/2	Execute:	23238ms	Format:	1ms	 Total: 23239ms
+2016-01-26 15:47:36,792 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AD1218DF-EFD5-F784-BE8A-2AFCC7F55463	DELETE
+2016-01-26 15:47:36,792 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/D12D446D-AE7B-1F3F-BC30-C98785B86037	POST	 xml:false
+2016-01-26 15:47:41,297 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/D12D446D-AE7B-1F3F-BC30-C98785B86037/axis/COLUMNS/dimension/RaçaCor/hierarchy/[RaçaCor]/[RaçaCor].[Raça]	POST
+2016-01-26 15:47:41,297 DEBUG [org.saiku.service.olap.OlapQueryService] move query: D12D446D-AE7B-1F3F-BC30-C98785B86037 dimension RaçaCor to axis COLUMNS  position0
+2016-01-26 15:47:43,233 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/D12D446D-AE7B-1F3F-BC30-C98785B86037/axis/ROWS/dimension/Measures/member/[Measures].[Alunos]	POST
+2016-01-26 15:47:43,233 DEBUG [org.saiku.service.olap.OlapQueryService] move query: D12D446D-AE7B-1F3F-BC30-C98785B86037 dimension Measures to axis ROWS  position0
+2016-01-26 15:47:43,273 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/D12D446D-AE7B-1F3F-BC30-C98785B86037/resultflattened	GET
+2016-01-26 15:47:43,274 INFO  [org.saiku.service.olap.OlapQueryService] runId:98	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[RaçaCor].[Raça].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Alunos]} ON ROWS
+FROM [Hist. MEC Censo Escolar (Alunos)]
+2016-01-26 15:47:44,249 INFO  [org.saiku.service.olap.OlapQueryService] runId:98	Size: 7/2	Execute:	973ms	Format:	2ms	 Total: 975ms
+2016-01-26 15:48:01,275 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/D12D446D-AE7B-1F3F-BC30-C98785B86037	DELETE
+2016-01-26 15:48:01,276 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/B309A7AE-001F-0773-9F5B-2A5E25457F3E	POST	 xml:false
+2016-01-26 15:48:04,993 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/B309A7AE-001F-0773-9F5B-2A5E25457F3E/axis/COLUMNS/dimension/Localização/hierarchy/[Localização]/[Localização].[Município]	POST
+2016-01-26 15:48:04,993 DEBUG [org.saiku.service.olap.OlapQueryService] move query: B309A7AE-001F-0773-9F5B-2A5E25457F3E dimension Localização to axis COLUMNS  position0
+2016-01-26 15:48:07,720 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/B309A7AE-001F-0773-9F5B-2A5E25457F3E/axis/ROWS/dimension/Measures/member/[Measures].[Escolas]	POST
+2016-01-26 15:48:07,720 DEBUG [org.saiku.service.olap.OlapQueryService] move query: B309A7AE-001F-0773-9F5B-2A5E25457F3E dimension Measures to axis ROWS  position0
+2016-01-26 15:48:07,803 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/B309A7AE-001F-0773-9F5B-2A5E25457F3E/resultflattened	GET
+2016-01-26 15:48:07,803 INFO  [org.saiku.service.olap.OlapQueryService] runId:99	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Município].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas]} ON ROWS
+FROM [Hist. MEC Censo Escolar (Escolas)]
+2016-01-26 15:48:11,710 INFO  [org.saiku.service.olap.OlapQueryService] runId:99	Size: 5571/2	Execute:	3482ms	Format:	425ms	 Total: 3907ms
+2016-01-26 15:48:53,427 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/B309A7AE-001F-0773-9F5B-2A5E25457F3E	DELETE
+2016-01-26 15:48:53,439 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/792A48B1-8122-9790-8260-6D0CBAA813F7	POST	 xml:false
+2016-01-26 15:48:58,126 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/792A48B1-8122-9790-8260-6D0CBAA813F7/axis/COLUMNS/dimension/Deficiência/hierarchy/[Deficiência]/[Deficiência].[Deficiência]	POST
+2016-01-26 15:48:58,126 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 792A48B1-8122-9790-8260-6D0CBAA813F7 dimension Deficiência to axis COLUMNS  position0
+2016-01-26 15:49:00,403 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/792A48B1-8122-9790-8260-6D0CBAA813F7/axis/ROWS/dimension/Measures/member/[Measures].[Pessoas]	POST
+2016-01-26 15:49:00,403 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 792A48B1-8122-9790-8260-6D0CBAA813F7 dimension Measures to axis ROWS  position0
+2016-01-26 15:49:00,480 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/792A48B1-8122-9790-8260-6D0CBAA813F7/resultflattened	GET
+2016-01-26 15:49:00,480 INFO  [org.saiku.service.olap.OlapQueryService] runId:100	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Deficiência].[Deficiência].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Pessoas]} ON ROWS
+FROM [Hist. MTE RAIS]
+2016-01-26 15:49:49,624 INFO  [org.saiku.service.olap.OlapQueryService] runId:100	Size: 3/2	Execute:	49143ms	Format:	1ms	 Total: 49144ms
+2016-01-26 16:22:01,062 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/792A48B1-8122-9790-8260-6D0CBAA813F7	DELETE
+2016-01-26 16:22:01,063 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/3DCE1B53-FF82-7B99-8C68-9C9E316DA049	POST	 xml:false
+2016-01-26 16:22:27,511 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/3DCE1B53-FF82-7B99-8C68-9C9E316DA049	DELETE
+2016-01-26 16:22:27,512 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/46E26575-A15E-F48B-B41B-7CDDFBAD3DCE	POST	 xml:false
+2016-01-26 16:22:44,621 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/46E26575-A15E-F48B-B41B-7CDDFBAD3DCE/axis/COLUMNS/dimension/• Cisterna para Armazenamento de Água da Chuva/hierarchy/[• Cisterna para Armazenamento de Água da Chuva]/[• Cisterna para Armazenamento de Água da Chuva].[Cisterna para Armazenamento de Água da Chuva]	POST
+2016-01-26 16:22:44,621 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 46E26575-A15E-F48B-B41B-7CDDFBAD3DCE dimension • Cisterna para Armazenamento de Água da Chuva to axis COLUMNS  position0
+2016-01-26 16:22:48,302 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/46E26575-A15E-F48B-B41B-7CDDFBAD3DCE/axis/ROWS/dimension/Measures/member/[Measures].[Famílias]	POST
+2016-01-26 16:22:48,302 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 46E26575-A15E-F48B-B41B-7CDDFBAD3DCE dimension Measures to axis ROWS  position0
+2016-01-26 16:22:48,384 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/46E26575-A15E-F48B-B41B-7CDDFBAD3DCE/resultflattened	GET
+2016-01-26 16:22:48,384 INFO  [org.saiku.service.olap.OlapQueryService] runId:101	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[• Cisterna para Armazenamento de Água da Chuva].[Cisterna para Armazenamento de Água da Chuva].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [MDS CadUnico (Familias)]
+2016-01-26 16:22:48,442 INFO  [org.saiku.service.olap.OlapQueryService] runId:101	Size: 0/0	Execute:	57ms	Format:	1ms	 Total: 58ms
+2016-01-26 16:22:54,000 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/46E26575-A15E-F48B-B41B-7CDDFBAD3DCE/axis/ROWS/dimension/• Cisterna para Armazenamento de Água da Chuva	POST
+2016-01-26 16:22:54,000 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 46E26575-A15E-F48B-B41B-7CDDFBAD3DCE dimension • Cisterna para Armazenamento de Água da Chuva to axis ROWS  position0
+2016-01-26 16:22:55,823 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/46E26575-A15E-F48B-B41B-7CDDFBAD3DCE/axis/ROWS/dimension/Measures/member/[Measures].[Famílias]	DELETE
+2016-01-26 16:22:55,823 DEBUG [org.saiku.service.olap.OlapQueryService] query: 46E26575-A15E-F48B-B41B-7CDDFBAD3DCE remove:MEMBER 2
+2016-01-26 16:22:55,823 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 46E26575-A15E-F48B-B41B-7CDDFBAD3DCE dimension Measures to axis UNUSED  position-1
+2016-01-26 16:22:57,212 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/46E26575-A15E-F48B-B41B-7CDDFBAD3DCE/axis/ROWS/dimension/• Cisterna para Armazenamento de Água da Chuva/hierarchy/[• Cisterna para Armazenamento de Água da Chuva]/[• Cisterna para Armazenamento de Água da Chuva].[Cisterna para Armazenamento de Água da Chuva]	DELETE
+2016-01-26 16:22:57,213 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 46E26575-A15E-F48B-B41B-7CDDFBAD3DCE dimension • Cisterna para Armazenamento de Água da Chuva to axis UNUSED  position-1

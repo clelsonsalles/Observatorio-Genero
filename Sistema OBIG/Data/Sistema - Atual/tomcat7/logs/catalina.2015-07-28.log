@@ -1,0 +1,68 @@
+Jul 28, 2015 4:15:33 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_territorio,nome_territorio from tbl_seppir_quilombola_territorio where id_territorio=1;
+Jul 28, 2015 4:15:33 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_territorio,max((case when bool_titulada_incra = 'Y' then 6 when bool_titulada_iterra = 'Y' then 6 when bool_titulada_fcp = 'Y' then 6 else (case status_incra_territorio when 5 then 6 else status_incra_territorio end) end)) as s1 from tbl_seppir_quilombola_comunidade where id_territorio=1 group by id_territorio;
+Jul 28, 2015 4:15:33 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_territorio,nome_territorio from tbl_seppir_quilombola_territorio where id_territorio=1;
+Jul 28, 2015 4:15:33 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_territorio,nome_territorio from tbl_seppir_quilombola_territorio where id_territorio=1;
+Jul 28, 2015 4:15:33 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_territorio,max((case when bool_titulada_incra = 'Y' then 6 when bool_titulada_iterra = 'Y' then 6 when bool_titulada_fcp = 'Y' then 6 else (case status_incra_territorio when 5 then 6 else status_incra_territorio end) end)) as s1 from tbl_seppir_quilombola_comunidade where id_territorio=1 group by id_territorio;
+Jul 28, 2015 4:15:34 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_territorio,nome_territorio from tbl_seppir_quilombola_territorio where id_territorio=1;
+Jul 28, 2015 4:18:09 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Jul 28, 2015 4:18:09 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Jul 28, 2015 4:18:09 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Jul 28, 2015 4:18:09 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Jul 28, 2015 4:18:09 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Jul 28, 2015 4:18:10 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_comunidade,nome_comunidade,nome_territorio,(case status_incra_territorio when 1 then '3 - Decreto' when 2 then '2 - Portaria' when 3 then '2 - Portaria' when 4 then '1 - RTID' when 5 then '4 - Titulada' else '0 - Certificada' end) as nome_status,(select sigla_uf from tbl_ibge_municipios as m left join tbl_ibge_ufs as u on m.cod_uf = u.cod_uf where cod_7 = cod_7_ibge_municipio) as uf from tbl_seppir_quilombola_comunidade as c left join tbl_seppir_quilombola_territorio as t on c.id_territorio=t.id_territorio;
+Jul 28, 2015 4:18:25 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Jul 28, 2015 4:18:25 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MS SIM';
+Jul 28, 2015 4:18:25 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MS SIM';
+Jul 28, 2015 4:18:25 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Jul 28, 2015 4:18:25 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Jul 28, 2015 4:18:25 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Jul 28, 2015 4:18:25 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Jul 28, 2015 4:18:25 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Jul 28, 2015 4:18:25 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Jul 28, 2015 4:18:25 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome_municipio,sigla_uf,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio group by agg.cod_munic),1) as taxa_todos,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio and (raca_cor=2 or raca_cor=4)	 group by agg.cod_munic),1) as taxa_negros,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio and raca_cor=1	 group by agg.cod_munic),1) as taxa_brancos from tbl_seppir_municipios_pjv as pjv;
+Jul 28, 2015 4:18:27 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Jul 28, 2015 4:18:31 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Jul 28, 2015 4:18:31 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Jul 28, 2015 4:18:31 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Jul 28, 2015 4:18:31 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Jul 28, 2015 4:18:31 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_comunidade,nome_comunidade,nome_territorio,(case status_incra_territorio when 1 then '3 - Decreto' when 2 then '2 - Portaria' when 3 then '2 - Portaria' when 4 then '1 - RTID' when 5 then '4 - Titulada' else '0 - Certificada' end) as nome_status,(select sigla_uf from tbl_ibge_municipios as m left join tbl_ibge_ufs as u on m.cod_uf = u.cod_uf where cod_7 = cod_7_ibge_municipio) as uf from tbl_seppir_quilombola_comunidade as c left join tbl_seppir_quilombola_territorio as t on c.id_territorio=t.id_territorio;
+Jul 28, 2015 4:25:37 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Jul 28, 2015 4:25:37 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Jul 28, 2015 4:25:37 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Jul 28, 2015 4:25:37 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Jul 28, 2015 4:25:37 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Jul 28, 2015 4:25:38 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_comunidade,nome_comunidade,nome_territorio,(case status_incra_territorio when 1 then '3 - Decreto' when 2 then '2 - Portaria' when 3 then '2 - Portaria' when 4 then '1 - RTID' when 5 then '4 - Titulada' else '0 - Certificada' end) as nome_status,(select sigla_uf from tbl_ibge_municipios as m left join tbl_ibge_ufs as u on m.cod_uf = u.cod_uf where cod_7 = cod_7_ibge_municipio) as uf from tbl_seppir_quilombola_comunidade as c left join tbl_seppir_quilombola_territorio as t on c.id_territorio=t.id_territorio;

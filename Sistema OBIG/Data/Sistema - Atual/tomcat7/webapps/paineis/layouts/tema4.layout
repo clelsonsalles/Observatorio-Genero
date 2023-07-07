@@ -1,0 +1,235 @@
+﻿[
+  {
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Taxa padronizada de mortalidade de câncer de mama",
+		"source": "Sistema de Informação de Mortalidade/MS, 2013",
+		"dataUrl": "csv/taxa_padronizada_de_mortalidade_cancer_mama.csv",
+		"columnDelimiter": ";",
+  		"charts": [
+  				{ "type": "SVGMap",
+  				  "data": {
+  				  	"title": "Por UF",
+  				  	"file": "svg/brasil_uf_map.svg",
+					"width": 410,
+					"height": 450,
+					"xAxisCol": "UF",
+					"yAxisCol": "Taxa padronizada",
+					"minColor": "#FF6347",
+					"maxColor": "#863FFF",
+					"colorSteps": 4,
+					"colorize": "fixed",
+					"numberFormat": ".1f",					
+					"colorizeModel": {
+							"intervals": [[1,10.09],[10.10,12.09],[12.10,15.09],[15.10,100]],
+							"colors": ["#FF6347", "#8B3626", "#836FFF", "#473C8B"],
+							"labels": [ "Até 10,0", "De 10,0 a 12,0", "De 12,1 a 15,0","Acima de 15,0"]
+						},
+					"info":"</br>",				
+					"selectionBoxPosition": "bottom-left",
+					"filters": {
+						"excluded": [ { "column": "UF", "value": "Todas as UFs" }] 
+					  }
+																
+				   }
+				  },
+				  {
+				  	"type": "RowValue",
+				  	"data": {
+				  			"defaultRow": "Todas as UFs",
+				  			"defaultLabel": "Brasil",
+				  			"xAxisCol": "UF",
+				  			"yAxisCol": "Taxa padronizada",
+				  			"suffix": "",
+				  			"prefix": "Taxa padronizada:",
+				  			"numberFormat": ".1f",
+				  			"icon": ""
+				  		}
+				  } ]
+			 
+		  }
+  },
+ 
+ {
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Mortalidade Materna",		
+		"dataUrl": "csv/mortalidade_materna_por_tipo_causa_obstetrica.csv",
+		"columnDelimiter": ";",
+		"source": "Sistema de Informação de Mortalidade/MS, 2014",
+  		"charts": [
+					
+  				
+				{ "type": "Pie",
+	  			  "data": {
+	  			  	"title": "Por Tipo de Causas Obstétricas",
+	  			  	
+					"width": 470,
+					"height": 200,
+					"labelPosition": "outer",
+
+					"decimals": 1,
+					"order": "label-asc",
+					"xAxisCol": "Causas",
+					"yAxisCol": "Mortes",
+					"colors": ["#863FFF","#006400", "#FF6347"],
+					"selectionAxisCol": "UF",
+					 "filters": {                                                            				
+                    				"included": [ { "column": "UF", "value": "Todas as UFs" }],
+						"excluded": [ { "column": "Causas", "value": "Todas as causas" } ]
+                       				 }															
+				  }
+				 },
+				{ "type": "Plot2D",
+				  "data": {
+				  	"title": "Causas Obstétricas Diretas ",
+				  	
+                    "yUnit": "Mortes",
+                    "numberFormat": ".1f",
+                    "type": "stacked",
+                    "width": 265,
+                    "height": 180,
+                    "marginLeft": 40,
+                    "marginBottom": 30,
+                    "xRotation": 90,
+		    "xVisibility": "hidden",
+                    "xAxisCol": "Causas",
+                    "selectionAxisCol": "UF",
+		    "suffix": "%",
+                    "yAxisCol": ["Aborto", "Hemorragia","Hipertensão","Infecção puerperal","Outras causas obstétricas diretas"],
+                    "colors": ["#FF6347", "#836FFF","#FFA500","#8FBC8F", "#EE82EE" ],
+                    "legendNumCols": 2,
+					"filters": {
+						
+						"included": [ { "column": "UF", "value": "Todas as UFs" }],
+						"excluded": [ { "column": "Causas","value": ["Causas Obstétricas Não Especificadas"] },
+							{ "column": "Causas","value": ["Causas Obstétricas Indiretas"] },
+							{ "column": "Causas","value": ["Todas as causas"] }  ] 
+					  }						
+                        }
+                    }
+  			 ]
+     }
+  },
+{
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Mortalidade Materna",		
+		"dataUrl": "csv/mortalidade_materna_por_cor.csv",
+		"columnDelimiter": ";",
+		"source": "Sistema de Informação de Mortalidade/MS,</br> 2014",
+  		"charts": [
+					
+					
+  				
+				{ "type": "Pie",
+	  			  "data": {
+	  			  	"title": "Por Raça/Cor",
+	  			  	
+					"width": 290,
+					"height": 220,
+					"labelPosition": "outer",
+
+					"decimals": 1,
+					"order": "label-asc",
+					"xAxisCol": "Raça/Cor",
+					"yAxisCol": "Mortalidade",
+					"colors": ["#FF6347", "#836FFF","#FFA500"],
+					"selectionAxisCol": "UF",
+					 "filters": {                                                            				
+                    				"included": [ { "column": "UF", "value": "Todas as UFs" }],
+						"excluded": [ { "column": "Raça/Cor", "value": "Todas as raças" }]
+                        }															
+				  }
+				 }	
+  			 ]
+     }
+  },
+ {
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Mortalidade por sexo, segundo grupo de causas",		
+		"dataUrl": "csv/mortalidade_por_grupo_de_causas_e_sexo.csv",
+		"columnDelimiter": ";",
+		"source": "Sistema de Informação de Mortalidade/MS, 2013",
+  		"charts": [
+  				
+				{ "type": "Plot2D",
+				  "data": {
+				  	"title": "Mulheres",
+				  	
+                    "yUnit": "Mortes",
+                    "numberFormat": ",.0f",
+                    "type": "column",
+                    "width": 550,
+                    "height": 200,
+                    "marginLeft": 80,
+                    "marginBottom": 40,
+                    "xRotation": -25,
+                    "xAxisCol": "Ano",
+                    "selectionAxisCol": "UF",
+                    "yAxisCol":["Demais causas definidas","Doenças infecciosas e parasitárias","Neoplasias","Doenças do aparelho circulatório","Doenças do aparelho respiratório","Afecções originadas no período perinatal","Causas externas"],
+		    "colors": ["#FF6347", "#836FFF","#FFA500","#8FBC8F", "#EE82EE","#228B22", "#32CD32" ],
+                    "legendNumCols": 2,
+                    "filters": {                                                            				
+                    	"excluded": [
+				      { "column": "Sexo", "value": "Homens" }]
+                        }
+                    }
+                 } ,
+		{ "type": "Plot2D",
+				  "data": {
+				  	"title": "Homens",
+				  	
+                    "yUnit": "Mortes",
+                    "numberFormat": ",.0f",
+                    "type": "column",
+                    "width": 550,
+                    "height": 200,
+                    "marginLeft": 80,
+                    "marginBottom": 40,
+                    "xRotation": -25,
+                    "xAxisCol": "Ano",
+                    "selectionAxisCol": "UF",
+                    "yAxisCol":["Demais causas definidas","Doenças infecciosas e parasitárias","Neoplasias","Doenças do aparelho circulatório","Doenças do aparelho respiratório","Afecções originadas no período perinatal","Causas externas"],
+		    "colors": ["#FF6347", "#836FFF","#FFA500","#8FBC8F", "#EE82EE","#228B22", "#32CD32"],
+                    "legendNumCols": 2,
+                    "filters": {                                                            				
+                    	"excluded": [
+				      { "column": "Sexo", "value": "Mulheres" }]
+                        }
+                    }
+                 }                 
+                 
+            ]
+     }
+  },
+ {
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Serviços de aborto legal",		
+		"dataUrl": "csv/servicos_aborto_legal.csv",
+		"columnDelimiter": ";",
+		"source": "Ministério da Saúde/Cadastro Nacional de Estabelecimentos de Saúde",
+  		"charts": [
+				{ "type": "Datatable",
+				  "data": {
+				  	"title": "por UF",
+				  	"id": "UF",
+                    "width": 1120,
+                    "height": 350,
+                    "colsIncluded": [
+                    		{ "name": "UF", "label": "UF", "width": "5%" },
+                    		{ "name": "MUNICÍPIO", "label": "Município", "width": "10%" },
+                    		{ "name": "Estabelecimento", "label": "Nome da Unidade", "width": "40%" },
+                    		{ "name": "Endereço", "label": "Endereço", "width": "30%" },
+				{ "name": "telefone", "label": "Telefone", "width": "40%" },
+				{ "name": "HORÁRIO DE FUNCIONAMENTO", "label": "Horário de Funcionamento", "width": "10%" }
+                    	],
+                     "selectionFilterCol": 0
+                   }                    
+                 }
+            ]
+     }
+  }
+]

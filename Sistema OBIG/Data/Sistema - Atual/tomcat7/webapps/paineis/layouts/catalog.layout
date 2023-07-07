@@ -1,0 +1,229 @@
+﻿[
+ {
+  "type": "CatalogView",
+  "data": {
+  		"metadata": {},
+  		"indicators": [
+  				{
+  					"id": "censo_pessoas_por_uf",
+  					"name": "População",
+  					"source": "IBGE, Censo Demográfico",
+  					"date": "2010",
+  					"info": "Contabiliza o total de pessoas da localidade.",
+  					"formula": "Número total da população"
+					
+  				},
+  				{
+  					"id": "pnad_populacao_domicilio_por_uf",
+  					"name": "População residente por situação do domicílio",
+  					"source": " Pesquisa Nacional por Amostra de Domicílios(PNAD)/IBGE",
+  					"date": "2014",
+  					"info": "<b>Domicílio</b> - Local estruturalmente separado e independente que se destina a servir de habitação a uma ou mais pessoas, ou que esteja sendo utilizado como tal.</br></br> Os critérios essenciais desta definição são os de separação e independência. </br></br>Entende-se por separação o local de habitação limitado por paredes, muros ou cercas, coberto por um teto, permitindo a uma ou mais pessoas que nele habitam isolar-se das demais, com a finalidade de dormir, preparar e/ou consumir seus alimentos e proteger-se do meio ambiente, arcando, total ou parcialmente, com suas despesas de alimentação ou moradia. Por independência se entende quando o local de habitação tem acesso direto, permitindo a seus moradores entrar e sair sem necessidade de passar por locais de moradia de outras pessoas. Só caracteriza-se corretamente domicílio quando forem atendidos simultaneamente os critérios de separação e independência.</br></br><b>Situação do domicílio (urbano e rural)</b> - Segundo a sua área de localização, o domicílio é classificado em situação urbana ou rural. Em situação urbana, consideraram-se as áreas, urbanizadas ou não, internas ao perímetro urbano das cidades (sedes municipais) ou vilas (sedes distritais) ou as áreas urbanas isoladas, conforme definido por lei municipal vigente em 31 de julho de 2010. A situação rural abrange todas as áreas situadas fora desses limites.",
+  					"formula": ""
+  				},
+  				{
+  					"id": "censo_mulheres_raca_cor",
+  					"name": "Distribuição Percentual de Mulheres",
+  					"source": "IBGE, Censo Demográfico",
+  					"date": "2010",
+  					"info": "Contabiliza o total de mulheres da localidade, considerando o critério cor definido pelo IBGE, que possui as categorias: Branca, Parda, Preta, Amarela, Índigena e Não informada.",
+  					"formula": "Número total de mulheres segundo a autodeclaração de raça cor"
+  				},
+  				{
+  					"id": "pnad_familia_pessoa_ref_mulher",
+  					"name": "Famílias com pessoa de referência do sexo feminino",
+  					"source": " Pesquisa Nacional por Amostra de Domicílios(PNAD)/IBGE",
+  					"date": "2014",
+  					"info": "<b>Pessoa de Referência</b> - Pessoa reconhecida pelas/os moradoras/es do domicílio como responsável pela unidade domiciliar ou pela família.</br></br><b>Família</b> - Conjunto de pessoas ligadas por laços de parentesco, dependência doméstica, ou normas de convivência residentes na mesma unidade domiciliar, ou pessoa que more sozinha em uma unidade domiciliar.</br></br><b>Família Unipessoal</b> - Pessoa que mora sozinha em uma unidade domiciliar. </br></br><b>Domicílio</b> - Local estruturalmente separado e independente que se destina a servir de habitação a uma ou mais pessoas, ou que esteja sendo utilizado como tal.</br></br> Os critérios essenciais desta definição são os de separação e independência. </br></br>Entende-se por separação o local de habitação limitado por paredes, muros ou cercas, coberto por um teto, permitindo a uma ou mais pessoas que nele habitam isolar-se das demais, com a finalidade de dormir, preparar e/ou consumir seus alimentos e proteger-se do meio ambiente, arcando, total ou parcialmente, com suas despesas de alimentação ou moradia. Por independência se entende quando o local de habitação tem acesso direto, permitindo a seus moradores entrar e sair sem necessidade de passar por locais de moradia de outras pessoas. Só caracteriza-se corretamente domicílio quando forem atendidos simultaneamente os critérios de separação e independência.</br></br><b>Situação do domicílio (urbano e rural)</b> - Segundo a sua área de localização, o domicílio é classificado em situação urbana ou rural. Em situação urbana, consideraram-se as áreas, urbanizadas ou não, internas ao perímetro urbano das cidades (sedes municipais) ou vilas (sedes distritais) ou as áreas urbanas isoladas, conforme definido por lei municipal vigente em 31 de julho de 2010. A situação rural abrange todas as áreas situadas fora desses limites.",
+  					"formula": "Famílias com pessoa de referência do sexo feminino, número total e distribuição percentual por tipo de família, Raça/Cor e situação de domicílio"
+  				},
+  				{
+  					"id": "pnad_mulheres_15_a_49_anos",
+  					"name": "Mulheres em idade reprodutiva (15 a 49 anos)",
+  					"source": " Pesquisa Nacional por Amostra de Domicílios(PNAD)/IBGE",
+  					"date": "2014",
+  					"info": "Período na vida de uma mulher compreendido, habitualmente, entre os seus 15 e 49 anos.",
+  					"formula": "Total de mulheres de 15 a 49 anos de idade; mulheres de 15 a 19 anos de idade e proporção com relação à população em idade reprodutiva; mulheres de 15 a 19 anos de idade com filhas/os nascidos vivas/os e proporção de mulheres de 15 a 19 anos com filhas/os por raça/cor e por UF "
+  				},
+  				{
+  					"id": "pnad_rendimento_hora_do_trabalho_mulher",
+  					"name": "Rendimento Médio de Mulheres",
+  					"source": " Pesquisa Nacional por Amostra de Domicílios(PNAD)/IBGE",
+  					"date": "2014",
+  					"info": "",
+  					"formula": "Média do rendimento do trabalho principal dividido pela média do número de horas trabalhadas."
+  				},
+  				{
+  					"id": "pnad_taxa_de_desocupacao_por_sexo",
+  					"name": "Taxa de desocupação das pessoas de 16 a 59 anos de idade",
+  					"source": " Pesquisa Nacional por Amostra de Domicílios(PNAD)/IBGE",
+  					"date": "2014",
+  					"info": "Taxa de desocupação das pessoas de 16 a 59 anos de idade segundo Raça/Cor e sexo.",
+  					"formula": "É a percentagem das pessoas desocupadas (de um grupo etário) em relação às pessoas economicamente ativas (do mesmo grupo etário)."
+  				},
+  				{
+  					"id": "pnad_media_horas_trabalhadas",
+  					"name": "Media de horas semanais trabalhadas",
+  					"source": "Pesquisa Nacional por Amostra de Domicílios(PNAD)/IBGE",
+  					"date": "2014",
+  					"info": "Média de horas trabalhadas segundo o tipo de trabalho (pessoas de 16 anos ou mais de idades ocupadas na semana de referência). <br><br><b>Trabalho principal:</b> Único trabalho que a pessoa tem na semana de referência da pesquisa. Para a pessoa com mais de um trabalho, considera-se como principal o trabalho da semana de referência no qual tenha mais tempo de permanência no período de referência de 365 dias. <br><br><b> Afazeres domésticos:</b> Realização, no domicílio de residência, de tarefas não econômicas (ou seja, que não atendem às condições estabelecidas no conceito de trabalho), como arrumar ou limpar a moradia, cozinhar, lavar roupa, cuidar de filhas/os ou de menores de idade etc.",
+  					"formula": "Média de horas trabalhadas no trabalho principal por Raça/Cor e Sexo e média de horas trabalhadas nos afazeres doméstico por Raça/Cor e Sexo."
+  				},
+  				{
+  					"id": "pnad_pessoas_ocupadas_setor_agricola",
+  					"name": "População ocupada no setor agrícola",
+  					"source": " Pesquisa Nacional por Amostra de Domicílios(PNAD)/IBGE",
+  					"date": "2014",
+  					"info": "População com trabalho durante toda ou parte da semana de referência, ainda que afastada por qualquer motivo (férias, licença, falta, greve, entre outros).",
+  					"formula": "Número total de pessoas ocupadas em atividade agrícolas e porcentagem segundo o sexo."
+  				},
+  				{
+  					"id": "pnad_rendimento_hora_do_trabalho",
+  					"name": "Rendimento-hora do trabalho principal",
+  					"source": "Pesquisa Nacional por Amostra de Domicílios(PNAD)/IBGE",
+  					"date": "2014",
+  					"info": "<b>Rendimento-hora</b> - Média do rendimento do trabalho principal dividido pela média do número de horas trabalhadas.</br></br><b>Trabalho principal:</b> Único trabalho que a pessoa tem na semana de referência da pesquisa. Para a pessoa com mais de um trabalho, considera-se como principal o trabalho da semana de referência no qual tenha mais tempo de permanência no período de referência de 365 dias.",
+  					"formula": ""
+  				},
+  				{
+  					"id": "pnad_trabalhadores_com_carteira_assinada",
+  					"name": "Trabalhadoras Domésticas",
+  					"source": " Pesquisa Nacional por Amostra de Domicílios(PNAD)/IBGE",
+  					"date": "2014",
+  					"info": "<b>Trabalhadora Doméstica</b> - Pessoa que trabalha prestando serviço doméstico remunerado em dinheiro ou benefícios, em uma ou mais unidades domiciliares.",
+  					"formula": ""
+  				},
+  				{
+  					"id": "pnad_posicao_na_ocupacao_setor_agricola",
+  					"name": "Posição de ocupação no setor agrícola",
+  					"source": " Pesquisa Nacional por Amostra de Domicílios(PNAD)/IBGE",
+  					"date": "2014",
+  					"info": "<b>Trabalho formal</b> - Trabalho com carteira assinada, incluindo os trabalhadores domésticos, militares e funcionários públicos estatutários, bem como os empregadores e trabalhadores por conta própria que contribuem para a previdência social.</br></br><b>Trabalho informal</b> - Trabalho sem carteira assinada, incluindo os trabalhadores domésticos, empregadores e trabalhadores por conta própria que não contribuem para a previdência social, trabalhadores não remunerados, bem como os trabalhadores na produção para o próprio consumo e na construção para o próprio uso.</br></br><b>Trabalhador/a na produção para o próprio consumo</b> - Pessoa que trabalha pelo menos uma hora na semana na produção de bens do ramo que compreende as atividades da agricultura, silvicultura, pecuária, extração vegetal, pesca e piscicultura, para a própria alimentação de pelo menos um membro da unidade domiciliar.</br></br><b>Conta Própria</b> - aquelas pessoas que exploram uma atividade econômica ou exercem uma profissão ou ofício, sem empregados.</br></br><b>Empregadores</b> - aquelas pessoas que exploram uma atividade econômica ou exercem uma profissão ou ofício, com auxílio de um ou mais empregados.",
+  					"formula": ""
+  				},
+  				{
+  					"id": "pnad_media_ano_estudo_por_uf",
+  					"name": "Média de anos de estudos de mulheres",
+  					"source": "Pesquisa Nacional por Amostra de Domicílios(PNAD)/IBGE",
+  					"date": "2014",
+  					"info": "",
+  					"formula": "Total de anos de estudo das pessoas de uma determinada idade, dividido pelo número total de pessoas na mesma idade."
+  				},
+  				{
+  					"id": "pnad_taxa_de_alfabetixacao",
+  					"name": "Taxa de Alfabetização",
+  					"source": "Pesquisa Nacional por Amostra de Domicílios(PNAD)/IBGE",
+  					"date": "2014",
+  					"info": "Taxa de Alfabetização segundo raça/cor, situação de domicílio e grupo de idade",
+  					"formula": "Percentagem de pessoas alfabetizadas de um grupo de idade, em relação ao total de pessoas do mesmo grupo de idade, em determinado espaço geográfico, no ano considerado."
+  				},
+  				{
+  					"id": "pnad_media_ano_estudo_por_cor_sexo",
+  					"name": "Média de anos de estudo da população ocupada",
+  					"source": " Pesquisa Nacional por Amostra de Domicílios(PNAD)/IBGE",
+  					"date": "2014",
+  					"info": "Média de anos de estudo da população com trabalho durante toda ou parte da semana de referência, ainda que afastada por qualquer motivo (férias, licença, falta, greve, entre outros).",
+  					"formula": "Média de anos de estudo da população ocupada segundo Raça/Cor"
+  				},
+				{
+  					"id": "taxa_padronizada_de_mortalidade_cancer_mama",
+  					"name": "Taxa padronizada de mortalidade de câncer de mama",
+  					"source": "Sistema de Informação de Mortalidade/MS",
+  					"date": "2014",
+  					"info": "<b>Taxa de mortalidade de câncer de mama</b> - Número total de óbitos de mulheres por câncer de mama, por 100.000 habitantes, na população feminina em determinado local e ano. Trata-se de taxa bruta.",
+  					"formula": "Nº de óbitos por câncer de mama em determinado local e ano x 100.000 / Nº total de mulheres, no local e ano."
+  				},
+  				{
+  					"id": "mortalidade_materna_por_tipo_causa_obstetrica",
+  					"name": "Mortalidade Materna",
+  					"source": "Sistema de Informações de Mortalidade (SIM)/SVS/ Ministério da Saúde",
+  					"date": "2013",
+  					"info": "Estimativa do risco de morte de mulheres durante a gravidez, o aborto, o parto ou até 42 dias após o parto, atribuída a causas obstétricas diretas – decorrentes de complicações obstétricas durante gravidez, parto ou puerpério devido a intervenções, omissões, tratamento incorreto ou a uma cadeia de eventos resultantes de qualquer dessas causas – ou a causas obstétricas indiretas – resultante de doenças que existiam antes da gestação ou que se desenvolveram durante esse período, não provocadas por causas obstétricas diretas, mas agravadas pelos efeitos fisiológicos da gravidez."
+  					
+  				},
+  				{
+  					"id": "casos_de_aids_mulheres_2014_faixa_etaria",
+  					"name": "Taxa de incidência de HIV/AIDS (por 100.000 mulheres)",
+  					"source": "Programa de DST/Aids/Ministério da Saúde",
+  					"date": "2014",
+ 					"info": "<b>Taxa de incidência de HIV/AIDS</b> - Número de casos novos confirmados de síndrome de imunodeficiência adquirida, por 100 mil habitantes, na população residente em determinado espaço geográfico, no ano considerado.</br></br>Exige, em geral, que a confirmação de casos se realize através de testes laboratoriais específicos (sorologia para detectar anticorpos e antígenos, e isolamento do HIV).</br></br>Está sujeita às condições técnico-operacionais do sistema de saúde em cada área geográfica para a detecção, notificação, investigação e confirmação laboratorial de casos de AIDS. "
+  					
+  				},
+  				{
+  					"id": "mortalidade_por_grupo_de_causas_e_sexo",
+  					"name": "Mortalidade por sexo, segundo grupo de causas",
+  					"source": "Sistema de Informações de Mortalidade (SIM)/SVS/ Ministério da Saúde",
+  					"date": "2014",
+ 					"info": "<b>Mortalidade percentual por grupos de causas</b> - Distribuição percentual de óbitos por grupos de causas definidas, na população residente em determinado espaço geográfico, no ano considerado</br></br><b>Neoplasias</b> - Os óbitos por neoplasias malignas correspondem aos códigos C00 a C97 do capítulo II – Neoplasias [tumores], da 10ª Revisão da Classificação Internacional de Doenças (CID-10) e aos códigos 140 a 208 do capítulo II – Neoplasmas, da 9ª Revisão (CID-9).</br></br><b>Doenças do aparelho circulatório </b>- Os óbitos por doenças do aparelho circulatório correspondem aos códigos I00 a I99 do capítulo IX – Doenças do aparelho circulatório, da 10ª Revisão da Classificação Internacional de Doenças (CID-10) e aos códigos 390 a 459 do capítulo VII – Doenças do aparelho circulatório, da 9ª Revisão (CID-9).</br></br><b>Doenças do aparelho respiratório </b>- Os óbitos por doenças do aparelho circulatório correspondem aos códigos J00 a J99 do capítulo X – Doenças do aparelho respiratório, da 10ª Revisão da Classificação Internacional de Doenças (CID-10) e aos códigos 460 a 519 do capítulo VIII – Doenças do aparelho respiratório, da 9ª Revisão (CID-9).</br></br><b>Afecções originadas no período perinatal </b>- Os óbitos por afecções originadas no período perinatal correspondem aos códigos P00 a P96 do capítulo XVI – Algumas afecções originadas no período perinatal, da 10ª Revisão da Classificação Internacional de Doenças (CID-10) e aos códigos 760 a 779 do capítulo XV – Algumas afecções originadas no período perinatal, da 9ª Revisão (CID-9).</br></br><b>Causas externas </b>- Os óbitos por causas externas (acidentes e violência) correspondem aos códigos V01 a Y98 do capítulo XX – Causas externas de morbidade e mortalidade, da 10ª Revisão da Classificação Internacional de Doenças (CID-10), e aos códigos E800-E999 da Classificação suplementar de causas externas, de lesões e de envenenamentos da 9ª Revisão (CID-9)."
+  					
+  				},
+  				{
+  					"id": "taxa_de_homicidios_de_mulheres",
+  					"name": "Taxa de Homicídio de Mulheres",
+  					"source": "Mapa da Violência 2015. Homicídio de mulheres no Brasil",
+  					"date": "2015",
+  					"info": "Taxa de homicídio de mulheres por Raça/Cor",
+  					"formula": "Número de homicídios / por população feminina x 100 mil habitantes"
+  				},
+  				{
+  					"id": "tipos_de_violencia_contra_mulheres_lesbicas_100",
+  					"name": "Relatos de violência contra mulheres lésbicas",
+  					"source": "Disque 100/ SDH",
+  					"date": "2014",
+  					"info": "<b>Violência </b>- Não existe uma definição consensual de violência. Atualmente, a tendência dos especialistas é adotar um conceito amplo, que abarca toda ação que fere a dignidade, a liberdade e a integridade física e psíquica do ser humano produzindo-lhe sofrimento, dor ou qualquer forma de limitação ao seu bem- estar ou ao livre exercício dos seus direitos.</br></br>Uma das definições mais difundidas, por sua abrangência, é a da Organização Mundial da Saúde (OMS): violência é o uso intencional da força física ou poder, na forma de ameaça ou efetivamente, contra si mesmo, outra pessoa, um grupo ou uma comunidade que resulte ou possa resultar em lesão, morte, dano psicológico, privação ou prejuízos ao desenvolvimento.</br></br><b>Violência física </b>-  É a ação ou omissão que coloca em perigo ou causa dano à integridade física de uma pessoa.</br></br><b>Violência psicológica </b>- É a ação ou omissão destinada a degradar ou controlar as ações, comportamentos, crenças e decisões de outras pessoas, por meio de intimidação, manipulação, ameaça, direta ou indireta, humilhação, isolamento ou qualquer outra conduta que implique prejuízo à saúde psicológica, à autodeterminação ou ao desenvolvimento pessoal.</br></br><b>Violência sexual </b>- É a ação que obriga uma pessoa a manter contato sexual, físico ou verbal, ou a participar de outras relações sexuais com uso de força, intimidação, coerção, chantagem, suborno, manipulação, ameaça ou qualquer outro mecanismo que anule ou limite a vontade pessoal. Considera-se como violência sexual, também, o fato do agressor obrigar a vítima a realizar alguns desses atos com terceiros.</br></br><b>Discriminação </b>- toda distinção, exclusão ou restrição baseado em gênero e que tenha por objetivo ou resultado prejudicar ou anular o reconhecimento, gozo ou exercício pela mulher dos direitos humanos e liberdades fundamentais nos campos político, econômico, social, cultural e civil ou em qualquer outro campo."
+  				},
+  				{
+  					"id": "relatos_e_denuncias_disque_180",
+  					"name": "Relatos de violência e denúncia - Ligue 180",
+  					"source": "SPM",
+  					"date": "2015",
+  					"info": "Subgrupo dos atendimentos da Central. Os relatos de violência são contabilizados, seguindo um protocolo de registro, quando a pessoa solicitante menciona alguma situação específica de violência contra a mulher, seja ela a vítima da violência ou não."
+  				},
+  				{
+  					"id": "rede_atendimento",
+  					"name": "Serviços especializados da rede de enfrentamento à violência contra as mulheres",
+  					"source": "SPM",
+  					"date": "2015",
+  					"info": "Serviços garantidos por instituições governamentais e não-governamentais visando o desenvolvimento de estratégias efetivas de prevenção e de políticas que garantam o empoderamento das mulheres, o cumprimento de seus direitos humanos, a responsabilização dos agressores e a assistência qualificada, integral e humana às mulheres em situação de violência."
+  				},
+  				{
+  					"id": "pessoas_25_ou_mais_cargo_direcao_sexo_uf",
+  					"name": "População ocupada em cargos de direção",
+  					"source": "Pesquisa Nacional por Amostra de Domicílios(PNAD)/IBGE",
+  					"date": "2014",
+  					"info": "Grupo da Classificação Brasileira de Ocupações-Domiciliar - CBODomiciliar que inclui as seguintes ocupações: membros superiores e dirigentes do poder público, dirigentes de empresas e organizações (exceto de interesse público), e gerentes."
+  				},
+  				{
+  					"id": "orgaos_de_informacao",
+  					"name": "Organismos Governamentais de Políticas para as Mulheres",
+  					"source": "SPM",
+  					"date": "2015",
+  					"info": "Compreende a relação de Organismos Governamentais de Políticas para as Mulheres."
+  				},
+  				{
+  					"id": "orgaos_de_informacao",
+  					"name": "Conselhos Estaduais e Municipais dos Direitos das Mulheres",
+  					"source": "SPM",
+  					"date": "2015",
+  					"info": "Compreende a relação de Conselhos dos Direitos das Mulheres nos Estados e Municípios."
+  				},
+  				{
+  					"id": "tbl_tse_candidatos_e_eleitos",
+  					"name": "Senadoras e Senadores - Eleições 2014",
+  					"source": "Tribunal Superior Eleitoral",
+  					"date": "Outubro de 2014",
+  					"info": "Senadoras e Senadores - candidatas/os e eleitas/os nas eleições de 2014 na qual estavam em disputa 1/3 (27) das cadeiras do Senado."
+  				},
+  				{
+  					"id": "congresso_nacional_proporcao_cand_eleitas",
+  					"name": "Composição das Casas Legislativas",
+  					"source": "Site do Senado Federal-2016, TSE-2014",
+  					"info": "Composição das Casas Legislativas, distribuição percentual por sexo."
+  				}
+  				
+  				
+  				
+  			]
+  	}	
+  }
+]

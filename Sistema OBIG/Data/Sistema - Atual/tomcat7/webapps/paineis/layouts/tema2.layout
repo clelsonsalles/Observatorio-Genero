@@ -1,0 +1,523 @@
+﻿[
+ 
+{
+  "type": "IndicatorGraphicView",  
+			"data": {
+  		
+			"name": "Rendimento Médio de Mulheres",
+		
+	"source": "Pesquisa Nacional por Amostra de Domicílios (PNAD)/ IBGE, 2014",
+		
+	"dataUrl": "csv/pnad_rendimento_hora_do_trabalho_mulher.csv",
+		
+	"columnDelimiter": ";",
+  		
+	"charts": [
+  				
+		{ 
+			"type": "SVGMap",
+  				  
+			"data": {
+  				  	
+			"title": "Por UF",
+  				  	
+			"file": "svg/brasil_uf_map.svg",
+					
+			"width": 410,
+					
+			"height": 410,
+					
+			"xAxisCol": "UF",
+					
+			"yAxisCol": "Rendimento-Hora Mulher",
+
+			"numberFormat": ".1f",
+			"prefix":"R$/h",					
+			"colorSteps": 4,
+			"colorize": "fixed",
+							
+			"colorizeModel": {
+							"intervals": [[1,5.49], [5.50,7.49], [7.50,9.49], [9.50,12.49], [12.50,100.00]],
+							"colors": ["#ca807e", "#7c5266", "#406ab4","#edba2e","#088173"],
+							"labels": [ "Até R$5,4", "R$5,5 a 7,4","7,5 a 9,4","9.5 a 12.4", "Acima de R$12,5" ]
+						},
+			"info":"</br>",		
+					
+			"selectionBoxPosition": "bottom-left",
+				
+			"filters": {
+						
+				"excluded": [ { "column": "UF", "value": "Todas as UFs" } ] 
+	
+				  }
+					
+			 }
+				 
+		 },
+				 
+		 {
+				  	
+			"type": "RowValue",
+				  
+			"data": {
+				  		
+			"defaultRow": "Todas as UFs",
+				  
+			"defaultLabel": "Brasil",
+		
+		  	"xAxisCol": "UF",
+			
+	  		"yAxisCol": "Rendimento-Hora Mulher",
+		
+		  	"suffix": "",
+		
+		  	"prefix": "R$",
+		
+		  	"numberFormat": ".1f",
+	
+			 "icon": "img/icon/coins-gray-48.png"
+
+		}
+			
+	  } 
+	]
+ 
+		
+  }
+  
+},
+
+
+  
+ 
+
+ 
+{
+  
+"type": "IndicatorGraphicView",
+  
+		"data": {
+  		
+			"name": "Rendimento-hora do trabalho principal",
+		
+	"dataUrl": "csv/pnad_rendimento_hora_do_trabalho.csv",
+
+			"columnDelimiter": ";",
+
+			"source": "Pesquisa Nacional por Amostra de Domicílios/IBGE, 2014",
+
+  			"charts": [
+ 
+ 				
+{ "type": "Plot2D",
+
+				  	"data": {
+				  	
+					"title": "Por Sexo e Raça/Cor",
+
+				  	"yUnit": "R$/h",
+
+                    			"numberFormat": ".1f",
+
+                    			"type": "column",
+
+                    			"width": 350,
+
+                    			"height": 175,
+                   			"marginLeft": 80,
+
+                    			"marginBottom": 40,
+
+                    			"xRotation": -25,
+ 
+                   			"xAxisCol": "Raça/Cor",
+
+                    			"selectionAxisCol": "UF",
+     
+               				"yAxisCol": ["Mulheres","Homens"],
+  
+                  			"colors": ["#7c5266","#edba2e"],
+ 
+                   			"legendNumCols": 2,
+
+
+         				"filters": {                                                            				
+                    	
+						"included": [ { "column": "UF","value": "Todas as UFs" }
+]
+
+                        				}
+
+                   				 }
+   
+              			}
+                
+                 
+            
+			]
+     
+		}
+  
+},
+
+
+{
+  "type": "IndicatorGraphicView",
+ 
+ 		"data": {
+  		
+		"name": "Trabalhadoras Domésticas",
+		
+"dataUrl": "csv/pnad_trabalhadoras_domesticas.csv",
+
+		"columnDelimiter": ";",
+
+		"source": "Pesquisa Nacional por Amostra de Domicílios/ IBGE, 2014",
+ 
+ 		"charts": [
+  	
+			
+	{ "type": "Plot2D",
+
+					"data": {
+
+						"title": "Por Raça/Cor",
+
+				  	
+       	"yUnit": "Trabalhadoras",
+
+                    				"numberFormat": ".1f",
+   
+						"suffix": "%", 
+                				"type": "column",
+            
+        					"width": 350,
+                
+    						"height": 175,
+             
+       						"marginLeft": 100,
+       
+             					"marginBottom": 40,
+  
+                  				"xRotation": -25,
+ 
+                   				"xAxisCol": "Raça/Cor",
+  
+                  				"selectionAxisCol": "UF",
+ 
+                 				"yAxisCol": ["Trabalhadoras"],
+
+                    				"colors": ["#8B658B","#F4A460"],
+         
+           					"legendNumCols": 2,
+         
+           					"filters": {              
+							"included": [ { "column": "UF",
+"value": "Todas as UFs" }
+
+										],
+								"excluded": [ { "column": "Raça/Cor",
+"value": "Outras" }
+
+										]
+                    					  }
+             
+       					}
+                
+ 				}
+                
+          
+       
+            ]
+     
+		}
+  
+	},
+
+ 
+
+{
+  
+"type": "IndicatorGraphicView",
+  
+			"data": {
+  		
+			"name": "Taxa de desocupação das pessoas de 16 a 59 anos de idade",		
+	
+			"dataUrl": "csv/pnad_taxa_de_desocupacao_por_sexo.csv",
+	
+			"columnDelimiter": ";",
+		
+			"source": "Pesquisa Nacional por Amostra de Domicílios/IBGE, 2014",
+  	
+				"charts": [
+  		
+		
+			{ "type": "Plot2D",
+	
+			  			"data": {
+	
+			  				"title": "Por Sexo",
+	
+			  	
+                   	"yUnit": "Taxa",
+   
+              						"type": "column",
+     
+              						"width": 360,
+         
+           						"height": 200,
+             
+       							"marginLeft": 100,
+            
+       							"marginBottom": 40,
+                
+    							"xRotation": -25,
+              
+      							"xAxisCol": "Sexo",
+       
+            						"selectionAxisCol": "UF",
+   
+                 					"yAxisCol": ["Taxa"],
+
+							"colors": ["#8B658B","#F4A460"],
+
+							"numberFormat": ".1f",
+							"suffix":"%",
+  
+                 				 	"legendNumCols": 2,
+							
+  							"filters": {          
+                                                  		"included": [ { "column": "UF","value": "Todas as UFs" }
+]
+,      
+								"excluded": [ { "column": "Sexo","value": "Todos" }
+]
+                     
+								 }
+                  
+							 }
+                 
+					}
+,
+					{ "type": "Plot2D",
+	
+			  			"data": {
+	
+			  				"title": "Raça/Cor",
+	
+			  	
+                   	"yUnit": "Taxa",
+   
+              						"type": "column",
+     
+              						"width": 360,
+         
+           						"height": 200,
+             
+       							"marginLeft": 100,
+            
+       							"marginBottom": 40,
+                
+    							"xRotation": -25,
+              
+      							"xAxisCol": "Raça/Cor",
+       
+            						"selectionAxisCol": "UF",
+   
+                 					"yAxisCol": ["Taxa"],
+
+							"colors": ["#edba2e"],
+
+							"numberFormat": ".1f",
+							"suffix":"%",
+  
+                 				 	"legendNumCols": 2,
+							
+  							"filters": {          
+                                                  		"included": [ { "column": "UF","value": "Todas as UFs" }
+]
+ ,      
+								"excluded": [ { "column": "Raça/Cor","value": "Todas" }
+]
+                      
+								 }
+                  
+							 }
+                 
+					}
+                     
+                 
+            
+		]
+     
+}
+  
+}
+,
+ 
+{
+  
+"type": "IndicatorGraphicView",
+		
+  "data": {
+  		
+			"name": "Media de horas semanais trabalhadas",
+	
+		"dataUrl": "csv/pnad_media_horas_trabalhadas.csv",
+
+			"columnDelimiter": ";",
+	
+		"source": "Pesquisa Nacional por Amostra<br>de Domicílios/IBGE, 2014",
+	
+  		"charts": [
+
+
+				{ "type": "Plot2D",
+
+				  "data": {
+
+				  	"title": "Trabalho principal e Afazeres domésticos (Por Sexo)",
+
+				  	"yUnit": "hrs trabalhadas",
+
+                    			"numberFormat": ".1f",
+
+                    			"type": "stacked",
+
+                    			"width": 400,
+
+                    			"height": 175,
+ 
+                   			"marginLeft": 80,
+
+                    			"marginBottom": 50,
+
+                    			"xRotation": -20,
+ 
+                   			"xAxisCol": "Sexo",
+
+                    			"selectionAxisCol": "UF",
+     
+               				"yAxisCol": ["Trabalho Principal","Afazeres Domésticos"],
+    
+              				"colors": ["#7c5266","#edba2e"],
+       
+             				"legendNumCols": 2,
+ 		
+					"filters": {   
+                                       		"included": [ { "column": "UF",
+"value": "Todas as UFs" }
+],
+			
+						"excluded": [ { "column": "Raça/Cor","value": "outras" }
+ ]
+
+							}
+					}
+				}
+		]     
+	}
+  
+},
+{
+  "type": "IndicatorGraphicView",
+		"data": {
+		"name": "População ocupada",
+		"dataUrl": "csv/pnad_grupamentos_de_atividade.csv",
+
+		"source": "Pesquisa Nacional por Amostra de</br> Domicílios (PNAD)/ IBGE, 2014",
+
+		"columnDelimiter": ";",
+
+   			"charts": [		
+   				  
+						
+				  
+				{ "type": "Pie",
+	  	
+		 			"data": {
+	  
+			  		"title": "Por Grupamentos de Atividade Econômica",
+	
+					"width": 750,
+	
+					"height": 300,
+
+					"decimals": 1,	
+					"labelPosition": "outer",
+
+					"order": "label-asc",
+
+					"xAxisCol": "Grupamentos",
+	
+					"yAxisCol": "Total",
+					"tooltips": "false",	
+					"colors": ["#7c5266","#edba2e","#088173","#406ab4","#af886b","#ca807e","#4c5136","#944228","#bbd0d5","#d6c548","#d3890b","#1a715e","#33747a"],
+	
+					"selectionAxisCol": "UF",
+	
+				 	"filters": {          
+                                            	"included": [ { "column": "UF","value": "Todas as UFs" }]
+,
+						"excluded": [ { "column": "Sexo","value": "Todos" }]
+	                       
+							}	
+				}
+				}	
+			]
+ 	
+	}
+ 
+},
+{
+  "type": "IndicatorGraphicView",
+		"data": {
+		"name": "População ocupada no setor agrícola",
+		"dataUrl": "csv/pnad_pessoas_ocupadas_setor_agricola.csv",
+
+		"source": "Pesquisa Nacional por Amostra de</br> Domicílios (PNAD)/ IBGE, 2014",
+
+		"columnDelimiter": ";",
+
+   			"charts": [		
+   				  
+						
+				  
+				{ "type": "Pie",
+	  	
+		 			"data": {
+	  
+			  		"title": "Por Sexo",
+	
+					"width": 330,
+	
+					"height": 250,
+
+					"decimals": 1,	
+					"labelPosition": "outer",
+
+					"order": "label-asc",
+
+					"xAxisCol": "Sexo",
+	
+					"yAxisCol": "Pessoas",
+					"tooltips": "false",	
+					"colors": ["#7c5266","#edba2e"],
+	
+					"selectionAxisCol": "UF",
+	
+				 	"filters": {          
+                                            	"included": [ { "column": "UF","value": "Todas as UFs" }]
+,
+						"excluded": [ { "column": "Sexo","value": "Todos" }]
+	                       
+							}	
+				}
+				}	
+			]
+ 	
+	}
+ 
+}
+]

@@ -1,0 +1,213 @@
+Nov 21, 2014 9:19:27 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/manager] threw exception [Unable to compile class for JSP] with root cause
+java.util.MissingResourceException: Can't find bundle for base name org.eclipse.jdt.internal.compiler.problem.messages, locale pt_BR
+	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:1499)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1322)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.eclipse.jdt.internal.compiler.problem.DefaultProblemFactory.loadMessageTemplates(DefaultProblemFactory.java:217)
+	at org.eclipse.jdt.internal.compiler.problem.DefaultProblemFactory.setLocale(DefaultProblemFactory.java:123)
+	at org.eclipse.jdt.internal.compiler.problem.DefaultProblemFactory.<init>(DefaultProblemFactory.java:40)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:187)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:987)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:309)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Nov 21, 2014 9:27:01 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/manager] threw exception [Unable to compile class for JSP] with root cause
+java.util.MissingResourceException: Can't find bundle for base name org.eclipse.jdt.internal.compiler.problem.messages, locale pt_BR
+	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:1499)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1322)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.eclipse.jdt.internal.compiler.problem.DefaultProblemFactory.loadMessageTemplates(DefaultProblemFactory.java:217)
+	at org.eclipse.jdt.internal.compiler.problem.DefaultProblemFactory.setLocale(DefaultProblemFactory.java:123)
+	at org.eclipse.jdt.internal.compiler.problem.DefaultProblemFactory.<init>(DefaultProblemFactory.java:40)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:187)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:987)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:307)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Nov 21, 2014 9:27:05 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/manager] threw exception [java.lang.ClassNotFoundException: org.apache.jsp.index_jsp] with root cause
+java.lang.ClassNotFoundException: org.apache.jsp.index_jsp
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:130)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:172)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:187)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:987)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:307)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Nov 21, 2014 9:28:10 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [jsp] in context with path [/manager] threw exception [Unable to compile class for JSP] with root cause
+java.util.MissingResourceException: Can't find bundle for base name org.eclipse.jdt.internal.compiler.problem.messages, locale pt_BR
+	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:1499)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1322)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.eclipse.jdt.internal.compiler.problem.DefaultProblemFactory.loadMessageTemplates(DefaultProblemFactory.java:217)
+	at org.eclipse.jdt.internal.compiler.problem.DefaultProblemFactory.setLocale(DefaultProblemFactory.java:123)
+	at org.eclipse.jdt.internal.compiler.problem.DefaultProblemFactory.<init>(DefaultProblemFactory.java:40)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:187)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:987)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:309)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Nov 21, 2014 3:28:59 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Nov 21, 2014 3:28:59 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: init: Global resources are available
+Nov 21, 2014 3:28:59 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 21, 2014 3:29:09 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: restart: Reloading web application '/paineis'
+Nov 21, 2014 3:29:11 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 21, 2014 3:29:22 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: start: Starting web application '/dataseppir-admin'
+Nov 21, 2014 3:29:24 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 21, 2014 3:29:41 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: restart: Reloading web application '/saiku'
+Nov 21, 2014 3:29:53 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 21, 2014 3:30:04 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: restart: Reloading web application '/host-manager'
+Nov 21, 2014 3:30:04 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 21, 2014 3:30:22 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: start: Starting web application '/dataseppir-admin'
+Nov 21, 2014 3:30:25 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 21, 2014 3:35:08 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 21, 2014 3:41:42 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: restart: Reloading web application '/saiku'
+Nov 21, 2014 3:41:52 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 21, 2014 4:04:29 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 21, 2014 4:04:37 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: start: Starting web application '/dataseppir-admin'
+Nov 21, 2014 4:04:39 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 21, 2014 4:09:52 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: restart: Reloading web application '/saiku'
+Nov 21, 2014 4:10:03 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 21, 2014 4:22:47 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Nov 21, 2014 4:22:47 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: init: Global resources are available
+Nov 21, 2014 4:22:47 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 21, 2014 4:22:56 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: restart: Reloading web application '/saiku'
+Nov 21, 2014 4:23:09 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'

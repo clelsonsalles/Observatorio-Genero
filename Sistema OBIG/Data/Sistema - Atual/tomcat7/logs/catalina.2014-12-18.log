@@ -1,0 +1,50 @@
+Dez 18, 2014 3:52:06 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 18, 2014 3:52:06 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MS SIM';
+Dez 18, 2014 3:52:06 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MS SIM';
+Dez 18, 2014 3:52:06 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 18, 2014 3:52:06 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 18, 2014 3:52:06 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 18, 2014 3:52:06 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 18, 2014 3:52:06 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 18, 2014 3:52:06 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 18, 2014 3:52:06 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome_municipio,sigla_uf,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio group by agg.cod_munic),1) as taxa_todos,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio and (raca_cor=2 or raca_cor=4)	 group by agg.cod_munic),1) as taxa_negros,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio and raca_cor=1	 group by agg.cod_munic),1) as taxa_brancos from tbl_seppir_municipios_pjv as pjv;
+Dez 18, 2014 3:52:06 PM org.iadb.seppir.monitor.OlapCurrentService executeMDXSelect
+INFORMAÇÕES: ERRO: Erro ao executar query: select  NonEmptyCrossJoin({ [Measures].[Homicídios de Jovens]}, { [RaçaCor].Children }) ON AXIS(0),  NonEmptyCrossJoin({ [Ano].Children }, { [Local de Domicílio].[UF].Members , [Local de Domicílio]}) ON AXIS(1) from [SIM]
+Dez 18, 2014 3:52:06 PM org.iadb.seppir.monitor.OlapCurrentService executeMDXSelect
+INFORMAÇÕES: ERRO: Erro causado por mondrian gave exception while executing query
+Dez 18, 2014 3:52:07 PM org.iadb.seppir.monitor.OlapCurrentService executeMDXSelect
+INFORMAÇÕES: ERRO: Erro ao executar query: select  NonEmptyCrossJoin({ [Measures].[Homicídios de Negros], [Measures].[Homicídios de Brancos]}, { [Ano].Children }) ON AXIS(0),  { [Local de Domicílio].[UF].Members , [Local de Domicílio]} ON AXIS(1) from [SIM]
+Dez 18, 2014 3:52:07 PM org.iadb.seppir.monitor.OlapCurrentService executeMDXSelect
+INFORMAÇÕES: ERRO: Erro causado por mondrian gave exception while executing query
+Dez 18, 2014 3:57:37 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 18, 2014 3:57:37 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MS SIM';
+Dez 18, 2014 3:57:37 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MS SIM';
+Dez 18, 2014 3:57:37 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 18, 2014 3:57:37 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 18, 2014 3:57:37 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 18, 2014 3:57:37 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 18, 2014 3:57:37 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 18, 2014 3:57:37 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 18, 2014 3:57:37 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome_municipio,sigla_uf,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio group by agg.cod_munic),1) as taxa_todos,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio and (raca_cor=2 or raca_cor=4)	 group by agg.cod_munic),1) as taxa_negros,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio and raca_cor=1	 group by agg.cod_munic),1) as taxa_brancos from tbl_seppir_municipios_pjv as pjv;
+Dez 18, 2014 4:14:32 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-80"]

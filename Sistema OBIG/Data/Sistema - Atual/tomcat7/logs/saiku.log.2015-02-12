@@ -1,0 +1,346 @@
+2015-02-12 09:19:59,885 DEBUG [org.saiku.web.rest.resources.SessionResource] Error logging in:admin
+java.lang.RuntimeException: Authentication failed for: admin
+	at org.saiku.web.service.SessionService.authenticate(SessionService.java:158)
+	at org.saiku.web.service.SessionService.login(SessionService.java:70)
+	at org.saiku.web.rest.resources.SessionResource.login(SessionResource.java:61)
+	at org.saiku.web.rest.resources.SessionResource$$FastClassByCGLIB$$1d4f2aee.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:617)
+	at org.saiku.web.rest.resources.SessionResource$$EnhancerByCGLIB$$59d938fe.login(<generated>)
+	at sun.reflect.GeneratedMethodAccessor364.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at org.codehaus.enunciate.modules.jersey.EnunciateJerseyServletContainer.service(EnunciateJerseyServletContainer.java:248)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.codehaus.enunciate.webapp.HTTPRequestContextFilter.doFilter(HTTPRequestContextFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:343)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:97)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:78)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:35)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilter(BasicAuthenticationFilter.java:177)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:187)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:79)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:149)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.additionalAuthenticationChecks(DaoAuthenticationProvider.java:67)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:139)
+	at org.springframework.security.authentication.ProviderManager.doAuthentication(ProviderManager.java:130)
+	at org.springframework.security.authentication.AbstractAuthenticationManager.authenticate(AbstractAuthenticationManager.java:48)
+	at org.saiku.web.service.SessionService.authenticate(SessionService.java:153)
+	... 72 more
+2015-02-12 09:20:07,013 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-02-12 09:20:14,277 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057	POST	 xml:false
+2015-02-12 09:20:17,575 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/COLUMNS/dimension/Comunidade/hierarchy/[Comunidade]/[Comunidade].[Comunidade]	POST
+2015-02-12 09:20:17,575 DEBUG [org.saiku.service.olap.OlapQueryService] move query: CC184622-9107-A23D-8CEF-B60B6AF70057 dimension Comunidade to axis COLUMNS  position0
+2015-02-12 09:20:18,782 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/result/metadata/dimensions/Comunidade/hierarchies/[Comunidade]/levels/[Comunidade].[Comunidade]	GET
+2015-02-12 09:20:18,891 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/COLUMNS/dimension/Comunidade	GET
+2015-02-12 09:20:21,586 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-02-12 09:20:26,531 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/COLUMNS/dimension/Comunidade	PUT	
+2015-02-12 09:20:26,543 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/COLUMNS/dimension/Comunidade	GET
+2015-02-12 09:20:30,692 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/BD039819-A97F-D066-A9A7-CE89DD28F442	POST	 xml:false
+2015-02-12 09:20:40,491 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/result/metadata/dimensions/Comunidade/hierarchies/[Comunidade]/levels/[Comunidade].[Comunidade]	GET
+2015-02-12 09:20:40,689 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/COLUMNS/dimension/Comunidade	GET
+2015-02-12 09:20:50,137 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/COLUMNS/dimension/Comunidade	PUT	
+2015-02-12 09:20:50,144 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/COLUMNS/dimension/Comunidade	GET
+2015-02-12 09:20:53,355 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/ROWS/dimension/Measures/member/[Measures].[Famílias]	POST
+2015-02-12 09:20:53,355 DEBUG [org.saiku.service.olap.OlapQueryService] move query: CC184622-9107-A23D-8CEF-B60B6AF70057 dimension Measures to axis ROWS  position0
+2015-02-12 09:20:53,393 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/resultflattened	GET
+2015-02-12 09:20:53,393 INFO  [org.saiku.service.olap.OlapQueryService] runId:157	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[SANTA ROSA DOS PRETOS]})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-12 09:20:53,398 INFO  [org.saiku.service.olap.OlapQueryService] runId:157	Size: 2/2	Execute:	4ms	Format:	0ms	 Total: 4ms
+2015-02-12 09:20:54,838 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/BD039819-A97F-D066-A9A7-CE89DD28F442/axis/ROWS/dimension/Ⓣ Período/hierarchy/[Ⓣ Período]/[Ⓣ Período].[Mês]	POST
+2015-02-12 09:20:54,838 DEBUG [org.saiku.service.olap.OlapQueryService] move query: BD039819-A97F-D066-A9A7-CE89DD28F442 dimension Ⓣ Período to axis ROWS  position0
+2015-02-12 09:20:57,089 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/BD039819-A97F-D066-A9A7-CE89DD28F442/axis/ROWS/dimension/Ⓣ Período/hierarchy/[Ⓣ Período]/[Ⓣ Período].[Mês]	DELETE
+2015-02-12 09:20:57,090 DEBUG [org.saiku.service.olap.OlapQueryService] move query: BD039819-A97F-D066-A9A7-CE89DD28F442 dimension Ⓣ Período to axis UNUSED  position-1
+2015-02-12 09:21:01,023 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/COLUMNS/dimension/Ⓣ Período/hierarchy/[Ⓣ Período]/[Ⓣ Período].[Mês]	POST
+2015-02-12 09:21:01,023 DEBUG [org.saiku.service.olap.OlapQueryService] move query: CC184622-9107-A23D-8CEF-B60B6AF70057 dimension Ⓣ Período to axis COLUMNS  position1
+2015-02-12 09:21:01,203 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/resultflattened	GET
+2015-02-12 09:21:01,204 INFO  [org.saiku.service.olap.OlapQueryService] runId:158	Type:QM:
+SELECT
+NON EMPTY CrossJoin({[Comunidade].[SANTA ROSA DOS PRETOS]}, [Ⓣ Período].[Mês].Members) ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-12 09:21:01,302 INFO  [org.saiku.service.olap.OlapQueryService] runId:158	Size: 4/3	Execute:	99ms	Format:	0ms	 Total: 99ms
+2015-02-12 09:21:05,114 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/ROWS/dimension/Ⓣ Período	POST
+2015-02-12 09:21:05,114 DEBUG [org.saiku.service.olap.OlapQueryService] move query: CC184622-9107-A23D-8CEF-B60B6AF70057 dimension Ⓣ Período to axis ROWS  position1
+2015-02-12 09:21:05,138 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/resultflattened	GET
+2015-02-12 09:21:05,139 INFO  [org.saiku.service.olap.OlapQueryService] runId:159	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[SANTA ROSA DOS PRETOS]})} ON COLUMNS,
+NON EMPTY CrossJoin({[Measures].[Famílias]}, [Ⓣ Período].[Mês].Members) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-12 09:21:05,245 INFO  [org.saiku.service.olap.OlapQueryService] runId:159	Size: 3/4	Execute:	106ms	Format:	0ms	 Total: 106ms
+2015-02-12 09:21:22,206 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/ROWS/dimension/Measures/member/[Measures].[• Famílias com Água Canalizada]	POST
+2015-02-12 09:21:22,206 DEBUG [org.saiku.service.olap.OlapQueryService] move query: CC184622-9107-A23D-8CEF-B60B6AF70057 dimension Measures to axis ROWS  position1
+2015-02-12 09:21:22,263 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/resultflattened	GET
+2015-02-12 09:21:22,264 INFO  [org.saiku.service.olap.OlapQueryService] runId:160	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[SANTA ROSA DOS PRETOS]})} ON COLUMNS,
+NON EMPTY Hierarchize(Union(CrossJoin([Ⓣ Período].[Mês].Members, {[Measures].[Famílias]}), CrossJoin([Ⓣ Período].[Mês].Members, {[Measures].[• Famílias com Água Canalizada]}))) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-12 09:21:22,683 INFO  [org.saiku.service.olap.OlapQueryService] runId:160	Size: 3/7	Execute:	420ms	Format:	0ms	 Total: 420ms
+2015-02-12 09:23:41,519 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/result/metadata/dimensions/Ⓣ Período/hierarchies/[Ⓣ Período]/levels/[Ⓣ Período].[Mês]	GET
+2015-02-12 09:23:41,519 DEBUG [org.saiku.service.olap.OlapQueryService] Found hierarchy in the result: [Ⓣ Período]
+2015-02-12 09:23:41,519 DEBUG [org.saiku.service.olap.OlapQueryService] Found members in the result: 3
+2015-02-12 09:23:41,640 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/ROWS/dimension/Ⓣ Período	GET
+2015-02-12 09:23:44,118 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/ROWS/dimension/Ⓣ Período	PUT	
+2015-02-12 09:23:44,257 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/ROWS/dimension/Ⓣ Período	GET
+2015-02-12 09:23:44,312 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/resultflattened	GET
+2015-02-12 09:23:44,312 INFO  [org.saiku.service.olap.OlapQueryService] runId:161	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[SANTA ROSA DOS PRETOS]})} ON COLUMNS,
+NON EMPTY Hierarchize(Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias]}), CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[• Famílias com Água Canalizada]}))) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-12 09:23:44,320 INFO  [org.saiku.service.olap.OlapQueryService] runId:161	Size: 3/3	Execute:	8ms	Format:	0ms	 Total: 8ms
+2015-02-12 09:23:51,984 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/ROWS/dimension/Measures/member/[Measures].[Famílias com Energia Elétrica]	POST
+2015-02-12 09:23:51,984 DEBUG [org.saiku.service.olap.OlapQueryService] move query: CC184622-9107-A23D-8CEF-B60B6AF70057 dimension Measures to axis ROWS  position1
+2015-02-12 09:23:52,006 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/resultflattened	GET
+2015-02-12 09:23:52,007 INFO  [org.saiku.service.olap.OlapQueryService] runId:162	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[SANTA ROSA DOS PRETOS]})} ON COLUMNS,
+NON EMPTY Hierarchize(Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[• Famílias com Água Canalizada]}), CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias com Energia Elétrica]})))) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-12 09:23:52,228 INFO  [org.saiku.service.olap.OlapQueryService] runId:162	Size: 3/4	Execute:	221ms	Format:	1ms	 Total: 222ms
+2015-02-12 09:23:59,369 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/ROWS/dimension/Measures/member/[Measures].[Famílias que Tem Coleta de Lixo]	POST
+2015-02-12 09:23:59,369 DEBUG [org.saiku.service.olap.OlapQueryService] move query: CC184622-9107-A23D-8CEF-B60B6AF70057 dimension Measures to axis ROWS  position1
+2015-02-12 09:23:59,396 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/resultflattened	GET
+2015-02-12 09:23:59,396 INFO  [org.saiku.service.olap.OlapQueryService] runId:163	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[SANTA ROSA DOS PRETOS]})} ON COLUMNS,
+NON EMPTY Hierarchize(Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[• Famílias com Água Canalizada]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias com Energia Elétrica]}), CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias que Tem Coleta de Lixo]}))))) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-12 09:23:59,612 INFO  [org.saiku.service.olap.OlapQueryService] runId:163	Size: 3/5	Execute:	215ms	Format:	1ms	 Total: 216ms
+2015-02-12 09:24:10,595 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/ROWS/dimension/Measures/member/[Measures].[• Taxa de Famílias com Água Canalizada]	POST
+2015-02-12 09:24:10,595 DEBUG [org.saiku.service.olap.OlapQueryService] move query: CC184622-9107-A23D-8CEF-B60B6AF70057 dimension Measures to axis ROWS  position1
+2015-02-12 09:24:10,633 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/resultflattened	GET
+2015-02-12 09:24:10,634 INFO  [org.saiku.service.olap.OlapQueryService] runId:164	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[SANTA ROSA DOS PRETOS]})} ON COLUMNS,
+NON EMPTY Hierarchize(Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[• Famílias com Água Canalizada]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias com Energia Elétrica]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias que Tem Coleta de Lixo]}), CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[• Taxa de Famílias com Água Canalizada]})))))) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-12 09:24:10,647 INFO  [org.saiku.service.olap.OlapQueryService] runId:164	Size: 3/6	Execute:	14ms	Format:	0ms	 Total: 14ms
+2015-02-12 09:24:12,100 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/ROWS/dimension/Measures/member/[Measures].[• Famílias com Água Canalizada]	DELETE
+2015-02-12 09:24:12,101 DEBUG [org.saiku.service.olap.OlapQueryService] query: CC184622-9107-A23D-8CEF-B60B6AF70057 remove:MEMBER 2
+2015-02-12 09:24:12,170 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/resultflattened	GET
+2015-02-12 09:24:12,170 INFO  [org.saiku.service.olap.OlapQueryService] runId:165	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[SANTA ROSA DOS PRETOS]})} ON COLUMNS,
+NON EMPTY Hierarchize(Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias com Energia Elétrica]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias que Tem Coleta de Lixo]}), CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[• Taxa de Famílias com Água Canalizada]}))))) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-12 09:24:12,182 INFO  [org.saiku.service.olap.OlapQueryService] runId:165	Size: 3/5	Execute:	11ms	Format:	1ms	 Total: 12ms
+2015-02-12 09:24:20,676 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/ROWS/dimension/Measures/member/[Measures].[Taxa de Famílias que Tem Coleta de Lixo]	POST
+2015-02-12 09:24:20,677 DEBUG [org.saiku.service.olap.OlapQueryService] move query: CC184622-9107-A23D-8CEF-B60B6AF70057 dimension Measures to axis ROWS  position1
+2015-02-12 09:24:20,725 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/resultflattened	GET
+2015-02-12 09:24:20,726 INFO  [org.saiku.service.olap.OlapQueryService] runId:166	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[SANTA ROSA DOS PRETOS]})} ON COLUMNS,
+NON EMPTY Hierarchize(Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias com Energia Elétrica]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias que Tem Coleta de Lixo]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[• Taxa de Famílias com Água Canalizada]}), CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Taxa de Famílias que Tem Coleta de Lixo]})))))) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-12 09:24:20,739 INFO  [org.saiku.service.olap.OlapQueryService] runId:166	Size: 3/6	Execute:	13ms	Format:	1ms	 Total: 14ms
+2015-02-12 09:24:21,964 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/ROWS/dimension/Measures/member/[Measures].[Famílias que Tem Coleta de Lixo]	DELETE
+2015-02-12 09:24:21,964 DEBUG [org.saiku.service.olap.OlapQueryService] query: CC184622-9107-A23D-8CEF-B60B6AF70057 remove:MEMBER 2
+2015-02-12 09:24:21,985 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/resultflattened	GET
+2015-02-12 09:24:21,985 INFO  [org.saiku.service.olap.OlapQueryService] runId:167	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[SANTA ROSA DOS PRETOS]})} ON COLUMNS,
+NON EMPTY Hierarchize(Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias com Energia Elétrica]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[• Taxa de Famílias com Água Canalizada]}), CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Taxa de Famílias que Tem Coleta de Lixo]}))))) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-12 09:24:21,997 INFO  [org.saiku.service.olap.OlapQueryService] runId:167	Size: 3/5	Execute:	12ms	Format:	0ms	 Total: 12ms
+2015-02-12 09:24:45,399 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/ROWS/dimension/Measures/member/[Measures].[Média das Rendas Médias]	POST
+2015-02-12 09:24:45,400 DEBUG [org.saiku.service.olap.OlapQueryService] move query: CC184622-9107-A23D-8CEF-B60B6AF70057 dimension Measures to axis ROWS  position1
+2015-02-12 09:24:45,421 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/resultflattened	GET
+2015-02-12 09:24:45,422 INFO  [org.saiku.service.olap.OlapQueryService] runId:168	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[SANTA ROSA DOS PRETOS]})} ON COLUMNS,
+NON EMPTY Hierarchize(Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias com Energia Elétrica]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[• Taxa de Famílias com Água Canalizada]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Taxa de Famílias que Tem Coleta de Lixo]}), CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Média das Rendas Médias]})))))) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-12 09:24:45,635 INFO  [org.saiku.service.olap.OlapQueryService] runId:168	Size: 3/6	Execute:	214ms	Format:	0ms	 Total: 214ms
+2015-02-12 09:24:56,326 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/result/metadata/dimensions/Comunidade/hierarchies/[Comunidade]/levels/[Comunidade].[Comunidade]	GET
+2015-02-12 09:24:56,327 DEBUG [org.saiku.service.olap.OlapQueryService] Found hierarchy in the result: [Comunidade]
+2015-02-12 09:24:56,327 DEBUG [org.saiku.service.olap.OlapQueryService] Found members in the result: 1
+2015-02-12 09:24:56,549 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/COLUMNS/dimension/Comunidade	GET
+2015-02-12 09:25:01,741 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/COLUMNS/dimension/Comunidade	PUT	
+2015-02-12 09:25:01,749 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/COLUMNS/dimension/Comunidade	GET
+2015-02-12 09:25:01,804 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/resultflattened	GET
+2015-02-12 09:25:01,804 INFO  [org.saiku.service.olap.OlapQueryService] runId:169	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({{[Comunidade].[SANTA ROSA DOS PRETOS], [Comunidade].[NARCISA]}})} ON COLUMNS,
+NON EMPTY Hierarchize(Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias com Energia Elétrica]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[• Taxa de Famílias com Água Canalizada]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Taxa de Famílias que Tem Coleta de Lixo]}), CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Média das Rendas Médias]})))))) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-12 09:25:01,910 INFO  [org.saiku.service.olap.OlapQueryService] runId:169	Size: 3/6	Execute:	105ms	Format:	1ms	 Total: 106ms
+2015-02-12 09:25:03,846 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/result/metadata/dimensions/Comunidade/hierarchies/[Comunidade]/levels/[Comunidade].[Comunidade]	GET
+2015-02-12 09:25:03,846 DEBUG [org.saiku.service.olap.OlapQueryService] Found hierarchy in the result: [Comunidade]
+2015-02-12 09:25:03,846 DEBUG [org.saiku.service.olap.OlapQueryService] Found members in the result: 1
+2015-02-12 09:25:04,252 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/COLUMNS/dimension/Comunidade	GET
+2015-02-12 09:25:15,856 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/COLUMNS/dimension/Comunidade	PUT	
+2015-02-12 09:25:15,863 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/COLUMNS/dimension/Comunidade	GET
+2015-02-12 09:25:15,949 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/resultflattened	GET
+2015-02-12 09:25:15,949 INFO  [org.saiku.service.olap.OlapQueryService] runId:170	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({{[Comunidade].[SANTA ROSA DOS PRETOS], [Comunidade].[NARCISA], [Comunidade].[BACABAL]}})} ON COLUMNS,
+NON EMPTY Hierarchize(Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias com Energia Elétrica]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[• Taxa de Famílias com Água Canalizada]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Taxa de Famílias que Tem Coleta de Lixo]}), CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Média das Rendas Médias]})))))) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-12 09:25:16,054 INFO  [org.saiku.service.olap.OlapQueryService] runId:170	Size: 4/6	Execute:	105ms	Format:	0ms	 Total: 105ms
+2015-02-12 09:25:28,535 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/result/metadata/dimensions/Comunidade/hierarchies/[Comunidade]/levels/[Comunidade].[Comunidade]	GET
+2015-02-12 09:25:28,535 DEBUG [org.saiku.service.olap.OlapQueryService] Found hierarchy in the result: [Comunidade]
+2015-02-12 09:25:28,535 DEBUG [org.saiku.service.olap.OlapQueryService] Found members in the result: 2
+2015-02-12 09:25:28,632 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/COLUMNS/dimension/Comunidade	GET
+2015-02-12 09:25:38,845 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/COLUMNS/dimension/Comunidade	PUT	
+2015-02-12 09:25:38,858 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/COLUMNS/dimension/Comunidade	GET
+2015-02-12 09:25:38,929 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/resultflattened	GET
+2015-02-12 09:25:38,930 INFO  [org.saiku.service.olap.OlapQueryService] runId:171	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({{[Comunidade].[SANTA ROSA DOS PRETOS], [Comunidade].[NARCISA], [Comunidade].[BACABAL], [Comunidade].[ALTO ALEGRE], [Comunidade].[BASE]}})} ON COLUMNS,
+NON EMPTY Hierarchize(Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias com Energia Elétrica]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[• Taxa de Famílias com Água Canalizada]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Taxa de Famílias que Tem Coleta de Lixo]}), CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Média das Rendas Médias]})))))) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-12 09:25:39,037 INFO  [org.saiku.service.olap.OlapQueryService] runId:171	Size: 6/6	Execute:	108ms	Format:	0ms	 Total: 108ms
+2015-02-12 09:25:50,293 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/result/metadata/dimensions/Comunidade/hierarchies/[Comunidade]/levels/[Comunidade].[Comunidade]	GET
+2015-02-12 09:25:50,294 DEBUG [org.saiku.service.olap.OlapQueryService] Found hierarchy in the result: [Comunidade]
+2015-02-12 09:25:50,294 DEBUG [org.saiku.service.olap.OlapQueryService] Found members in the result: 4
+2015-02-12 09:25:50,414 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/COLUMNS/dimension/Comunidade	GET
+2015-02-12 09:26:40,619 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/COLUMNS/dimension/Comunidade	PUT	
+2015-02-12 09:26:40,646 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/COLUMNS/dimension/Comunidade	GET
+2015-02-12 09:26:40,721 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/resultflattened	GET
+2015-02-12 09:26:40,722 INFO  [org.saiku.service.olap.OlapQueryService] runId:172	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({{[Comunidade].[SANTA ROSA DOS PRETOS], [Comunidade].[NARCISA], [Comunidade].[BACABAL], [Comunidade].[ALTO ALEGRE], [Comunidade].[BASE], [Comunidade].[TIJUAÇU], [Comunidade].[VELAME], [Comunidade].[CABRAL], [Comunidade].[SACOPÃ], [Comunidade].[CHARCO], [Comunidade].[SANTANA III]}})} ON COLUMNS,
+NON EMPTY Hierarchize(Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias com Energia Elétrica]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[• Taxa de Famílias com Água Canalizada]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Taxa de Famílias que Tem Coleta de Lixo]}), CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Média das Rendas Médias]})))))) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-12 09:26:40,838 INFO  [org.saiku.service.olap.OlapQueryService] runId:172	Size: 12/6	Execute:	116ms	Format:	1ms	 Total: 117ms
+2015-02-12 09:30:04,419 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/ROWS/dimension/Measures/member/[Measures].[Famílias com Energia Elétrica]	DELETE
+2015-02-12 09:30:04,420 DEBUG [org.saiku.service.olap.OlapQueryService] query: CC184622-9107-A23D-8CEF-B60B6AF70057 remove:MEMBER 2
+2015-02-12 09:30:04,448 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/resultflattened	GET
+2015-02-12 09:30:04,449 INFO  [org.saiku.service.olap.OlapQueryService] runId:173	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({{[Comunidade].[SANTA ROSA DOS PRETOS], [Comunidade].[NARCISA], [Comunidade].[BACABAL], [Comunidade].[ALTO ALEGRE], [Comunidade].[BASE], [Comunidade].[TIJUAÇU], [Comunidade].[VELAME], [Comunidade].[CABRAL], [Comunidade].[SACOPÃ], [Comunidade].[CHARCO], [Comunidade].[SANTANA III]}})} ON COLUMNS,
+NON EMPTY Hierarchize(Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[• Taxa de Famílias com Água Canalizada]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Taxa de Famílias que Tem Coleta de Lixo]}), CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Média das Rendas Médias]}))))) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-12 09:30:04,465 INFO  [org.saiku.service.olap.OlapQueryService] runId:173	Size: 12/5	Execute:	16ms	Format:	1ms	 Total: 17ms
+2015-02-12 09:30:06,814 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/ROWS/dimension/Measures/member/[Measures].[Taxa de Famílias com Energia Elétrica]	POST
+2015-02-12 09:30:06,815 DEBUG [org.saiku.service.olap.OlapQueryService] move query: CC184622-9107-A23D-8CEF-B60B6AF70057 dimension Measures to axis ROWS  position1
+2015-02-12 09:30:06,835 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/resultflattened	GET
+2015-02-12 09:30:06,835 INFO  [org.saiku.service.olap.OlapQueryService] runId:174	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({{[Comunidade].[SANTA ROSA DOS PRETOS], [Comunidade].[NARCISA], [Comunidade].[BACABAL], [Comunidade].[ALTO ALEGRE], [Comunidade].[BASE], [Comunidade].[TIJUAÇU], [Comunidade].[VELAME], [Comunidade].[CABRAL], [Comunidade].[SACOPÃ], [Comunidade].[CHARCO], [Comunidade].[SANTANA III]}})} ON COLUMNS,
+NON EMPTY Hierarchize(Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[• Taxa de Famílias com Água Canalizada]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Taxa de Famílias que Tem Coleta de Lixo]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Média das Rendas Médias]}), CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Taxa de Famílias com Energia Elétrica]})))))) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-12 09:30:06,854 INFO  [org.saiku.service.olap.OlapQueryService] runId:174	Size: 12/6	Execute:	18ms	Format:	1ms	 Total: 19ms
+2015-02-12 09:33:16,175 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/axis/COLUMNS/dimension/Local de Domicílio/hierarchy/[Local de Domicílio]/[Local de Domicílio].[Município]	POST
+2015-02-12 09:33:16,175 DEBUG [org.saiku.service.olap.OlapQueryService] move query: CC184622-9107-A23D-8CEF-B60B6AF70057 dimension Local de Domicílio to axis COLUMNS  position1
+2015-02-12 09:33:16,204 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC184622-9107-A23D-8CEF-B60B6AF70057/resultflattened	GET
+2015-02-12 09:33:16,205 INFO  [org.saiku.service.olap.OlapQueryService] runId:175	Type:QM:
+SELECT
+NON EMPTY Hierarchize(Union(CrossJoin({[Comunidade].[SANTA ROSA DOS PRETOS]}, [Local de Domicílio].[Município].Members), Union(CrossJoin({[Comunidade].[NARCISA]}, [Local de Domicílio].[Município].Members), Union(CrossJoin({[Comunidade].[BACABAL]}, [Local de Domicílio].[Município].Members), Union(CrossJoin({[Comunidade].[ALTO ALEGRE]}, [Local de Domicílio].[Município].Members), Union(CrossJoin({[Comunidade].[BASE]}, [Local de Domicílio].[Município].Members), Union(CrossJoin({[Comunidade].[TIJUAÇU]}, [Local de Domicílio].[Município].Members), Union(CrossJoin({[Comunidade].[VELAME]}, [Local de Domicílio].[Município].Members), Union(CrossJoin({[Comunidade].[CABRAL]}, [Local de Domicílio].[Município].Members), Union(CrossJoin({[Comunidade].[SACOPÃ]}, [Local de Domicílio].[Município].Members), Union(CrossJoin({[Comunidade].[CHARCO]}, [Local de Domicílio].[Município].Members), CrossJoin({[Comunidade].[SANTANA III]}, [Local de Domicílio].[Município].Members)))))))))))) ON COLUMNS,
+NON EMPTY Hierarchize(Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Famílias]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[• Taxa de Famílias com Água Canalizada]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Taxa de Famílias que Tem Coleta de Lixo]}), Union(CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Média das Rendas Médias]}), CrossJoin({[Ⓣ Período].[2014].[1]}, {[Measures].[Taxa de Famílias com Energia Elétrica]})))))) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-12 09:33:22,199 INFO  [org.saiku.service.olap.OlapQueryService] runId:175	Size: 14/7	Execute:	5994ms	Format:	1ms	 Total: 5995ms
+2015-02-12 15:17:30,740 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-02-12 15:17:34,920 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DA65FE6B-40FA-804A-8113-A36A43F81E94	POST	 xml:false
+2015-02-12 15:17:37,769 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DA65FE6B-40FA-804A-8113-A36A43F81E94/axis/COLUMNS/dimension/Ⓣ Período/hierarchy/[Ⓣ Período]/[Ⓣ Período].[Mês]	POST
+2015-02-12 15:17:37,769 DEBUG [org.saiku.service.olap.OlapQueryService] move query: DA65FE6B-40FA-804A-8113-A36A43F81E94 dimension Ⓣ Período to axis COLUMNS  position0
+2015-02-12 15:17:38,824 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DA65FE6B-40FA-804A-8113-A36A43F81E94/result/metadata/dimensions/Ⓣ Período/hierarchies/[Ⓣ Período]/levels/[Ⓣ Período].[Mês]	GET
+2015-02-12 15:17:39,866 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DA65FE6B-40FA-804A-8113-A36A43F81E94/axis/COLUMNS/dimension/Ⓣ Período	GET
+2015-02-12 15:17:42,547 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DA65FE6B-40FA-804A-8113-A36A43F81E94/axis/COLUMNS/dimension/Ⓣ Período	PUT	
+2015-02-12 15:17:43,155 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DA65FE6B-40FA-804A-8113-A36A43F81E94/axis/COLUMNS/dimension/Ⓣ Período	GET
+2015-02-12 15:17:48,055 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DA65FE6B-40FA-804A-8113-A36A43F81E94/axis/ROWS/dimension/Measures/member/[Measures].[Famílias]	POST
+2015-02-12 15:17:48,055 DEBUG [org.saiku.service.olap.OlapQueryService] move query: DA65FE6B-40FA-804A-8113-A36A43F81E94 dimension Measures to axis ROWS  position0
+2015-02-12 15:17:48,081 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DA65FE6B-40FA-804A-8113-A36A43F81E94/resultflattened	GET
+2015-02-12 15:17:48,081 INFO  [org.saiku.service.olap.OlapQueryService] runId:176	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Ⓣ Período].[2014].[1]})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [Hist. PBQ CadUnico (Pessoas Quilombolas)]
+2015-02-12 15:17:49,704 INFO  [org.saiku.service.olap.OlapQueryService] runId:176	Size: 2/2	Execute:	1622ms	Format:	1ms	 Total: 1623ms
+2015-02-12 15:18:21,478 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DA65FE6B-40FA-804A-8113-A36A43F81E94	DELETE
+2015-02-12 15:18:21,529 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/36758742-BD79-A2BB-8D4C-08CE2FDB335E	POST	 xml:false
+2015-02-12 15:18:39,925 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/2F406E0C-121C-BD91-993E-84F5B42E3882	POST	 xml:false
+2015-02-12 15:18:39,993 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/36758742-BD79-A2BB-8D4C-08CE2FDB335E	DELETE
+2015-02-12 15:18:43,640 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/2F406E0C-121C-BD91-993E-84F5B42E3882/axis/COLUMNS/dimension/Ⓣ Período/hierarchy/[Ⓣ Período]/[Ⓣ Período].[Mês]	POST
+2015-02-12 15:18:43,640 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 2F406E0C-121C-BD91-993E-84F5B42E3882 dimension Ⓣ Período to axis COLUMNS  position0
+2015-02-12 15:18:44,865 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/2F406E0C-121C-BD91-993E-84F5B42E3882/result/metadata/dimensions/Ⓣ Período/hierarchies/[Ⓣ Período]/levels/[Ⓣ Período].[Mês]	GET
+2015-02-12 15:18:45,010 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/2F406E0C-121C-BD91-993E-84F5B42E3882/axis/COLUMNS/dimension/Ⓣ Período	GET
+2015-02-12 15:18:47,427 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/2F406E0C-121C-BD91-993E-84F5B42E3882/axis/COLUMNS/dimension/Ⓣ Período	PUT	
+2015-02-12 15:18:47,564 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/2F406E0C-121C-BD91-993E-84F5B42E3882/axis/COLUMNS/dimension/Ⓣ Período	GET
+2015-02-12 15:18:58,386 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/2F406E0C-121C-BD91-993E-84F5B42E3882/axis/ROWS/dimension/Comunidade/hierarchy/[Comunidade]/[Comunidade].[Comunidade]	POST
+2015-02-12 15:18:58,386 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 2F406E0C-121C-BD91-993E-84F5B42E3882 dimension Comunidade to axis ROWS  position0
+2015-02-12 15:18:58,485 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/2F406E0C-121C-BD91-993E-84F5B42E3882/resultflattened	GET
+2015-02-12 15:18:58,485 INFO  [org.saiku.service.olap.OlapQueryService] runId:177	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Ⓣ Período].[2014].[1]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Comunidade].[Comunidade].Members})} ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-12 15:18:58,526 INFO  [org.saiku.service.olap.OlapQueryService] runId:177	Size: 2/1435	Execute:	32ms	Format:	9ms	 Total: 41ms
+2015-02-12 15:24:08,337 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/2F406E0C-121C-BD91-993E-84F5B42E3882/axis/COLUMNS/dimension/Comunidade	GET
+2015-02-12 15:24:13,993 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/2F406E0C-121C-BD91-993E-84F5B42E3882/axis/ROWS/dimension/Local de Domicílio/hierarchy/[Local de Domicílio]/[Local de Domicílio].[UF]	POST
+2015-02-12 15:24:13,993 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 2F406E0C-121C-BD91-993E-84F5B42E3882 dimension Local de Domicílio to axis ROWS  position1
+2015-02-12 15:24:14,100 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/2F406E0C-121C-BD91-993E-84F5B42E3882/resultflattened	GET
+2015-02-12 15:24:14,100 INFO  [org.saiku.service.olap.OlapQueryService] runId:178	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Ⓣ Período].[2014].[1]})} ON COLUMNS,
+NON EMPTY CrossJoin([Comunidade].[Comunidade].Members, [Local de Domicílio].[UF].Members) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-12 15:24:18,539 INFO  [org.saiku.service.olap.OlapQueryService] runId:178	Size: 3/1435	Execute:	4424ms	Format:	15ms	 Total: 4439ms
+2015-02-12 15:24:24,022 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/2F406E0C-121C-BD91-993E-84F5B42E3882/axis/ROWS/dimension/Local de Domicílio/hierarchy/[Local de Domicílio]/[Local de Domicílio].[Município]	POST
+2015-02-12 15:24:24,022 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 2F406E0C-121C-BD91-993E-84F5B42E3882 dimension Local de Domicílio to axis ROWS  position1
+2015-02-12 15:24:24,160 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/2F406E0C-121C-BD91-993E-84F5B42E3882/resultflattened	GET
+2015-02-12 15:24:24,160 INFO  [org.saiku.service.olap.OlapQueryService] runId:179	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Ⓣ Período].[2014].[1]})} ON COLUMNS,
+NON EMPTY Hierarchize(Union(CrossJoin([Comunidade].[Comunidade].Members, [Local de Domicílio].[UF].Members), CrossJoin([Comunidade].[Comunidade].Members, [Local de Domicílio].[Município].Members))) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-12 15:24:35,034 INFO  [org.saiku.service.olap.OlapQueryService] runId:179	Size: 4/1452	Execute:	10737ms	Format:	137ms	 Total: 10874ms

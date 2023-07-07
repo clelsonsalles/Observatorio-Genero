@@ -1,0 +1,102 @@
+Dez 23, 2014 12:59:44 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 12:59:53 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: restart: Reloading web application '/paineis'
+Dez 23, 2014 12:59:56 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 12:59:58 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: start: Starting web application '/dataseppir-admin'
+Dez 23, 2014 1:00:01 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:03:11 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: restart: Reloading web application '/paineis'
+Dez 23, 2014 1:03:14 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:12:29 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: restart: Reloading web application '/paineis'
+Dez 23, 2014 1:12:32 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:28:25 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: start: Starting web application '/dataseppir-admin'
+Dez 23, 2014 1:28:27 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:30:33 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: undeploy: Undeploying web application at '/dataseppir-admin'
+Dez 23, 2014 1:30:33 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:31:22 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: undeploy: Undeploying web application at '/dataseppir-admin'
+Dez 23, 2014 1:31:24 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:31:36 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:31:38 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:32:01 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:32:36 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:32:44 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: start: Starting web application '/dataseppir-admin'
+Dez 23, 2014 1:32:46 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:32:52 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: undeploy: Undeploying web application at '/dataseppir-admin'
+Dez 23, 2014 1:32:52 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:32:56 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:33:28 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:33:31 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: restart: Reloading web application '/dataseppir-admin'
+Dez 23, 2014 1:33:34 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:33:40 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: start: Starting web application '/dataseppir-admin'
+Dez 23, 2014 1:33:42 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:34:12 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: start: Starting web application '/dataseppir-admin'
+Dez 23, 2014 1:34:15 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:34:16 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: start: Starting web application '/dataseppir-admin'
+Dez 23, 2014 1:34:19 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:34:46 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: start: Starting web application '/dataseppir-admin'
+Dez 23, 2014 1:34:48 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:35:21 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:35:23 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:35:25 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:35:26 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:35:28 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:36:05 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:36:09 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: start: Starting web application '/dataseppir-admin'
+Dez 23, 2014 1:36:12 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:36:32 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:36:46 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:36:51 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'null' for web application '/dataseppir-admin'
+Dez 23, 2014 1:36:57 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'refreshSessions' for web application '/dataseppir-admin'
+Dez 23, 2014 1:36:59 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'null' for web application '/dataseppir-admin'
+Dez 23, 2014 1:37:02 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 23, 2014 1:37:04 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'null' for web application '/paineis'
+Dez 23, 2014 1:37:20 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'

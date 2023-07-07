@@ -1,0 +1,50 @@
+
+
+.chart-container {
+	float: left;
+	margin: 2px;
+}
+
+.chart-title {
+	clear:both;
+	margin-top: 0px;
+	margin-bottom: 2px;
+	padding-top: 4px;
+	padding-left: 5px;
+	padding-bottom: 4px;
+ 
+}
+.chart-footer {
+	clear:both;
+	margin-top: 0px;
+	margin-bottom: 2px;
+	padding-top: 4px;
+	padding-left: 5px;
+	padding-bottom: 4px;	 
+}
+
+.htmlBox { 
+	clear: both;
+	text-align: center;
+}
+.symbolBox {
+	float: left;
+}
+.valueBox {
+	padding: 10px;
+}
+
+.table-header-title, .table-column {
+	float: left;
+}
+
+.table-chart-contents {	
+	margin: 0px;
+	padding: 0px;
+}
+.table-chart-contents li {
+	list-style-type: none;
+	height: 16px;
+	margin: 0px;
+	padding: 0px;
+}

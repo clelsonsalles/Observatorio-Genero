@@ -1,0 +1,891 @@
+2015-01-28 08:40:09,295 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-01-28 08:40:35,779 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/70399DA2-13C8-DF98-B3B4-8FD296057959	POST	 xml:false
+2015-01-28 08:40:51,970 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/70399DA2-13C8-DF98-B3B4-8FD296057959	DELETE
+2015-01-28 08:40:52,257 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/50D86A40-0F88-8591-AA92-9EB5B43344EA	POST	 xml:false
+2015-01-28 08:41:06,876 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/50D86A40-0F88-8591-AA92-9EB5B43344EA	DELETE
+2015-01-28 08:41:06,897 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7	POST	 xml:false
+2015-01-28 08:41:14,281 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/axis/COLUMNS/dimension/Causa (CID10)/hierarchy/[Causa (CID10)]/[Causa (CID10)].[Causa]	POST
+2015-01-28 08:41:14,282 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 87E11F57-20FA-0AE1-A686-6F3834D3A8F7 dimension Causa (CID10) to axis COLUMNS  position0
+2015-01-28 08:41:21,749 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/axis/ROWS/dimension/Idade/hierarchy/[Idade]/[Idade].[Idade]	POST
+2015-01-28 08:41:21,749 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 87E11F57-20FA-0AE1-A686-6F3834D3A8F7 dimension Idade to axis ROWS  position0
+2015-01-28 08:41:21,816 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/resultflattened	GET
+2015-01-28 08:41:21,817 INFO  [org.saiku.service.olap.OlapQueryService] runId:70	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Causa (CID10)].[Causa].Members})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Idade].[Idade].Members})} ON ROWS
+FROM [MS SIM]
+2015-01-28 08:41:24,936 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/result	DELETE
+2015-01-28 08:41:24,940 INFO  [org.saiku.service.olap.OlapQueryService] runId:70	Exception: OlapException: Query canceled
+2015-01-28 08:41:24,940 ERROR [org.saiku.web.rest.resources.QueryResource] Cannot execute query (87E11F57-20FA-0AE1-A686-6F3834D3A8F7)
+org.saiku.service.util.exception.SaikuServiceException: runId:70	Can't execute query: 87E11F57-20FA-0AE1-A686-6F3834D3A8F7
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:253)
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:207)
+	at org.saiku.web.rest.resources.QueryResource.execute(QueryResource.java:717)
+	at org.saiku.web.rest.resources.QueryResource$$FastClassByCGLIB$$e130f1a0.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:617)
+	at org.saiku.web.rest.resources.QueryResource$$EnhancerByCGLIB$$e19ca8a4.execute(<generated>)
+	at sun.reflect.GeneratedMethodAccessor312.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at org.codehaus.enunciate.modules.jersey.EnunciateJerseyServletContainer.service(EnunciateJerseyServletContainer.java:248)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.codehaus.enunciate.webapp.HTTPRequestContextFilter.doFilter(HTTPRequestContextFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:343)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:97)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:78)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:35)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilter(BasicAuthenticationFilter.java:177)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:187)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:79)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:149)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.olap4j.OlapException: Query canceled
+	at mondrian.olap4j.MondrianOlap4jConnection$Helper.createException(MondrianOlap4jConnection.java:781)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQueryInternal(MondrianOlap4jStatement.java:417)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQuery(MondrianOlap4jStatement.java:347)
+	at org.saiku.olap.query.OlapQuery.execute(OlapQuery.java:260)
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:233)
+	... 73 more
+2015-01-28 08:41:28,031 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/axis/ROWS/dimension/Measures/member/[Measures].[Óbitos]	POST
+2015-01-28 08:41:28,032 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 87E11F57-20FA-0AE1-A686-6F3834D3A8F7 dimension Measures to axis ROWS  position1
+2015-01-28 08:41:28,082 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/resultflattened	GET
+2015-01-28 08:41:28,082 INFO  [org.saiku.service.olap.OlapQueryService] runId:71	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Causa (CID10)].[Causa].Members})} ON COLUMNS,
+NON EMPTY CrossJoin([Idade].[Idade].Members, {[Measures].[Óbitos]}) ON ROWS
+FROM [MS SIM]
+2015-01-28 08:44:50,193 INFO  [org.saiku.service.olap.OlapQueryService] runId:71	Size: 5487/122	Execute:	199584ms	Format:	2527ms	 Total: 202111ms
+2015-01-28 08:55:16,662 DEBUG [org.saiku.web.rest.resources.SessionResource] Error logging in:admin
+java.lang.RuntimeException: Authentication failed for: admin
+	at org.saiku.web.service.SessionService.authenticate(SessionService.java:158)
+	at org.saiku.web.service.SessionService.login(SessionService.java:70)
+	at org.saiku.web.rest.resources.SessionResource.login(SessionResource.java:61)
+	at org.saiku.web.rest.resources.SessionResource$$FastClassByCGLIB$$1d4f2aee.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:617)
+	at org.saiku.web.rest.resources.SessionResource$$EnhancerByCGLIB$$59d938fe.login(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at org.codehaus.enunciate.modules.jersey.EnunciateJerseyServletContainer.service(EnunciateJerseyServletContainer.java:248)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.codehaus.enunciate.webapp.HTTPRequestContextFilter.doFilter(HTTPRequestContextFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:343)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:97)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:78)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:35)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilter(BasicAuthenticationFilter.java:177)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:187)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:79)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:149)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.additionalAuthenticationChecks(DaoAuthenticationProvider.java:67)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:139)
+	at org.springframework.security.authentication.ProviderManager.doAuthentication(ProviderManager.java:130)
+	at org.springframework.security.authentication.AbstractAuthenticationManager.authenticate(AbstractAuthenticationManager.java:48)
+	at org.saiku.web.service.SessionService.authenticate(SessionService.java:153)
+	... 73 more
+2015-01-28 08:55:38,237 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-01-28 08:55:49,799 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC07F739-55B0-1175-954C-21DF0C292FF4	POST	 xml:false
+2015-01-28 08:55:58,648 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC07F739-55B0-1175-954C-21DF0C292FF4/axis/COLUMNS/dimension/Measures/member/[Measures].[Comunidades]	POST
+2015-01-28 08:55:58,648 DEBUG [org.saiku.service.olap.OlapQueryService] move query: CC07F739-55B0-1175-954C-21DF0C292FF4 dimension Measures to axis COLUMNS  position0
+2015-01-28 08:56:02,636 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC07F739-55B0-1175-954C-21DF0C292FF4/axis/ROWS/dimension/Localização/hierarchy/[Localização]/[Localização].[Município]	POST
+2015-01-28 08:56:02,636 DEBUG [org.saiku.service.olap.OlapQueryService] move query: CC07F739-55B0-1175-954C-21DF0C292FF4 dimension Localização to axis ROWS  position0
+2015-01-28 08:56:02,807 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC07F739-55B0-1175-954C-21DF0C292FF4/resultflattened	GET
+2015-01-28 08:56:02,808 INFO  [org.saiku.service.olap.OlapQueryService] runId:72	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Comunidades]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Localização].[Município].Members})} ON ROWS
+FROM [PBQ Dados Integrados]
+2015-01-28 08:56:03,263 INFO  [org.saiku.service.olap.OlapQueryService] runId:72	Size: 2/765	Execute:	444ms	Format:	12ms	 Total: 456ms
+2015-01-28 08:56:04,121 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC07F739-55B0-1175-954C-21DF0C292FF4/result/metadata/dimensions/Localização/hierarchies/[Localização]/levels/[Localização].[Município]	GET
+2015-01-28 08:56:04,121 DEBUG [org.saiku.service.olap.OlapQueryService] Found hierarchy in the result: [Localização]
+2015-01-28 08:56:04,139 DEBUG [org.saiku.service.olap.OlapQueryService] Found members in the result: 764
+2015-01-28 08:56:04,998 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC07F739-55B0-1175-954C-21DF0C292FF4/axis/ROWS/dimension/Localização	GET
+2015-01-28 08:56:06,207 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/result	DELETE
+2015-01-28 08:56:19,300 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/axis/COLUMNS/dimension/Local de Domicílio/hierarchy/[Local de Domicílio]/[Local de Domicílio].[Município]	POST
+2015-01-28 08:56:19,300 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 87E11F57-20FA-0AE1-A686-6F3834D3A8F7 dimension Local de Domicílio to axis COLUMNS  position1
+2015-01-28 08:56:19,529 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/resultflattened	GET
+2015-01-28 08:56:19,529 INFO  [org.saiku.service.olap.OlapQueryService] runId:73	Type:QM:
+SELECT
+NON EMPTY CrossJoin([Causa (CID10)].[Causa].Members, [Local de Domicílio].[Município].Members) ON COLUMNS,
+NON EMPTY CrossJoin([Idade].[Idade].Members, {[Measures].[Óbitos]}) ON ROWS
+FROM [MS SIM]
+2015-01-28 08:56:20,004 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/axis/COLUMNS/dimension/Idade	POST
+2015-01-28 08:56:20,004 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 87E11F57-20FA-0AE1-A686-6F3834D3A8F7 dimension Idade to axis COLUMNS  position1
+2015-01-28 08:56:20,079 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/resultflattened	GET
+2015-01-28 08:56:20,079 INFO  [org.saiku.service.olap.OlapQueryService] runId:74	Type:QM:
+SELECT
+NON EMPTY CrossJoin([Causa (CID10)].[Causa].Members, CrossJoin([Idade].[Idade].Members, [Local de Domicílio].[Município].Members)) ON COLUMNS,
+NON EMPTY {[Measures].[Óbitos]} ON ROWS
+FROM [MS SIM]
+2015-01-28 08:56:21,354 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/result	DELETE
+2015-01-28 08:56:21,360 INFO  [org.saiku.service.olap.OlapQueryService] runId:74	Exception: OlapException: Query canceled
+2015-01-28 08:56:21,360 ERROR [org.saiku.web.rest.resources.QueryResource] Cannot execute query (87E11F57-20FA-0AE1-A686-6F3834D3A8F7)
+org.saiku.service.util.exception.SaikuServiceException: runId:74	Can't execute query: 87E11F57-20FA-0AE1-A686-6F3834D3A8F7
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:253)
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:207)
+	at org.saiku.web.rest.resources.QueryResource.execute(QueryResource.java:717)
+	at org.saiku.web.rest.resources.QueryResource$$FastClassByCGLIB$$e130f1a0.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:617)
+	at org.saiku.web.rest.resources.QueryResource$$EnhancerByCGLIB$$e19ca8a4.execute(<generated>)
+	at sun.reflect.GeneratedMethodAccessor312.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at org.codehaus.enunciate.modules.jersey.EnunciateJerseyServletContainer.service(EnunciateJerseyServletContainer.java:248)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.codehaus.enunciate.webapp.HTTPRequestContextFilter.doFilter(HTTPRequestContextFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:343)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:97)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:78)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:35)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilter(BasicAuthenticationFilter.java:177)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:187)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:79)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:149)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.olap4j.OlapException: Query canceled
+	at mondrian.olap4j.MondrianOlap4jConnection$Helper.createException(MondrianOlap4jConnection.java:781)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQueryInternal(MondrianOlap4jStatement.java:417)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQuery(MondrianOlap4jStatement.java:347)
+	at org.saiku.olap.query.OlapQuery.execute(OlapQuery.java:260)
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:233)
+	... 73 more
+2015-01-28 08:56:23,193 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/axis/FILTER/dimension/Local de Domicílio	POST
+2015-01-28 08:56:23,193 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 87E11F57-20FA-0AE1-A686-6F3834D3A8F7 dimension Local de Domicílio to axis FILTER  position0
+2015-01-28 08:56:23,290 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/resultflattened	GET
+2015-01-28 08:56:23,291 INFO  [org.saiku.service.olap.OlapQueryService] runId:75	Type:QM:
+SELECT
+NON EMPTY CrossJoin([Causa (CID10)].[Causa].Members, [Idade].[Idade].Members) ON COLUMNS,
+NON EMPTY {[Measures].[Óbitos]} ON ROWS
+FROM [MS SIM]
+WHERE {[Local de Domicílio].[Município].Members}
+2015-01-28 08:56:26,222 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/result	DELETE
+2015-01-28 08:56:26,483 INFO  [org.saiku.service.olap.OlapQueryService] runId:75	Exception: OlapException: Query canceled
+2015-01-28 08:56:26,483 ERROR [org.saiku.web.rest.resources.QueryResource] Cannot execute query (87E11F57-20FA-0AE1-A686-6F3834D3A8F7)
+org.saiku.service.util.exception.SaikuServiceException: runId:75	Can't execute query: 87E11F57-20FA-0AE1-A686-6F3834D3A8F7
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:253)
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:207)
+	at org.saiku.web.rest.resources.QueryResource.execute(QueryResource.java:717)
+	at org.saiku.web.rest.resources.QueryResource$$FastClassByCGLIB$$e130f1a0.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:617)
+	at org.saiku.web.rest.resources.QueryResource$$EnhancerByCGLIB$$e19ca8a4.execute(<generated>)
+	at sun.reflect.GeneratedMethodAccessor312.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at org.codehaus.enunciate.modules.jersey.EnunciateJerseyServletContainer.service(EnunciateJerseyServletContainer.java:248)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.codehaus.enunciate.webapp.HTTPRequestContextFilter.doFilter(HTTPRequestContextFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:343)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:97)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:78)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:35)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilter(BasicAuthenticationFilter.java:177)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:187)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:79)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:149)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.olap4j.OlapException: Query canceled
+	at mondrian.olap4j.MondrianOlap4jConnection$Helper.createException(MondrianOlap4jConnection.java:781)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQueryInternal(MondrianOlap4jStatement.java:417)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQuery(MondrianOlap4jStatement.java:347)
+	at org.saiku.olap.query.OlapQuery.execute(OlapQuery.java:260)
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:233)
+	... 73 more
+2015-01-28 08:56:27,919 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/result/metadata/dimensions/Local de Domicílio/hierarchies/[Local de Domicílio]/levels/[Local de Domicílio].[Município]	GET
+2015-01-28 08:56:28,375 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/axis/FILTER/dimension/Local de Domicílio	GET
+2015-01-28 08:56:29,195 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC07F739-55B0-1175-954C-21DF0C292FF4/axis/ROWS/dimension/Localização	PUT	
+2015-01-28 08:56:29,214 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC07F739-55B0-1175-954C-21DF0C292FF4/axis/ROWS/dimension/Localização	GET
+2015-01-28 08:56:29,622 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CC07F739-55B0-1175-954C-21DF0C292FF4/resultflattened	GET
+2015-01-28 08:56:29,622 INFO  [org.saiku.service.olap.OlapQueryService] runId:76	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Comunidades]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Localização].[Norte].[Tocantins].[Oriental do Tocantins].[Dianópolis].[Paranã]})} ON ROWS
+FROM [PBQ Dados Integrados]
+2015-01-28 08:56:29,627 INFO  [org.saiku.service.olap.OlapQueryService] runId:76	Size: 2/2	Execute:	4ms	Format:	1ms	 Total: 5ms
+2015-01-28 08:56:42,537 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/axis/FILTER/dimension/Local de Domicílio	PUT	
+2015-01-28 08:56:42,556 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/axis/FILTER/dimension/Local de Domicílio	GET
+2015-01-28 08:56:42,932 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/resultflattened	GET
+2015-01-28 08:56:42,933 INFO  [org.saiku.service.olap.OlapQueryService] runId:77	Type:QM:
+SELECT
+NON EMPTY CrossJoin([Causa (CID10)].[Causa].Members, [Idade].[Idade].Members) ON COLUMNS,
+NON EMPTY {[Measures].[Óbitos]} ON ROWS
+FROM [MS SIM]
+WHERE {[Local de Domicílio].[Nordeste].[Maranhão].[Norte Maranhense].[Litoral Ocidental Maranhense].[Alcântara]}
+2015-01-28 08:56:46,059 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/result	DELETE
+2015-01-28 08:56:46,064 INFO  [org.saiku.service.olap.OlapQueryService] runId:77	Exception: OlapException: Query canceled
+2015-01-28 08:56:46,064 ERROR [org.saiku.web.rest.resources.QueryResource] Cannot execute query (87E11F57-20FA-0AE1-A686-6F3834D3A8F7)
+org.saiku.service.util.exception.SaikuServiceException: runId:77	Can't execute query: 87E11F57-20FA-0AE1-A686-6F3834D3A8F7
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:253)
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:207)
+	at org.saiku.web.rest.resources.QueryResource.execute(QueryResource.java:717)
+	at org.saiku.web.rest.resources.QueryResource$$FastClassByCGLIB$$e130f1a0.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:617)
+	at org.saiku.web.rest.resources.QueryResource$$EnhancerByCGLIB$$e19ca8a4.execute(<generated>)
+	at sun.reflect.GeneratedMethodAccessor312.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at org.codehaus.enunciate.modules.jersey.EnunciateJerseyServletContainer.service(EnunciateJerseyServletContainer.java:248)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.codehaus.enunciate.webapp.HTTPRequestContextFilter.doFilter(HTTPRequestContextFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:343)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:97)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:78)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:35)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilter(BasicAuthenticationFilter.java:177)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:187)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:79)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:149)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.olap4j.OlapException: Query canceled
+	at mondrian.olap4j.MondrianOlap4jConnection$Helper.createException(MondrianOlap4jConnection.java:781)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQueryInternal(MondrianOlap4jStatement.java:417)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQuery(MondrianOlap4jStatement.java:347)
+	at org.saiku.olap.query.OlapQuery.execute(OlapQuery.java:260)
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:233)
+	... 73 more
+2015-01-28 08:56:47,479 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/axis/COLUMNS/dimension/Local de Domicílio	POST
+2015-01-28 08:56:47,479 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 87E11F57-20FA-0AE1-A686-6F3834D3A8F7 dimension Local de Domicílio to axis COLUMNS  position2
+2015-01-28 08:56:47,548 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/resultflattened	GET
+2015-01-28 08:56:47,549 INFO  [org.saiku.service.olap.OlapQueryService] runId:78	Type:QM:
+SELECT
+NON EMPTY CrossJoin([Causa (CID10)].[Causa].Members, CrossJoin([Idade].[Idade].Members, {[Local de Domicílio].[Nordeste].[Maranhão].[Norte Maranhense].[Litoral Ocidental Maranhense].[Alcântara]})) ON COLUMNS,
+NON EMPTY {[Measures].[Óbitos]} ON ROWS
+FROM [MS SIM]
+2015-01-28 08:56:51,222 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/result	DELETE
+2015-01-28 08:56:51,227 INFO  [org.saiku.service.olap.OlapQueryService] runId:78	Exception: OlapException: Query canceled
+2015-01-28 08:56:51,228 ERROR [org.saiku.web.rest.resources.QueryResource] Cannot execute query (87E11F57-20FA-0AE1-A686-6F3834D3A8F7)
+org.saiku.service.util.exception.SaikuServiceException: runId:78	Can't execute query: 87E11F57-20FA-0AE1-A686-6F3834D3A8F7
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:253)
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:207)
+	at org.saiku.web.rest.resources.QueryResource.execute(QueryResource.java:717)
+	at org.saiku.web.rest.resources.QueryResource$$FastClassByCGLIB$$e130f1a0.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:617)
+	at org.saiku.web.rest.resources.QueryResource$$EnhancerByCGLIB$$e19ca8a4.execute(<generated>)
+	at sun.reflect.GeneratedMethodAccessor312.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at org.codehaus.enunciate.modules.jersey.EnunciateJerseyServletContainer.service(EnunciateJerseyServletContainer.java:248)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.codehaus.enunciate.webapp.HTTPRequestContextFilter.doFilter(HTTPRequestContextFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:343)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:97)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:78)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:35)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilter(BasicAuthenticationFilter.java:177)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:187)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:79)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:149)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.olap4j.OlapException: Query canceled
+	at mondrian.olap4j.MondrianOlap4jConnection$Helper.createException(MondrianOlap4jConnection.java:781)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQueryInternal(MondrianOlap4jStatement.java:417)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQuery(MondrianOlap4jStatement.java:347)
+	at org.saiku.olap.query.OlapQuery.execute(OlapQuery.java:260)
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:233)
+	... 73 more
+2015-01-28 08:56:53,228 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/axis/COLUMNS/dimension/Idade/hierarchy/[Idade]/[Idade].[Idade]	DELETE
+2015-01-28 08:56:53,228 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 87E11F57-20FA-0AE1-A686-6F3834D3A8F7 dimension Idade to axis UNUSED  position-1
+2015-01-28 08:56:53,285 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/resultflattened	GET
+2015-01-28 08:56:53,285 INFO  [org.saiku.service.olap.OlapQueryService] runId:79	Type:QM:
+SELECT
+NON EMPTY CrossJoin([Causa (CID10)].[Causa].Members, {[Local de Domicílio].[Nordeste].[Maranhão].[Norte Maranhense].[Litoral Ocidental Maranhense].[Alcântara]}) ON COLUMNS,
+NON EMPTY {[Measures].[Óbitos]} ON ROWS
+FROM [MS SIM]
+2015-01-28 08:56:54,652 INFO  [org.saiku.service.olap.OlapQueryService] runId:79	Size: 47/3	Execute:	1366ms	Format:	1ms	 Total: 1367ms
+2015-01-28 08:57:12,396 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/axis/COLUMNS/dimension/Measures	POST
+2015-01-28 08:57:12,396 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 87E11F57-20FA-0AE1-A686-6F3834D3A8F7 dimension Measures to axis COLUMNS  position1
+2015-01-28 08:57:13,506 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/axis/ROWS/dimension/Local de Domicílio	POST
+2015-01-28 08:57:13,506 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 87E11F57-20FA-0AE1-A686-6F3834D3A8F7 dimension Local de Domicílio to axis ROWS  position0
+2015-01-28 08:57:13,670 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/resultflattened	GET
+2015-01-28 08:57:13,670 INFO  [org.saiku.service.olap.OlapQueryService] runId:80	Type:QM:
+SELECT
+NON EMPTY CrossJoin([Causa (CID10)].[Causa].Members, {[Measures].[Óbitos]}) ON COLUMNS,
+NON EMPTY {Hierarchize({[Local de Domicílio].[Nordeste].[Maranhão].[Norte Maranhense].[Litoral Ocidental Maranhense].[Alcântara]})} ON ROWS
+FROM [MS SIM]
+2015-01-28 08:57:16,293 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/result	DELETE
+2015-01-28 08:57:16,300 INFO  [org.saiku.service.olap.OlapQueryService] runId:80	Exception: OlapException: Query canceled
+2015-01-28 08:57:16,300 ERROR [org.saiku.web.rest.resources.QueryResource] Cannot execute query (87E11F57-20FA-0AE1-A686-6F3834D3A8F7)
+org.saiku.service.util.exception.SaikuServiceException: runId:80	Can't execute query: 87E11F57-20FA-0AE1-A686-6F3834D3A8F7
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:253)
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:207)
+	at org.saiku.web.rest.resources.QueryResource.execute(QueryResource.java:717)
+	at org.saiku.web.rest.resources.QueryResource$$FastClassByCGLIB$$e130f1a0.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:617)
+	at org.saiku.web.rest.resources.QueryResource$$EnhancerByCGLIB$$e19ca8a4.execute(<generated>)
+	at sun.reflect.GeneratedMethodAccessor312.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at org.codehaus.enunciate.modules.jersey.EnunciateJerseyServletContainer.service(EnunciateJerseyServletContainer.java:248)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.codehaus.enunciate.webapp.HTTPRequestContextFilter.doFilter(HTTPRequestContextFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:343)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:97)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:78)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:35)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilter(BasicAuthenticationFilter.java:177)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:187)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:79)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:149)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.olap4j.OlapException: Query canceled
+	at mondrian.olap4j.MondrianOlap4jConnection$Helper.createException(MondrianOlap4jConnection.java:781)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQueryInternal(MondrianOlap4jStatement.java:417)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQuery(MondrianOlap4jStatement.java:347)
+	at org.saiku.olap.query.OlapQuery.execute(OlapQuery.java:260)
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:233)
+	... 73 more
+2015-01-28 08:57:18,365 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/axis/ROWS/dimension/Causa (CID10)	POST
+2015-01-28 08:57:18,365 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 87E11F57-20FA-0AE1-A686-6F3834D3A8F7 dimension Causa (CID10) to axis ROWS  position1
+2015-01-28 08:57:18,483 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7/resultflattened	GET
+2015-01-28 08:57:18,483 INFO  [org.saiku.service.olap.OlapQueryService] runId:81	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Óbitos]} ON COLUMNS,
+NON EMPTY CrossJoin({[Local de Domicílio].[Nordeste].[Maranhão].[Norte Maranhense].[Litoral Ocidental Maranhense].[Alcântara]}, [Causa (CID10)].[Causa].Members) ON ROWS
+FROM [MS SIM]
+2015-01-28 08:57:19,061 INFO  [org.saiku.service.olap.OlapQueryService] runId:81	Size: 3/47	Execute:	577ms	Format:	1ms	 Total: 578ms
+2015-01-28 08:58:02,673 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/87E11F57-20FA-0AE1-A686-6F3834D3A8F7	DELETE
+2015-01-28 08:58:02,694 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937	POST	 xml:false
+2015-01-28 08:58:11,500 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/axis/COLUMNS/dimension/Local de Domicílio/hierarchy/[Local de Domicílio]/[Local de Domicílio].[Município]	POST
+2015-01-28 08:58:11,500 DEBUG [org.saiku.service.olap.OlapQueryService] move query: AA01BA9C-ADBE-25B1-B69D-03898262D937 dimension Local de Domicílio to axis COLUMNS  position0
+2015-01-28 08:58:13,875 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/axis/COLUMNS/sort/BASC/[Local de Domicílio].CurrentMember.Name	POST
+2015-01-28 08:58:14,466 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/result/metadata/dimensions/Local de Domicílio/hierarchies/[Local de Domicílio]/levels/[Local de Domicílio].[Município]	GET
+2015-01-28 08:58:15,206 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/axis/COLUMNS/dimension/Local de Domicílio	GET
+2015-01-28 08:58:22,766 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/axis/COLUMNS/dimension/Local de Domicílio	PUT	
+2015-01-28 08:58:22,785 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/axis/COLUMNS/dimension/Local de Domicílio	GET
+2015-01-28 08:58:38,310 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/axis/ROWS/dimension/Measures/member/[Measures].[Óbitos de Jovens]	POST
+2015-01-28 08:58:38,310 DEBUG [org.saiku.service.olap.OlapQueryService] move query: AA01BA9C-ADBE-25B1-B69D-03898262D937 dimension Measures to axis ROWS  position0
+2015-01-28 08:58:38,360 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/resultflattened	GET
+2015-01-28 08:58:38,372 INFO  [org.saiku.service.olap.OlapQueryService] runId:82	Type:QM:
+SELECT
+NON EMPTY Order({Hierarchize({[Local de Domicílio].[Nordeste].[Maranhão].[Norte Maranhense].[Litoral Ocidental Maranhense].[Alcântara]})}, [Local de Domicílio].CurrentMember.Name, BASC) ON COLUMNS,
+NON EMPTY {[Measures].[Óbitos de Jovens]} ON ROWS
+FROM [Hist. MS SIM - Homicidios]
+2015-01-28 08:58:38,552 INFO  [org.saiku.service.olap.OlapQueryService] runId:82	Size: 2/2	Execute:	191ms	Format:	1ms	 Total: 192ms
+2015-01-28 08:58:45,225 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/axis/COLUMNS/dimension/Ⓣ Ano/hierarchy/[Ⓣ Ano]/[Ⓣ Ano].[Ano ]	POST
+2015-01-28 08:58:45,225 DEBUG [org.saiku.service.olap.OlapQueryService] move query: AA01BA9C-ADBE-25B1-B69D-03898262D937 dimension Ⓣ Ano to axis COLUMNS  position1
+2015-01-28 08:58:45,335 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/resultflattened	GET
+2015-01-28 08:58:45,335 INFO  [org.saiku.service.olap.OlapQueryService] runId:83	Type:QM:
+SELECT
+NON EMPTY Order(CrossJoin({[Local de Domicílio].[Nordeste].[Maranhão].[Norte Maranhense].[Litoral Ocidental Maranhense].[Alcântara]}, [Ⓣ Ano].[Ano ].Members), [Local de Domicílio].CurrentMember.Name, BASC) ON COLUMNS,
+NON EMPTY {[Measures].[Óbitos de Jovens]} ON ROWS
+FROM [Hist. MS SIM - Homicidios]
+2015-01-28 08:58:45,737 INFO  [org.saiku.service.olap.OlapQueryService] runId:83	Size: 9/3	Execute:	402ms	Format:	0ms	 Total: 402ms
+2015-01-28 08:59:05,825 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/axis/ROWS/dimension/Measures/member/[Measures].[Óbitos]	POST
+2015-01-28 08:59:05,825 DEBUG [org.saiku.service.olap.OlapQueryService] move query: AA01BA9C-ADBE-25B1-B69D-03898262D937 dimension Measures to axis ROWS  position0
+2015-01-28 08:59:05,891 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/resultflattened	GET
+2015-01-28 08:59:05,891 INFO  [org.saiku.service.olap.OlapQueryService] runId:84	Type:QM:
+SELECT
+NON EMPTY Order(CrossJoin({[Local de Domicílio].[Nordeste].[Maranhão].[Norte Maranhense].[Litoral Ocidental Maranhense].[Alcântara]}, [Ⓣ Ano].[Ano ].Members), [Local de Domicílio].CurrentMember.Name, BASC) ON COLUMNS,
+NON EMPTY {[Measures].[Óbitos de Jovens], [Measures].[Óbitos]} ON ROWS
+FROM [Hist. MS SIM - Homicidios]
+2015-01-28 08:59:06,041 INFO  [org.saiku.service.olap.OlapQueryService] runId:84	Size: 9/4	Execute:	149ms	Format:	1ms	 Total: 150ms
+2015-01-28 08:59:24,106 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/axis/COLUMNS/dimension/Causa (CID10)/hierarchy/[Causa (CID10)]/[Causa (CID10)].[Causa]	POST
+2015-01-28 08:59:24,106 DEBUG [org.saiku.service.olap.OlapQueryService] move query: AA01BA9C-ADBE-25B1-B69D-03898262D937 dimension Causa (CID10) to axis COLUMNS  position2
+2015-01-28 08:59:24,173 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/resultflattened	GET
+2015-01-28 08:59:24,173 INFO  [org.saiku.service.olap.OlapQueryService] runId:85	Type:QM:
+SELECT
+NON EMPTY Order(CrossJoin({[Local de Domicílio].[Nordeste].[Maranhão].[Norte Maranhense].[Litoral Ocidental Maranhense].[Alcântara]}, CrossJoin([Ⓣ Ano].[Ano ].Members, [Causa (CID10)].[Causa].Members)), [Local de Domicílio].CurrentMember.Name, BASC) ON COLUMNS,
+NON EMPTY {[Measures].[Óbitos de Jovens], [Measures].[Óbitos]} ON ROWS
+FROM [Hist. MS SIM - Homicidios]
+2015-01-28 08:59:24,511 INFO  [org.saiku.service.olap.OlapQueryService] runId:85	Size: 14/5	Execute:	337ms	Format:	1ms	 Total: 338ms
+2015-01-28 08:59:29,085 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/axis/ROWS/dimension/Causa (CID10)	POST
+2015-01-28 08:59:29,085 DEBUG [org.saiku.service.olap.OlapQueryService] move query: AA01BA9C-ADBE-25B1-B69D-03898262D937 dimension Causa (CID10) to axis ROWS  position1
+2015-01-28 08:59:29,236 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/resultflattened	GET
+2015-01-28 08:59:29,236 INFO  [org.saiku.service.olap.OlapQueryService] runId:86	Type:QM:
+SELECT
+NON EMPTY Order(CrossJoin({[Local de Domicílio].[Nordeste].[Maranhão].[Norte Maranhense].[Litoral Ocidental Maranhense].[Alcântara]}, [Ⓣ Ano].[Ano ].Members), [Local de Domicílio].CurrentMember.Name, BASC) ON COLUMNS,
+NON EMPTY Hierarchize(Union(CrossJoin({[Measures].[Óbitos de Jovens]}, [Causa (CID10)].[Causa].Members), CrossJoin({[Measures].[Óbitos]}, [Causa (CID10)].[Causa].Members))) ON ROWS
+FROM [Hist. MS SIM - Homicidios]
+2015-01-28 08:59:33,710 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/result	DELETE
+2015-01-28 08:59:33,719 INFO  [org.saiku.service.olap.OlapQueryService] runId:86	Exception: OlapException: Query canceled
+2015-01-28 08:59:33,719 ERROR [org.saiku.web.rest.resources.QueryResource] Cannot execute query (AA01BA9C-ADBE-25B1-B69D-03898262D937)
+org.saiku.service.util.exception.SaikuServiceException: runId:86	Can't execute query: AA01BA9C-ADBE-25B1-B69D-03898262D937
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:253)
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:207)
+	at org.saiku.web.rest.resources.QueryResource.execute(QueryResource.java:717)
+	at org.saiku.web.rest.resources.QueryResource$$FastClassByCGLIB$$e130f1a0.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:617)
+	at org.saiku.web.rest.resources.QueryResource$$EnhancerByCGLIB$$e19ca8a4.execute(<generated>)
+	at sun.reflect.GeneratedMethodAccessor312.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at org.codehaus.enunciate.modules.jersey.EnunciateJerseyServletContainer.service(EnunciateJerseyServletContainer.java:248)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.codehaus.enunciate.webapp.HTTPRequestContextFilter.doFilter(HTTPRequestContextFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:343)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:97)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:78)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:35)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilter(BasicAuthenticationFilter.java:177)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:187)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:79)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:149)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.olap4j.OlapException: Query canceled
+	at mondrian.olap4j.MondrianOlap4jConnection$Helper.createException(MondrianOlap4jConnection.java:781)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQueryInternal(MondrianOlap4jStatement.java:417)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQuery(MondrianOlap4jStatement.java:347)
+	at org.saiku.olap.query.OlapQuery.execute(OlapQuery.java:260)
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:233)
+	... 73 more
+2015-01-28 08:59:35,924 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/axis/COLUMNS/dimension/Causa (CID10)	POST
+2015-01-28 08:59:35,924 DEBUG [org.saiku.service.olap.OlapQueryService] move query: AA01BA9C-ADBE-25B1-B69D-03898262D937 dimension Causa (CID10) to axis COLUMNS  position1
+2015-01-28 08:59:35,978 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/resultflattened	GET
+2015-01-28 08:59:35,979 INFO  [org.saiku.service.olap.OlapQueryService] runId:87	Type:QM:
+SELECT
+NON EMPTY Order(CrossJoin({[Local de Domicílio].[Nordeste].[Maranhão].[Norte Maranhense].[Litoral Ocidental Maranhense].[Alcântara]}, CrossJoin([Causa (CID10)].[Causa].Members, [Ⓣ Ano].[Ano ].Members)), [Local de Domicílio].CurrentMember.Name, BASC) ON COLUMNS,
+NON EMPTY {[Measures].[Óbitos de Jovens], [Measures].[Óbitos]} ON ROWS
+FROM [Hist. MS SIM - Homicidios]
+2015-01-28 08:59:36,134 INFO  [org.saiku.service.olap.OlapQueryService] runId:87	Size: 14/5	Execute:	156ms	Format:	0ms	 Total: 156ms
+2015-01-28 08:59:39,680 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/axis/COLUMNS/dimension/Causa (CID10)	POST
+2015-01-28 08:59:39,680 DEBUG [org.saiku.service.olap.OlapQueryService] move query: AA01BA9C-ADBE-25B1-B69D-03898262D937 dimension Causa (CID10) to axis COLUMNS  position1
+2015-01-28 08:59:39,758 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/resultflattened	GET
+2015-01-28 08:59:39,807 INFO  [org.saiku.service.olap.OlapQueryService] runId:88	Type:QM:
+SELECT
+NON EMPTY Order(CrossJoin({[Local de Domicílio].[Nordeste].[Maranhão].[Norte Maranhense].[Litoral Ocidental Maranhense].[Alcântara]}, CrossJoin([Causa (CID10)].[Causa].Members, [Ⓣ Ano].[Ano ].Members)), [Local de Domicílio].CurrentMember.Name, BASC) ON COLUMNS,
+NON EMPTY {[Measures].[Óbitos de Jovens], [Measures].[Óbitos]} ON ROWS
+FROM [Hist. MS SIM - Homicidios]
+2015-01-28 08:59:39,813 INFO  [org.saiku.service.olap.OlapQueryService] runId:88	Size: 14/5	Execute:	54ms	Format:	1ms	 Total: 55ms
+2015-01-28 08:59:42,551 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/axis/COLUMNS/dimension/Ⓣ Ano	POST
+2015-01-28 08:59:42,551 DEBUG [org.saiku.service.olap.OlapQueryService] move query: AA01BA9C-ADBE-25B1-B69D-03898262D937 dimension Ⓣ Ano to axis COLUMNS  position1
+2015-01-28 08:59:42,612 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/resultflattened	GET
+2015-01-28 08:59:42,612 INFO  [org.saiku.service.olap.OlapQueryService] runId:89	Type:QM:
+SELECT
+NON EMPTY Order(CrossJoin({[Local de Domicílio].[Nordeste].[Maranhão].[Norte Maranhense].[Litoral Ocidental Maranhense].[Alcântara]}, CrossJoin([Ⓣ Ano].[Ano ].Members, [Causa (CID10)].[Causa].Members)), [Local de Domicílio].CurrentMember.Name, BASC) ON COLUMNS,
+NON EMPTY {[Measures].[Óbitos de Jovens], [Measures].[Óbitos]} ON ROWS
+FROM [Hist. MS SIM - Homicidios]
+2015-01-28 08:59:42,619 INFO  [org.saiku.service.olap.OlapQueryService] runId:89	Size: 14/5	Execute:	6ms	Format:	1ms	 Total: 7ms
+2015-01-28 08:59:51,990 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/axis/COLUMNS/dimension/Causa (CID10)	POST
+2015-01-28 08:59:51,990 DEBUG [org.saiku.service.olap.OlapQueryService] move query: AA01BA9C-ADBE-25B1-B69D-03898262D937 dimension Causa (CID10) to axis COLUMNS  position1
+2015-01-28 08:59:52,073 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA01BA9C-ADBE-25B1-B69D-03898262D937/resultflattened	GET
+2015-01-28 08:59:52,073 INFO  [org.saiku.service.olap.OlapQueryService] runId:90	Type:QM:
+SELECT
+NON EMPTY Order(CrossJoin({[Local de Domicílio].[Nordeste].[Maranhão].[Norte Maranhense].[Litoral Ocidental Maranhense].[Alcântara]}, CrossJoin([Causa (CID10)].[Causa].Members, [Ⓣ Ano].[Ano ].Members)), [Local de Domicílio].CurrentMember.Name, BASC) ON COLUMNS,
+NON EMPTY {[Measures].[Óbitos de Jovens], [Measures].[Óbitos]} ON ROWS
+FROM [Hist. MS SIM - Homicidios]
+2015-01-28 08:59:52,080 INFO  [org.saiku.service.olap.OlapQueryService] runId:90	Size: 14/5	Execute:	6ms	Format:	1ms	 Total: 7ms

@@ -1,0 +1,72 @@
+2015-07-09 16:30:45,415 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-07-09 16:31:18,257 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/79D2D8A0-A514-E127-8549-23BE29DFB70A	POST	 xml:false
+2015-07-09 16:31:53,337 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/79D2D8A0-A514-E127-8549-23BE29DFB70A/axis/COLUMNS/dimension/RaçaCor/hierarchy/[RaçaCor]/[RaçaCor].[Raça]	POST
+2015-07-09 16:31:53,338 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 79D2D8A0-A514-E127-8549-23BE29DFB70A dimension RaçaCor to axis COLUMNS  position0
+2015-07-09 16:31:55,794 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/79D2D8A0-A514-E127-8549-23BE29DFB70A/axis/ROWS/dimension/Measures/member/[Measures].[Pessoas]	POST
+2015-07-09 16:31:55,794 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 79D2D8A0-A514-E127-8549-23BE29DFB70A dimension Measures to axis ROWS  position0
+2015-07-09 16:31:55,874 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/79D2D8A0-A514-E127-8549-23BE29DFB70A/resultflattened	GET
+2015-07-09 16:31:55,874 INFO  [org.saiku.service.olap.OlapQueryService] runId:11	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[RaçaCor].[Raça].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Pessoas]} ON ROWS
+FROM [MDS CadUnico (Pessoas)]
+2015-07-09 16:32:26,039 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/3537AAC4-7AEE-4A1E-92ED-824FD319390F	POST	 xml:false
+2015-07-09 16:32:30,529 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/3537AAC4-7AEE-4A1E-92ED-824FD319390F/axis/COLUMNS/dimension/Measures/member/[Measures].[Pessoas]	POST
+2015-07-09 16:32:30,529 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 3537AAC4-7AEE-4A1E-92ED-824FD319390F dimension Measures to axis COLUMNS  position0
+2015-07-09 16:32:31,800 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/3537AAC4-7AEE-4A1E-92ED-824FD319390F/axis/ROWS/dimension/Measures	POST
+2015-07-09 16:32:31,800 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 3537AAC4-7AEE-4A1E-92ED-824FD319390F dimension Measures to axis ROWS  position0
+2015-07-09 16:32:33,570 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/3537AAC4-7AEE-4A1E-92ED-824FD319390F/axis/COLUMNS/dimension/Measures	POST
+2015-07-09 16:32:33,570 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 3537AAC4-7AEE-4A1E-92ED-824FD319390F dimension Measures to axis COLUMNS  position0
+2015-07-09 16:32:38,207 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/3537AAC4-7AEE-4A1E-92ED-824FD319390F/axis/ROWS/dimension/Local de Domicílio/hierarchy/[Local de Domicílio]/[Local de Domicílio].[Município]	POST
+2015-07-09 16:32:38,208 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 3537AAC4-7AEE-4A1E-92ED-824FD319390F dimension Local de Domicílio to axis ROWS  position0
+2015-07-09 16:32:38,386 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/3537AAC4-7AEE-4A1E-92ED-824FD319390F/resultflattened	GET
+2015-07-09 16:32:38,386 INFO  [org.saiku.service.olap.OlapQueryService] runId:12	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Pessoas]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Local de Domicílio].[Município].Members})} ON ROWS
+FROM [PBQ CadUnico (Pessoas Quilombolas)]
+2015-07-09 16:32:40,391 INFO  [org.saiku.service.olap.OlapQueryService] runId:12	Size: 0/0	Execute:	2005ms	Format:	0ms	 Total: 2005ms
+2015-07-09 16:32:43,828 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/3537AAC4-7AEE-4A1E-92ED-824FD319390F/axis/COLUMNS/dimension/Local de Domicílio	POST
+2015-07-09 16:32:43,828 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 3537AAC4-7AEE-4A1E-92ED-824FD319390F dimension Local de Domicílio to axis COLUMNS  position0
+2015-07-09 16:32:44,603 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/3537AAC4-7AEE-4A1E-92ED-824FD319390F/axis/ROWS/dimension/Measures	POST
+2015-07-09 16:32:44,603 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 3537AAC4-7AEE-4A1E-92ED-824FD319390F dimension Measures to axis ROWS  position0
+2015-07-09 16:32:44,705 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/3537AAC4-7AEE-4A1E-92ED-824FD319390F/resultflattened	GET
+2015-07-09 16:32:44,706 INFO  [org.saiku.service.olap.OlapQueryService] runId:13	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Domicílio].[Município].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Pessoas]} ON ROWS
+FROM [PBQ CadUnico (Pessoas Quilombolas)]
+2015-07-09 16:32:44,768 INFO  [org.saiku.service.olap.OlapQueryService] runId:13	Size: 0/0	Execute:	63ms	Format:	0ms	 Total: 63ms
+2015-07-09 16:32:48,997 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/3537AAC4-7AEE-4A1E-92ED-824FD319390F/axis/ROWS/dimension/Local de Domicílio/hierarchy/[Local de Domicílio]/[Local de Domicílio].[Microrregião]	POST
+2015-07-09 16:32:48,997 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 3537AAC4-7AEE-4A1E-92ED-824FD319390F dimension Local de Domicílio to axis ROWS  position1
+2015-07-09 16:32:50,908 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/3537AAC4-7AEE-4A1E-92ED-824FD319390F/axis/COLUMNS/dimension/Local de Domicílio	POST
+2015-07-09 16:32:50,908 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 3537AAC4-7AEE-4A1E-92ED-824FD319390F dimension Local de Domicílio to axis COLUMNS  position0
+2015-07-09 16:32:51,070 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/3537AAC4-7AEE-4A1E-92ED-824FD319390F/resultflattened	GET
+2015-07-09 16:32:51,072 INFO  [org.saiku.service.olap.OlapQueryService] runId:14	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({{[Local de Domicílio].[Microrregião].Members}, {[Local de Domicílio].[Município].Members}})} ON COLUMNS,
+NON EMPTY {[Measures].[Pessoas]} ON ROWS
+FROM [PBQ CadUnico (Pessoas Quilombolas)]
+2015-07-09 16:32:51,547 INFO  [org.saiku.service.olap.OlapQueryService] runId:14	Size: 0/0	Execute:	477ms	Format:	0ms	 Total: 477ms
+2015-07-09 16:32:53,181 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/3537AAC4-7AEE-4A1E-92ED-824FD319390F/axis/ROWS/dimension/Local de Domicílio	POST
+2015-07-09 16:32:53,181 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 3537AAC4-7AEE-4A1E-92ED-824FD319390F dimension Local de Domicílio to axis ROWS  position1
+2015-07-09 16:32:55,318 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/3537AAC4-7AEE-4A1E-92ED-824FD319390F/axis/ROWS/dimension/Local de Domicílio/hierarchy/[Local de Domicílio]/[Local de Domicílio].[Microrregião]	DELETE
+2015-07-09 16:32:56,343 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/3537AAC4-7AEE-4A1E-92ED-824FD319390F/axis/ROWS/dimension/Local de Domicílio/hierarchy/[Local de Domicílio]/[Local de Domicílio].[Município]	DELETE
+2015-07-09 16:32:56,344 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 3537AAC4-7AEE-4A1E-92ED-824FD319390F dimension Local de Domicílio to axis UNUSED  position-1
+2015-07-09 16:32:58,567 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/3537AAC4-7AEE-4A1E-92ED-824FD319390F/axis/COLUMNS/dimension/Measures	POST
+2015-07-09 16:32:58,567 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 3537AAC4-7AEE-4A1E-92ED-824FD319390F dimension Measures to axis COLUMNS  position0
+2015-07-09 16:33:03,124 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/3537AAC4-7AEE-4A1E-92ED-824FD319390F	DELETE
+2015-07-09 16:33:03,144 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F71656C6-A47B-2D78-9F11-6A9EECF4A078	POST	 xml:false
+2015-07-09 16:33:10,877 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F71656C6-A47B-2D78-9F11-6A9EECF4A078/axis/COLUMNS/dimension/Sexo/hierarchy/[Sexo]/[Sexo].[Sexo]	POST
+2015-07-09 16:33:10,877 DEBUG [org.saiku.service.olap.OlapQueryService] move query: F71656C6-A47B-2D78-9F11-6A9EECF4A078 dimension Sexo to axis COLUMNS  position0
+2015-07-09 16:33:12,890 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F71656C6-A47B-2D78-9F11-6A9EECF4A078/axis/ROWS/dimension/Measures/member/[Measures].[Pessoas]	POST
+2015-07-09 16:33:12,891 DEBUG [org.saiku.service.olap.OlapQueryService] move query: F71656C6-A47B-2D78-9F11-6A9EECF4A078 dimension Measures to axis ROWS  position0
+2015-07-09 16:33:12,953 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F71656C6-A47B-2D78-9F11-6A9EECF4A078/resultflattened	GET
+2015-07-09 16:33:12,953 INFO  [org.saiku.service.olap.OlapQueryService] runId:15	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Sexo].[Sexo].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Pessoas]} ON ROWS
+FROM [MTE RAIS]
+2015-07-09 16:39:35,292 INFO  [org.saiku.service.olap.OlapQueryService] runId:15	Size: 3/2	Execute:	382318ms	Format:	21ms	 Total: 382339ms
+2015-07-09 16:39:51,978 INFO  [org.saiku.service.olap.OlapQueryService] runId:11	Size: 0/0	Execute:	476104ms	Format:	0ms	 Total: 476104ms
+2015-07-09 17:54:44,256 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]

@@ -1,0 +1,15 @@
+2015-04-24 15:27:24,101 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-04-24 15:27:42,875 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/A34A6211-F18E-1F98-9533-3169907B7459	POST	 xml:false
+2015-04-24 15:27:47,743 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/A34A6211-F18E-1F98-9533-3169907B7459/axis/COLUMNS/dimension/Banheiro/hierarchy/[Banheiro]/[Banheiro].[Banheiro]	POST
+2015-04-24 15:27:47,744 DEBUG [org.saiku.service.olap.OlapQueryService] move query: A34A6211-F18E-1F98-9533-3169907B7459 dimension Banheiro to axis COLUMNS  position0
+2015-04-24 15:28:50,989 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/A34A6211-F18E-1F98-9533-3169907B7459/axis/COLUMNS/dimension/Banheiro/hierarchy/[Banheiro]/[Banheiro].[Banheiro]	DELETE
+2015-04-24 15:28:50,989 DEBUG [org.saiku.service.olap.OlapQueryService] move query: A34A6211-F18E-1F98-9533-3169907B7459 dimension Banheiro to axis UNUSED  position-1
+2015-04-24 15:28:58,366 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA63BC82-8FE7-B53D-B86E-5F3E9841B403	POST	 xml:false
+2015-04-24 15:28:58,382 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/A34A6211-F18E-1F98-9533-3169907B7459	DELETE
+2015-04-24 15:29:09,182 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AA63BC82-8FE7-B53D-B86E-5F3E9841B403	DELETE
+2015-04-24 15:29:09,187 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/580D9CDA-0E89-5109-A67B-F9A23FCC2F38	POST	 xml:false
+2015-04-24 15:30:09,437 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/580D9CDA-0E89-5109-A67B-F9A23FCC2F38/axis/COLUMNS/dimension/Modalidade de Ensino/hierarchy/[Modalidade de Ensino]/[Modalidade de Ensino].[Todas]	POST
+2015-04-24 15:30:09,438 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 580D9CDA-0E89-5109-A67B-F9A23FCC2F38 dimension Modalidade de Ensino to axis COLUMNS  position0
+2015-04-24 15:30:12,940 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/580D9CDA-0E89-5109-A67B-F9A23FCC2F38/axis/COLUMNS/sort/BASC/[Modalidade de Ensino].CurrentMember.Name	POST
+2015-04-24 15:32:45,819 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/580D9CDA-0E89-5109-A67B-F9A23FCC2F38	DELETE
+2015-04-24 15:32:46,186 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/21DB56D6-696B-6C42-8C2F-2DA2469E752E	POST	 xml:false

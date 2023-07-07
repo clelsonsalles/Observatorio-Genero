@@ -1,0 +1,269 @@
+<html>
+<head>
+ <title>Detalhamento</title>
+ 
+   <link rel="stylesheet" href="js/lib/recline/vendor/bootstrap/2.3.2/css/bootstrap.css" />
+ <link rel="stylesheet" href="js/lib/recline/vendor/leaflet/0.7.3/leaflet.css">
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="js/lib/recline/vendor/leaflet/0.7.3/leaflet.ie.css" />
+  <![endif]-->
+  <link rel="stylesheet" href="js/lib/recline/vendor/leaflet.markercluster/MarkerCluster.css">
+  <link rel="stylesheet" href="js/lib/recline/vendor/leaflet.markercluster/MarkerCluster.Default.css">
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="js/lib/recline/vendor/leaflet.markercluster/MarkerCluster.Default.ie.css" />
+  <![endif]-->
+  <link rel="stylesheet" href="js/lib/recline/vendor/slickgrid/2.0.1/slick.grid.css">
+  <link rel="stylesheet" href="js/lib/recline/vendor/timeline/css/timeline.css">
+
+  <!-- Recline CSS components -->
+  <link rel="stylesheet" href="js/lib/recline/css/grid.css">
+  <link rel="stylesheet" href="js/lib/recline/css/slickgrid.css">
+  <link rel="stylesheet" href="js/lib/recline/css/flot.css">
+  <link rel="stylesheet" href="js/lib/recline/css/map.css">
+  <link rel="stylesheet" href="js/lib/recline/css/multiview.css">
+  <link rel="stylesheet" href="js/lib/recline/css/timeline.css">
+  <!-- /Recline CSS components -->
+
+  <!-- 3rd party JS libraries -->
+  <!--script type="text/javascript" src="js/lib/recline/vendor/jquery/1.7.1/jquery.js"></script-->
+  <script src="js/lib/recline/vendor/slickgrid/2.0.1/jquery-1.7.min.js"></script>
+  <script type="text/javascript" src="js/lib/recline/vendor/underscore/1.4.4/underscore.js"></script>
+  <script type="text/javascript" src="js/lib/recline/vendor/backbone/1.0.0/backbone.js"></script>
+  <script type="text/javascript" src="js/lib/recline/vendor/mustache/0.5.0-dev/mustache.js"></script>
+  <script type="text/javascript" src="js/lib/recline/vendor/bootstrap/2.3.2/bootstrap.js"></script>
+    <!--[if lte IE 8]>
+  <script language="javascript" type="text/javascript" src="js/lib/recline/vendor/flot/excanvas.min.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="js/lib/recline/vendor/flot/jquery.flot.js"></script>
+  <script type="text/javascript" src="js/lib/recline/vendor/flot/jquery.flot.time.js"></script>
+  <script type="text/javascript" src="js/lib/recline/vendor/leaflet/0.7.3/leaflet.js"></script>
+  <script type="text/javascript" src="js/lib/recline/vendor/leaflet.markercluster/leaflet.markercluster.js"></script>
+  <script type="text/javascript" src="js/lib/recline/vendor/slickgrid/2.0.1/jquery-ui-1.8.16.custom.min.js"></script>
+  <script src="js/lib/recline/vendor/slickgrid/2.0.1/jquery.event.drag-2.2.js"></script>
+  <script src="js/lib/recline/vendor/slickgrid/2.0.1/jquery.event.drop-2.2.js"></script>
+
+  <script type="text/javascript" src="js/lib/recline/vendor/slickgrid/2.0.1/jquery.event.drag-2.0.min.js"></script>
+  <!--script type="text/javascript" src="js/lib/recline/vendor/slickgrid/2.0.1/slick.grid.min.js"></script-->
+  <script type="text/javascript" src="js/lib/recline/vendor/slickgrid/2.0.1/slick.core.js"></script>
+  <script type="text/javascript" src="js/lib/recline/vendor/slickgrid/2.0.1/slick.formatters.js"></script>
+  <script type="text/javascript" src="js/lib/recline/vendor/slickgrid/2.0.1/slick.editors.js"></script>
+  <script type="text/javascript" src="js/lib/recline/vendor/slickgrid/2.0.1/slick.grid.js"></script>
+
+  <script type="text/javascript" src="js/lib/recline/vendor/slickgrid/2.0.1/plugins/slick.rowselectionmodel.js"></script>
+  <script type="text/javascript" src="js/lib/recline/vendor/slickgrid/2.0.1/plugins/slick.rowmovemanager.js"></script>
+
+
+  <script type="text/javascript" src="js/lib/recline/vendor/moment/2.0.0/moment.js"></script>
+  <script type="text/javascript" src="js/lib/recline/vendor/timeline/js/timeline.js"></script>
+  <!--[if lte IE 7]>
+  <script language="javascript" type="text/javascript" src="js/lib/recline/vendor/json/json2.js"></script>
+  <![endif]-->
+
+
+<script src="js/lib/d3.v3.min.js"></script>
+
+<style type="text/css">
+body {
+	background-color: #EEE;
+}
+
+.recline-slickgrid {
+  height: 600px;
+  width: 100%;
+}
+
+.header .recline-pager .pagination input {
+	height: 30px;
+	width: 40px;
+	font-size: 15px;
+	color: blue;
+	font-weight: bold;
+	background-color: #FFC;
+}
+
+.download-band {
+	background: url(img/icon/csv-32.png) no-repeat;
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 30px;
+	font-size: 18px;
+	padding-left: 45px;
+	padding-top: 5px;
+}
+
+.download-band a {
+	text-decoration: none;
+	color: white;
+}
+
+.download-band a:hover {
+	color: #DDD;
+}
+
+</style>
+
+
+</head>
+<body style="height: 100%; width: 100%;">
+<script type="text/javascript" src="js/lib/recline/dist/recline.js"></script>
+
+<div class="download-band"></div>
+<div id="data-viewer" style="height: 600px"></div>
+
+<script type="text/javascript">
+jQuery(function($) {
+	
+	  window.multiView = null;
+	  window.explorerDiv = $('#data-viewer');
+
+	  var dataUrl = window.location.hash; 
+	  var columnDelimiter = ';';
+	  
+	  var dsv = d3.dsv(columnDelimiter, "text/plain");
+  	 
+	  if (dataUrl != null && dataUrl != "")
+	  {
+		dataUrl = dataUrl.substring(1); //remove initial '#'
+		
+	  	dsv(dataUrl, function(error, data) {
+	  	    
+	  		if (data != null)
+	  		{    			
+	  			var dataset = createDataset(data);
+	  			    			
+	  			window.multiview = createMultiView(dataset);
+	  			
+	  			//$('.recline-query-editor input').attr("placeholder", "Buscar ...");
+	  			//$('.recline-query-editor button').text("Ir");
+	  			
+	  		}
+	  		else
+	  		{
+	  			var dataset = createDemoDataset();
+	  			window.multiview = createMultiView(dataset);
+	  		}
+	  		
+	  	});
+		
+		//download link
+		$('.download-band').append('<a href="' + dataUrl + '">Baixar arquivo CSV com estes dados</a>');
+	  }
+	  else
+		  {
+		  	$('#data-viewer').html("Nenhum arquivo a ser carregado.");
+		  }
+	  
+
+});
+
+//create dataset from loaded data
+function createDataset(data) {
+	
+	 //var fields = new Array();
+	 
+	
+	  var dataset = new recline.Model.Dataset({
+	    records: data
+	  });
+	  
+	  return dataset;
+}
+
+// create standard demo dataset
+function createDemoDataset() {
+	  var dataset = new recline.Model.Dataset({
+	    records: [
+	      {id: 0, date: '2011-01-01', x: 1, y: 2, z: 3, country: 'DE', title: 'first', lat:52.56, lon:13.40},
+	      {id: 1, date: '2011-02-02', x: 2, y: 4, z: 24, country: 'UK', title: 'second', lat:54.97, lon:-1.60},
+	      {id: 2, date: '2011-03-03', x: 3, y: 6, z: 9, country: 'US', title: 'third', lat:40.00, lon:-75.5},
+	      {id: 3, date: '2011-04-04', x: 4, y: 8, z: 6, country: 'UK', title: 'fourth', lat:57.27, lon:-6.20},
+	      {id: 4, date: '2011-05-04', x: 5, y: 10, z: 15, country: 'UK', title: 'fifth', lat:51.58, lon:0},
+	      {id: 5, date: '2011-06-02', x: 6, y: 12, z: 18, country: 'DE', title: 'sixth', lat:51.04, lon:7.9}
+	    ],
+	    // let's be really explicit about fields
+	    // Plus take opportunity to set date to be a date field and set some labels
+	    fields: [
+	      {id: 'id'},
+	      {id: 'date', type: 'date'},
+	      {id: 'x', type: 'number'},
+	      {id: 'y', type: 'number'},
+	      {id: 'z', type: 'number'},
+	      {id: 'country', 'label': 'Country'},
+	      {id: 'title', 'label': 'Title'},
+	      {id: 'lat'},
+	      {id: 'lon'}
+	    ]
+	  });
+	  
+	  return dataset;
+}
+
+// make MultivView
+//
+// creation / initialization in a function so we can call it again and again
+var createMultiView = function(dataset, state) {
+	  // remove existing multiview if present
+	  var reload = false;
+	  if (window.multiView) {
+	    window.multiView.remove();
+	    window.multiView = null;
+	    reload = true;
+	  }
+
+	  var $el = $('<div />');
+	  $el.appendTo(window.explorerDiv);
+
+	  // customize the subviews for the MultiView
+	  var views = [
+	    {
+	      id: 'grid',
+	      label: 'Tabela',
+	      view: new recline.View.SlickGrid({
+	        model: dataset,
+	        state: {
+	          gridOptions: {
+	            editable: false,
+	            // Enable support for row add
+	            enabledAddRow: false,
+	            // Enable support for row delete
+	            enabledDelRow: true,
+	            // Enable support for row Reoder 
+	            enableReOrderRow:true,
+	            autoEdit: false,
+	            enableCellNavigation: true
+	          }
+	        }
+	      })
+	    }
+	  ];
+	  
+	  var sideBar = [
+	                 {
+	                	    id: 'filterEditor', // used for routing
+	                	    label: 'Filtrar dados', // used for view switcher
+	                	    view: new recline.View.FilterEditor({
+	                	      model: dataset
+	                	    })
+	                	  }
+	                 ];
+
+	  var multiView = new recline.View.MultiView({
+	    model: dataset,
+	    el: $el,
+	    state: state,
+	    views: views,
+	    sidebarViews: sideBar
+	  });
+	  
+	  return multiView;
+}
+
+</script>
+
+
+
+
+
+</body>
+</html>

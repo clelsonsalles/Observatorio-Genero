@@ -1,0 +1,40 @@
+Dez 02, 2014 10:02:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 02, 2014 10:02:52 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: restart: Reloading web application '/paineis'
+Dez 02, 2014 10:02:56 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 02, 2014 10:03:17 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: start: Starting web application '/dataseppir-admin'
+Dez 02, 2014 10:03:19 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 02, 2014 10:03:26 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: undeploy: Undeploying web application at '/dataseppir-admin'
+Dez 02, 2014 10:03:26 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 02, 2014 2:26:34 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 02, 2014 2:28:18 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: restart: Reloading web application '/paineis'
+Dez 02, 2014 2:28:20 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 02, 2014 2:38:34 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: restart: Reloading web application '/paineis'
+Dez 02, 2014 2:38:37 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 02, 2014 2:48:32 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: restart: Reloading web application '/paineis'
+Dez 02, 2014 2:48:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 02, 2014 3:05:54 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: restart: Reloading web application '/paineis'
+Dez 02, 2014 3:05:56 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 02, 2014 3:22:14 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: restart: Reloading web application '/paineis'
+Dez 02, 2014 3:22:16 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 02, 2014 3:25:33 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: restart: Reloading web application '/paineis'
+Dez 02, 2014 3:25:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'

@@ -1,0 +1,1248 @@
+Dez 10, 2014 9:09:28 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 10, 2014 9:09:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 10, 2014 9:09:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 10, 2014 9:09:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 10, 2014 9:09:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 10, 2014 9:09:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_comunidade,nome_comunidade,nome_territorio,(case status_incra_territorio when 1 then '3 - Decreto' when 2 then '2 - Portaria' when 3 then '2 - Portaria' when 4 then '1 - RTID' when 5 then '4 - Titulada' else '0 - Certificada' end) as nome_status,(select sigla_uf from tbl_ibge_municipios as m left join tbl_ibge_ufs as u on m.cod_uf = u.cod_uf where cod_7 = cod_7_ibge_municipio) as uf from tbl_seppir_quilombola_comunidade as c left join tbl_seppir_quilombola_territorio as t on c.id_territorio=t.id_territorio;
+Dez 10, 2014 9:09:38 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:09:38 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:09:38 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:09:38 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:09:39 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:09:39 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:09:39 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:09:39 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:09:40 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:09:41 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:09:42 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:09:42 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:09:43 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:14:27 AM org.apache.catalina.core.StandardContext reload
+INFORMAÇÕES: Reloading Context with name [/paineis] has started
+Dez 10, 2014 9:14:27 AM org.iadb.seppir.monitor.DataProviderServlet destroy
+INFORMAÇÕES: OLAP Disconnected.
+Dez 10, 2014 9:14:27 AM org.iadb.seppir.monitor.CubeNavigatorServlet destroy
+INFORMAÇÕES: OLAP Disconnected.
+Dez 10, 2014 9:14:28 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+GRAVE: The web application [/paineis] registered the JDBC driver [mondrian.olap4j.MondrianOlap4jDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dez 10, 2014 9:14:28 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/paineis] appears to have started a thread named [Mondrian Monitor] but has failed to stop it. This is very likely to create a memory leak.
+Dez 10, 2014 9:14:28 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/paineis] appears to have started a thread named [mondrian.rolap.agg.SegmentCacheManager$ACTOR] but has failed to stop it. This is very likely to create a memory leak.
+Dez 10, 2014 9:14:28 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/paineis] appears to have started a thread named [mondrian.rolap.RolapResultShepherd#timer] but has failed to stop it. This is very likely to create a memory leak.
+Dez 10, 2014 9:14:28 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/paineis] appears to have started a thread named [Thread-12] but has failed to stop it. This is very likely to create a memory leak.
+Dez 10, 2014 9:14:28 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/paineis] appears to have started a thread named [mondrian.util.ExpiringReference$timer] but has failed to stop it. This is very likely to create a memory leak.
+Dez 10, 2014 9:14:28 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@14887a2d]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 10, 2014 9:14:28 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.rolap.RolapStar$1] (value [mondrian.rolap.RolapStar$1@c0d2ae3]) and a value of type [mondrian.rolap.RolapStar.Bar] (value [mondrian.rolap.RolapStar$Bar@21e63d81]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 10, 2014 9:14:28 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.rolap.RolapStar$1] (value [mondrian.rolap.RolapStar$1@12cff18a]) and a value of type [mondrian.rolap.RolapStar.Bar] (value [mondrian.rolap.RolapStar$Bar@11faa4ac]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 10, 2014 9:14:28 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.rolap.RolapStar$1] (value [mondrian.rolap.RolapStar$1@5e51216c]) and a value of type [mondrian.rolap.RolapStar.Bar] (value [mondrian.rolap.RolapStar$Bar@206969d4]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 10, 2014 9:14:28 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.rolap.RolapStar$1] (value [mondrian.rolap.RolapStar$1@68a2edeb]) and a value of type [mondrian.rolap.RolapStar.Bar] (value [mondrian.rolap.RolapStar$Bar@20b214f8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 10, 2014 9:14:28 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.rolap.RolapStar$1] (value [mondrian.rolap.RolapStar$1@b7eb68d]) and a value of type [mondrian.rolap.RolapStar.Bar] (value [mondrian.rolap.RolapStar$Bar@2c02e8e0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 10, 2014 9:14:28 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.rolap.RolapStar$1] (value [mondrian.rolap.RolapStar$1@7306e0b2]) and a value of type [mondrian.rolap.RolapStar.Bar] (value [mondrian.rolap.RolapStar$Bar@488a011d]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 10, 2014 9:14:28 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@14887a2d]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 10, 2014 9:14:28 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@14887a2d]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 10, 2014 9:14:28 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@14887a2d]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 10, 2014 9:14:28 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@14887a2d]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 10, 2014 9:14:28 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@14887a2d]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 10, 2014 9:14:28 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@14887a2d]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 10, 2014 9:14:28 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@14887a2d]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 10, 2014 9:14:28 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@14887a2d]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 10, 2014 9:14:53 AM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 10, 2014 9:14:53 AM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 10, 2014 9:14:53 AM org.apache.catalina.core.StandardContext reload
+INFORMAÇÕES: Reloading Context with name [/paineis] is completed
+Dez 10, 2014 9:15:30 AM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Dez 10, 2014 9:15:30 AM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Dez 10, 2014 9:15:30 AM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Dez 10, 2014 9:15:32 AM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Conexão OLAP estabelecida com sucesso.
+Dez 10, 2014 9:15:32 AM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Conexão SQL estabelecida com sucesso.
+Dez 10, 2014 9:15:32 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 9:15:32 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 9:15:32 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 9:15:32 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:15:32 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:15:32 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:15:32 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:15:32 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:15:32 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:15:32 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:15:32 AM org.iadb.seppir.monitor.CubeNavigatorServlet init
+INFORMAÇÕES: Servlet inicializado com sucesso: CubeProviderServlet. Este servlet provê informações sobre os Cubos existentes
+Dez 10, 2014 9:15:32 AM org.iadb.seppir.monitor.DataProviderServlet init
+INFORMAÇÕES: Servlet inicializado com sucesso: DataProviderServlet. Este servlet intermedia a comunicação entre Painéis e Cubos
+Dez 10, 2014 9:15:34 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:15:34 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:15:34 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:15:34 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:15:34 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:15:34 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:15:34 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:15:34 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:15:34 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:15:34 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:15:34 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:15:34 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:15:34 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:15:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 9:15:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 9:15:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 9:15:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:15:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:15:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:15:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:15:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:15:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:15:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:16:08 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:16:08 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:16:08 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:16:08 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:16:08 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:16:08 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:16:08 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:16:08 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:16:08 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:16:08 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:16:08 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:16:08 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:16:08 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:28 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 9:18:28 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 9:18:28 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 9:18:28 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:18:28 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:28 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:28 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:28 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:28 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:28 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:18:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:18:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:18:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:18:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:18:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:18:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:18:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:56 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 9:18:56 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 9:18:56 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 9:18:56 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:18:56 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:56 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:56 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:56 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:56 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:56 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:18:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:18:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:18:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:18:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:18:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:18:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:18:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:18:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:19:09 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 9:19:09 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 9:19:09 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 9:19:09 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:19:09 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:19:09 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:19:09 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:19:09 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:19:09 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:19:09 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:19:10 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:19:10 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:19:10 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:19:10 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:19:10 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:19:10 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:19:10 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:19:10 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:19:10 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:19:10 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:19:10 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:19:10 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:19:10 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:21:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:21:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:21:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:21:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:21:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:21:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:21:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:21:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:21:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:21:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:21:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:21:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:21:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:21:45 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:21:45 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:21:45 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:21:45 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:21:45 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:21:45 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:21:45 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:21:45 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:21:45 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:21:45 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:21:45 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:21:45 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:21:45 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:50:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:50:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:50:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:50:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:50:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:50:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:50:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:50:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:50:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:50:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:50:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:50:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:50:30 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:50:59 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:50:59 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:50:59 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:50:59 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:50:59 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:50:59 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:50:59 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:50:59 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:50:59 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:50:59 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:50:59 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:50:59 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:50:59 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:51:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:51:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:51:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:51:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:51:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:51:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:51:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:51:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:51:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:51:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:51:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:51:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:51:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:51:49 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:51:49 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:51:49 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:51:49 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:51:49 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:51:49 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:51:49 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:51:49 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:51:49 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:51:49 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:51:49 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:51:49 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:51:49 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:52:11 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:52:11 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:52:11 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:52:11 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:52:11 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:52:11 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:52:11 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:52:11 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:52:11 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:52:11 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:52:11 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:52:11 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:52:11 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:52:32 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:52:32 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:52:32 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:52:32 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:52:32 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:52:32 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:52:32 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:52:32 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:52:32 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:52:32 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:52:32 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:52:32 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:52:32 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:53:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:53:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:53:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:53:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:53:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:53:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:53:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:53:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:53:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:53:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:53:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:53:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:53:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:53:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:53:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:53:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:53:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:53:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:53:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:53:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:53:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:53:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:53:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:53:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:53:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:53:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:54:12 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:54:12 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:54:12 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:54:12 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:54:12 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:54:12 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:54:12 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:54:12 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:54:12 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:54:12 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:54:12 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:54:12 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:54:12 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:55:42 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:55:42 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:55:42 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:55:42 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:55:42 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:55:42 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:55:42 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:55:42 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:55:42 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:55:42 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:55:42 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:55:42 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:55:42 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:55:56 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:55:56 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:55:56 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:55:56 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:55:56 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:55:56 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:55:56 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:55:56 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:55:56 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:55:56 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:55:56 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:55:56 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:55:56 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:56:17 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:56:17 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:56:17 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:56:17 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:56:17 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:56:17 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:56:17 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:56:17 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:56:17 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:56:17 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:56:17 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:56:17 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:56:17 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:56:33 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:56:33 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:56:33 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:56:33 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:56:33 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:56:33 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:56:33 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:56:33 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:56:33 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:56:33 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:56:33 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:56:33 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:56:33 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:56:44 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:56:44 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:56:44 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:56:44 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:56:44 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:56:44 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:56:44 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:56:44 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:56:44 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:56:44 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:56:44 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:56:44 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:56:44 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:57:09 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 9:57:09 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:57:09 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:57:09 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:57:09 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:57:09 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:57:09 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:57:09 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:57:09 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 9:57:09 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:57:09 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:57:09 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 9:57:09 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:11:36 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:11:36 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:11:36 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:11:36 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:11:36 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:11:36 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:11:36 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:11:36 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:11:36 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:14:01 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:14:01 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:14:01 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:14:01 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:14:01 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:14:01 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:14:01 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:14:01 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:14:01 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:15:22 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:15:22 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:15:22 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:15:22 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:15:22 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:15:22 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:15:23 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:15:23 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:15:23 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:16:40 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:16:40 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:16:40 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:16:40 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:16:40 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:16:40 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:16:40 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:16:40 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:16:40 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:16:53 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:16:53 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:16:53 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:16:53 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:16:53 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:16:53 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:16:53 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:16:53 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:16:53 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:16:59 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:16:59 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:16:59 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:16:59 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:16:59 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:16:59 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:16:59 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:16:59 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:16:59 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:17:08 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:17:08 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:17:08 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:17:08 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:17:08 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:17:08 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:17:08 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:17:08 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:17:08 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:17:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:17:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:17:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:17:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:17:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:17:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:17:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:17:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:17:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:17:26 AM org.iadb.seppir.monitor.OlapCurrentService executeMDXSelect
+INFORMAÇÕES: ERRO: Erro ao executar query: select  NonEmptyCrossJoin({ [Measures].[Famílias]}, NonEmptyCrossJoin({ [Ruralidade].Children , [Ruralidade]}, { [Local de Domicílio].[UF].Members , [Local de Domicílio]})) ON AXIS(0),   ON AXIS(1) from [CadUnico Quilombolas]
+Dez 10, 2014 10:17:26 AM org.iadb.seppir.monitor.OlapCurrentService executeMDXSelect
+INFORMAÇÕES: ERRO: Erro causado por mondrian gave exception while parsing query
+Dez 10, 2014 10:17:45 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:17:45 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:17:45 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:17:45 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:17:45 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:17:45 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:17:45 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:17:45 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:17:45 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:18:05 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:18:05 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:18:05 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:18:05 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:18:05 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:18:05 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:18:05 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:18:05 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:18:05 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:18:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:18:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:18:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:18:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:18:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:18:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:18:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:18:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:18:29 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:19:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:19:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:19:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:19:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:19:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:19:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:19:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:19:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:19:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:19:46 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:19:46 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:19:46 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:19:46 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:19:46 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:19:46 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:19:46 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:19:46 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:19:46 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:20:03 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:20:03 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:20:03 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:20:03 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:20:03 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:20:03 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:20:03 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:20:03 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:20:03 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:20:18 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:20:18 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:20:18 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:20:18 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:20:18 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:20:18 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:20:18 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:20:18 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:20:18 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:23:04 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:23:04 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:23:04 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:23:04 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:23:04 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:23:04 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:23:04 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:23:04 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:23:04 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:23:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 10:23:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 10:23:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 10:23:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 10:23:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 10:23:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 10:23:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:23:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:23:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 10:23:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:23:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:23:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:23:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:24:48 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:24:48 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:24:48 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:24:48 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:24:48 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:24:48 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 10:24:48 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:24:48 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:24:48 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:24:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 10:24:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 10:24:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 10:24:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 10:24:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 10:24:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 10:24:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:24:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:24:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 10:24:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:24:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:24:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 10:24:55 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 11:50:50 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 11:50:50 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 11:50:50 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 11:50:50 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 11:50:50 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 11:50:50 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 11:50:50 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 11:50:50 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 11:50:50 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 11:50:53 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 11:50:53 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 11:50:53 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 11:50:53 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 11:50:53 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 11:50:53 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 11:50:53 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 11:50:53 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 11:50:53 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 11:50:53 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 11:50:53 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 11:50:53 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 11:50:53 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 12:02:50 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 12:02:50 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 12:02:50 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 12:02:50 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 12:02:50 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 12:02:50 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 12:02:50 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 12:02:50 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 12:02:50 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 12:02:51 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 12:02:51 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 12:02:51 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 10, 2014 12:02:51 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 12:02:51 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 12:02:51 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 12:02:51 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 12:02:51 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 12:02:51 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 12:02:51 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 12:02:53 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 10, 2014 12:02:53 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 12:02:53 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 12:02:53 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 12:02:53 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 12:02:53 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 12:02:53 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 12:02:53 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 12:02:53 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 10, 2014 12:02:53 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 12:02:53 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 12:02:53 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 10, 2014 12:02:53 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';

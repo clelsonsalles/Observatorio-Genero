@@ -1,0 +1,709 @@
+2015-01-22 13:04:02,125 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-01-22 13:04:34,775 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5	POST	 xml:false
+2015-01-22 13:04:53,286 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/COLUMNS/dimension/Comunidade/hierarchy/[Comunidade]/[Comunidade].[Comunidade]	POST
+2015-01-22 13:04:53,286 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension Comunidade to axis COLUMNS  position0
+2015-01-22 13:04:55,223 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/result/metadata/dimensions/Comunidade/hierarchies/[Comunidade]/levels/[Comunidade].[Comunidade]	GET
+2015-01-22 13:04:55,712 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/COLUMNS/dimension/Comunidade	GET
+2015-01-22 13:05:13,801 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/COLUMNS/dimension/Comunidade	PUT	
+2015-01-22 13:05:13,811 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/COLUMNS/dimension/Comunidade	GET
+2015-01-22 13:05:20,463 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/Tipo de Construção Domiciliar/hierarchy/[Tipo de Construção Domiciliar]/[Tipo de Construção Domiciliar].[Tipo de Construção Domiciliar]	POST
+2015-01-22 13:05:20,463 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension Tipo de Construção Domiciliar to axis ROWS  position0
+2015-01-22 13:05:20,691 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/resultflattened	GET
+2015-01-22 13:05:20,691 INFO  [org.saiku.service.olap.OlapQueryService] runId:20	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[ALTO DO ACARÁ]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Tipo de Construção Domiciliar].[Tipo de Construção Domiciliar].Members})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-22 13:05:20,713 INFO  [org.saiku.service.olap.OlapQueryService] runId:20	Exception: PSQLException: ERRO: coluna tbl_mds_cadunico_familia_pbq.cod_construcao_domicilio não existe
+  Posição: 828
+2015-01-22 13:05:20,713 ERROR [org.saiku.web.rest.resources.QueryResource] Cannot execute query (1FE01FAB-9C87-1933-919C-EB12805D8BD5)
+org.saiku.service.util.exception.SaikuServiceException: runId:20	Can't execute query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:253)
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:207)
+	at org.saiku.web.rest.resources.QueryResource.execute(QueryResource.java:717)
+	at org.saiku.web.rest.resources.QueryResource$$FastClassByCGLIB$$e130f1a0.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:617)
+	at org.saiku.web.rest.resources.QueryResource$$EnhancerByCGLIB$$e19ca8a4.execute(<generated>)
+	at sun.reflect.GeneratedMethodAccessor312.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at org.codehaus.enunciate.modules.jersey.EnunciateJerseyServletContainer.service(EnunciateJerseyServletContainer.java:248)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.codehaus.enunciate.webapp.HTTPRequestContextFilter.doFilter(HTTPRequestContextFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:343)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:97)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:78)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:35)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilter(BasicAuthenticationFilter.java:177)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:187)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:79)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:149)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.olap4j.OlapException: mondrian gave exception while executing query
+	at mondrian.olap4j.MondrianOlap4jConnection$Helper.createException(MondrianOlap4jConnection.java:827)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQueryInternal(MondrianOlap4jStatement.java:421)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQuery(MondrianOlap4jStatement.java:347)
+	at org.saiku.olap.query.OlapQuery.execute(OlapQuery.java:260)
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:233)
+	... 73 more
+Caused by: mondrian.olap.MondrianException: Mondrian Error:Internal error: Error while executing query [select NON EMPTY {Hierarchize({[Comunidade].[ALTO DO ACARÁ]})} ON COLUMNS,
+  NON EMPTY {Hierarchize({[Tipo de Construção Domiciliar].[Tipo de Construção Domiciliar].Members})} ON ROWS
+from [PBQ CadUnico (Familias Quilombolas)]
+]
+	at mondrian.resource.MondrianResource$_Def0.ex(MondrianResource.java:972)
+	at mondrian.olap.Util.newInternal(Util.java:2421)
+	at mondrian.olap.Util.newError(Util.java:2437)
+	at mondrian.rolap.RolapConnection.executeInternal(RolapConnection.java:715)
+	at mondrian.rolap.RolapConnection.access$000(RolapConnection.java:51)
+	at mondrian.rolap.RolapConnection$1.call(RolapConnection.java:631)
+	at mondrian.rolap.RolapConnection$1.call(RolapConnection.java:630)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	... 3 more
+Caused by: mondrian.olap.MondrianException: Mondrian Error:mondrian.olap.MondrianException: Mondrian Error:Failed to load segment form SQL
+	at mondrian.rolap.agg.SegmentLoader.loadImpl(SegmentLoader.java:240)
+	at mondrian.rolap.agg.SegmentLoader.access$000(SegmentLoader.java:51)
+	at mondrian.rolap.agg.SegmentLoader$SegmentLoadCommand.call(SegmentLoader.java:166)
+	at mondrian.rolap.agg.SegmentLoader$SegmentLoadCommand.call(SegmentLoader.java:140)
+	... 4 more
+Caused by: mondrian.olap.MondrianException: Mondrian Error:Failed to load segment form SQL
+	at mondrian.rolap.agg.SegmentLoader.createExecuteSql(SegmentLoader.java:643)
+	at mondrian.rolap.agg.SegmentLoader.loadImpl(SegmentLoader.java:195)
+	... 7 more
+Caused by: mondrian.olap.MondrianException: Mondrian Error:Internal error: Error while loading segment; sql=[select "tbl_seppir_quilombola_comunidade"."id_comunidade" as "c0", "tipo_4"."cod" as "c1", count("tbl_mds_cadunico_familia_pbq"."cod_familia") as "m0" from "tbl_seppir_quilombola_comunidade" as "tbl_seppir_quilombola_comunidade", "tbl_mds_cadunico_familia_pbq" as "tbl_mds_cadunico_familia_pbq", (SELECT * FROM (VALUES (CAST(NULL AS INTEGER), 'Sem informação'), (0, 'Sem informação'), (1, 'Alvenaria/tijolo com revestimento'), (2, 'Alvenaria/tijolo sem revestimento'), (3, 'Madeira aparelhada'), (4, 'Taipa revestida'), (5, 'Taipa não revestida'), (6, 'Madeira aproveitada'), (7, 'Palha'), (8, 'Outro Material')) AS "t" ("cod", "desc")) as "tipo_4" where "tbl_mds_cadunico_familia_pbq"."id_quilombola_pbq" = "tbl_seppir_quilombola_comunidade"."id_comunidade" and "tbl_seppir_quilombola_comunidade"."id_comunidade" = '1134' and "tbl_mds_cadunico_familia_pbq"."cod_construcao_domicilio" = "tipo_4"."cod" group by "tbl_seppir_quilombola_comunidade"."id_comunidade", "tipo_4"."cod"]
+	at mondrian.resource.MondrianResource$_Def0.ex(MondrianResource.java:972)
+	at mondrian.olap.Util.newInternal(Util.java:2421)
+	at mondrian.olap.Util.newError(Util.java:2437)
+	at mondrian.rolap.SqlStatement.handle(SqlStatement.java:348)
+	at mondrian.rolap.SqlStatement.execute(SqlStatement.java:247)
+	at mondrian.rolap.RolapUtil.executeQuery(RolapUtil.java:333)
+	at mondrian.rolap.agg.SegmentLoader.createExecuteSql(SegmentLoader.java:625)
+	... 8 more
+Caused by: org.postgresql.util.PSQLException: ERRO: coluna tbl_mds_cadunico_familia_pbq.cod_construcao_domicilio não existe
+  Posição: 828
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2094)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1827)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:255)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:508)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:370)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:250)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at mondrian.rolap.SqlStatement.execute(SqlStatement.java:193)
+	... 10 more
+2015-01-22 13:05:32,566 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/Tipo de Construção Domiciliar/hierarchy/[Tipo de Construção Domiciliar]/[Tipo de Construção Domiciliar].[Tipo de Construção Domiciliar]	DELETE
+2015-01-22 13:05:32,566 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension Tipo de Construção Domiciliar to axis UNUSED  position-1
+2015-01-22 13:05:35,450 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/• Programa de Habitação/hierarchy/[• Programa de Habitação]/[• Programa de Habitação].[Programa de Habitação]	POST
+2015-01-22 13:05:35,450 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension • Programa de Habitação to axis ROWS  position0
+2015-01-22 13:05:35,635 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/resultflattened	GET
+2015-01-22 13:05:35,636 INFO  [org.saiku.service.olap.OlapQueryService] runId:21	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[ALTO DO ACARÁ]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[• Programa de Habitação].[Programa de Habitação].Members})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-22 13:05:35,768 INFO  [org.saiku.service.olap.OlapQueryService] runId:21	Size: 2/2	Execute:	131ms	Format:	2ms	 Total: 133ms
+2015-01-22 13:06:38,954 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/• Programa de Habitação/hierarchy/[• Programa de Habitação]/[• Programa de Habitação].[Programa de Habitação]	DELETE
+2015-01-22 13:06:38,954 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension • Programa de Habitação to axis UNUSED  position-1
+2015-01-22 13:06:46,433 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/Tipo de Iluminação/hierarchy/[Tipo de Iluminação]/[Tipo de Iluminação].[Tipo de Iluminação]	POST
+2015-01-22 13:06:46,433 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension Tipo de Iluminação to axis ROWS  position0
+2015-01-22 13:06:46,828 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/resultflattened	GET
+2015-01-22 13:06:46,828 INFO  [org.saiku.service.olap.OlapQueryService] runId:22	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[ALTO DO ACARÁ]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Tipo de Iluminação].[Tipo de Iluminação].Members})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-22 13:06:46,895 INFO  [org.saiku.service.olap.OlapQueryService] runId:22	Size: 2/5	Execute:	67ms	Format:	0ms	 Total: 67ms
+2015-01-22 13:07:12,575 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/Tipo de Iluminação	POST
+2015-01-22 13:07:12,575 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension Tipo de Iluminação to axis ROWS  position0
+2015-01-22 13:07:13,079 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/resultflattened	GET
+2015-01-22 13:07:13,079 INFO  [org.saiku.service.olap.OlapQueryService] runId:23	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[ALTO DO ACARÁ]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Tipo de Iluminação].[Tipo de Iluminação].Members})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-22 13:07:13,088 INFO  [org.saiku.service.olap.OlapQueryService] runId:23	Size: 2/5	Execute:	8ms	Format:	1ms	 Total: 9ms
+2015-01-22 13:07:15,621 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/Tipo de Iluminação/hierarchy/[Tipo de Iluminação]/[Tipo de Iluminação].[Existência de Eletricidade]	POST
+2015-01-22 13:07:15,621 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension Tipo de Iluminação to axis ROWS  position0
+2015-01-22 13:07:16,166 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/resultflattened	GET
+2015-01-22 13:07:16,167 INFO  [org.saiku.service.olap.OlapQueryService] runId:24	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[ALTO DO ACARÁ]})} ON COLUMNS,
+NON EMPTY {Hierarchize({{[Tipo de Iluminação].[Existência de Eletricidade].Members}, {[Tipo de Iluminação].[Tipo de Iluminação].Members}})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-22 13:07:16,223 INFO  [org.saiku.service.olap.OlapQueryService] runId:24	Size: 3/5	Execute:	55ms	Format:	1ms	 Total: 56ms
+2015-01-22 13:07:17,823 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/Tipo de Iluminação	POST
+2015-01-22 13:07:17,823 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension Tipo de Iluminação to axis ROWS  position0
+2015-01-22 13:07:18,067 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/resultflattened	GET
+2015-01-22 13:07:18,068 INFO  [org.saiku.service.olap.OlapQueryService] runId:25	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[ALTO DO ACARÁ]})} ON COLUMNS,
+NON EMPTY {Hierarchize({{[Tipo de Iluminação].[Existência de Eletricidade].Members}, {[Tipo de Iluminação].[Tipo de Iluminação].Members}})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-22 13:07:18,077 INFO  [org.saiku.service.olap.OlapQueryService] runId:25	Size: 3/5	Execute:	9ms	Format:	1ms	 Total: 10ms
+2015-01-22 13:07:19,951 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/Tipo de Iluminação/hierarchy/[Tipo de Iluminação]/[Tipo de Iluminação].[Tipo de Iluminação]	DELETE
+2015-01-22 13:07:20,174 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/resultflattened	GET
+2015-01-22 13:07:20,175 INFO  [org.saiku.service.olap.OlapQueryService] runId:26	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[ALTO DO ACARÁ]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Tipo de Iluminação].[Existência de Eletricidade].Members})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-22 13:07:20,181 INFO  [org.saiku.service.olap.OlapQueryService] runId:26	Size: 2/3	Execute:	7ms	Format:	0ms	 Total: 7ms
+2015-01-22 13:07:33,543 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/Tipo de Iluminação/hierarchy/[Tipo de Iluminação]/[Tipo de Iluminação].[Existência de Eletricidade]	DELETE
+2015-01-22 13:07:33,543 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension Tipo de Iluminação to axis UNUSED  position-1
+2015-01-22 13:08:32,820 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/Tarifa Social de Energia/hierarchy/[Tarifa Social de Energia]/[Tarifa Social de Energia].[Tarifa Social de Energia]	POST
+2015-01-22 13:08:32,820 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension Tarifa Social de Energia to axis ROWS  position0
+2015-01-22 13:08:33,024 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/resultflattened	GET
+2015-01-22 13:08:33,024 INFO  [org.saiku.service.olap.OlapQueryService] runId:27	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[ALTO DO ACARÁ]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Tarifa Social de Energia].[Tarifa Social de Energia].Members})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-22 13:08:33,113 INFO  [org.saiku.service.olap.OlapQueryService] runId:27	Size: 2/2	Execute:	89ms	Format:	0ms	 Total: 89ms
+2015-01-22 13:08:49,721 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/Tarifa Social de Energia/hierarchy/[Tarifa Social de Energia]/[Tarifa Social de Energia].[Tarifa Social de Energia]	DELETE
+2015-01-22 13:08:49,721 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension Tarifa Social de Energia to axis UNUSED  position-1
+2015-01-22 13:09:01,343 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/Tipo de Abastecimento de Água/hierarchy/[Tipo de Abastecimento de Água]/[Tipo de Abastecimento de Água].[Tipo de Abastecimento de Água]	POST
+2015-01-22 13:09:01,343 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension Tipo de Abastecimento de Água to axis ROWS  position0
+2015-01-22 13:09:01,822 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/resultflattened	GET
+2015-01-22 13:09:01,822 INFO  [org.saiku.service.olap.OlapQueryService] runId:28	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[ALTO DO ACARÁ]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Tipo de Abastecimento de Água].[Tipo de Abastecimento de Água].Members})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-22 13:09:01,874 INFO  [org.saiku.service.olap.OlapQueryService] runId:28	Size: 2/4	Execute:	52ms	Format:	0ms	 Total: 52ms
+2015-01-22 13:09:25,397 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/Tipo de Abastecimento de Água/hierarchy/[Tipo de Abastecimento de Água]/[Tipo de Abastecimento de Água].[Tipo de Abastecimento de Água]	DELETE
+2015-01-22 13:09:25,397 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension Tipo de Abastecimento de Água to axis UNUSED  position-1
+2015-01-22 13:09:35,362 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/Tipo de Escoamento Sanitário/hierarchy/[Tipo de Escoamento Sanitário]/[Tipo de Escoamento Sanitário].[Tipo de Escoamento Sanitário]	POST
+2015-01-22 13:09:35,362 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension Tipo de Escoamento Sanitário to axis ROWS  position0
+2015-01-22 13:09:35,604 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/resultflattened	GET
+2015-01-22 13:09:35,604 INFO  [org.saiku.service.olap.OlapQueryService] runId:29	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[ALTO DO ACARÁ]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Tipo de Escoamento Sanitário].[Tipo de Escoamento Sanitário].Members})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-22 13:09:35,660 INFO  [org.saiku.service.olap.OlapQueryService] runId:29	Size: 2/3	Execute:	55ms	Format:	1ms	 Total: 56ms
+2015-01-22 13:09:50,802 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/Tipo de Escoamento Sanitário/hierarchy/[Tipo de Escoamento Sanitário]/[Tipo de Escoamento Sanitário].[Tipo de Escoamento Sanitário]	DELETE
+2015-01-22 13:09:50,802 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension Tipo de Escoamento Sanitário to axis UNUSED  position-1
+2015-01-22 13:09:52,714 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/Banheiro/hierarchy/[Banheiro]/[Banheiro].[Banheiro]	POST
+2015-01-22 13:09:52,715 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension Banheiro to axis ROWS  position0
+2015-01-22 13:09:53,145 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/resultflattened	GET
+2015-01-22 13:09:53,146 INFO  [org.saiku.service.olap.OlapQueryService] runId:30	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[ALTO DO ACARÁ]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Banheiro].[Banheiro].Members})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-22 13:09:53,199 INFO  [org.saiku.service.olap.OlapQueryService] runId:30	Size: 2/3	Execute:	53ms	Format:	1ms	 Total: 54ms
+2015-01-22 13:10:55,736 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/Banheiro/hierarchy/[Banheiro]/[Banheiro].[Banheiro]	DELETE
+2015-01-22 13:10:55,736 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension Banheiro to axis UNUSED  position-1
+2015-01-22 13:11:43,015 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/• Projeto de Inclusão Produtiva/hierarchy/[• Projeto de Inclusão Produtiva]/[• Projeto de Inclusão Produtiva].[Projeto de Inclusão Produtiva]	POST
+2015-01-22 13:11:43,015 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension • Projeto de Inclusão Produtiva to axis ROWS  position0
+2015-01-22 13:11:43,329 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/resultflattened	GET
+2015-01-22 13:11:43,329 INFO  [org.saiku.service.olap.OlapQueryService] runId:31	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[ALTO DO ACARÁ]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[• Projeto de Inclusão Produtiva].[Projeto de Inclusão Produtiva].Members})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-22 13:11:43,401 INFO  [org.saiku.service.olap.OlapQueryService] runId:31	Size: 0/0	Execute:	72ms	Format:	0ms	 Total: 72ms
+2015-01-22 13:11:51,380 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/• Projeto de Inclusão Produtiva/hierarchy/[• Projeto de Inclusão Produtiva]/[• Projeto de Inclusão Produtiva].[Projeto de Inclusão Produtiva]	DELETE
+2015-01-22 13:11:51,380 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension • Projeto de Inclusão Produtiva to axis UNUSED  position-1
+2015-01-22 13:11:56,529 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/• Recebimento pelo Programa de Aquisição de Alimentos/hierarchy/[• Recebimento pelo Programa de Aquisição de Alimentos]/[• Recebimento pelo Programa de Aquisição de Alimentos].[Recebimento pelo Programa de Aquisição de Alimentos]	POST
+2015-01-22 13:11:56,529 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension • Recebimento pelo Programa de Aquisição de Alimentos to axis ROWS  position0
+2015-01-22 13:11:57,555 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/resultflattened	GET
+2015-01-22 13:11:57,555 INFO  [org.saiku.service.olap.OlapQueryService] runId:32	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[ALTO DO ACARÁ]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[• Recebimento pelo Programa de Aquisição de Alimentos].[Recebimento pelo Programa de Aquisição de Alimentos].Members})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-22 13:11:57,596 INFO  [org.saiku.service.olap.OlapQueryService] runId:32	Size: 0/0	Execute:	41ms	Format:	0ms	 Total: 41ms
+2015-01-22 13:12:00,349 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/• Recebimento pelo Programa de Aquisição de Alimentos/hierarchy/[• Recebimento pelo Programa de Aquisição de Alimentos]/[• Recebimento pelo Programa de Aquisição de Alimentos].[Recebimento pelo Programa de Aquisição de Alimentos]	DELETE
+2015-01-22 13:12:00,349 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension • Recebimento pelo Programa de Aquisição de Alimentos to axis UNUSED  position-1
+2015-01-22 13:12:04,637 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/• Venda pelo Programa de Aquisição de Alimentos/hierarchy/[• Venda pelo Programa de Aquisição de Alimentos]/[• Venda pelo Programa de Aquisição de Alimentos].[Venda pelo Programa de Aquisição de Alimentos]	POST
+2015-01-22 13:12:04,637 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension • Venda pelo Programa de Aquisição de Alimentos to axis ROWS  position0
+2015-01-22 13:12:04,907 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/resultflattened	GET
+2015-01-22 13:12:04,908 INFO  [org.saiku.service.olap.OlapQueryService] runId:33	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[ALTO DO ACARÁ]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[• Venda pelo Programa de Aquisição de Alimentos].[Venda pelo Programa de Aquisição de Alimentos].Members})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-22 13:12:04,946 INFO  [org.saiku.service.olap.OlapQueryService] runId:33	Size: 0/0	Execute:	38ms	Format:	0ms	 Total: 38ms
+2015-01-22 13:12:07,558 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5/axis/ROWS/dimension/• Venda pelo Programa de Aquisição de Alimentos/hierarchy/[• Venda pelo Programa de Aquisição de Alimentos]/[• Venda pelo Programa de Aquisição de Alimentos].[Venda pelo Programa de Aquisição de Alimentos]	DELETE
+2015-01-22 13:12:07,558 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1FE01FAB-9C87-1933-919C-EB12805D8BD5 dimension • Venda pelo Programa de Aquisição de Alimentos to axis UNUSED  position-1
+2015-01-22 13:12:59,883 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20	POST	 xml:false
+2015-01-22 13:12:59,942 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1FE01FAB-9C87-1933-919C-EB12805D8BD5	DELETE
+2015-01-22 13:13:25,507 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/COLUMNS/dimension/Localização/hierarchy/[Localização]/[Localização].[Município]	POST
+2015-01-22 13:13:25,507 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Localização to axis COLUMNS  position0
+2015-01-22 13:13:27,366 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/COLUMNS/dimension/Localização	POST
+2015-01-22 13:13:27,366 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Localização to axis COLUMNS  position0
+2015-01-22 13:13:28,906 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/result/metadata/dimensions/Localização/hierarchies/[Localização]/levels/[Localização].[Município]	GET
+2015-01-22 13:13:30,040 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/COLUMNS/dimension/Localização	GET
+2015-01-22 13:13:39,326 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/COLUMNS/dimension/Localização	PUT	
+2015-01-22 13:13:39,351 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/COLUMNS/dimension/Localização	GET
+2015-01-22 13:13:42,841 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/COLUMNS/dimension/Measures/member/[Measures].[Escolas Quilombolas]	POST
+2015-01-22 13:13:42,841 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Measures to axis COLUMNS  position1
+2015-01-22 13:13:45,068 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/ROWS/dimension/Measures	POST
+2015-01-22 13:13:45,068 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Measures to axis ROWS  position0
+2015-01-22 13:13:45,285 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:13:45,285 INFO  [org.saiku.service.olap.OlapQueryService] runId:34	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+2015-01-22 13:13:45,332 INFO  [org.saiku.service.olap.OlapQueryService] runId:34	Size: 2/2	Execute:	47ms	Format:	0ms	 Total: 47ms
+2015-01-22 13:16:48,328 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/result/metadata/dimensions/Existência de Energia Elétrica/hierarchies/[Existência de Energia Elétrica]/levels/[Existência de Energia Elétrica].[Existência de Energia Elétrica]	GET
+2015-01-22 13:16:48,699 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Energia Elétrica/hierarchy/[Existência de Energia Elétrica]/[Existência de Energia Elétrica].[Existência de Energia Elétrica]	POST
+2015-01-22 13:16:48,700 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Existência de Energia Elétrica to axis FILTER  position0
+2015-01-22 13:16:49,146 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Energia Elétrica	GET
+2015-01-22 13:16:57,445 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Energia Elétrica/hierarchy/[Existência de Energia Elétrica]/[Existência de Energia Elétrica].[Existência de Energia Elétrica]	DELETE
+2015-01-22 13:16:57,445 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Existência de Energia Elétrica to axis UNUSED  position-1
+2015-01-22 13:16:58,652 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:16:58,652 INFO  [org.saiku.service.olap.OlapQueryService] runId:35	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+2015-01-22 13:16:58,658 INFO  [org.saiku.service.olap.OlapQueryService] runId:35	Size: 2/2	Execute:	6ms	Format:	0ms	 Total: 6ms
+2015-01-22 13:19:51,322 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/result/metadata/dimensions/Existência de Energia Elétrica/hierarchies/[Existência de Energia Elétrica]/levels/[Existência de Energia Elétrica].[Existência de Energia Elétrica]	GET
+2015-01-22 13:19:51,628 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Energia Elétrica/hierarchy/[Existência de Energia Elétrica]/[Existência de Energia Elétrica].[Existência de Energia Elétrica]	POST
+2015-01-22 13:19:51,628 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Existência de Energia Elétrica to axis FILTER  position0
+2015-01-22 13:19:52,039 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Energia Elétrica	GET
+2015-01-22 13:19:56,300 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Energia Elétrica	PUT	
+2015-01-22 13:19:56,305 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Energia Elétrica	GET
+2015-01-22 13:19:57,042 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:19:57,042 INFO  [org.saiku.service.olap.OlapQueryService] runId:36	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+WHERE {[Existência de Energia Elétrica].[Existência de Energia Elétrica].Members}
+2015-01-22 13:19:57,082 INFO  [org.saiku.service.olap.OlapQueryService] runId:36	Size: 2/2	Execute:	39ms	Format:	0ms	 Total: 39ms
+2015-01-22 13:20:05,401 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Energia Elétrica/hierarchy/[Existência de Energia Elétrica]/[Existência de Energia Elétrica].[Existência de Energia Elétrica]	DELETE
+2015-01-22 13:20:05,401 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Existência de Energia Elétrica to axis UNUSED  position-1
+2015-01-22 13:20:07,178 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:20:07,179 INFO  [org.saiku.service.olap.OlapQueryService] runId:37	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+2015-01-22 13:20:07,186 INFO  [org.saiku.service.olap.OlapQueryService] runId:37	Size: 2/2	Execute:	6ms	Format:	1ms	 Total: 7ms
+2015-01-22 13:20:07,245 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/result/metadata/dimensions/Existência de Energia Elétrica/hierarchies/[Existência de Energia Elétrica]/levels/[Existência de Energia Elétrica].[Sem Recorte]	GET
+2015-01-22 13:20:08,111 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Energia Elétrica/hierarchy/[Existência de Energia Elétrica]/[Existência de Energia Elétrica].[Sem Recorte]	POST
+2015-01-22 13:20:08,111 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Existência de Energia Elétrica to axis FILTER  position0
+2015-01-22 13:20:08,368 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Energia Elétrica	GET
+2015-01-22 13:20:12,060 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Energia Elétrica	PUT	
+2015-01-22 13:20:12,065 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Energia Elétrica	GET
+2015-01-22 13:20:14,096 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:20:14,096 INFO  [org.saiku.service.olap.OlapQueryService] runId:38	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+WHERE {[Existência de Energia Elétrica].[Sem distinção]}
+2015-01-22 13:20:14,104 INFO  [org.saiku.service.olap.OlapQueryService] runId:38	Size: 2/2	Execute:	7ms	Format:	1ms	 Total: 8ms
+2015-01-22 13:20:18,086 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Energia Elétrica/hierarchy/[Existência de Energia Elétrica]/[Existência de Energia Elétrica].[Sem Recorte]	DELETE
+2015-01-22 13:20:18,086 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Existência de Energia Elétrica to axis UNUSED  position-1
+2015-01-22 13:20:20,008 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:20:20,008 INFO  [org.saiku.service.olap.OlapQueryService] runId:39	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+2015-01-22 13:20:20,015 INFO  [org.saiku.service.olap.OlapQueryService] runId:39	Size: 2/2	Execute:	7ms	Format:	0ms	 Total: 7ms
+2015-01-22 13:20:38,056 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/result/metadata/dimensions/Existência de Esgoto Sanitário/hierarchies/[Existência de Esgoto Sanitário]/levels/[Existência de Esgoto Sanitário].[Existência de Esgoto Sanitário]	GET
+2015-01-22 13:20:38,735 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Esgoto Sanitário/hierarchy/[Existência de Esgoto Sanitário]/[Existência de Esgoto Sanitário].[Existência de Esgoto Sanitário]	POST
+2015-01-22 13:20:38,735 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Existência de Esgoto Sanitário to axis FILTER  position0
+2015-01-22 13:20:39,499 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Esgoto Sanitário	GET
+2015-01-22 13:20:44,359 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Esgoto Sanitário	PUT	
+2015-01-22 13:20:44,364 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Esgoto Sanitário	GET
+2015-01-22 13:20:45,675 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:20:45,675 INFO  [org.saiku.service.olap.OlapQueryService] runId:40	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+WHERE {[Existência de Esgoto Sanitário].[Existência de Esgoto Sanitário].Members}
+2015-01-22 13:20:45,686 INFO  [org.saiku.service.olap.OlapQueryService] runId:40	Size: 2/2	Execute:	10ms	Format:	1ms	 Total: 11ms
+2015-01-22 13:20:47,761 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/result/metadata/dimensions/Existência de Esgoto Sanitário/hierarchies/[Existência de Esgoto Sanitário]/levels/[Existência de Esgoto Sanitário].[Existência de Esgoto Sanitário]	GET
+2015-01-22 13:20:49,151 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Esgoto Sanitário	GET
+2015-01-22 13:20:54,119 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Esgoto Sanitário	PUT	
+2015-01-22 13:20:54,126 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Esgoto Sanitário	GET
+2015-01-22 13:20:55,206 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:20:55,206 INFO  [org.saiku.service.olap.OlapQueryService] runId:41	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+WHERE {[Existência de Esgoto Sanitário].[Há esgoto sanitário]}
+2015-01-22 13:20:55,227 INFO  [org.saiku.service.olap.OlapQueryService] runId:41	Size: 2/2	Execute:	21ms	Format:	0ms	 Total: 21ms
+2015-01-22 13:21:09,432 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Esgoto Sanitário	POST
+2015-01-22 13:21:09,432 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Existência de Esgoto Sanitário to axis FILTER  position0
+2015-01-22 13:21:09,663 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Esgoto Sanitário/hierarchy/[Existência de Esgoto Sanitário]/[Existência de Esgoto Sanitário].[Existência de Esgoto Sanitário]	DELETE
+2015-01-22 13:21:09,664 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Existência de Esgoto Sanitário to axis UNUSED  position-1
+2015-01-22 13:21:10,840 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:21:10,840 INFO  [org.saiku.service.olap.OlapQueryService] runId:42	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+2015-01-22 13:21:10,847 INFO  [org.saiku.service.olap.OlapQueryService] runId:42	Size: 2/2	Execute:	7ms	Format:	0ms	 Total: 7ms
+2015-01-22 13:21:10,980 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:21:10,980 INFO  [org.saiku.service.olap.OlapQueryService] runId:43	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+2015-01-22 13:21:10,986 INFO  [org.saiku.service.olap.OlapQueryService] runId:43	Size: 2/2	Execute:	5ms	Format:	1ms	 Total: 6ms
+2015-01-22 13:21:13,631 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/result/metadata/dimensions/Existência de Energia Elétrica/hierarchies/[Existência de Energia Elétrica]/levels/[Existência de Energia Elétrica].[Existência de Energia Elétrica]	GET
+2015-01-22 13:21:13,727 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Energia Elétrica/hierarchy/[Existência de Energia Elétrica]/[Existência de Energia Elétrica].[Existência de Energia Elétrica]	POST
+2015-01-22 13:21:13,727 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Existência de Energia Elétrica to axis FILTER  position0
+2015-01-22 13:21:14,276 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Energia Elétrica	GET
+2015-01-22 13:21:20,294 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Energia Elétrica	PUT	
+2015-01-22 13:21:20,301 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Energia Elétrica	GET
+2015-01-22 13:21:21,075 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:21:21,075 INFO  [org.saiku.service.olap.OlapQueryService] runId:44	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+WHERE {[Existência de Energia Elétrica].[Há energia elétrica]}
+2015-01-22 13:21:21,093 INFO  [org.saiku.service.olap.OlapQueryService] runId:44	Size: 2/2	Execute:	17ms	Format:	1ms	 Total: 18ms
+2015-01-22 13:22:28,754 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Energia Elétrica/hierarchy/[Existência de Energia Elétrica]/[Existência de Energia Elétrica].[Existência de Energia Elétrica]	DELETE
+2015-01-22 13:22:28,754 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Existência de Energia Elétrica to axis UNUSED  position-1
+2015-01-22 13:22:29,720 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:22:29,720 INFO  [org.saiku.service.olap.OlapQueryService] runId:45	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+2015-01-22 13:22:29,727 INFO  [org.saiku.service.olap.OlapQueryService] runId:45	Size: 2/2	Execute:	6ms	Format:	1ms	 Total: 7ms
+2015-01-22 13:22:39,255 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/result/metadata/dimensions/Existência de Abastecimento de Água/hierarchies/[Existência de Abastecimento de Água]/levels/[Existência de Abastecimento de Água].[Existência de Abastecimento de Água]	GET
+2015-01-22 13:22:39,880 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Abastecimento de Água/hierarchy/[Existência de Abastecimento de Água]/[Existência de Abastecimento de Água].[Existência de Abastecimento de Água]	POST
+2015-01-22 13:22:39,880 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Existência de Abastecimento de Água to axis FILTER  position0
+2015-01-22 13:22:40,096 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Abastecimento de Água	GET
+2015-01-22 13:22:44,801 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Abastecimento de Água	PUT	
+2015-01-22 13:22:44,808 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Abastecimento de Água	GET
+2015-01-22 13:22:46,097 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:22:46,098 INFO  [org.saiku.service.olap.OlapQueryService] runId:46	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+WHERE {[Existência de Abastecimento de Água].[Há abastecimento de água]}
+2015-01-22 13:22:46,122 INFO  [org.saiku.service.olap.OlapQueryService] runId:46	Size: 2/2	Execute:	24ms	Format:	1ms	 Total: 25ms
+2015-01-22 13:23:22,822 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Existência de Abastecimento de Água/hierarchy/[Existência de Abastecimento de Água]/[Existência de Abastecimento de Água].[Existência de Abastecimento de Água]	DELETE
+2015-01-22 13:23:22,822 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Existência de Abastecimento de Água to axis UNUSED  position-1
+2015-01-22 13:23:24,410 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:23:24,410 INFO  [org.saiku.service.olap.OlapQueryService] runId:47	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+2015-01-22 13:23:24,417 INFO  [org.saiku.service.olap.OlapQueryService] runId:47	Size: 2/2	Execute:	6ms	Format:	1ms	 Total: 7ms
+2015-01-22 13:23:28,126 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/result/metadata/dimensions/Material Didático Quilombola/hierarchies/[Material Didático Quilombola]/levels/[Material Didático Quilombola].[Material Didático Quilombola]	GET
+2015-01-22 13:23:28,311 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Material Didático Quilombola/hierarchy/[Material Didático Quilombola]/[Material Didático Quilombola].[Material Didático Quilombola]	POST
+2015-01-22 13:23:28,312 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Material Didático Quilombola to axis FILTER  position0
+2015-01-22 13:23:28,910 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Material Didático Quilombola	GET
+2015-01-22 13:23:35,304 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Material Didático Quilombola	PUT	
+2015-01-22 13:23:35,311 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Material Didático Quilombola	GET
+2015-01-22 13:23:36,880 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:23:36,881 INFO  [org.saiku.service.olap.OlapQueryService] runId:48	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+WHERE {[Material Didático Quilombola].[Possuem material específico para quilombolas]}
+2015-01-22 13:23:36,898 INFO  [org.saiku.service.olap.OlapQueryService] runId:48	Size: 2/2	Execute:	18ms	Format:	0ms	 Total: 18ms
+2015-01-22 13:23:53,752 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Material Didático Quilombola/hierarchy/[Material Didático Quilombola]/[Material Didático Quilombola].[Material Didático Quilombola]	DELETE
+2015-01-22 13:23:53,752 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Material Didático Quilombola to axis UNUSED  position-1
+2015-01-22 13:23:54,696 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:23:54,697 INFO  [org.saiku.service.olap.OlapQueryService] runId:49	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+2015-01-22 13:23:54,703 INFO  [org.saiku.service.olap.OlapQueryService] runId:49	Size: 2/2	Execute:	6ms	Format:	0ms	 Total: 6ms
+2015-01-22 13:24:00,173 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/result/metadata/dimensions/Laboratório de Informática/hierarchies/[Laboratório de Informática]/levels/[Laboratório de Informática].[Laboratório de Informática]	GET
+2015-01-22 13:24:00,529 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Laboratório de Informática/hierarchy/[Laboratório de Informática]/[Laboratório de Informática].[Laboratório de Informática]	POST
+2015-01-22 13:24:00,529 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Laboratório de Informática to axis FILTER  position0
+2015-01-22 13:24:01,102 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Laboratório de Informática	GET
+2015-01-22 13:24:06,565 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Laboratório de Informática	PUT	
+2015-01-22 13:24:06,573 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Laboratório de Informática	GET
+2015-01-22 13:24:07,628 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:24:07,629 INFO  [org.saiku.service.olap.OlapQueryService] runId:50	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+WHERE {[Laboratório de Informática].[Possuem laboratório de informática]}
+2015-01-22 13:24:07,646 INFO  [org.saiku.service.olap.OlapQueryService] runId:50	Size: 2/2	Execute:	17ms	Format:	1ms	 Total: 18ms
+2015-01-22 13:24:21,070 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Laboratório de Informática/hierarchy/[Laboratório de Informática]/[Laboratório de Informática].[Laboratório de Informática]	DELETE
+2015-01-22 13:24:21,070 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Laboratório de Informática to axis UNUSED  position-1
+2015-01-22 13:24:21,683 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:24:21,684 INFO  [org.saiku.service.olap.OlapQueryService] runId:51	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+2015-01-22 13:24:21,690 INFO  [org.saiku.service.olap.OlapQueryService] runId:51	Size: 2/2	Execute:	7ms	Format:	0ms	 Total: 7ms
+2015-01-22 13:24:36,629 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/result/metadata/dimensions/Internet/hierarchies/[Internet]/levels/[Internet].[Internet]	GET
+2015-01-22 13:24:36,710 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Internet/hierarchy/[Internet]/[Internet].[Internet]	POST
+2015-01-22 13:24:36,710 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Internet to axis FILTER  position0
+2015-01-22 13:24:36,990 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Internet	GET
+2015-01-22 13:24:41,181 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Internet	PUT	
+2015-01-22 13:24:41,187 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Internet	GET
+2015-01-22 13:24:42,569 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:24:42,570 INFO  [org.saiku.service.olap.OlapQueryService] runId:52	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+WHERE {[Internet].[Possuem Internet]}
+2015-01-22 13:24:42,585 INFO  [org.saiku.service.olap.OlapQueryService] runId:52	Size: 0/0	Execute:	15ms	Format:	0ms	 Total: 15ms
+2015-01-22 13:24:47,387 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/result/metadata/dimensions/Internet/hierarchies/[Internet]/levels/[Internet].[Internet]	GET
+2015-01-22 13:24:48,411 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Internet	GET
+2015-01-22 13:24:58,241 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Internet	PUT	
+2015-01-22 13:24:58,246 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Internet	GET
+2015-01-22 13:24:58,976 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:24:58,976 INFO  [org.saiku.service.olap.OlapQueryService] runId:53	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+WHERE {[Internet].[Não possuem Internet], [Internet].[Possuem Internet]}
+2015-01-22 13:24:58,986 INFO  [org.saiku.service.olap.OlapQueryService] runId:53	Size: 2/2	Execute:	9ms	Format:	1ms	 Total: 10ms
+2015-01-22 13:25:03,127 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/result/metadata/dimensions/Internet/hierarchies/[Internet]/levels/[Internet].[Internet]	GET
+2015-01-22 13:25:03,812 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Internet	GET
+2015-01-22 13:25:13,615 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Internet	PUT	
+2015-01-22 13:25:13,621 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Internet	GET
+2015-01-22 13:25:14,115 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:25:14,116 INFO  [org.saiku.service.olap.OlapQueryService] runId:54	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+WHERE {[Internet].[Não possuem Internet]}
+2015-01-22 13:25:14,132 INFO  [org.saiku.service.olap.OlapQueryService] runId:54	Size: 2/2	Execute:	16ms	Format:	1ms	 Total: 17ms
+2015-01-22 13:26:22,181 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Internet/hierarchy/[Internet]/[Internet].[Internet]	DELETE
+2015-01-22 13:26:22,181 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Internet to axis UNUSED  position-1
+2015-01-22 13:26:22,773 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:26:22,773 INFO  [org.saiku.service.olap.OlapQueryService] runId:55	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+2015-01-22 13:26:22,780 INFO  [org.saiku.service.olap.OlapQueryService] runId:55	Size: 2/2	Execute:	7ms	Format:	0ms	 Total: 7ms
+2015-01-22 13:26:30,742 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/result/metadata/dimensions/Material Didático Quilombola/hierarchies/[Material Didático Quilombola]/levels/[Material Didático Quilombola].[Material Didático Quilombola]	GET
+2015-01-22 13:26:30,763 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Material Didático Quilombola/hierarchy/[Material Didático Quilombola]/[Material Didático Quilombola].[Material Didático Quilombola]	POST
+2015-01-22 13:26:30,763 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Material Didático Quilombola to axis FILTER  position0
+2015-01-22 13:26:31,121 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Material Didático Quilombola	GET
+2015-01-22 13:26:36,267 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Material Didático Quilombola	PUT	
+2015-01-22 13:26:36,273 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Material Didático Quilombola	GET
+2015-01-22 13:26:36,911 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:26:36,911 INFO  [org.saiku.service.olap.OlapQueryService] runId:56	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+WHERE {[Material Didático Quilombola].[Possuem material específico para quilombolas]}
+2015-01-22 13:26:36,918 INFO  [org.saiku.service.olap.OlapQueryService] runId:56	Size: 2/2	Execute:	7ms	Format:	0ms	 Total: 7ms
+2015-01-22 13:26:48,823 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Material Didático Quilombola/hierarchy/[Material Didático Quilombola]/[Material Didático Quilombola].[Material Didático Quilombola]	DELETE
+2015-01-22 13:26:48,823 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Material Didático Quilombola to axis UNUSED  position-1
+2015-01-22 13:26:49,258 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:26:49,258 INFO  [org.saiku.service.olap.OlapQueryService] runId:57	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+2015-01-22 13:26:49,265 INFO  [org.saiku.service.olap.OlapQueryService] runId:57	Size: 2/2	Execute:	6ms	Format:	1ms	 Total: 7ms
+2015-01-22 13:26:51,726 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/result/metadata/dimensions/Internet/hierarchies/[Internet]/levels/[Internet].[Internet]	GET
+2015-01-22 13:26:51,833 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Internet/hierarchy/[Internet]/[Internet].[Internet]	POST
+2015-01-22 13:26:51,833 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9BB26717-9BF6-ECBE-85FB-64F2A44F8B20 dimension Internet to axis FILTER  position0
+2015-01-22 13:26:51,997 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Internet	GET
+2015-01-22 13:26:55,860 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Internet	PUT	
+2015-01-22 13:26:55,865 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Internet	GET
+2015-01-22 13:26:56,463 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:26:56,463 INFO  [org.saiku.service.olap.OlapQueryService] runId:58	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+WHERE {[Internet].[Possuem Internet]}
+2015-01-22 13:26:56,469 INFO  [org.saiku.service.olap.OlapQueryService] runId:58	Size: 0/0	Execute:	6ms	Format:	0ms	 Total: 6ms
+2015-01-22 13:26:59,588 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/result/metadata/dimensions/Internet/hierarchies/[Internet]/levels/[Internet].[Internet]	GET
+2015-01-22 13:27:00,112 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Internet	GET
+2015-01-22 13:27:08,325 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Internet	PUT	
+2015-01-22 13:27:08,330 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/axis/FILTER/dimension/Internet	GET
+2015-01-22 13:27:08,890 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20/resultflattened	GET
+2015-01-22 13:27:08,890 INFO  [org.saiku.service.olap.OlapQueryService] runId:59	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localização].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+WHERE {[Internet].[Não possuem Internet]}
+2015-01-22 13:27:08,898 INFO  [org.saiku.service.olap.OlapQueryService] runId:59	Size: 2/2	Execute:	8ms	Format:	0ms	 Total: 8ms
+2015-01-22 13:28:01,715 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9BB26717-9BF6-ECBE-85FB-64F2A44F8B20	DELETE
+2015-01-22 13:28:01,717 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CB9FD905-3CD0-190A-801B-31D9E6179FC0	POST	 xml:false
+2015-01-22 13:28:16,518 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CB9FD905-3CD0-190A-801B-31D9E6179FC0/axis/COLUMNS/dimension/Comunidade/hierarchy/[Comunidade]/[Comunidade].[Comunidade]	POST
+2015-01-22 13:28:16,519 DEBUG [org.saiku.service.olap.OlapQueryService] move query: CB9FD905-3CD0-190A-801B-31D9E6179FC0 dimension Comunidade to axis COLUMNS  position0
+2015-01-22 13:28:16,944 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CB9FD905-3CD0-190A-801B-31D9E6179FC0/result/metadata/dimensions/Comunidade/hierarchies/[Comunidade]/levels/[Comunidade].[Comunidade]	GET
+2015-01-22 13:28:18,783 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CB9FD905-3CD0-190A-801B-31D9E6179FC0/axis/COLUMNS/dimension/Comunidade	GET
+2015-01-22 13:28:27,257 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CB9FD905-3CD0-190A-801B-31D9E6179FC0/axis/COLUMNS/dimension/Comunidade	PUT	
+2015-01-22 13:28:27,263 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CB9FD905-3CD0-190A-801B-31D9E6179FC0/axis/COLUMNS/dimension/Comunidade	GET
+2015-01-22 13:28:34,536 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CB9FD905-3CD0-190A-801B-31D9E6179FC0/axis/ROWS/dimension/Faixa de Renda Familiar/hierarchy/[Faixa de Renda Familiar]/[Faixa de Renda Familiar].[Faixa de Renda Familiar]	POST
+2015-01-22 13:28:34,536 DEBUG [org.saiku.service.olap.OlapQueryService] move query: CB9FD905-3CD0-190A-801B-31D9E6179FC0 dimension Faixa de Renda Familiar to axis ROWS  position0
+2015-01-22 13:28:35,910 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CB9FD905-3CD0-190A-801B-31D9E6179FC0/resultflattened	GET
+2015-01-22 13:28:35,910 INFO  [org.saiku.service.olap.OlapQueryService] runId:60	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[ALTO DO ACARÁ]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Faixa de Renda Familiar].[Faixa de Renda Familiar].Members})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-22 13:28:36,119 INFO  [org.saiku.service.olap.OlapQueryService] runId:60	Size: 2/3	Execute:	208ms	Format:	1ms	 Total: 209ms
+2015-01-22 13:28:59,780 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CB9FD905-3CD0-190A-801B-31D9E6179FC0/axis/ROWS/dimension/Faixa de Renda Familiar/hierarchy/[Faixa de Renda Familiar]/[Faixa de Renda Familiar].[Faixa de Renda Familiar]	DELETE
+2015-01-22 13:28:59,780 DEBUG [org.saiku.service.olap.OlapQueryService] move query: CB9FD905-3CD0-190A-801B-31D9E6179FC0 dimension Faixa de Renda Familiar to axis UNUSED  position-1
+2015-01-22 13:29:03,835 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CB9FD905-3CD0-190A-801B-31D9E6179FC0/axis/ROWS/dimension/Ruralidade/hierarchy/[Ruralidade]/[Ruralidade].[Ruralidade]	POST
+2015-01-22 13:29:03,835 DEBUG [org.saiku.service.olap.OlapQueryService] move query: CB9FD905-3CD0-190A-801B-31D9E6179FC0 dimension Ruralidade to axis ROWS  position0
+2015-01-22 13:29:04,322 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CB9FD905-3CD0-190A-801B-31D9E6179FC0/resultflattened	GET
+2015-01-22 13:29:04,323 INFO  [org.saiku.service.olap.OlapQueryService] runId:61	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[ALTO DO ACARÁ]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Ruralidade].[Ruralidade].Members})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-22 13:29:04,369 INFO  [org.saiku.service.olap.OlapQueryService] runId:61	Size: 2/2	Execute:	47ms	Format:	0ms	 Total: 47ms
+2015-01-22 13:30:49,899 DEBUG [org.saiku.web.rest.resources.SessionResource] Error logging in:
+java.lang.RuntimeException: Authentication failed for: 
+	at org.saiku.web.service.SessionService.authenticate(SessionService.java:158)
+	at org.saiku.web.service.SessionService.login(SessionService.java:70)
+	at org.saiku.web.rest.resources.SessionResource.login(SessionResource.java:61)
+	at org.saiku.web.rest.resources.SessionResource$$FastClassByCGLIB$$1d4f2aee.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:617)
+	at org.saiku.web.rest.resources.SessionResource$$EnhancerByCGLIB$$59d938fe.login(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at org.codehaus.enunciate.modules.jersey.EnunciateJerseyServletContainer.service(EnunciateJerseyServletContainer.java:248)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.codehaus.enunciate.webapp.HTTPRequestContextFilter.doFilter(HTTPRequestContextFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:343)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:97)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:78)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:35)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilter(BasicAuthenticationFilter.java:177)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:187)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:79)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:149)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:127)
+	at org.springframework.security.authentication.ProviderManager.doAuthentication(ProviderManager.java:130)
+	at org.springframework.security.authentication.AbstractAuthenticationManager.authenticate(AbstractAuthenticationManager.java:48)
+	at org.saiku.web.service.SessionService.authenticate(SessionService.java:153)
+	... 73 more
+2015-01-22 13:31:12,682 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-01-22 13:31:46,511 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/200B0964-6B63-0C73-B8C0-AAD19EAAF004	POST	 xml:false
+2015-01-22 13:32:00,930 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/200B0964-6B63-0C73-B8C0-AAD19EAAF004/axis/COLUMNS/dimension/Causa (CID10)/hierarchy/[Causa (CID10)]/[Causa (CID10)].[Causa]	POST
+2015-01-22 13:32:00,930 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 200B0964-6B63-0C73-B8C0-AAD19EAAF004 dimension Causa (CID10) to axis COLUMNS  position0
+2015-01-22 13:32:02,919 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/200B0964-6B63-0C73-B8C0-AAD19EAAF004/axis/COLUMNS/sort/BASC/[Causa (CID10)].CurrentMember.Name	POST
+2015-01-22 13:32:04,155 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/200B0964-6B63-0C73-B8C0-AAD19EAAF004/result/metadata/dimensions/Causa (CID10)/hierarchies/[Causa (CID10)]/levels/[Causa (CID10)].[Causa]	GET
+2015-01-22 13:32:05,505 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/200B0964-6B63-0C73-B8C0-AAD19EAAF004/axis/COLUMNS/dimension/Causa (CID10)	GET

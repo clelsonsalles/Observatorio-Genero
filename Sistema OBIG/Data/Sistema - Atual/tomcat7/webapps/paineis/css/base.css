@@ -1,0 +1,241 @@
+@CHARSET "utf-8";
+
+html {
+	background-color: #EEE;
+}
+/*
+html {   
+  background: url(../img/bg-rural.jpg) no-repeat center center fixed;   
+  -webkit-background-size: cover;  
+  -moz-background-size: cover;  
+  -o-background-size: cover;  
+  background-size: cover;  
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg-rural.jpg', sizingMethod='scale')";  
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg-rural.jpg', sizingMethod='scale');  
+}  
+*/
+
+body {
+	font: Open Sans;
+}
+
+a {
+	text-decoration:none;
+}
+
+/* jQuery UI tooltip */
+.ui-tooltip {
+    font: 10px Open Sans;
+    border: 0px;
+  }
+ .ui-tooltip-content {
+ 	margin-left: 20px;
+ }
+
+.appContainer {	
+	background-color: transparent;
+	
+}
+
+#app-workspace {
+	background-color: #EEE;
+	
+}
+
+#app-menu {
+	/*border-bottom: 1px solid #888;*/
+}
+
+
+ 
+
+ 
+	 #app-menu ul {
+	  list-style-type: none;
+	}
+	#app-menu li {
+	  border-right: 1px solid #aaa;
+	}
+	 
+	 
+ 
+
+ 
+#app-menu li:last-child {
+  border-right: none;
+}
+ 
+#app-menu li a {
+  text-decoration: none;
+  color: #666;
+  font: 12px Arsenal;
+  text-transform: uppercase;
+ 
+}
+ 
+#app-menu li a:hover {
+  color: #00F;
+}
+ 
+#app-menu li.active a {
+  font-weight: bold;
+  color: #000;
+}
+
+
+
+#app-footer {
+	color: #CCC;
+	clear: both;
+}
+
+.indicator-container {
+	background-color: #F5F5F5;
+}
+
+
+.indicator-header {
+	background-color: #555;
+}
+
+.indicator-title {
+	color: white;
+	font: 13px Open Sans;
+	font-weight: bold;
+}
+
+.indicator-filter-text {
+	font: 8pt Open Sans;
+	color: white;
+	background: url(../img/icon/filled-filter-12.png) 7px 5px no-repeat;
+	background-color: #FF6813;
+	border-radius: 8px;
+}
+
+.indicator-toolbar {
+	background-color: #8AB8E6;
+	color: white;
+	font: 10px Open Sans;
+}
+
+.indicator-toolbar img {
+	cursor: pointer;
+}
+
+.indicator-tool {
+	 padding-left:31px;
+	 height:31px;
+	 line-height:30px;
+	 display: inline-block;
+}
+
+.indicator-tool:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.indicator-tool.catalog {
+	background: url(../img/icon/book_31x31.png) 0px 0px no-repeat;
+	float: right;
+}
+
+.indicator-tool.tabular {
+	background: url(../img/icon/spreadsheet_31x31.png)  0px 0px no-repeat;
+	float: right;
+}
+
+.indicator-visualization {
+	
+}
+
+.indicator-footer {
+	border-top: 1px solid silver;
+	font: 11px Open Sans;
+}
+
+
+
+.legend-label {
+	font-size: 12px;
+	color: gray;
+}
+
+.pie-chart-msg {
+	font-size: 12px;
+	color: gray;
+}
+
+.rowvalue-prefix, .rowvalue-suffix {
+	font-size: 16pt;
+	color: #8F8F8F;
+}
+
+.error-container {
+	background-color: #E8BFC8;
+	color: #7F505B;
+	border: 2px solid #B86578;
+}
+
+.error-title {
+	font-size: 10pt;
+	border-bottom: 1px solid #7F505B;
+	
+}
+
+.error-contents {
+	font-size: 14pt;
+	color: #B86578;
+}
+
+.error-details {
+	
+}
+
+.ui-accordion {
+	font-size: 9pt;
+}
+
+.ui-accordion-header {
+	background: silver;
+}
+
+
+
+.dataTables_filter {
+	font-size: 8pt;
+	font-family: Open Sans;
+	color: #333;
+}
+
+.dataTables_scrollHead {
+	font-size: 10pt;
+	font-family: Open Sans;
+	color: #333;
+	background-color: #DDD;
+}
+
+.dataTables_scrollBody {
+	font-size: 10pt;
+	font-family: Open Sans;
+	color: #000;
+}
+
+.dataTables_info {
+	border-top: 1px solid #888;
+	font-size: 10pt;
+	font-family: Open Sans;
+	color: #333;
+}
+
+table.dataTable tr {
+	cursor: pointer;
+}
+
+table.dataTable tr.selected {
+	background-color: #BEB4AA;
+}
+
+table.dataTable tr.selected > td.sorting_1 {
+	background-color: #A5A6A7;
+}
+

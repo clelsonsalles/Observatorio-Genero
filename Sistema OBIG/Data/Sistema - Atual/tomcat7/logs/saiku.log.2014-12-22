@@ -1,0 +1,15 @@
+2014-12-22 09:37:19,802 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2014-12-22 09:37:27,332 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E5F861B1-39F0-F4FB-8B60-9FDB37C9C3E3	POST	 xml:false
+2014-12-22 09:37:36,370 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E5F861B1-39F0-F4FB-8B60-9FDB37C9C3E3/axis/ROWS/dimension/Local de Domicílio/hierarchy/[Local de Domicílio]/[Local de Domicílio].[UF]	POST
+2014-12-22 09:37:36,370 DEBUG [org.saiku.service.olap.OlapQueryService] move query: E5F861B1-39F0-F4FB-8B60-9FDB37C9C3E3 dimension Local de Domicílio to axis ROWS  position0
+2014-12-22 09:37:41,937 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E5F861B1-39F0-F4FB-8B60-9FDB37C9C3E3/axis/ROWS/dimension/Local de Domicílio/hierarchy/[Local de Domicílio]/[Local de Domicílio].[Município]	POST
+2014-12-22 09:37:41,937 DEBUG [org.saiku.service.olap.OlapQueryService] move query: E5F861B1-39F0-F4FB-8B60-9FDB37C9C3E3 dimension Local de Domicílio to axis ROWS  position0
+2014-12-22 09:38:01,045 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E5F861B1-39F0-F4FB-8B60-9FDB37C9C3E3/axis/COLUMNS/dimension/Measures/member/[Measures].[Famílias]	POST
+2014-12-22 09:38:01,045 DEBUG [org.saiku.service.olap.OlapQueryService] move query: E5F861B1-39F0-F4FB-8B60-9FDB37C9C3E3 dimension Measures to axis COLUMNS  position0
+2014-12-22 09:38:01,208 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E5F861B1-39F0-F4FB-8B60-9FDB37C9C3E3/resultflattened	GET
+2014-12-22 09:38:01,222 INFO  [org.saiku.service.olap.OlapQueryService] runId:6	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Famílias]} ON COLUMNS,
+NON EMPTY {Hierarchize({{[Local de Domicílio].[UF].Members}, {[Local de Domicílio].[Município].Members}})} ON ROWS
+FROM [MDS CadUnico (Familias)]
+2014-12-22 10:08:05,964 INFO  [org.saiku.service.olap.OlapQueryService] runId:6	Size: 3/5571	Execute:	1803552ms	Format:	1204ms	 Total: 1804756ms

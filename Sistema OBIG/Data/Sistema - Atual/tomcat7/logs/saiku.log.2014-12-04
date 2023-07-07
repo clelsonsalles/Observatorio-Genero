@@ -1,0 +1,370 @@
+2014-12-04 14:10:57,481 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2014-12-04 14:11:07,554 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/3628FAEE-241B-69C4-864A-DAF6501BE1F1	POST	 xml:false
+2014-12-04 16:05:18,708 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2014-12-04 16:05:29,441 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/EC462489-DD11-008A-811C-4D65418FA32B	POST	 xml:false
+2014-12-04 16:05:41,129 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/EC462489-DD11-008A-811C-4D65418FA32B	DELETE
+2014-12-04 16:05:41,135 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/0E4E2D9E-67F1-41A8-8FC9-7C9A0E1E66BE	POST	 xml:false
+2014-12-04 16:05:47,912 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/0E4E2D9E-67F1-41A8-8FC9-7C9A0E1E66BE/axis/ROWS/dimension/Measures/member/[Measures].[Famílias]	POST
+2014-12-04 16:05:47,912 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 0E4E2D9E-67F1-41A8-8FC9-7C9A0E1E66BE dimension Measures to axis ROWS  position0
+2014-12-04 16:05:51,617 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/0E4E2D9E-67F1-41A8-8FC9-7C9A0E1E66BE/axis/COLUMNS/dimension/Capacidade de Ler e Escrever/hierarchy/[Capacidade de Ler e Escrever]/[Capacidade de Ler e Escrever].[Capacidade de Ler e Escrever]	POST
+2014-12-04 16:05:51,617 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 0E4E2D9E-67F1-41A8-8FC9-7C9A0E1E66BE dimension Capacidade de Ler e Escrever to axis COLUMNS  position0
+2014-12-04 16:05:51,702 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/0E4E2D9E-67F1-41A8-8FC9-7C9A0E1E66BE/resultflattened	GET
+2014-12-04 16:05:51,702 INFO  [org.saiku.service.olap.OlapQueryService] runId:5	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Capacidade de Ler e Escrever].[Capacidade de Ler e Escrever].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [PBQ CadUnico (Pessoas Quilombolas)]
+2014-12-04 16:05:52,724 INFO  [org.saiku.service.olap.OlapQueryService] runId:5	Size: 3/2	Execute:	1020ms	Format:	2ms	 Total: 1022ms
+2014-12-04 16:05:57,342 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/0E4E2D9E-67F1-41A8-8FC9-7C9A0E1E66BE/axis/ROWS/dimension/Measures/member/[Measures].[Pessoas]	POST
+2014-12-04 16:05:57,342 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 0E4E2D9E-67F1-41A8-8FC9-7C9A0E1E66BE dimension Measures to axis ROWS  position0
+2014-12-04 16:05:57,457 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/0E4E2D9E-67F1-41A8-8FC9-7C9A0E1E66BE/resultflattened	GET
+2014-12-04 16:05:57,457 INFO  [org.saiku.service.olap.OlapQueryService] runId:6	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Capacidade de Ler e Escrever].[Capacidade de Ler e Escrever].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias], [Measures].[Pessoas]} ON ROWS
+FROM [PBQ CadUnico (Pessoas Quilombolas)]
+2014-12-04 16:05:57,699 INFO  [org.saiku.service.olap.OlapQueryService] runId:6	Size: 3/3	Execute:	241ms	Format:	1ms	 Total: 242ms
+2014-12-04 16:06:37,308 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/0E4E2D9E-67F1-41A8-8FC9-7C9A0E1E66BE	DELETE
+2014-12-04 16:06:37,322 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DB87B593-FA66-06DB-827B-DB4D16159E7E	POST	 xml:false
+2014-12-04 16:07:13,973 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DB87B593-FA66-06DB-827B-DB4D16159E7E/axis/COLUMNS/dimension/Local de Domicílio/hierarchy/[Local de Domicílio]/[Local de Domicílio].[UF]	POST
+2014-12-04 16:07:13,973 DEBUG [org.saiku.service.olap.OlapQueryService] move query: DB87B593-FA66-06DB-827B-DB4D16159E7E dimension Local de Domicílio to axis COLUMNS  position0
+2014-12-04 16:07:17,553 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DB87B593-FA66-06DB-827B-DB4D16159E7E/axis/ROWS/dimension/Measures/member/[Measures].[Famílias]	POST
+2014-12-04 16:07:17,553 DEBUG [org.saiku.service.olap.OlapQueryService] move query: DB87B593-FA66-06DB-827B-DB4D16159E7E dimension Measures to axis ROWS  position0
+2014-12-04 16:07:17,650 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DB87B593-FA66-06DB-827B-DB4D16159E7E/resultflattened	GET
+2014-12-04 16:07:17,650 INFO  [org.saiku.service.olap.OlapQueryService] runId:7	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Domicílio].[UF].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2014-12-04 16:07:17,701 INFO  [org.saiku.service.olap.OlapQueryService] runId:7	Size: 28/2	Execute:	48ms	Format:	3ms	 Total: 51ms
+2014-12-04 16:07:25,978 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/DB87B593-FA66-06DB-827B-DB4D16159E7E	DELETE
+2014-12-04 16:07:25,995 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/C094F330-97AD-2C60-8CB1-33735877C54B	POST	 xml:false
+2014-12-04 16:07:33,814 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/C094F330-97AD-2C60-8CB1-33735877C54B/axis/COLUMNS/dimension/Local de Nascimento/hierarchy/[Local de Nascimento]/[Local de Nascimento].[Município]	POST
+2014-12-04 16:07:33,815 DEBUG [org.saiku.service.olap.OlapQueryService] move query: C094F330-97AD-2C60-8CB1-33735877C54B dimension Local de Nascimento to axis COLUMNS  position0
+2014-12-04 16:07:36,125 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/C094F330-97AD-2C60-8CB1-33735877C54B/axis/ROWS/dimension/Measures/member/[Measures].[Pessoas]	POST
+2014-12-04 16:07:36,125 DEBUG [org.saiku.service.olap.OlapQueryService] move query: C094F330-97AD-2C60-8CB1-33735877C54B dimension Measures to axis ROWS  position0
+2014-12-04 16:07:36,257 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/C094F330-97AD-2C60-8CB1-33735877C54B/resultflattened	GET
+2014-12-04 16:07:36,257 INFO  [org.saiku.service.olap.OlapQueryService] runId:8	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Nascimento].[Município].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Pessoas]} ON ROWS
+FROM [PBQ CadUnico (Pessoas Quilombolas)]
+2014-12-04 16:07:38,124 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/C094F330-97AD-2C60-8CB1-33735877C54B/result	DELETE
+2014-12-04 16:07:38,165 INFO  [org.saiku.service.olap.OlapQueryService] runId:8	Exception: OlapException: Query canceled
+2014-12-04 16:07:38,165 ERROR [org.saiku.web.rest.resources.QueryResource] Cannot execute query (C094F330-97AD-2C60-8CB1-33735877C54B)
+org.saiku.service.util.exception.SaikuServiceException: runId:8	Can't execute query: C094F330-97AD-2C60-8CB1-33735877C54B
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:253)
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:207)
+	at org.saiku.web.rest.resources.QueryResource.execute(QueryResource.java:717)
+	at org.saiku.web.rest.resources.QueryResource$$FastClassByCGLIB$$e130f1a0.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:617)
+	at org.saiku.web.rest.resources.QueryResource$$EnhancerByCGLIB$$e19ca8a4.execute(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at org.codehaus.enunciate.modules.jersey.EnunciateJerseyServletContainer.service(EnunciateJerseyServletContainer.java:248)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.codehaus.enunciate.webapp.HTTPRequestContextFilter.doFilter(HTTPRequestContextFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:343)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:97)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:78)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:35)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilter(BasicAuthenticationFilter.java:177)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:187)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:79)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:149)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.olap4j.OlapException: Query canceled
+	at mondrian.olap4j.MondrianOlap4jConnection$Helper.createException(MondrianOlap4jConnection.java:781)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQueryInternal(MondrianOlap4jStatement.java:417)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQuery(MondrianOlap4jStatement.java:347)
+	at org.saiku.olap.query.OlapQuery.execute(OlapQuery.java:260)
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:233)
+	... 74 more
+2014-12-04 16:07:40,252 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/C094F330-97AD-2C60-8CB1-33735877C54B/axis/COLUMNS/dimension/Local de Nascimento/hierarchy/[Local de Nascimento]/[Local de Nascimento].[Município]	DELETE
+2014-12-04 16:07:40,254 DEBUG [org.saiku.service.olap.OlapQueryService] move query: C094F330-97AD-2C60-8CB1-33735877C54B dimension Local de Nascimento to axis UNUSED  position-1
+2014-12-04 16:07:41,582 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/C094F330-97AD-2C60-8CB1-33735877C54B/axis/COLUMNS/dimension/Local de Nascimento/hierarchy/[Local de Nascimento]/[Local de Nascimento].[UF]	POST
+2014-12-04 16:07:41,582 DEBUG [org.saiku.service.olap.OlapQueryService] move query: C094F330-97AD-2C60-8CB1-33735877C54B dimension Local de Nascimento to axis COLUMNS  position0
+2014-12-04 16:07:41,786 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/C094F330-97AD-2C60-8CB1-33735877C54B/resultflattened	GET
+2014-12-04 16:07:41,786 INFO  [org.saiku.service.olap.OlapQueryService] runId:9	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Nascimento].[UF].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Pessoas]} ON ROWS
+FROM [PBQ CadUnico (Pessoas Quilombolas)]
+2014-12-04 16:07:41,795 INFO  [org.saiku.service.olap.OlapQueryService] runId:9	Size: 28/2	Execute:	6ms	Format:	3ms	 Total: 9ms
+2014-12-04 16:08:21,359 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/C094F330-97AD-2C60-8CB1-33735877C54B/axis/COLUMNS/dimension/Local de Nascimento/hierarchy/[Local de Nascimento]/[Local de Nascimento].[UF]	DELETE
+2014-12-04 16:08:21,360 DEBUG [org.saiku.service.olap.OlapQueryService] move query: C094F330-97AD-2C60-8CB1-33735877C54B dimension Local de Nascimento to axis UNUSED  position-1
+2014-12-04 16:08:23,203 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/C094F330-97AD-2C60-8CB1-33735877C54B/axis/ROWS/dimension/Measures/member/[Measures].[Pessoas]	DELETE
+2014-12-04 16:08:23,203 DEBUG [org.saiku.service.olap.OlapQueryService] query: C094F330-97AD-2C60-8CB1-33735877C54B remove:MEMBER 2
+2014-12-04 16:08:23,204 DEBUG [org.saiku.service.olap.OlapQueryService] move query: C094F330-97AD-2C60-8CB1-33735877C54B dimension Measures to axis UNUSED  position-1
+2014-12-04 16:08:25,041 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/C094F330-97AD-2C60-8CB1-33735877C54B/axis/COLUMNS/dimension/Measures/member/[Measures].[Famílias]	POST
+2014-12-04 16:08:25,041 DEBUG [org.saiku.service.olap.OlapQueryService] move query: C094F330-97AD-2C60-8CB1-33735877C54B dimension Measures to axis COLUMNS  position0
+2014-12-04 16:08:28,686 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/C094F330-97AD-2C60-8CB1-33735877C54B/axis/ROWS/dimension/Conclusão do Curso/hierarchy/[Conclusão do Curso]/[Conclusão do Curso].[Conclusão do Curso]	POST
+2014-12-04 16:08:28,686 DEBUG [org.saiku.service.olap.OlapQueryService] move query: C094F330-97AD-2C60-8CB1-33735877C54B dimension Conclusão do Curso to axis ROWS  position0
+2014-12-04 16:08:28,826 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/C094F330-97AD-2C60-8CB1-33735877C54B/resultflattened	GET
+2014-12-04 16:08:28,826 INFO  [org.saiku.service.olap.OlapQueryService] runId:10	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Famílias]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Conclusão do Curso].[Conclusão do Curso].Members})} ON ROWS
+FROM [PBQ CadUnico (Pessoas Quilombolas)]
+2014-12-04 16:08:29,114 INFO  [org.saiku.service.olap.OlapQueryService] runId:10	Size: 2/3	Execute:	287ms	Format:	1ms	 Total: 288ms
+2014-12-04 16:08:33,675 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/C094F330-97AD-2C60-8CB1-33735877C54B/axis/ROWS/dimension/Conclusão do Curso/hierarchy/[Conclusão do Curso]/[Conclusão do Curso].[Conclusão do Curso]	DELETE
+2014-12-04 16:08:33,675 DEBUG [org.saiku.service.olap.OlapQueryService] move query: C094F330-97AD-2C60-8CB1-33735877C54B dimension Conclusão do Curso to axis UNUSED  position-1
+2014-12-04 16:08:35,124 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/C094F330-97AD-2C60-8CB1-33735877C54B/axis/COLUMNS/dimension/Measures/member/[Measures].[Famílias]	DELETE
+2014-12-04 16:08:35,124 DEBUG [org.saiku.service.olap.OlapQueryService] query: C094F330-97AD-2C60-8CB1-33735877C54B remove:MEMBER 2
+2014-12-04 16:08:35,125 DEBUG [org.saiku.service.olap.OlapQueryService] move query: C094F330-97AD-2C60-8CB1-33735877C54B dimension Measures to axis UNUSED  position-1
+2014-12-04 16:08:50,578 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/C094F330-97AD-2C60-8CB1-33735877C54B	DELETE
+2014-12-04 16:08:50,591 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/21270C1B-DDF5-6779-9156-86E9E5B3FD03	POST	 xml:false
+2014-12-04 16:09:02,809 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/21270C1B-DDF5-6779-9156-86E9E5B3FD03/axis/COLUMNS/dimension/Local de Domicílio/hierarchy/[Local de Domicílio]/[Local de Domicílio].[Município]	POST
+2014-12-04 16:09:02,809 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 21270C1B-DDF5-6779-9156-86E9E5B3FD03 dimension Local de Domicílio to axis COLUMNS  position0
+2014-12-04 16:09:04,710 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/21270C1B-DDF5-6779-9156-86E9E5B3FD03/axis/ROWS/dimension/Measures/member/[Measures].[Famílias]	POST
+2014-12-04 16:09:04,710 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 21270C1B-DDF5-6779-9156-86E9E5B3FD03 dimension Measures to axis ROWS  position0
+2014-12-04 16:09:04,791 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/21270C1B-DDF5-6779-9156-86E9E5B3FD03/resultflattened	GET
+2014-12-04 16:09:04,792 INFO  [org.saiku.service.olap.OlapQueryService] runId:11	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Domicílio].[Município].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [Hist. MDS CadUnico (Familias)]
+2014-12-04 16:09:17,844 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/21270C1B-DDF5-6779-9156-86E9E5B3FD03/result	DELETE
+2014-12-04 16:09:17,852 INFO  [org.saiku.service.olap.OlapQueryService] runId:11	Exception: OlapException: Query canceled
+2014-12-04 16:09:17,852 ERROR [org.saiku.web.rest.resources.QueryResource] Cannot execute query (21270C1B-DDF5-6779-9156-86E9E5B3FD03)
+org.saiku.service.util.exception.SaikuServiceException: runId:11	Can't execute query: 21270C1B-DDF5-6779-9156-86E9E5B3FD03
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:253)
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:207)
+	at org.saiku.web.rest.resources.QueryResource.execute(QueryResource.java:717)
+	at org.saiku.web.rest.resources.QueryResource$$FastClassByCGLIB$$e130f1a0.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:617)
+	at org.saiku.web.rest.resources.QueryResource$$EnhancerByCGLIB$$e19ca8a4.execute(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at org.codehaus.enunciate.modules.jersey.EnunciateJerseyServletContainer.service(EnunciateJerseyServletContainer.java:248)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.codehaus.enunciate.webapp.HTTPRequestContextFilter.doFilter(HTTPRequestContextFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:343)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:97)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:78)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:35)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilter(BasicAuthenticationFilter.java:177)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:187)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:79)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:149)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.olap4j.OlapException: Query canceled
+	at mondrian.olap4j.MondrianOlap4jConnection$Helper.createException(MondrianOlap4jConnection.java:781)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQueryInternal(MondrianOlap4jStatement.java:417)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQuery(MondrianOlap4jStatement.java:347)
+	at org.saiku.olap.query.OlapQuery.execute(OlapQuery.java:260)
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:233)
+	... 74 more
+2014-12-04 16:09:19,858 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/21270C1B-DDF5-6779-9156-86E9E5B3FD03/axis/COLUMNS/dimension/Local de Domicílio/hierarchy/[Local de Domicílio]/[Local de Domicílio].[Município]	DELETE
+2014-12-04 16:09:19,858 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 21270C1B-DDF5-6779-9156-86E9E5B3FD03 dimension Local de Domicílio to axis UNUSED  position-1
+2014-12-04 16:09:21,370 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/21270C1B-DDF5-6779-9156-86E9E5B3FD03/axis/COLUMNS/dimension/Local de Domicílio/hierarchy/[Local de Domicílio]/[Local de Domicílio].[UF]	POST
+2014-12-04 16:09:21,370 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 21270C1B-DDF5-6779-9156-86E9E5B3FD03 dimension Local de Domicílio to axis COLUMNS  position0
+2014-12-04 16:09:21,516 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/21270C1B-DDF5-6779-9156-86E9E5B3FD03/resultflattened	GET
+2014-12-04 16:09:21,516 INFO  [org.saiku.service.olap.OlapQueryService] runId:12	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Domicílio].[UF].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [Hist. MDS CadUnico (Familias)]
+2014-12-04 16:09:23,125 INFO  [org.saiku.service.olap.OlapQueryService] runId:12	Size: 28/2	Execute:	1605ms	Format:	4ms	 Total: 1609ms
+2014-12-04 16:09:31,834 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/21270C1B-DDF5-6779-9156-86E9E5B3FD03/axis/COLUMNS/dimension/Ⓣ Período/hierarchy/[Ⓣ Período]/[Ⓣ Período].[Todos]	POST
+2014-12-04 16:09:31,834 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 21270C1B-DDF5-6779-9156-86E9E5B3FD03 dimension Ⓣ Período to axis COLUMNS  position1
+2014-12-04 16:09:31,967 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/21270C1B-DDF5-6779-9156-86E9E5B3FD03/resultflattened	GET
+2014-12-04 16:09:31,968 INFO  [org.saiku.service.olap.OlapQueryService] runId:13	Type:QM:
+SELECT
+NON EMPTY CrossJoin([Local de Domicílio].[UF].Members, {[Ⓣ Período].[Todos os Anos]}) ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [Hist. MDS CadUnico (Familias)]
+2014-12-04 16:09:33,773 INFO  [org.saiku.service.olap.OlapQueryService] runId:13	Size: 28/3	Execute:	1801ms	Format:	4ms	 Total: 1805ms
+2014-12-04 16:09:38,061 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/21270C1B-DDF5-6779-9156-86E9E5B3FD03/axis/COLUMNS/dimension/Ⓣ Período/hierarchy/[Ⓣ Período]/[Ⓣ Período].[Todos]	DELETE
+2014-12-04 16:09:38,062 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 21270C1B-DDF5-6779-9156-86E9E5B3FD03 dimension Ⓣ Período to axis UNUSED  position-1
+2014-12-04 16:09:38,206 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/21270C1B-DDF5-6779-9156-86E9E5B3FD03/resultflattened	GET
+2014-12-04 16:09:38,207 INFO  [org.saiku.service.olap.OlapQueryService] runId:14	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Domicílio].[UF].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [Hist. MDS CadUnico (Familias)]
+2014-12-04 16:09:38,214 INFO  [org.saiku.service.olap.OlapQueryService] runId:14	Size: 28/2	Execute:	4ms	Format:	3ms	 Total: 7ms
+2014-12-04 16:09:40,959 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/21270C1B-DDF5-6779-9156-86E9E5B3FD03/axis/COLUMNS/dimension/Ⓣ Período/hierarchy/[Ⓣ Período]/[Ⓣ Período].[Mês]	POST
+2014-12-04 16:09:40,959 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 21270C1B-DDF5-6779-9156-86E9E5B3FD03 dimension Ⓣ Período to axis COLUMNS  position1
+2014-12-04 16:09:41,132 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/21270C1B-DDF5-6779-9156-86E9E5B3FD03/resultflattened	GET
+2014-12-04 16:09:41,133 INFO  [org.saiku.service.olap.OlapQueryService] runId:15	Type:QM:
+SELECT
+NON EMPTY CrossJoin([Local de Domicílio].[UF].Members, [Ⓣ Período].[Mês].Members) ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [Hist. MDS CadUnico (Familias)]
+2014-12-04 16:09:46,637 INFO  [org.saiku.service.olap.OlapQueryService] runId:15	Size: 31/3	Execute:	5498ms	Format:	6ms	 Total: 5504ms
+2014-12-04 16:09:56,459 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/21270C1B-DDF5-6779-9156-86E9E5B3FD03/axis/ROWS/dimension/Ⓣ Período	POST
+2014-12-04 16:09:56,459 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 21270C1B-DDF5-6779-9156-86E9E5B3FD03 dimension Ⓣ Período to axis ROWS  position1
+2014-12-04 16:09:56,602 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/21270C1B-DDF5-6779-9156-86E9E5B3FD03/resultflattened	GET
+2014-12-04 16:09:56,603 INFO  [org.saiku.service.olap.OlapQueryService] runId:16	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Domicílio].[UF].Members})} ON COLUMNS,
+NON EMPTY CrossJoin({[Measures].[Famílias]}, [Ⓣ Período].[Mês].Members) ON ROWS
+FROM [Hist. MDS CadUnico (Familias)]
+2014-12-04 16:09:57,336 INFO  [org.saiku.service.olap.OlapQueryService] runId:16	Size: 29/3	Execute:	728ms	Format:	5ms	 Total: 733ms
+2014-12-04 16:10:23,061 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/21270C1B-DDF5-6779-9156-86E9E5B3FD03/swapaxes	PUT
+2014-12-04 16:10:23,332 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/21270C1B-DDF5-6779-9156-86E9E5B3FD03/resultflattened	GET
+2014-12-04 16:10:23,332 INFO  [org.saiku.service.olap.OlapQueryService] runId:17	Type:QM:
+SELECT
+NON EMPTY CrossJoin({[Measures].[Famílias]}, [Ⓣ Período].[Mês].Members) ON COLUMNS,
+NON EMPTY {Hierarchize({[Local de Domicílio].[UF].Members})} ON ROWS
+FROM [Hist. MDS CadUnico (Familias)]
+2014-12-04 16:10:23,346 INFO  [org.saiku.service.olap.OlapQueryService] runId:17	Size: 3/29	Execute:	9ms	Format:	5ms	 Total: 14ms
+2014-12-04 16:10:34,896 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/21270C1B-DDF5-6779-9156-86E9E5B3FD03	DELETE
+2014-12-04 16:10:34,916 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/4CEF347D-BB2A-C846-BE5B-DFE757274EE6	POST	 xml:false
+2014-12-04 16:10:48,120 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/4CEF347D-BB2A-C846-BE5B-DFE757274EE6/axis/COLUMNS/dimension/Comunidade/hierarchy/[Comunidade]/[Comunidade].[Comunidade]	POST
+2014-12-04 16:10:48,120 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 4CEF347D-BB2A-C846-BE5B-DFE757274EE6 dimension Comunidade to axis COLUMNS  position0
+2014-12-04 16:10:52,565 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/4CEF347D-BB2A-C846-BE5B-DFE757274EE6/axis/ROWS/dimension/Measures/member/[Measures].[Famílias]	POST
+2014-12-04 16:10:52,565 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 4CEF347D-BB2A-C846-BE5B-DFE757274EE6 dimension Measures to axis ROWS  position0
+2014-12-04 16:10:52,796 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/4CEF347D-BB2A-C846-BE5B-DFE757274EE6/resultflattened	GET
+2014-12-04 16:10:52,797 INFO  [org.saiku.service.olap.OlapQueryService] runId:18	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[Comunidade].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2014-12-04 16:10:53,398 INFO  [org.saiku.service.olap.OlapQueryService] runId:18	Size: 1442/2	Execute:	476ms	Format:	126ms	 Total: 602ms
+2014-12-04 16:10:58,177 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/4CEF347D-BB2A-C846-BE5B-DFE757274EE6/axis/ROWS/dimension/Ⓣ Período/hierarchy/[Ⓣ Período]/[Ⓣ Período].[Mês]	POST
+2014-12-04 16:10:58,177 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 4CEF347D-BB2A-C846-BE5B-DFE757274EE6 dimension Ⓣ Período to axis ROWS  position1
+2014-12-04 16:10:58,968 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/4CEF347D-BB2A-C846-BE5B-DFE757274EE6/resultflattened	GET
+2014-12-04 16:10:58,968 INFO  [org.saiku.service.olap.OlapQueryService] runId:19	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[Comunidade].Members})} ON COLUMNS,
+NON EMPTY CrossJoin({[Measures].[Famílias]}, [Ⓣ Período].[Mês].Members) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2014-12-04 16:10:59,863 INFO  [org.saiku.service.olap.OlapQueryService] runId:19	Size: 1443/3	Execute:	731ms	Format:	164ms	 Total: 895ms
+2014-12-04 16:11:11,551 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/4CEF347D-BB2A-C846-BE5B-DFE757274EE6/swapaxes	PUT
+2014-12-04 16:11:11,832 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/4CEF347D-BB2A-C846-BE5B-DFE757274EE6/resultflattened	GET
+2014-12-04 16:11:11,833 INFO  [org.saiku.service.olap.OlapQueryService] runId:20	Type:QM:
+SELECT
+NON EMPTY CrossJoin({[Measures].[Famílias]}, [Ⓣ Período].[Mês].Members) ON COLUMNS,
+NON EMPTY {Hierarchize({[Comunidade].[Comunidade].Members})} ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2014-12-04 16:11:12,039 INFO  [org.saiku.service.olap.OlapQueryService] runId:20	Size: 3/1443	Execute:	76ms	Format:	130ms	 Total: 206ms
+2014-12-04 16:11:55,456 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/4CEF347D-BB2A-C846-BE5B-DFE757274EE6/axis/ROWS/dimension/Comunidade/hierarchy/[Comunidade]/[Comunidade].[Comunidade]	DELETE
+2014-12-04 16:11:55,456 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 4CEF347D-BB2A-C846-BE5B-DFE757274EE6 dimension Comunidade to axis UNUSED  position-1
+2014-12-04 16:11:57,007 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/4CEF347D-BB2A-C846-BE5B-DFE757274EE6/axis/ROWS/dimension/Comunidade/hierarchy/[Comunidade]/[Comunidade].[Todas]	POST
+2014-12-04 16:11:57,007 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 4CEF347D-BB2A-C846-BE5B-DFE757274EE6 dimension Comunidade to axis ROWS  position0
+2014-12-04 16:11:57,109 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/4CEF347D-BB2A-C846-BE5B-DFE757274EE6/resultflattened	GET
+2014-12-04 16:11:57,110 INFO  [org.saiku.service.olap.OlapQueryService] runId:21	Type:QM:
+SELECT
+NON EMPTY CrossJoin({[Measures].[Famílias]}, [Ⓣ Período].[Mês].Members) ON COLUMNS,
+NON EMPTY {Hierarchize({[Comunidade].[Todas as Comunidades]})} ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2014-12-04 16:11:57,120 INFO  [org.saiku.service.olap.OlapQueryService] runId:21	Size: 3/3	Execute:	9ms	Format:	1ms	 Total: 10ms
+2014-12-04 16:36:47,950 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/4CEF347D-BB2A-C846-BE5B-DFE757274EE6/axis/ROWS/dimension/Comunidade/hierarchy/[Comunidade]/[Comunidade].[Todas]	DELETE
+2014-12-04 16:36:47,950 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 4CEF347D-BB2A-C846-BE5B-DFE757274EE6 dimension Comunidade to axis UNUSED  position-1
+2014-12-04 16:36:49,415 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/4CEF347D-BB2A-C846-BE5B-DFE757274EE6/axis/COLUMNS/dimension/Measures/member/[Measures].[Famílias]	DELETE
+2014-12-04 16:36:49,415 DEBUG [org.saiku.service.olap.OlapQueryService] query: 4CEF347D-BB2A-C846-BE5B-DFE757274EE6 remove:MEMBER 2
+2014-12-04 16:36:49,416 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 4CEF347D-BB2A-C846-BE5B-DFE757274EE6 dimension Measures to axis UNUSED  position-1
+2014-12-04 16:36:50,783 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/4CEF347D-BB2A-C846-BE5B-DFE757274EE6/axis/COLUMNS/dimension/Ⓣ Período/hierarchy/[Ⓣ Período]/[Ⓣ Período].[Mês]	DELETE
+2014-12-04 16:36:50,783 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 4CEF347D-BB2A-C846-BE5B-DFE757274EE6 dimension Ⓣ Período to axis UNUSED  position-1

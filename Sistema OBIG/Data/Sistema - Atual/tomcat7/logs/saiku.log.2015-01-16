@@ -1,0 +1,26 @@
+2015-01-16 16:32:35,276 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-01-16 16:32:42,326 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/B8975394-A0EE-DBAC-9150-74AC5D3AD035	POST	 xml:false
+2015-01-16 16:33:05,612 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/B8975394-A0EE-DBAC-9150-74AC5D3AD035/axis/ROWS/dimension/Localização/hierarchy/[Localização]/[Localização].[UF]	POST
+2015-01-16 16:33:05,612 DEBUG [org.saiku.service.olap.OlapQueryService] move query: B8975394-A0EE-DBAC-9150-74AC5D3AD035 dimension Localização to axis ROWS  position0
+2015-01-16 16:33:06,518 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/B8975394-A0EE-DBAC-9150-74AC5D3AD035/axis/ROWS/dimension/Localização/hierarchy/[Localização]/[Localização].[Município]	POST
+2015-01-16 16:33:06,518 DEBUG [org.saiku.service.olap.OlapQueryService] move query: B8975394-A0EE-DBAC-9150-74AC5D3AD035 dimension Localização to axis ROWS  position0
+2015-01-16 16:33:10,697 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/B8975394-A0EE-DBAC-9150-74AC5D3AD035/axis/COLUMNS/dimension/Measures/member/[Measures].[Escolas]	POST
+2015-01-16 16:33:10,697 DEBUG [org.saiku.service.olap.OlapQueryService] move query: B8975394-A0EE-DBAC-9150-74AC5D3AD035 dimension Measures to axis COLUMNS  position0
+2015-01-16 16:33:10,833 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/B8975394-A0EE-DBAC-9150-74AC5D3AD035/resultflattened	GET
+2015-01-16 16:33:10,833 INFO  [org.saiku.service.olap.OlapQueryService] runId:17	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Escolas]} ON COLUMNS,
+NON EMPTY {Hierarchize({{[Localização].[UF].Members}, {[Localização].[Município].Members}})} ON ROWS
+FROM [MEC Censo Escolar (Escolas)]
+2015-01-16 16:33:27,821 INFO  [org.saiku.service.olap.OlapQueryService] runId:17	Size: 3/5571	Execute:	16243ms	Format:	745ms	 Total: 16988ms
+2015-01-16 16:35:05,951 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/B8975394-A0EE-DBAC-9150-74AC5D3AD035/axis/COLUMNS/dimension/Localização	GET
+2015-01-16 16:35:08,267 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/B8975394-A0EE-DBAC-9150-74AC5D3AD035/axis/COLUMNS/dimension/Localização	PUT	
+2015-01-16 16:35:08,372 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/B8975394-A0EE-DBAC-9150-74AC5D3AD035/axis/COLUMNS/dimension/Localização	GET
+2015-01-16 16:35:08,393 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/B8975394-A0EE-DBAC-9150-74AC5D3AD035	GET
+2015-01-16 16:35:15,387 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/B8975394-A0EE-DBAC-9150-74AC5D3AD035/resultflattened	GET
+2015-01-16 16:35:15,387 INFO  [org.saiku.service.olap.OlapQueryService] runId:18	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Escolas]} ON COLUMNS,
+NON EMPTY {Hierarchize({{[Localização].[UF].Members}, {[Localização].[Nordeste].[Maranhão].[Norte Maranhense].[Litoral Ocidental Maranhense].[Alcântara]}})} ON ROWS
+FROM [MEC Censo Escolar (Escolas)]
+2015-01-16 16:35:15,401 INFO  [org.saiku.service.olap.OlapQueryService] runId:18	Size: 3/2	Execute:	13ms	Format:	1ms	 Total: 14ms

@@ -1,0 +1,32 @@
+Dez 03, 2014 9:22:11 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: restart: Reloading web application '/paineis'
+Dez 03, 2014 9:22:13 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 03, 2014 9:25:19 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: restart: Reloading web application '/paineis'
+Dez 03, 2014 9:31:51 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 03, 2014 9:31:56 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: start: Starting web application '/paineis'
+Dez 03, 2014 9:33:04 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 03, 2014 9:33:08 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: start: Starting web application '/paineis'
+Dez 03, 2014 9:33:25 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: sessions: Session action 'null' for web application '/paineis'
+Dez 03, 2014 9:35:37 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Dez 03, 2014 9:35:37 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: init: Global resources are available
+Dez 03, 2014 9:35:37 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 03, 2014 12:33:41 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 03, 2014 12:33:45 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: restart: Reloading web application '/saiku'
+Dez 03, 2014 12:33:57 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dez 03, 2014 12:44:44 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: restart: Reloading web application '/saiku'
+Dez 03, 2014 12:44:57 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES: HTMLManager: list: Listing contexts for virtual host 'localhost'

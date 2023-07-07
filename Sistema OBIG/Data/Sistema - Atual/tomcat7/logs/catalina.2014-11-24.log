@@ -1,0 +1,916 @@
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:19:58 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.CubeNavigatorServlet doGet
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados OLAP. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Conexão com o banco de dados perdida... reestabelecendo...
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.CubeNavigatorServlet doGet
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados OLAP. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Conexão com o banco de dados perdida... reestabelecendo...
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Inicialização do banco de dados concluída.
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService getCube
+INFORMAÇÕES: ERRO: Não foi possível obtera descrição do cubo SIM porque não há conexão com o banco de dados OLAP.
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Inicialização do banco de dados concluída.
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService getCube
+INFORMAÇÕES: ERRO: Não foi possível obtera descrição do cubo Censo Resumido para o PJV porque não há conexão com o banco de dados OLAP.
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.CubeNavigatorServlet doGet
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados OLAP. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Conexão com o banco de dados perdida... reestabelecendo...
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Inicialização do banco de dados concluída.
+Nov 24, 2014 2:20:02 PM org.iadb.seppir.monitor.OlapCurrentService getCube
+INFORMAÇÕES: ERRO: Não foi possível obtera descrição do cubo Juventude Viva porque não há conexão com o banco de dados OLAP.
+Nov 24, 2014 2:20:03 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:03 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:03 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:03 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:03 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:03 PM org.iadb.seppir.monitor.TableProvider getDatabaseRows
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:08 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:09 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:09 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:09 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:09 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:09 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:09 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:09 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.CubeNavigatorServlet doGet
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados OLAP. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Conexão com o banco de dados perdida... reestabelecendo...
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Inicialização do banco de dados concluída.
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService getCube
+INFORMAÇÕES: ERRO: Não foi possível obtera descrição do cubo Juventude Viva porque não há conexão com o banco de dados OLAP.
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.CubeNavigatorServlet doGet
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados OLAP. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Conexão com o banco de dados perdida... reestabelecendo...
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Inicialização do banco de dados concluída.
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService getCube
+INFORMAÇÕES: ERRO: Não foi possível obtera descrição do cubo Censo Resumido para o PJV porque não há conexão com o banco de dados OLAP.
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.CubeNavigatorServlet doGet
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados OLAP. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Conexão com o banco de dados perdida... reestabelecendo...
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.CubeNavigatorServlet doGet
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados OLAP. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Inicialização do banco de dados concluída.
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Conexão com o banco de dados perdida... reestabelecendo...
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService getCube
+INFORMAÇÕES: ERRO: Não foi possível obtera descrição do cubo Censo INEP Resumido para PJV porque não há conexão com o banco de dados OLAP.
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Inicialização do banco de dados concluída.
+Nov 24, 2014 2:20:11 PM org.iadb.seppir.monitor.OlapCurrentService getCube
+INFORMAÇÕES: ERRO: Não foi possível obtera descrição do cubo Censo INEP Abandono Escolar porque não há conexão com o banco de dados OLAP.
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:14 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.CubeNavigatorServlet doGet
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados OLAP. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Conexão com o banco de dados perdida... reestabelecendo...
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Inicialização do banco de dados concluída.
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService getCube
+INFORMAÇÕES: ERRO: Não foi possível obtera descrição do cubo RAIS Resumida para PJV porque não há conexão com o banco de dados OLAP.
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.CubeNavigatorServlet doGet
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados OLAP. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Conexão com o banco de dados perdida... reestabelecendo...
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.CubeNavigatorServlet doGet
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados OLAP. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Conexão com o banco de dados perdida... reestabelecendo...
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Inicialização do banco de dados concluída.
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService getCube
+INFORMAÇÕES: ERRO: Não foi possível obtera descrição do cubo Censo Resumido para o PJV porque não há conexão com o banco de dados OLAP.
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Inicialização do banco de dados concluída.
+Nov 24, 2014 2:20:16 PM org.iadb.seppir.monitor.OlapCurrentService getCube
+INFORMAÇÕES: ERRO: Não foi possível obtera descrição do cubo Juventude Viva porque não há conexão com o banco de dados OLAP.
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:22 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.CubeNavigatorServlet doGet
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados OLAP. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Conexão com o banco de dados perdida... reestabelecendo...
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.CubeNavigatorServlet doGet
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados OLAP. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Conexão com o banco de dados perdida... reestabelecendo...
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Inicialização do banco de dados concluída.
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService getCube
+INFORMAÇÕES: ERRO: Não foi possível obtera descrição do cubo CadUnico Quilombolas porque não há conexão com o banco de dados OLAP.
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Inicialização do banco de dados concluída.
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService getCube
+INFORMAÇÕES: ERRO: Não foi possível obtera descrição do cubo Comunidades Quilombolas porque não há conexão com o banco de dados OLAP.
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:25 PM org.iadb.seppir.monitor.TableProvider getDatabaseRows
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.TableProvider getSQLRow
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.TableProvider getSQLRow
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.TableProvider getDatabaseData
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.TableProvider getSQLRow
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:34 PM org.iadb.seppir.monitor.TableProvider getSQLRow
+INFORMAÇÕES: A aplicação não está conectada ao Banco de Dados SQL. Revise as configurações em /conf/olap.properties.
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Conexão com o banco de dados perdida... reestabelecendo...
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Inicialização do banco de dados concluída.
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select cod_uf,sigla_uf from tbl_ibge_ufs where sigla_uf='MA';
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Conexão com o banco de dados perdida... reestabelecendo...
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Inicialização do banco de dados concluída.
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService getSQL
+INFORMAÇÕES: ERRO: Aplicação não está conectada ao banco de dados SQL. Inicializando conexão...
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.OlapCurrentService getSQL
+INFORMAÇÕES: ERRO: Impossível conectar ao banco: jdbc:postgresql://localhost:5432/seppir. Inicialização falhou sem motivo.
+Nov 24, 2014 2:20:53 PM org.iadb.seppir.monitor.TableProvider getTerritories
+INFORMAÇÕES: A consulta a tabela de UFs não teve nenhum resultado ao buscar a UF: MA. Provavelmente a aplicação está sem comunicação com o banco de dados.
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Conexão com o banco de dados perdida... reestabelecendo...
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Inicialização do banco de dados concluída.
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select cod_uf,sigla_uf from tbl_ibge_ufs where sigla_uf='MA';
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Conexão com o banco de dados perdida... reestabelecendo...
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService ensureConnection
+INFORMAÇÕES: Inicialização do banco de dados concluída.
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService getSQL
+INFORMAÇÕES: ERRO: Aplicação não está conectada ao banco de dados SQL. Inicializando conexão...
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: ERRO: Exceção do Mondrian. Impossível conectar-se ao banco de dados OLAP. Provavelmente as configurações estão erradas em /conf/olap.properties.
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Mondrian Error:Internal error: Virtual file is not readable: /opt/apache7/webapps/paineis/WEB-INF/seppir_catalog.xml
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.OlapCurrentService getSQL
+INFORMAÇÕES: ERRO: Impossível conectar ao banco: jdbc:postgresql://localhost:5432/seppir. Inicialização falhou sem motivo.
+Nov 24, 2014 2:20:59 PM org.iadb.seppir.monitor.TableProvider getTerritories
+INFORMAÇÕES: A consulta a tabela de UFs não teve nenhum resultado ao buscar a UF: MA. Provavelmente a aplicação está sem comunicação com o banco de dados.

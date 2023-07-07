@@ -1,0 +1,2 @@
+2015-08-28 11:30:16,236 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-08-28 11:37:04,143 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9E154604-4ED2-53B6-9014-543C5819969A	POST	 xml:false

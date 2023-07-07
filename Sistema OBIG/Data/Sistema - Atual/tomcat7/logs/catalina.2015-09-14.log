@@ -1,0 +1,122 @@
+Set 14, 2015 8:46:42 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select cod_7_municipio,nome_municipio,nome_uf,nome_meso from aggr_ibge_codigos_localidade where cod_7_municipio='5300108';
+Set 14, 2015 8:46:42 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select cod_munic,sum(jovens) as s1 from agg_seppir_pjv where cod_munic='5300108' group by cod_munic;
+Set 14, 2015 8:46:42 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select cod_munic,sum(jovens) as s1,raca_cor from agg_seppir_pjv where cod_munic='5300108' and raca_cor=1 group by raca_cor,cod_munic;
+Set 14, 2015 8:46:42 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select cod_munic,sum((case when (raca_cor = 2 or raca_cor = 4) then jovens else 0 end)) as s1 from agg_seppir_pjv where cod_munic='5300108' group by cod_munic;
+Set 14, 2015 8:46:42 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select cod_7_municipio,ano,sum((case when idade >= 15 and idade <= 29 and (cod_racacor = 2 or cod_racacor = 4) then 1 else 0 end)) as s1 from hist_ms_sim_pjv where cod_7_municipio='5300108' and ano=2011 group by cod_7_municipio,ano;
+Set 14, 2015 8:46:50 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_territorio,nome_territorio from tbl_seppir_quilombola_territorio where id_territorio=1;
+Set 14, 2015 8:46:50 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_territorio,max((case when bool_titulada_incra = 'Y' then 6 when bool_titulada_iterra = 'Y' then 6 when bool_titulada_fcp = 'Y' then 6 else (case status_incra_territorio when 5 then 6 else status_incra_territorio end) end)) as s1 from tbl_seppir_quilombola_comunidade where id_territorio=1 group by id_territorio;
+Set 14, 2015 8:46:50 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_territorio,nome_territorio from tbl_seppir_quilombola_territorio where id_territorio=1;
+Set 14, 2015 8:46:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select cod_7_municipio,nome_municipio,nome_uf,nome_meso from aggr_ibge_codigos_localidade where cod_7_municipio='5300108';
+Set 14, 2015 8:46:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select cod_munic,sum(jovens) as s1 from agg_seppir_pjv where cod_munic='5300108' group by cod_munic;
+Set 14, 2015 8:46:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select cod_munic,sum(jovens) as s1,raca_cor from agg_seppir_pjv where cod_munic='5300108' and raca_cor=1 group by raca_cor,cod_munic;
+Set 14, 2015 8:46:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select cod_munic,sum((case when (raca_cor = 2 or raca_cor = 4) then jovens else 0 end)) as s1 from agg_seppir_pjv where cod_munic='5300108' group by cod_munic;
+Set 14, 2015 8:46:57 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select cod_7_municipio,ano,sum((case when idade >= 15 and idade <= 29 and (cod_racacor = 2 or cod_racacor = 4) then 1 else 0 end)) as s1 from hist_ms_sim_pjv where cod_7_municipio='5300108' and ano=2011 group by cod_7_municipio,ano;
+Set 14, 2015 8:48:07 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 14, 2015 8:48:07 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MS SIM';
+Set 14, 2015 8:48:07 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MS SIM';
+Set 14, 2015 8:48:07 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 14, 2015 8:48:07 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 14, 2015 8:48:07 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 14, 2015 8:48:07 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 14, 2015 8:48:07 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 14, 2015 8:48:07 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 14, 2015 8:48:08 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome_municipio,sigla_uf,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio group by agg.cod_munic),1) as taxa_todos,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio and (raca_cor=2 or raca_cor=4)	 group by agg.cod_munic),1) as taxa_negros,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio and raca_cor=1	 group by agg.cod_munic),1) as taxa_brancos from tbl_seppir_municipios_pjv as pjv;
+Set 14, 2015 8:48:15 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MEC Censo Escolar (Alunos)';
+Set 14, 2015 8:48:15 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 14, 2015 8:48:15 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 14, 2015 8:48:15 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 14, 2015 8:48:15 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 14, 2015 8:48:15 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MEC Censo Escolar (Alunos)';
+Set 14, 2015 8:48:15 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MEC Censo Escolar (Alunos)';
+Set 14, 2015 8:48:15 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MEC Censo Escolar (Alunos)';
+Set 14, 2015 8:48:19 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MTE RAIS';
+Set 14, 2015 8:48:19 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MTE RAIS';
+Set 14, 2015 8:48:19 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MTE RAIS';
+Set 14, 2015 8:48:19 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MTE RAIS';
+Set 14, 2015 8:48:19 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MTE RAIS';
+Set 14, 2015 8:48:19 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 14, 2015 8:48:19 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 14, 2015 8:48:19 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 14, 2015 8:48:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MEC Censo Escolar (Alunos)';
+Set 14, 2015 8:48:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 14, 2015 8:48:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 14, 2015 8:48:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 14, 2015 8:48:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 14, 2015 8:48:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MEC Censo Escolar (Alunos)';
+Set 14, 2015 8:48:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MEC Censo Escolar (Alunos)';
+Set 14, 2015 8:48:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MEC Censo Escolar (Alunos)';
+Set 14, 2015 8:48:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MTE RAIS';
+Set 14, 2015 8:48:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MTE RAIS';
+Set 14, 2015 8:48:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MTE RAIS';
+Set 14, 2015 8:48:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MTE RAIS';
+Set 14, 2015 8:48:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MTE RAIS';
+Set 14, 2015 8:48:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 14, 2015 8:48:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 14, 2015 8:48:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 14, 2015 8:51:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 14, 2015 8:51:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 14, 2015 8:51:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 14, 2015 8:51:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 14, 2015 8:51:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 14, 2015 8:51:03 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_comunidade,nome_comunidade,nome_territorio,(case status_incra_territorio when 1 then '3 - Decreto' when 2 then '2 - Portaria' when 3 then '2 - Portaria' when 4 then '1 - RTID' when 5 then '4 - Titulada' else '0 - Certificada' end) as nome_status,(select sigla_uf from tbl_ibge_municipios as m left join tbl_ibge_ufs as u on m.cod_uf = u.cod_uf where cod_7 = cod_7_ibge_municipio) as uf from tbl_seppir_quilombola_comunidade as c left join tbl_seppir_quilombola_territorio as t on c.id_territorio=t.id_territorio;

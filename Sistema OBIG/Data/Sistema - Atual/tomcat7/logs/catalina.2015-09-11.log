@@ -1,0 +1,1249 @@
+Set 11, 2015 4:39:39 PM org.apache.catalina.core.AprLifecycleListener init
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Set 11, 2015 4:39:40 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-80"]
+Set 11, 2015 4:39:40 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+Set 11, 2015 4:39:40 PM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 1373 ms
+Set 11, 2015 4:39:40 PM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+Set 11, 2015 4:39:40 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.29
+Set 11, 2015 4:39:40 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/opt/tomcat7/webapps/geo.war
+Set 11, 2015 4:39:43 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:39:43 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:39:43 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/opt/tomcat7/webapps/paineis.war
+Set 11, 2015 4:39:46 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:39:46 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:39:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/ROOT
+Set 11, 2015 4:39:47 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:39:47 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:39:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/manager
+Set 11, 2015 4:39:47 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:39:47 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:39:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/saiku
+Set 11, 2015 4:39:58 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:39:58 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:40:03 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFORMAÇÕES: Scanning for root resource and provider classes in the packages:
+  org.saiku.web
+Set 11, 2015 4:40:03 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFORMAÇÕES: Root resource classes found:
+  class org.saiku.web.rest.resources.OlapDiscoverResource
+  class org.saiku.web.rest.resources.StatisticsResource
+  class org.saiku.web.rest.resources.BasicRepositoryResource
+  class org.saiku.web.rest.resources.SessionResource
+  class org.saiku.web.rest.resources.BasicRepositoryResource2
+  class org.saiku.web.rest.resources.ExporterResource
+  class org.saiku.web.rest.resources.BasicTagRepositoryResource
+  class org.saiku.web.rest.resources.QueryResource
+  class org.saiku.web.rest.resources.DataSourceResource
+Set 11, 2015 4:40:03 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFORMAÇÕES: No provider classes found.
+Set 11, 2015 4:40:03 PM org.codehaus.enunciate.modules.jersey.EnunciateJerseyServletContainer configure
+INFORMAÇÕES: org.codehaus.enunciate.modules.amf.JAXRSProvider not found.
+Set 11, 2015 4:40:03 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, datasourceResourceBean, of type org.saiku.web.rest.resources.DataSourceResource as a root resource class
+Set 11, 2015 4:40:03 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, olapDiscoverBean, of type org.saiku.web.rest.resources.OlapDiscoverResource as a root resource class
+Set 11, 2015 4:40:03 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, queryResource, of type org.saiku.web.rest.resources.QueryResource as a root resource class
+Set 11, 2015 4:40:03 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, sessionResource, of type org.saiku.web.rest.resources.SessionResource as a root resource class
+Set 11, 2015 4:40:03 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, repositoryBean, of type org.saiku.web.rest.resources.BasicRepositoryResource as a root resource class
+Set 11, 2015 4:40:03 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, repository2bean, of type org.saiku.web.rest.resources.BasicRepositoryResource2 as a root resource class
+Set 11, 2015 4:40:03 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, tagRepositoryBean, of type org.saiku.web.rest.resources.BasicTagRepositoryResource as a root resource class
+Set 11, 2015 4:40:03 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, exporterBean, of type org.saiku.web.rest.resources.ExporterResource as a root resource class
+Set 11, 2015 4:40:03 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, statsBean, of type org.saiku.web.rest.resources.StatisticsResource as a root resource class
+Set 11, 2015 4:40:03 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFORMAÇÕES: Initiating Jersey application, version 'Jersey: 1.11 12/09/2011 10:27 AM'
+Set 11, 2015 4:40:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/docs
+Set 11, 2015 4:40:04 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:40:04 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:40:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/dataseppir-admin
+Set 11, 2015 4:40:07 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:40:07 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:40:07 PM org.apache.catalina.core.StandardContext startInternal
+GRAVE: Error listenerStart
+Set 11, 2015 4:40:07 PM org.apache.catalina.core.StandardContext startInternal
+GRAVE: Context [/dataseppir-admin] startup failed due to previous errors
+Set 11, 2015 4:40:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/analise
+Set 11, 2015 4:40:08 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:40:08 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:40:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/host-manager
+Set 11, 2015 4:40:08 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:40:08 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:40:08 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-bio-80"]
+Set 11, 2015 4:40:08 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-bio-8009"]
+Set 11, 2015 4:40:08 PM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 28000 ms
+Set 11, 2015 4:42:35 PM org.apache.catalina.core.AprLifecycleListener init
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Set 11, 2015 4:42:35 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-80"]
+Set 11, 2015 4:42:35 PM org.apache.coyote.AbstractProtocol init
+GRAVE: Failed to initialize end point associated with ProtocolHandler ["http-bio-80"]
+java.net.BindException: Endereço já em uso <null>:80
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:624)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: java.net.BindException: Endereço já em uso
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 17 more
+
+Set 11, 2015 4:42:35 PM org.apache.catalina.core.StandardService initInternal
+GRAVE: Failed to initialize connector [Connector[HTTP/1.1-80]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-80]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:624)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Endereço já em uso <null>:80
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+Caused by: java.net.BindException: Endereço já em uso
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 17 more
+
+Set 11, 2015 4:42:35 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+Set 11, 2015 4:42:35 PM org.apache.coyote.AbstractProtocol init
+GRAVE: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Endereço já em uso <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:624)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: java.net.BindException: Endereço já em uso
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+
+Set 11, 2015 4:42:35 PM org.apache.catalina.core.StandardService initInternal
+GRAVE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:624)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Endereço já em uso <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+Caused by: java.net.BindException: Endereço já em uso
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+
+Set 11, 2015 4:42:35 PM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 904 ms
+Set 11, 2015 4:42:36 PM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+Set 11, 2015 4:42:36 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.29
+Set 11, 2015 4:42:36 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/opt/tomcat7/webapps/geo.war
+Set 11, 2015 4:42:38 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:42:38 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:42:38 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/opt/tomcat7/webapps/paineis.war
+Set 11, 2015 4:42:41 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:42:41 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:42:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/ROOT
+Set 11, 2015 4:42:42 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:42:42 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:42:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/manager
+Set 11, 2015 4:42:42 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:42:42 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:42:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/saiku
+Set 11, 2015 4:42:51 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:42:51 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:42:56 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFORMAÇÕES: Scanning for root resource and provider classes in the packages:
+  org.saiku.web
+Set 11, 2015 4:42:56 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFORMAÇÕES: Root resource classes found:
+  class org.saiku.web.rest.resources.BasicRepositoryResource
+  class org.saiku.web.rest.resources.OlapDiscoverResource
+  class org.saiku.web.rest.resources.SessionResource
+  class org.saiku.web.rest.resources.ExporterResource
+  class org.saiku.web.rest.resources.QueryResource
+  class org.saiku.web.rest.resources.StatisticsResource
+  class org.saiku.web.rest.resources.BasicTagRepositoryResource
+  class org.saiku.web.rest.resources.BasicRepositoryResource2
+  class org.saiku.web.rest.resources.DataSourceResource
+Set 11, 2015 4:42:56 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFORMAÇÕES: No provider classes found.
+Set 11, 2015 4:42:56 PM org.codehaus.enunciate.modules.jersey.EnunciateJerseyServletContainer configure
+INFORMAÇÕES: org.codehaus.enunciate.modules.amf.JAXRSProvider not found.
+Set 11, 2015 4:42:56 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, datasourceResourceBean, of type org.saiku.web.rest.resources.DataSourceResource as a root resource class
+Set 11, 2015 4:42:56 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, olapDiscoverBean, of type org.saiku.web.rest.resources.OlapDiscoverResource as a root resource class
+Set 11, 2015 4:42:56 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, queryResource, of type org.saiku.web.rest.resources.QueryResource as a root resource class
+Set 11, 2015 4:42:56 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, sessionResource, of type org.saiku.web.rest.resources.SessionResource as a root resource class
+Set 11, 2015 4:42:56 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, repositoryBean, of type org.saiku.web.rest.resources.BasicRepositoryResource as a root resource class
+Set 11, 2015 4:42:56 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, repository2bean, of type org.saiku.web.rest.resources.BasicRepositoryResource2 as a root resource class
+Set 11, 2015 4:42:56 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, tagRepositoryBean, of type org.saiku.web.rest.resources.BasicTagRepositoryResource as a root resource class
+Set 11, 2015 4:42:56 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, exporterBean, of type org.saiku.web.rest.resources.ExporterResource as a root resource class
+Set 11, 2015 4:42:56 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, statsBean, of type org.saiku.web.rest.resources.StatisticsResource as a root resource class
+Set 11, 2015 4:42:56 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFORMAÇÕES: Initiating Jersey application, version 'Jersey: 1.11 12/09/2011 10:27 AM'
+Set 11, 2015 4:42:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/docs
+Set 11, 2015 4:42:57 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:42:57 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:42:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/dataseppir-admin
+Set 11, 2015 4:42:59 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:42:59 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:42:59 PM org.apache.catalina.core.StandardContext startInternal
+GRAVE: Error listenerStart
+Set 11, 2015 4:42:59 PM org.apache.catalina.core.StandardContext startInternal
+GRAVE: Context [/dataseppir-admin] startup failed due to previous errors
+Set 11, 2015 4:42:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/analise
+Set 11, 2015 4:43:00 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:43:00 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:43:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/host-manager
+Set 11, 2015 4:43:00 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:43:00 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:43:00 PM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 24906 ms
+Set 11, 2015 4:43:00 PM org.apache.catalina.core.StandardServer await
+GRAVE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Endereço já em uso
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:427)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:757)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:703)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:321)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+
+Set 11, 2015 4:43:00 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-80"]
+Set 11, 2015 4:43:00 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-bio-8009"]
+Set 11, 2015 4:43:00 PM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+Set 11, 2015 4:43:00 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+GRAVE: The web application [/saiku] registered the JDBC driver [mondrian.olap4j.MondrianOlap4jDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Set 11, 2015 4:43:00 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+GRAVE: The web application [/saiku] registered the JDBC driver [org.hsqldb.jdbcDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Set 11, 2015 4:43:00 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+GRAVE: The web application [/saiku] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Set 11, 2015 4:43:00 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [org.apache.commons.vfs.cache.SoftRefFilesCache$SoftRefReleaseThread] but has failed to stop it. This is very likely to create a memory leak.
+Set 11, 2015 4:43:00 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [Mondrian Monitor] but has failed to stop it. This is very likely to create a memory leak.
+Set 11, 2015 4:43:00 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [mondrian.rolap.agg.SegmentCacheManager$ACTOR] but has failed to stop it. This is very likely to create a memory leak.
+Set 11, 2015 4:43:00 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [mondrian.rolap.RolapResultShepherd#timer] but has failed to stop it. This is very likely to create a memory leak.
+Set 11, 2015 4:43:01 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Set 11, 2015 4:43:01 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [mondrian.util.ExpiringReference$timer] but has failed to stop it. This is very likely to create a memory leak.
+Set 11, 2015 4:43:01 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@414bb27a]) and a value of type [org.apache.commons.vfs.provider.FileContentThreadData] (value [org.apache.commons.vfs.provider.FileContentThreadData@50b28913]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 11, 2015 4:43:01 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [com.sun.xml.bind.v2.ClassFactory$1] (value [com.sun.xml.bind.v2.ClassFactory$1@34fda822]) and a value of type [java.util.WeakHashMap] (value [{class javax.xml.bind.annotation.W3CDomHandler=java.lang.ref.WeakReference@79296b5b}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 11, 2015 4:43:01 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@e476182]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 11, 2015 4:43:01 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7052a520]) and a value of type [org.apache.commons.vfs.provider.FileContentThreadData] (value [org.apache.commons.vfs.provider.FileContentThreadData@41d7117c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 11, 2015 4:43:01 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-bio-80"]
+Set 11, 2015 4:43:01 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-bio-80"]
+Set 11, 2015 4:43:01 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-bio-8009"]
+Set 11, 2015 4:43:01 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-bio-8009"]
+Set 11, 2015 4:43:47 PM org.apache.catalina.core.AprLifecycleListener init
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Set 11, 2015 4:43:47 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-80"]
+Set 11, 2015 4:43:47 PM org.apache.coyote.AbstractProtocol init
+GRAVE: Failed to initialize end point associated with ProtocolHandler ["http-bio-80"]
+java.net.BindException: Endereço já em uso <null>:80
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:624)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: java.net.BindException: Endereço já em uso
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 17 more
+
+Set 11, 2015 4:43:47 PM org.apache.catalina.core.StandardService initInternal
+GRAVE: Failed to initialize connector [Connector[HTTP/1.1-80]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-80]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:624)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Endereço já em uso <null>:80
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+Caused by: java.net.BindException: Endereço já em uso
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 17 more
+
+Set 11, 2015 4:43:47 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+Set 11, 2015 4:43:47 PM org.apache.coyote.AbstractProtocol init
+GRAVE: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Endereço já em uso <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:624)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: java.net.BindException: Endereço já em uso
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+
+Set 11, 2015 4:43:48 PM org.apache.catalina.core.StandardService initInternal
+GRAVE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:624)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Endereço já em uso <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+Caused by: java.net.BindException: Endereço já em uso
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+
+Set 11, 2015 4:43:48 PM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 894 ms
+Set 11, 2015 4:43:48 PM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+Set 11, 2015 4:43:48 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.29
+Set 11, 2015 4:43:48 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/opt/tomcat7/webapps/geo.war
+Set 11, 2015 4:43:50 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:43:50 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:43:51 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/opt/tomcat7/webapps/paineis.war
+Set 11, 2015 4:43:53 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:43:53 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:43:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/ROOT
+Set 11, 2015 4:43:54 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:43:54 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:43:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/manager
+Set 11, 2015 4:43:54 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:43:54 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:43:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/saiku
+Set 11, 2015 4:44:03 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:44:03 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:44:07 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFORMAÇÕES: Scanning for root resource and provider classes in the packages:
+  org.saiku.web
+Set 11, 2015 4:44:07 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFORMAÇÕES: Root resource classes found:
+  class org.saiku.web.rest.resources.OlapDiscoverResource
+  class org.saiku.web.rest.resources.BasicRepositoryResource2
+  class org.saiku.web.rest.resources.BasicRepositoryResource
+  class org.saiku.web.rest.resources.ExporterResource
+  class org.saiku.web.rest.resources.SessionResource
+  class org.saiku.web.rest.resources.DataSourceResource
+  class org.saiku.web.rest.resources.StatisticsResource
+  class org.saiku.web.rest.resources.BasicTagRepositoryResource
+  class org.saiku.web.rest.resources.QueryResource
+Set 11, 2015 4:44:07 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFORMAÇÕES: No provider classes found.
+Set 11, 2015 4:44:07 PM org.codehaus.enunciate.modules.jersey.EnunciateJerseyServletContainer configure
+INFORMAÇÕES: org.codehaus.enunciate.modules.amf.JAXRSProvider not found.
+Set 11, 2015 4:44:07 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, datasourceResourceBean, of type org.saiku.web.rest.resources.DataSourceResource as a root resource class
+Set 11, 2015 4:44:07 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, olapDiscoverBean, of type org.saiku.web.rest.resources.OlapDiscoverResource as a root resource class
+Set 11, 2015 4:44:08 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, queryResource, of type org.saiku.web.rest.resources.QueryResource as a root resource class
+Set 11, 2015 4:44:08 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, sessionResource, of type org.saiku.web.rest.resources.SessionResource as a root resource class
+Set 11, 2015 4:44:08 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, repositoryBean, of type org.saiku.web.rest.resources.BasicRepositoryResource as a root resource class
+Set 11, 2015 4:44:08 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, repository2bean, of type org.saiku.web.rest.resources.BasicRepositoryResource2 as a root resource class
+Set 11, 2015 4:44:08 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, tagRepositoryBean, of type org.saiku.web.rest.resources.BasicTagRepositoryResource as a root resource class
+Set 11, 2015 4:44:08 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, exporterBean, of type org.saiku.web.rest.resources.ExporterResource as a root resource class
+Set 11, 2015 4:44:08 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, statsBean, of type org.saiku.web.rest.resources.StatisticsResource as a root resource class
+Set 11, 2015 4:44:08 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFORMAÇÕES: Initiating Jersey application, version 'Jersey: 1.11 12/09/2011 10:27 AM'
+Set 11, 2015 4:44:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/docs
+Set 11, 2015 4:44:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:44:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:44:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/dataseppir-admin
+Set 11, 2015 4:44:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:44:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:44:11 PM org.apache.catalina.core.StandardContext startInternal
+GRAVE: Error listenerStart
+Set 11, 2015 4:44:11 PM org.apache.catalina.core.StandardContext startInternal
+GRAVE: Context [/dataseppir-admin] startup failed due to previous errors
+Set 11, 2015 4:44:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/analise
+Set 11, 2015 4:44:12 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:44:12 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:44:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/host-manager
+Set 11, 2015 4:44:12 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:44:12 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:44:12 PM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 24643 ms
+Set 11, 2015 4:44:12 PM org.apache.catalina.core.StandardServer await
+GRAVE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Endereço já em uso
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:427)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:757)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:703)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:321)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+
+Set 11, 2015 4:44:12 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-80"]
+Set 11, 2015 4:44:12 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-bio-8009"]
+Set 11, 2015 4:44:12 PM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+Set 11, 2015 4:44:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+GRAVE: The web application [/saiku] registered the JDBC driver [mondrian.olap4j.MondrianOlap4jDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Set 11, 2015 4:44:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+GRAVE: The web application [/saiku] registered the JDBC driver [org.hsqldb.jdbcDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Set 11, 2015 4:44:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+GRAVE: The web application [/saiku] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Set 11, 2015 4:44:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [org.apache.commons.vfs.cache.SoftRefFilesCache$SoftRefReleaseThread] but has failed to stop it. This is very likely to create a memory leak.
+Set 11, 2015 4:44:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [Mondrian Monitor] but has failed to stop it. This is very likely to create a memory leak.
+Set 11, 2015 4:44:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [mondrian.rolap.agg.SegmentCacheManager$ACTOR] but has failed to stop it. This is very likely to create a memory leak.
+Set 11, 2015 4:44:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [mondrian.rolap.RolapResultShepherd#timer] but has failed to stop it. This is very likely to create a memory leak.
+Set 11, 2015 4:44:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Set 11, 2015 4:44:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [mondrian.util.ExpiringReference$timer] but has failed to stop it. This is very likely to create a memory leak.
+Set 11, 2015 4:44:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@53c819d0]) and a value of type [org.apache.commons.vfs.provider.FileContentThreadData] (value [org.apache.commons.vfs.provider.FileContentThreadData@7616d1a8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 11, 2015 4:44:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [com.sun.xml.bind.v2.ClassFactory$1] (value [com.sun.xml.bind.v2.ClassFactory$1@268728bd]) and a value of type [java.util.WeakHashMap] (value [{class javax.xml.bind.annotation.W3CDomHandler=java.lang.ref.WeakReference@7383a40d}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 11, 2015 4:44:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@47878cba]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 11, 2015 4:44:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@14282c06]) and a value of type [org.apache.commons.vfs.provider.FileContentThreadData] (value [org.apache.commons.vfs.provider.FileContentThreadData@59624840]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 11, 2015 4:44:12 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-bio-80"]
+Set 11, 2015 4:44:12 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-bio-80"]
+Set 11, 2015 4:44:12 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-bio-8009"]
+Set 11, 2015 4:44:12 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-bio-8009"]
+Set 11, 2015 4:45:02 PM org.apache.catalina.core.AprLifecycleListener init
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Set 11, 2015 4:45:02 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-80"]
+Set 11, 2015 4:45:02 PM org.apache.coyote.AbstractProtocol init
+GRAVE: Failed to initialize end point associated with ProtocolHandler ["http-bio-80"]
+java.net.BindException: Endereço já em uso <null>:80
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:624)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: java.net.BindException: Endereço já em uso
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 17 more
+
+Set 11, 2015 4:45:02 PM org.apache.catalina.core.StandardService initInternal
+GRAVE: Failed to initialize connector [Connector[HTTP/1.1-80]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-80]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:624)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Endereço já em uso <null>:80
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+Caused by: java.net.BindException: Endereço já em uso
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 17 more
+
+Set 11, 2015 4:45:02 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+Set 11, 2015 4:45:02 PM org.apache.coyote.AbstractProtocol init
+GRAVE: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Endereço já em uso <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:624)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: java.net.BindException: Endereço já em uso
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+
+Set 11, 2015 4:45:02 PM org.apache.catalina.core.StandardService initInternal
+GRAVE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:624)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Endereço já em uso <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+Caused by: java.net.BindException: Endereço já em uso
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+
+Set 11, 2015 4:45:02 PM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 892 ms
+Set 11, 2015 4:45:02 PM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+Set 11, 2015 4:45:02 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.29
+Set 11, 2015 4:45:02 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/opt/tomcat7/webapps/geo.war
+Set 11, 2015 4:45:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:45:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:45:05 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/opt/tomcat7/webapps/paineis.war
+Set 11, 2015 4:45:07 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:45:07 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:45:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/ROOT
+Set 11, 2015 4:45:08 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:45:08 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:45:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/manager
+Set 11, 2015 4:45:08 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:45:08 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:45:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/saiku
+Set 11, 2015 4:45:18 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:45:18 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:45:22 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFORMAÇÕES: Scanning for root resource and provider classes in the packages:
+  org.saiku.web
+Set 11, 2015 4:45:22 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFORMAÇÕES: Root resource classes found:
+  class org.saiku.web.rest.resources.DataSourceResource
+  class org.saiku.web.rest.resources.OlapDiscoverResource
+  class org.saiku.web.rest.resources.BasicRepositoryResource
+  class org.saiku.web.rest.resources.ExporterResource
+  class org.saiku.web.rest.resources.QueryResource
+  class org.saiku.web.rest.resources.SessionResource
+  class org.saiku.web.rest.resources.BasicRepositoryResource2
+  class org.saiku.web.rest.resources.BasicTagRepositoryResource
+  class org.saiku.web.rest.resources.StatisticsResource
+Set 11, 2015 4:45:22 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFORMAÇÕES: No provider classes found.
+Set 11, 2015 4:45:22 PM org.codehaus.enunciate.modules.jersey.EnunciateJerseyServletContainer configure
+INFORMAÇÕES: org.codehaus.enunciate.modules.amf.JAXRSProvider not found.
+Set 11, 2015 4:45:22 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, datasourceResourceBean, of type org.saiku.web.rest.resources.DataSourceResource as a root resource class
+Set 11, 2015 4:45:22 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, olapDiscoverBean, of type org.saiku.web.rest.resources.OlapDiscoverResource as a root resource class
+Set 11, 2015 4:45:22 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, queryResource, of type org.saiku.web.rest.resources.QueryResource as a root resource class
+Set 11, 2015 4:45:22 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, sessionResource, of type org.saiku.web.rest.resources.SessionResource as a root resource class
+Set 11, 2015 4:45:22 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, repositoryBean, of type org.saiku.web.rest.resources.BasicRepositoryResource as a root resource class
+Set 11, 2015 4:45:22 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, repository2bean, of type org.saiku.web.rest.resources.BasicRepositoryResource2 as a root resource class
+Set 11, 2015 4:45:22 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, tagRepositoryBean, of type org.saiku.web.rest.resources.BasicTagRepositoryResource as a root resource class
+Set 11, 2015 4:45:22 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, exporterBean, of type org.saiku.web.rest.resources.ExporterResource as a root resource class
+Set 11, 2015 4:45:22 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, statsBean, of type org.saiku.web.rest.resources.StatisticsResource as a root resource class
+Set 11, 2015 4:45:22 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFORMAÇÕES: Initiating Jersey application, version 'Jersey: 1.11 12/09/2011 10:27 AM'
+Set 11, 2015 4:45:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/docs
+Set 11, 2015 4:45:23 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:45:23 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:45:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/dataseppir-admin
+Set 11, 2015 4:45:26 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:45:26 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:45:26 PM org.apache.catalina.core.StandardContext startInternal
+GRAVE: Error listenerStart
+Set 11, 2015 4:45:26 PM org.apache.catalina.core.StandardContext startInternal
+GRAVE: Context [/dataseppir-admin] startup failed due to previous errors
+Set 11, 2015 4:45:26 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/analise
+Set 11, 2015 4:45:27 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:45:27 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:45:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/host-manager
+Set 11, 2015 4:45:27 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:45:27 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 11, 2015 4:45:27 PM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 24873 ms
+Set 11, 2015 4:45:27 PM org.apache.catalina.core.StandardServer await
+GRAVE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Endereço já em uso
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:427)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:757)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:703)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:321)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+
+Set 11, 2015 4:45:27 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-80"]
+Set 11, 2015 4:45:27 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-bio-8009"]
+Set 11, 2015 4:45:27 PM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+Set 11, 2015 4:45:27 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+GRAVE: The web application [/saiku] registered the JDBC driver [mondrian.olap4j.MondrianOlap4jDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Set 11, 2015 4:45:27 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+GRAVE: The web application [/saiku] registered the JDBC driver [org.hsqldb.jdbcDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Set 11, 2015 4:45:27 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+GRAVE: The web application [/saiku] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Set 11, 2015 4:45:27 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [org.apache.commons.vfs.cache.SoftRefFilesCache$SoftRefReleaseThread] but has failed to stop it. This is very likely to create a memory leak.
+Set 11, 2015 4:45:27 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [Mondrian Monitor] but has failed to stop it. This is very likely to create a memory leak.
+Set 11, 2015 4:45:27 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [mondrian.rolap.agg.SegmentCacheManager$ACTOR] but has failed to stop it. This is very likely to create a memory leak.
+Set 11, 2015 4:45:27 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [mondrian.rolap.RolapResultShepherd#timer] but has failed to stop it. This is very likely to create a memory leak.
+Set 11, 2015 4:45:27 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Set 11, 2015 4:45:27 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [mondrian.util.ExpiringReference$timer] but has failed to stop it. This is very likely to create a memory leak.
+Set 11, 2015 4:45:27 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@296d5ea7]) and a value of type [org.apache.commons.vfs.provider.FileContentThreadData] (value [org.apache.commons.vfs.provider.FileContentThreadData@4b613b30]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 11, 2015 4:45:27 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [com.sun.xml.bind.v2.ClassFactory$1] (value [com.sun.xml.bind.v2.ClassFactory$1@417482e1]) and a value of type [java.util.WeakHashMap] (value [{class javax.xml.bind.annotation.W3CDomHandler=java.lang.ref.WeakReference@483ca359}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 11, 2015 4:45:27 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@5084d1c]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 11, 2015 4:45:27 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@63fe6bd8]) and a value of type [org.apache.commons.vfs.provider.FileContentThreadData] (value [org.apache.commons.vfs.provider.FileContentThreadData@545a6531]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Set 11, 2015 4:45:27 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-bio-80"]
+Set 11, 2015 4:45:27 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-bio-80"]
+Set 11, 2015 4:45:27 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-bio-8009"]
+Set 11, 2015 4:45:27 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-bio-8009"]
+Set 11, 2015 4:46:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Set 11, 2015 4:46:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Set 11, 2015 4:46:11 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Set 11, 2015 4:46:13 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Conexão OLAP estabelecida com sucesso.
+Set 11, 2015 4:46:13 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Conexão SQL estabelecida com sucesso.
+Set 11, 2015 4:46:13 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 11, 2015 4:46:13 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 11, 2015 4:46:13 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 11, 2015 4:46:13 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 11, 2015 4:46:13 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 11, 2015 4:46:13 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_comunidade,nome_comunidade,nome_territorio,(case status_incra_territorio when 1 then '3 - Decreto' when 2 then '2 - Portaria' when 3 then '2 - Portaria' when 4 then '1 - RTID' when 5 then '4 - Titulada' else '0 - Certificada' end) as nome_status,(select sigla_uf from tbl_ibge_municipios as m left join tbl_ibge_ufs as u on m.cod_uf = u.cod_uf where cod_7 = cod_7_ibge_municipio) as uf from tbl_seppir_quilombola_comunidade as c left join tbl_seppir_quilombola_territorio as t on c.id_territorio=t.id_territorio;
+Set 11, 2015 4:46:13 PM org.iadb.seppir.monitor.CubeNavigatorServlet init
+INFORMAÇÕES: Servlet inicializado com sucesso: CubeProviderServlet. Este servlet provê informações sobre os Cubos existentes
+Set 11, 2015 4:46:13 PM org.iadb.seppir.monitor.DataProviderServlet init
+INFORMAÇÕES: Servlet inicializado com sucesso: DataProviderServlet. Este servlet intermedia a comunicação entre Painéis e Cubos
+Set 11, 2015 4:46:58 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 11, 2015 4:46:58 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 11, 2015 4:46:58 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 11, 2015 4:46:58 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 11, 2015 4:46:58 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 11, 2015 4:46:59 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_comunidade,nome_comunidade,nome_territorio,(case status_incra_territorio when 1 then '3 - Decreto' when 2 then '2 - Portaria' when 3 then '2 - Portaria' when 4 then '1 - RTID' when 5 then '4 - Titulada' else '0 - Certificada' end) as nome_status,(select sigla_uf from tbl_ibge_municipios as m left join tbl_ibge_ufs as u on m.cod_uf = u.cod_uf where cod_7 = cod_7_ibge_municipio) as uf from tbl_seppir_quilombola_comunidade as c left join tbl_seppir_quilombola_territorio as t on c.id_territorio=t.id_territorio;
+Set 11, 2015 4:47:01 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 11, 2015 4:47:01 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MS SIM';
+Set 11, 2015 4:47:01 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MS SIM';
+Set 11, 2015 4:47:01 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 11, 2015 4:47:01 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 11, 2015 4:47:01 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 11, 2015 4:47:01 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 11, 2015 4:47:01 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 11, 2015 4:47:01 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Set 11, 2015 4:47:02 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome_municipio,sigla_uf,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio group by agg.cod_munic),1) as taxa_todos,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio and (raca_cor=2 or raca_cor=4)	 group by agg.cod_munic),1) as taxa_negros,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio and raca_cor=1	 group by agg.cod_munic),1) as taxa_brancos from tbl_seppir_municipios_pjv as pjv;
+Set 11, 2015 4:47:04 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select cod_7_municipio,nome_municipio,nome_uf,nome_meso from aggr_ibge_codigos_localidade where cod_7_municipio='5300108';
+Set 11, 2015 4:47:06 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select cod_7_municipio,nome_municipio,nome_uf,nome_meso from aggr_ibge_codigos_localidade where cod_7_municipio='5300108';
+Set 11, 2015 4:47:08 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select cod_munic,sum(jovens) as s1 from agg_seppir_pjv where cod_munic='5300108' group by cod_munic;
+Set 11, 2015 4:47:08 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select cod_munic,sum(jovens) as s1 from agg_seppir_pjv where cod_munic='5300108' group by cod_munic;
+Set 11, 2015 4:47:08 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select cod_munic,sum(jovens) as s1,raca_cor from agg_seppir_pjv where cod_munic='5300108' and raca_cor=1 group by raca_cor,cod_munic;
+Set 11, 2015 4:47:08 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select cod_munic,sum(jovens) as s1,raca_cor from agg_seppir_pjv where cod_munic='5300108' and raca_cor=1 group by raca_cor,cod_munic;
+Set 11, 2015 4:47:08 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select cod_munic,sum((case when (raca_cor = 2 or raca_cor = 4) then jovens else 0 end)) as s1 from agg_seppir_pjv where cod_munic='5300108' group by cod_munic;
+Set 11, 2015 4:47:08 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select cod_munic,sum((case when (raca_cor = 2 or raca_cor = 4) then jovens else 0 end)) as s1 from agg_seppir_pjv where cod_munic='5300108' group by cod_munic;
+Set 11, 2015 4:47:08 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select cod_7_municipio,ano,sum((case when idade >= 15 and idade <= 29 and (cod_racacor = 2 or cod_racacor = 4) then 1 else 0 end)) as s1 from hist_ms_sim_pjv where cod_7_municipio='5300108' and ano=2011 group by cod_7_municipio,ano;
+Set 11, 2015 4:47:08 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select cod_7_municipio,ano,sum((case when idade >= 15 and idade <= 29 and (cod_racacor = 2 or cod_racacor = 4) then 1 else 0 end)) as s1 from hist_ms_sim_pjv where cod_7_municipio='5300108' and ano=2011 group by cod_7_municipio,ano;
+Set 11, 2015 4:47:14 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_territorio,nome_territorio from tbl_seppir_quilombola_territorio where id_territorio=1;
+Set 11, 2015 4:47:14 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_territorio,max((case when bool_titulada_incra = 'Y' then 6 when bool_titulada_iterra = 'Y' then 6 when bool_titulada_fcp = 'Y' then 6 else (case status_incra_territorio when 5 then 6 else status_incra_territorio end) end)) as s1 from tbl_seppir_quilombola_comunidade where id_territorio=1 group by id_territorio;
+Set 11, 2015 4:47:14 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_territorio,nome_territorio from tbl_seppir_quilombola_territorio where id_territorio=1;
+Set 11, 2015 4:53:44 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_territorio,nome_territorio from tbl_seppir_quilombola_territorio where id_territorio=1;
+Set 11, 2015 4:53:44 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_territorio,max((case when bool_titulada_incra = 'Y' then 6 when bool_titulada_iterra = 'Y' then 6 when bool_titulada_fcp = 'Y' then 6 else (case status_incra_territorio when 5 then 6 else status_incra_territorio end) end)) as s1 from tbl_seppir_quilombola_comunidade where id_territorio=1 group by id_territorio;
+Set 11, 2015 4:53:44 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_territorio,nome_territorio from tbl_seppir_quilombola_territorio where id_territorio=1;
+Set 11, 2015 5:21:08 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 11, 2015 5:21:08 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 11, 2015 5:21:08 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 11, 2015 5:21:08 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 11, 2015 5:21:08 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 11, 2015 5:21:09 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_comunidade,nome_comunidade,nome_territorio,(case status_incra_territorio when 1 then '3 - Decreto' when 2 then '2 - Portaria' when 3 then '2 - Portaria' when 4 then '1 - RTID' when 5 then '4 - Titulada' else '0 - Certificada' end) as nome_status,(select sigla_uf from tbl_ibge_municipios as m left join tbl_ibge_ufs as u on m.cod_uf = u.cod_uf where cod_7 = cod_7_ibge_municipio) as uf from tbl_seppir_quilombola_comunidade as c left join tbl_seppir_quilombola_territorio as t on c.id_territorio=t.id_territorio;
+Set 11, 2015 5:21:13 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Set 11, 2015 5:21:13 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Set 11, 2015 5:21:13 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Set 11, 2015 5:21:13 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Set 11, 2015 5:21:13 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Set 11, 2015 5:21:13 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Set 11, 2015 5:21:13 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:21:13 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:21:13 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:21:15 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Set 11, 2015 5:21:15 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Set 11, 2015 5:21:15 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Set 11, 2015 5:21:15 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Set 11, 2015 5:21:15 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:21:15 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:21:15 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:21:15 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:21:15 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:21:15 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:21:18 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Set 11, 2015 5:21:18 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas Quilombolas)';
+Set 11, 2015 5:21:18 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas Quilombolas)';
+Set 11, 2015 5:21:18 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas Quilombolas)';
+Set 11, 2015 5:21:18 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas Quilombolas)';
+Set 11, 2015 5:21:18 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas Quilombolas)';
+Set 11, 2015 5:21:18 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:21:18 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:21:18 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas Quilombolas)';
+Set 11, 2015 5:21:18 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:21:18 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:21:18 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:21:18 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:21:21 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Set 11, 2015 5:21:21 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Set 11, 2015 5:21:21 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Set 11, 2015 5:21:21 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Set 11, 2015 5:21:21 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:21:21 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:21:21 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:21:21 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:21:21 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:21:21 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:25:05 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Set 11, 2015 5:25:05 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas Quilombolas)';
+Set 11, 2015 5:25:05 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas Quilombolas)';
+Set 11, 2015 5:25:05 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas Quilombolas)';
+Set 11, 2015 5:25:05 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas Quilombolas)';
+Set 11, 2015 5:25:05 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas Quilombolas)';
+Set 11, 2015 5:25:05 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:25:05 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:25:05 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas Quilombolas)';
+Set 11, 2015 5:25:05 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:25:05 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:25:05 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:25:05 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:28:41 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Set 11, 2015 5:28:41 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Set 11, 2015 5:28:41 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Set 11, 2015 5:28:41 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Set 11, 2015 5:28:41 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:28:41 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:28:41 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:28:41 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:28:41 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Set 11, 2015 5:28:41 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';

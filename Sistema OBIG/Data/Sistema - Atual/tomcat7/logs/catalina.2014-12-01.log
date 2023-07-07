@@ -1,0 +1,454 @@
+Dez 01, 2014 8:58:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 8:58:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 8:58:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 8:58:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 8:58:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 8:58:02 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_comunidade,nome_comunidade,nome_territorio,(case status_incra_territorio when 1 then '3 - Decreto' when 2 then '2 - Portaria' when 3 then '2 - Portaria' when 4 then '1 - RTID' when 5 then '4 - Titulada' else '0 - Certificada' end) as nome_status,(select sigla_uf from tbl_ibge_municipios as m left join tbl_ibge_ufs as u on m.cod_uf = u.cod_uf where cod_7 = cod_7_ibge_municipio) as uf from tbl_seppir_quilombola_comunidade as c left join tbl_seppir_quilombola_territorio as t on c.id_territorio=t.id_territorio;
+Dez 01, 2014 8:58:22 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 8:58:22 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 8:58:22 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 8:58:22 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 8:58:22 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 8:58:22 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 8:58:22 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 8:58:22 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 8:58:22 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 9:37:49 AM org.apache.catalina.core.StandardContext reload
+INFORMAÇÕES: Reloading Context with name [/saiku] has started
+Dez 01, 2014 9:37:49 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+GRAVE: The web application [/saiku] registered the JDBC driver [mondrian.olap4j.MondrianOlap4jDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dez 01, 2014 9:37:49 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+GRAVE: The web application [/saiku] registered the JDBC driver [org.hsqldb.jdbcDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dez 01, 2014 9:37:49 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+GRAVE: The web application [/saiku] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dez 01, 2014 9:37:49 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [org.apache.commons.vfs.cache.SoftRefFilesCache$SoftRefReleaseThread] but has failed to stop it. This is very likely to create a memory leak.
+Dez 01, 2014 9:37:49 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [Mondrian Monitor] but has failed to stop it. This is very likely to create a memory leak.
+Dez 01, 2014 9:37:49 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [mondrian.rolap.agg.SegmentCacheManager$ACTOR] but has failed to stop it. This is very likely to create a memory leak.
+Dez 01, 2014 9:37:49 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [mondrian.rolap.RolapResultShepherd#timer] but has failed to stop it. This is very likely to create a memory leak.
+Dez 01, 2014 9:37:49 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [Timer-1] but has failed to stop it. This is very likely to create a memory leak.
+Dez 01, 2014 9:37:49 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [mondrian.util.ExpiringReference$timer] but has failed to stop it. This is very likely to create a memory leak.
+Dez 01, 2014 9:37:49 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@6c5a97c0]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 01, 2014 9:37:49 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [mondrian.rolap.RolapStar$1] (value [mondrian.rolap.RolapStar$1@2fa0f5d3]) and a value of type [mondrian.rolap.RolapStar.Bar] (value [mondrian.rolap.RolapStar$Bar@398710fe]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 01, 2014 9:37:49 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@6c5a97c0]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 01, 2014 9:37:49 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@6c5a97c0]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 01, 2014 9:37:49 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@6c5a97c0]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 01, 2014 9:37:49 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@6c5a97c0]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 01, 2014 9:37:49 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@6c5a97c0]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 01, 2014 9:37:49 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@6c5a97c0]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 01, 2014 9:37:49 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@76a61f8c]) and a value of type [org.apache.commons.vfs.provider.FileContentThreadData] (value [org.apache.commons.vfs.provider.FileContentThreadData@14615d2f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 01, 2014 9:37:49 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@6c5a97c0]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 01, 2014 9:37:49 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@6c5a97c0]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 01, 2014 9:37:49 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@6c5a97c0]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 01, 2014 9:37:49 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@6c5a97c0]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 01, 2014 9:37:54 AM org.apache.catalina.loader.WebappClassLoader loadClass
+INFORMAÇÕES: Illegal access: this web application instance has been stopped already.  Could not load mondrian.rolap.aggmatcher.JdbcSchema.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1597)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1556)
+	at mondrian.rolap.aggmatcher.AggTableManager.removeJdbcSchema(AggTableManager.java:172)
+	at mondrian.rolap.aggmatcher.AggTableManager.finalCleanUp(AggTableManager.java:68)
+	at mondrian.rolap.RolapSchema.finalCleanUp(RolapSchema.java:320)
+	at mondrian.rolap.RolapSchema.finalize(RolapSchema.java:328)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+Dez 01, 2014 9:37:54 AM org.apache.catalina.loader.WebappClassLoader loadClass
+INFORMAÇÕES: Illegal access: this web application instance has been stopped already.  Could not load mondrian.resource.MondrianResource.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1597)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1556)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at mondrian.resource.MondrianResource.instance(MondrianResource.java:29)
+	at mondrian.rolap.RolapSchema.finalize(RolapSchema.java:330)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+Dez 01, 2014 9:37:54 AM org.apache.catalina.loader.WebappClassLoader findResourceInternal
+INFORMAÇÕES: Illegal access: this web application instance has been stopped already.  Could not load mondrian/resource/MondrianResource.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Dez 01, 2014 9:37:54 AM org.apache.catalina.loader.WebappClassLoader findResourceInternal
+INFORMAÇÕES: Illegal access: this web application instance has been stopped already.  Could not load mondrian/resource/MondrianResource.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Dez 01, 2014 9:37:54 AM org.apache.catalina.loader.WebappClassLoader loadClass
+INFORMAÇÕES: Illegal access: this web application instance has been stopped already.  Could not load mondrian.resource.MondrianResource_pt.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1597)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1556)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at mondrian.resource.MondrianResource.instance(MondrianResource.java:29)
+	at mondrian.rolap.RolapSchema.finalize(RolapSchema.java:330)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+Dez 01, 2014 9:37:54 AM org.apache.catalina.loader.WebappClassLoader findResourceInternal
+INFORMAÇÕES: Illegal access: this web application instance has been stopped already.  Could not load mondrian/resource/MondrianResource_pt.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Dez 01, 2014 9:37:54 AM org.apache.catalina.loader.WebappClassLoader loadClass
+INFORMAÇÕES: Illegal access: this web application instance has been stopped already.  Could not load mondrian.resource.MondrianResource_pt_BR.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1597)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1556)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at mondrian.resource.MondrianResource.instance(MondrianResource.java:29)
+	at mondrian.rolap.RolapSchema.finalize(RolapSchema.java:330)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+Dez 01, 2014 9:37:54 AM org.apache.catalina.loader.WebappClassLoader findResourceInternal
+INFORMAÇÕES: Illegal access: this web application instance has been stopped already.  Could not load mondrian/resource/MondrianResource_pt_BR.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Dez 01, 2014 9:38:07 AM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 01, 2014 9:38:07 AM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 01, 2014 9:38:11 AM com.sun.jersey.api.core.PackagesResourceConfig init
+INFORMAÇÕES: Scanning for root resource and provider classes in the packages:
+  org.saiku.web
+Dez 01, 2014 9:38:11 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFORMAÇÕES: Root resource classes found:
+  class org.saiku.web.rest.resources.BasicRepositoryResource
+  class org.saiku.web.rest.resources.DataSourceResource
+  class org.saiku.web.rest.resources.BasicTagRepositoryResource
+  class org.saiku.web.rest.resources.ExporterResource
+  class org.saiku.web.rest.resources.StatisticsResource
+  class org.saiku.web.rest.resources.SessionResource
+  class org.saiku.web.rest.resources.QueryResource
+  class org.saiku.web.rest.resources.OlapDiscoverResource
+  class org.saiku.web.rest.resources.BasicRepositoryResource2
+Dez 01, 2014 9:38:11 AM com.sun.jersey.api.core.ScanningResourceConfig init
+INFORMAÇÕES: No provider classes found.
+Dez 01, 2014 9:38:11 AM org.codehaus.enunciate.modules.jersey.EnunciateJerseyServletContainer configure
+INFORMAÇÕES: org.codehaus.enunciate.modules.amf.JAXRSProvider not found.
+Dez 01, 2014 9:38:11 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, datasourceResourceBean, of type org.saiku.web.rest.resources.DataSourceResource as a root resource class
+Dez 01, 2014 9:38:11 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, olapDiscoverBean, of type org.saiku.web.rest.resources.OlapDiscoverResource as a root resource class
+Dez 01, 2014 9:38:11 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, queryResource, of type org.saiku.web.rest.resources.QueryResource as a root resource class
+Dez 01, 2014 9:38:11 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, sessionResource, of type org.saiku.web.rest.resources.SessionResource as a root resource class
+Dez 01, 2014 9:38:11 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, repositoryBean, of type org.saiku.web.rest.resources.BasicRepositoryResource as a root resource class
+Dez 01, 2014 9:38:11 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, repository2bean, of type org.saiku.web.rest.resources.BasicRepositoryResource2 as a root resource class
+Dez 01, 2014 9:38:11 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, tagRepositoryBean, of type org.saiku.web.rest.resources.BasicTagRepositoryResource as a root resource class
+Dez 01, 2014 9:38:11 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, exporterBean, of type org.saiku.web.rest.resources.ExporterResource as a root resource class
+Dez 01, 2014 9:38:11 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, statsBean, of type org.saiku.web.rest.resources.StatisticsResource as a root resource class
+Dez 01, 2014 9:38:11 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFORMAÇÕES: Initiating Jersey application, version 'Jersey: 1.11 12/09/2011 10:27 AM'
+Dez 01, 2014 9:38:12 AM org.apache.catalina.core.StandardContext reload
+INFORMAÇÕES: Reloading Context with name [/saiku] is completed
+Dez 01, 2014 9:58:18 AM org.apache.catalina.core.StandardContext reload
+INFORMAÇÕES: Reloading Context with name [/saiku] has started
+Dez 01, 2014 9:58:18 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+GRAVE: The web application [/saiku] registered the JDBC driver [mondrian.olap4j.MondrianOlap4jDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dez 01, 2014 9:58:18 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+GRAVE: The web application [/saiku] registered the JDBC driver [org.hsqldb.jdbcDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dez 01, 2014 9:58:18 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+GRAVE: The web application [/saiku] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dez 01, 2014 9:58:18 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [org.apache.commons.vfs.cache.SoftRefFilesCache$SoftRefReleaseThread] but has failed to stop it. This is very likely to create a memory leak.
+Dez 01, 2014 9:58:18 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [Mondrian Monitor] but has failed to stop it. This is very likely to create a memory leak.
+Dez 01, 2014 9:58:18 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [mondrian.rolap.agg.SegmentCacheManager$ACTOR] but has failed to stop it. This is very likely to create a memory leak.
+Dez 01, 2014 9:58:18 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [mondrian.rolap.RolapResultShepherd#timer] but has failed to stop it. This is very likely to create a memory leak.
+Dez 01, 2014 9:58:18 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [Timer-2] but has failed to stop it. This is very likely to create a memory leak.
+Dez 01, 2014 9:58:18 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [mondrian.util.ExpiringReference$timer] but has failed to stop it. This is very likely to create a memory leak.
+Dez 01, 2014 9:58:24 AM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 01, 2014 9:58:24 AM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 01, 2014 9:58:28 AM com.sun.jersey.api.core.PackagesResourceConfig init
+INFORMAÇÕES: Scanning for root resource and provider classes in the packages:
+  org.saiku.web
+Dez 01, 2014 9:58:28 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFORMAÇÕES: Root resource classes found:
+  class org.saiku.web.rest.resources.QueryResource
+  class org.saiku.web.rest.resources.OlapDiscoverResource
+  class org.saiku.web.rest.resources.DataSourceResource
+  class org.saiku.web.rest.resources.StatisticsResource
+  class org.saiku.web.rest.resources.BasicRepositoryResource
+  class org.saiku.web.rest.resources.BasicTagRepositoryResource
+  class org.saiku.web.rest.resources.BasicRepositoryResource2
+  class org.saiku.web.rest.resources.SessionResource
+  class org.saiku.web.rest.resources.ExporterResource
+Dez 01, 2014 9:58:28 AM com.sun.jersey.api.core.ScanningResourceConfig init
+INFORMAÇÕES: No provider classes found.
+Dez 01, 2014 9:58:28 AM org.codehaus.enunciate.modules.jersey.EnunciateJerseyServletContainer configure
+INFORMAÇÕES: org.codehaus.enunciate.modules.amf.JAXRSProvider not found.
+Dez 01, 2014 9:58:28 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, datasourceResourceBean, of type org.saiku.web.rest.resources.DataSourceResource as a root resource class
+Dez 01, 2014 9:58:28 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, olapDiscoverBean, of type org.saiku.web.rest.resources.OlapDiscoverResource as a root resource class
+Dez 01, 2014 9:58:28 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, queryResource, of type org.saiku.web.rest.resources.QueryResource as a root resource class
+Dez 01, 2014 9:58:28 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, sessionResource, of type org.saiku.web.rest.resources.SessionResource as a root resource class
+Dez 01, 2014 9:58:28 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, repositoryBean, of type org.saiku.web.rest.resources.BasicRepositoryResource as a root resource class
+Dez 01, 2014 9:58:28 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, repository2bean, of type org.saiku.web.rest.resources.BasicRepositoryResource2 as a root resource class
+Dez 01, 2014 9:58:28 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, tagRepositoryBean, of type org.saiku.web.rest.resources.BasicTagRepositoryResource as a root resource class
+Dez 01, 2014 9:58:28 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, exporterBean, of type org.saiku.web.rest.resources.ExporterResource as a root resource class
+Dez 01, 2014 9:58:28 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, statsBean, of type org.saiku.web.rest.resources.StatisticsResource as a root resource class
+Dez 01, 2014 9:58:28 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFORMAÇÕES: Initiating Jersey application, version 'Jersey: 1.11 12/09/2011 10:27 AM'
+Dez 01, 2014 9:58:29 AM org.apache.catalina.core.StandardContext reload
+INFORMAÇÕES: Reloading Context with name [/saiku] is completed
+Dez 01, 2014 10:18:27 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 10:18:27 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 10:18:27 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 10:18:27 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 10:18:27 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 10:18:27 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_comunidade,nome_comunidade,nome_territorio,(case status_incra_territorio when 1 then '3 - Decreto' when 2 then '2 - Portaria' when 3 then '2 - Portaria' when 4 then '1 - RTID' when 5 then '4 - Titulada' else '0 - Certificada' end) as nome_status,(select sigla_uf from tbl_ibge_municipios as m left join tbl_ibge_ufs as u on m.cod_uf = u.cod_uf where cod_7 = cod_7_ibge_municipio) as uf from tbl_seppir_quilombola_comunidade as c left join tbl_seppir_quilombola_territorio as t on c.id_territorio=t.id_territorio;
+Dez 01, 2014 10:18:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 10:18:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 10:18:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 10:18:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 10:18:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 10:18:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 10:18:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 10:18:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 10:18:31 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 10:20:05 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 10:20:05 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 10:20:05 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 10:20:05 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 01, 2014 10:20:05 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 10:20:05 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 10:20:05 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 10:20:05 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 10:20:05 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 10:20:05 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 10:32:40 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 10:32:40 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 10:32:40 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 10:32:40 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 10:32:40 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 10:32:40 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 10:32:40 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 10:32:40 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 10:32:40 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 10:32:43 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 10:32:43 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 10:32:43 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Familias Quilombolas)';
+Dez 01, 2014 10:32:43 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 01, 2014 10:32:43 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 10:32:43 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 10:32:43 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 10:32:43 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 10:32:43 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 10:32:43 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 10:33:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ CadUnico (Pessoas Quilombolas)';
+Dez 01, 2014 10:33:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 01, 2014 10:33:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 01, 2014 10:33:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 01, 2014 10:33:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 01, 2014 10:33:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 01, 2014 10:33:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 10:33:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 10:33:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Censo Escolar (Escolas)';
+Dez 01, 2014 10:33:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 10:33:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 10:33:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 10:33:25 AM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Servicos (Paineis)';
+Dez 01, 2014 1:41:52 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 1:41:52 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 1:41:52 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 1:41:52 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 1:41:52 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 1:41:52 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_comunidade,nome_comunidade,nome_territorio,(case status_incra_territorio when 1 then '3 - Decreto' when 2 then '2 - Portaria' when 3 then '2 - Portaria' when 4 then '1 - RTID' when 5 then '4 - Titulada' else '0 - Certificada' end) as nome_status,(select sigla_uf from tbl_ibge_municipios as m left join tbl_ibge_ufs as u on m.cod_uf = u.cod_uf where cod_7 = cod_7_ibge_municipio) as uf from tbl_seppir_quilombola_comunidade as c left join tbl_seppir_quilombola_territorio as t on c.id_territorio=t.id_territorio;
+Dez 01, 2014 1:41:58 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 01, 2014 1:41:58 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MS SIM';
+Dez 01, 2014 1:41:58 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MS SIM';
+Dez 01, 2014 1:41:58 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 01, 2014 1:41:58 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 01, 2014 1:41:58 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 01, 2014 1:41:58 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 01, 2014 1:41:58 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 01, 2014 1:41:58 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 01, 2014 1:41:59 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome_municipio,sigla_uf,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio group by agg.cod_munic),1) as taxa_todos,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio and (raca_cor=2 or raca_cor=4)	 group by agg.cod_munic),1) as taxa_negros,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio and raca_cor=1	 group by agg.cod_munic),1) as taxa_brancos from tbl_seppir_municipios_pjv as pjv;
+Dez 01, 2014 3:32:09 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 3:32:09 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 3:32:09 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 3:32:09 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 3:32:09 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 3:32:10 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 3:32:10 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 3:32:10 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 3:32:10 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 3:32:10 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 3:32:13 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_comunidade,nome_comunidade,nome_territorio,(case status_incra_territorio when 1 then '3 - Decreto' when 2 then '2 - Portaria' when 3 then '2 - Portaria' when 4 then '1 - RTID' when 5 then '4 - Titulada' else '0 - Certificada' end) as nome_status,(select sigla_uf from tbl_ibge_municipios as m left join tbl_ibge_ufs as u on m.cod_uf = u.cod_uf where cod_7 = cod_7_ibge_municipio) as uf from tbl_seppir_quilombola_comunidade as c left join tbl_seppir_quilombola_territorio as t on c.id_territorio=t.id_territorio;
+Dez 01, 2014 3:32:26 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 3:32:26 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 3:32:26 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 3:32:26 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 3:32:26 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 01, 2014 3:32:29 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_comunidade,nome_comunidade,nome_territorio,(case status_incra_territorio when 1 then '3 - Decreto' when 2 then '2 - Portaria' when 3 then '2 - Portaria' when 4 then '1 - RTID' when 5 then '4 - Titulada' else '0 - Certificada' end) as nome_status,(select sigla_uf from tbl_ibge_municipios as m left join tbl_ibge_ufs as u on m.cod_uf = u.cod_uf where cod_7 = cod_7_ibge_municipio) as uf from tbl_seppir_quilombola_comunidade as c left join tbl_seppir_quilombola_territorio as t on c.id_territorio=t.id_territorio;
+Dez 01, 2014 4:38:50 PM org.apache.catalina.util.LifecycleBase stop
+INFORMAÇÕES: The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/dataseppir-admin]] after stop() had already been called. The second call will be ignored.
+Dez 01, 2014 4:38:50 PM org.apache.catalina.startup.HostConfig checkResources
+INFORMAÇÕES: Undeploying context [/dataseppir-admin]
+Dez 01, 2014 4:42:16 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/opt/tomcat7/webapps/dataseppir-admin.war
+Dez 01, 2014 4:42:19 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 01, 2014 4:42:19 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 01, 2014 4:42:19 PM org.apache.catalina.core.StandardContext startInternal
+GRAVE: Error listenerStart
+Dez 01, 2014 4:42:19 PM org.apache.catalina.core.StandardContext startInternal
+GRAVE: Context [/dataseppir-admin] startup failed due to previous errors

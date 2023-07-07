@@ -1,0 +1,108 @@
+Jan 28, 2015 8:56:26 AM org.apache.catalina.loader.WebappClassLoader loadClass
+INFORMAÇÕES: Illegal access: this web application instance has been stopped already.  Could not load mondrian.rolap.aggmatcher.JdbcSchema.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1597)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1556)
+	at mondrian.rolap.aggmatcher.AggTableManager.removeJdbcSchema(AggTableManager.java:172)
+	at mondrian.rolap.aggmatcher.AggTableManager.finalCleanUp(AggTableManager.java:68)
+	at mondrian.rolap.RolapSchema.finalCleanUp(RolapSchema.java:320)
+	at mondrian.rolap.RolapSchema.finalize(RolapSchema.java:328)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+Jan 28, 2015 8:56:26 AM org.apache.catalina.loader.WebappClassLoader loadClass
+INFORMAÇÕES: Illegal access: this web application instance has been stopped already.  Could not load mondrian.resource.MondrianResource.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1597)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1556)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at mondrian.resource.MondrianResource.instance(MondrianResource.java:29)
+	at mondrian.rolap.RolapSchema.finalize(RolapSchema.java:330)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+Jan 28, 2015 8:56:26 AM org.apache.catalina.loader.WebappClassLoader findResourceInternal
+INFORMAÇÕES: Illegal access: this web application instance has been stopped already.  Could not load mondrian/resource/MondrianResource.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Jan 28, 2015 8:56:26 AM org.apache.catalina.loader.WebappClassLoader findResourceInternal
+INFORMAÇÕES: Illegal access: this web application instance has been stopped already.  Could not load mondrian/resource/MondrianResource.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Jan 28, 2015 8:56:26 AM org.apache.catalina.loader.WebappClassLoader loadClass
+INFORMAÇÕES: Illegal access: this web application instance has been stopped already.  Could not load mondrian.resource.MondrianResource_pt.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1597)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1556)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at mondrian.resource.MondrianResource.instance(MondrianResource.java:29)
+	at mondrian.rolap.RolapSchema.finalize(RolapSchema.java:330)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+Jan 28, 2015 8:56:26 AM org.apache.catalina.loader.WebappClassLoader findResourceInternal
+INFORMAÇÕES: Illegal access: this web application instance has been stopped already.  Could not load mondrian/resource/MondrianResource_pt.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Jan 28, 2015 8:56:26 AM org.apache.catalina.loader.WebappClassLoader loadClass
+INFORMAÇÕES: Illegal access: this web application instance has been stopped already.  Could not load mondrian.resource.MondrianResource_pt_BR.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1597)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1556)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at mondrian.resource.MondrianResource.instance(MondrianResource.java:29)
+	at mondrian.rolap.RolapSchema.finalize(RolapSchema.java:330)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+Jan 28, 2015 8:56:26 AM org.apache.catalina.loader.WebappClassLoader findResourceInternal
+INFORMAÇÕES: Illegal access: this web application instance has been stopped already.  Could not load mondrian/resource/MondrianResource_pt_BR.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Jan 28, 2015 2:59:48 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Jan 28, 2015 2:59:48 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Jan 28, 2015 2:59:48 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Jan 28, 2015 2:59:48 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Jan 28, 2015 2:59:48 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Jan 28, 2015 2:59:51 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_comunidade,nome_comunidade,nome_territorio,(case status_incra_territorio when 1 then '3 - Decreto' when 2 then '2 - Portaria' when 3 then '2 - Portaria' when 4 then '1 - RTID' when 5 then '4 - Titulada' else '0 - Certificada' end) as nome_status,(select sigla_uf from tbl_ibge_municipios as m left join tbl_ibge_ufs as u on m.cod_uf = u.cod_uf where cod_7 = cod_7_ibge_municipio) as uf from tbl_seppir_quilombola_comunidade as c left join tbl_seppir_quilombola_territorio as t on c.id_territorio=t.id_territorio;
+Jan 28, 2015 3:00:58 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Jan 28, 2015 3:00:58 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MS SIM';
+Jan 28, 2015 3:00:58 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MS SIM';
+Jan 28, 2015 3:00:58 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Jan 28, 2015 3:00:58 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Jan 28, 2015 3:00:58 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Jan 28, 2015 3:00:58 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Jan 28, 2015 3:00:58 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Jan 28, 2015 3:00:58 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Jan 28, 2015 3:01:00 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome_municipio,sigla_uf,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio group by agg.cod_munic),1) as taxa_todos,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio and (raca_cor=2 or raca_cor=4)	 group by agg.cod_munic),1) as taxa_negros,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio and raca_cor=1	 group by agg.cod_munic),1) as taxa_brancos from tbl_seppir_municipios_pjv as pjv;

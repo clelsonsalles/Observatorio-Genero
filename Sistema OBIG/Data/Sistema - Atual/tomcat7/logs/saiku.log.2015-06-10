@@ -1,0 +1,26 @@
+2015-06-10 15:23:15,187 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-06-10 15:23:20,164 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/19C47E99-5016-40DB-A708-1D843273C7C3	POST	 xml:false
+2015-06-10 15:23:23,843 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/19C47E99-5016-40DB-A708-1D843273C7C3/axis/COLUMNS/dimension/Trabalho Extrativista/hierarchy/[Trabalho Extrativista]/[Trabalho Extrativista].[Trabalho Extrativista]	POST
+2015-06-10 15:23:23,843 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 19C47E99-5016-40DB-A708-1D843273C7C3 dimension Trabalho Extrativista to axis COLUMNS  position0
+2015-06-10 15:23:26,020 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/19C47E99-5016-40DB-A708-1D843273C7C3/axis/ROWS/dimension/Measures/member/[Measures].[Pessoas]	POST
+2015-06-10 15:23:26,020 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 19C47E99-5016-40DB-A708-1D843273C7C3 dimension Measures to axis ROWS  position0
+2015-06-10 15:23:26,085 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/19C47E99-5016-40DB-A708-1D843273C7C3/resultflattened	GET
+2015-06-10 15:23:26,085 INFO  [org.saiku.service.olap.OlapQueryService] runId:4	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Trabalho Extrativista].[Trabalho Extrativista].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Pessoas]} ON ROWS
+FROM [MDS CadUnico (Pessoas)]
+2015-06-10 15:23:26,110 INFO  [org.saiku.service.olap.OlapQueryService] runId:4	Size: 0/0	Execute:	25ms	Format:	0ms	 Total: 25ms
+2015-06-10 15:23:32,223 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/19C47E99-5016-40DB-A708-1D843273C7C3	DELETE
+2015-06-10 15:23:32,228 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/97F8BA5D-9D74-F581-9ACC-68D302993578	POST	 xml:false
+2015-06-10 15:23:35,000 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/97F8BA5D-9D74-F581-9ACC-68D302993578/axis/COLUMNS/dimension/Trabalho Extrativista/hierarchy/[Trabalho Extrativista]/[Trabalho Extrativista].[Trabalho Extrativista]	POST
+2015-06-10 15:23:35,000 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 97F8BA5D-9D74-F581-9ACC-68D302993578 dimension Trabalho Extrativista to axis COLUMNS  position0
+2015-06-10 15:23:37,730 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/97F8BA5D-9D74-F581-9ACC-68D302993578/axis/ROWS/dimension/Measures/member/[Measures].[Pessoas]	POST
+2015-06-10 15:23:37,730 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 97F8BA5D-9D74-F581-9ACC-68D302993578 dimension Measures to axis ROWS  position0
+2015-06-10 15:23:37,799 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/97F8BA5D-9D74-F581-9ACC-68D302993578/resultflattened	GET
+2015-06-10 15:23:37,800 INFO  [org.saiku.service.olap.OlapQueryService] runId:5	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Trabalho Extrativista].[Trabalho Extrativista].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Pessoas]} ON ROWS
+FROM [PBQ CadUnico (Pessoas Quilombolas)]
+2015-06-10 15:23:37,808 INFO  [org.saiku.service.olap.OlapQueryService] runId:5	Size: 0/0	Execute:	8ms	Format:	0ms	 Total: 8ms

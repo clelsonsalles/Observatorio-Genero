@@ -1,0 +1,177 @@
+﻿[
+ {
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Média de anos de estudos de mulheres",
+		"source": "Pesquisa Nacional por Amostra de Domicílios (PNAD)/ IBGE, 2014",
+		"dataUrl": "csv/pnad_media_ano_estudo_por_uf.csv",
+		"columnDelimiter": ";",
+  		"charts": [
+  				{ "type": "SVGMap",
+  				  "data": {
+  				  	"title": "Por UF",
+  				  	"file": "svg/brasil_uf_map.svg",
+					"width": 410,
+					"height": 350,
+					"xAxisCol": "UF",
+					"yAxisCol": "Média",
+					"minColor": "#4169E1",
+					"maxColor": "#FF6A6A",
+					"colorSteps": 6,
+					"colorize": "fixed",
+					"colorizeModel": {
+							"intervals": [[1,7.19],[7.20,7.79],[7.80,8.39],[8.40,9.00],[9.01,100]],
+							"colors": ["#a1a8b3", "#f5ca28", "#00be6f","#0875f5","#7e6a49"],
+							"labels": [ "Até 7,1 anos", "De 7,1 a 7,7", "De 7,8 a 8,3","De 8,4 a 9,0", "Acima de 9 anos"]
+						},
+					"numberFormat": ".1f",					
+					"info":"</br>",			
+					"selectionBoxPosition": "bottom-left",
+					"filters": {
+						"excluded": [ { "column": "UF", "value": "Todas as UFs" } ] 
+					  }
+																
+				   }
+				  },
+				  {
+				  	"type": "RowValue",
+				  	"data": {
+				  			"defaultRow": "Todas as UFs",
+				  			"defaultLabel": "Brasil",
+				  			"xAxisCol": "UF",
+				  			"yAxisCol": "Média",
+				  			"prefix": "Média:",
+				  			"numberFormat": ".1f",
+				  			"icon": "img/icon/student-gray-48.png"
+				  		}
+				  } ]
+			 
+		  }
+  },
+{
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Taxa de Alfabetização",		
+		"dataUrl": "csv/pnad_taxa_de_alfabetizacao.csv",
+		"columnDelimiter": ";",
+		"source": "Pesquisa Nacional por Amostra de Domicílios (PNAD)/ IBGE, 2014",
+  		"charts": [
+  				
+			{ "type": "Plot2D",
+				  "data": {
+				  	"title": "Por Sexo e Raça/Cor",
+				  	
+                    "yUnit": "Taxa",
+                    "numberFormat": ".1f",
+                    "suffix": "%",
+                    "type": "column",
+                    "width": 350,
+                    "height": 180,
+                    "marginLeft": 80,
+                    "marginBottom": 58,
+                    "xRotation": -25,
+                    "xAxisCol": "Raça/Cor",
+                    "selectionAxisCol": "UF",
+                    "yAxisCol": ["Mulheres","Homens"],
+                    "colors": ["#a1a8b3","#f5ca28"],
+                    "legendNumCols": 2,
+                    "filters": {                                                            				
+                    	"included": [ { "column": "UF","value": "Todas as UFs" }],
+			"excluded": [ { "column": "Raça/Cor","value": "Todas" }]
+                        }						
+                        }
+                    },
+			
+			{ "type": "Plot2D",
+		    "data": {
+		    "title": "Por Sexo e Situação de Domicílio",
+				  	
+                    "yUnit": "Taxa",
+                    "numberFormat": ".1f",
+                    "suffix": "%",
+                    "type": "column",
+                    "width": 350,
+                    "height": 180,
+                    "marginLeft": 80,
+                    "marginBottom": 58,
+                    "xRotation": -25,
+                    "xAxisCol": "Situação do Domicílio",
+                    "selectionAxisCol": "UF",
+                  "yAxisCol": ["Mulheres","Homens"],
+                    "colors": ["#a1a8b3","#f5ca28"],
+                    "legendNumCols": 2,
+                    "filters": {                                                            				
+                    	"included": [ { "column": "UF","value": "Todas as UFs" }],
+			"excluded": [ { "column": "Situação do Domicílio","value": "Todas" }]
+                        }						
+                        }
+                    },{ "type": "LINE_BREAK" },
+			{ "type": "Plot2D",
+				  "data": {
+				  	"title": "Por Sexo e Grupo de Idade",
+				  	
+                    "yUnit": "Taxa",
+                    "numberFormat": ".1f",
+                    "suffix": "%",
+                    "type": "column",
+                    "width": 700,
+                    "height": 240,
+                    "marginLeft": 80,
+                    "marginBottom": 58,
+                    "xRotation": -25,
+                    "xAxisCol": "Faixa Etária",
+                    "selectionAxisCol": "UF",
+                    "yAxisCol": ["Mulheres","Homens"],
+                    "colors": ["#a1a8b3","#f5ca28"],
+                    "legendNumCols": 2,
+                    "filters": {                                                            				
+                    	"included": [ { "column": "UF","value": "Todas as UFs" }],
+			"excluded": [ { "column": "Faixa Etária","value": "Todas" }]
+                        }					
+                        }
+                    }
+                              
+                 
+            ]
+     }
+  },
+
+{
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Média de anos de estudo da população ocupada",		
+		"dataUrl": "csv/pnad_media_ano_estudo_por_cor_sexo.csv",
+		"columnDelimiter": ";",
+		"source": "Pesquisa Nacional por Amostra de Domicílios (PNAD)/ IBGE, 2014",
+  		"charts": [
+  				
+				{ "type": "Plot2D",
+				  "data": {
+				  	"title": "Por Sexo e Raça/Cor",
+				  	
+                    "yUnit": "Média de Anos de Estudo",
+                    "numberFormat": ".1f",
+                    "type": "stacked",
+                    "width": 410,
+                    "height": 250,
+                    "marginLeft": 80,
+                    "marginBottom": 58,
+                    "xRotation": -25,
+                    "xAxisCol": "Raça/Cor",
+                    "selectionAxisCol": "UF",
+                    "yAxisCol": ["Mulheres","Homens"],
+                    "colors": ["#a1a8b3","#f5ca28"],
+                    "legendNumCols": 2,
+			"filters": {                                                            				
+                    	"included": [ { "column": "UF",
+                    					"value": "Todas as UFs" }
+										]
+                        }						
+                        }
+                    }
+                              
+                 
+            ]
+     }
+  }
+]

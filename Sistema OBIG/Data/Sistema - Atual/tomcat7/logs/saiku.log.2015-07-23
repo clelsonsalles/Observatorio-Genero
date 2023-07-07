@@ -1,0 +1,48 @@
+2015-07-23 15:51:46,020 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@c9fb4465: Username: secomt; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-07-23 15:52:11,885 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/45F183D6-D388-B5FD-ACBE-8D27A155EE7A	POST	 xml:false
+2015-07-23 16:46:50,461 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@c9fb4465: Username: secomt; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-07-23 16:50:01,073 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@c9fb4465: Username: secomt; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-07-23 17:14:10,024 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@c9fb4465: Username: secomt; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-07-23 17:14:29,652 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/6FB1790B-1E25-C8DC-A3BB-A17A07990A0D	POST	 xml:false
+2015-07-23 17:31:40,652 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@c9fb4465: Username: secomt; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-07-23 17:31:45,581 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/613A2786-6A5C-DD22-9577-F295B74198C2	POST	 xml:false
+2015-07-23 17:31:53,384 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/613A2786-6A5C-DD22-9577-F295B74198C2/axis/COLUMNS/dimension/Local de Domicílio/hierarchy/[Local de Domicílio]/[Local de Domicílio].[UF]	POST
+2015-07-23 17:31:53,385 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 613A2786-6A5C-DD22-9577-F295B74198C2 dimension Local de Domicílio to axis COLUMNS  position0
+2015-07-23 17:31:55,817 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/613A2786-6A5C-DD22-9577-F295B74198C2/result/metadata/dimensions/Local de Domicílio/hierarchies/[Local de Domicílio]/levels/[Local de Domicílio].[UF]	GET
+2015-07-23 17:31:56,419 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/613A2786-6A5C-DD22-9577-F295B74198C2/axis/COLUMNS/dimension/Local de Domicílio	GET
+2015-07-23 17:32:04,595 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/613A2786-6A5C-DD22-9577-F295B74198C2/axis/COLUMNS/dimension/Local de Domicílio	PUT	
+2015-07-23 17:32:04,659 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/613A2786-6A5C-DD22-9577-F295B74198C2/axis/COLUMNS/dimension/Local de Domicílio	GET
+2015-07-23 17:32:09,989 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/613A2786-6A5C-DD22-9577-F295B74198C2/axis/COLUMNS/dimension/Measures/member/[Measures].[Famílias]	POST
+2015-07-23 17:32:09,989 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 613A2786-6A5C-DD22-9577-F295B74198C2 dimension Measures to axis COLUMNS  position1
+2015-07-23 17:32:11,617 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/613A2786-6A5C-DD22-9577-F295B74198C2/axis/ROWS/dimension/Measures	POST
+2015-07-23 17:32:11,618 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 613A2786-6A5C-DD22-9577-F295B74198C2 dimension Measures to axis ROWS  position0
+2015-07-23 17:32:11,671 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/613A2786-6A5C-DD22-9577-F295B74198C2/resultflattened	GET
+2015-07-23 17:32:11,672 INFO  [org.saiku.service.olap.OlapQueryService] runId:30	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Domicílio].[Centro-Oeste].[Mato Grosso do Sul]})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [MDS CadUnico (Familias)]
+2015-07-23 17:32:49,806 INFO  [org.saiku.service.olap.OlapQueryService] runId:30	Size: 2/2	Execute:	38134ms	Format:	1ms	 Total: 38135ms
+2015-07-23 17:33:12,918 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/613A2786-6A5C-DD22-9577-F295B74198C2/axis/ROWS/dimension/Measures/member/[Measures].[Famílias]	DELETE
+2015-07-23 17:33:12,918 DEBUG [org.saiku.service.olap.OlapQueryService] query: 613A2786-6A5C-DD22-9577-F295B74198C2 remove:MEMBER 2
+2015-07-23 17:33:12,919 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 613A2786-6A5C-DD22-9577-F295B74198C2 dimension Measures to axis UNUSED  position-1
+2015-07-23 17:33:19,219 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/613A2786-6A5C-DD22-9577-F295B74198C2/axis/ROWS/dimension/Ruralidade/hierarchy/[Ruralidade]/[Ruralidade].[Ruralidade]	POST
+2015-07-23 17:33:19,219 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 613A2786-6A5C-DD22-9577-F295B74198C2 dimension Ruralidade to axis ROWS  position0
+2015-07-23 17:33:19,274 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/613A2786-6A5C-DD22-9577-F295B74198C2/resultflattened	GET
+2015-07-23 17:33:19,274 INFO  [org.saiku.service.olap.OlapQueryService] runId:31	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Domicílio].[Centro-Oeste].[Mato Grosso do Sul]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Ruralidade].[Ruralidade].Members})} ON ROWS
+FROM [MDS CadUnico (Familias)]
+2015-07-23 17:33:57,182 INFO  [org.saiku.service.olap.OlapQueryService] runId:31	Size: 2/3	Execute:	37907ms	Format:	1ms	 Total: 37908ms
+2015-07-23 17:34:30,841 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/613A2786-6A5C-DD22-9577-F295B74198C2/axis/ROWS/dimension/Ruralidade/hierarchy/[Ruralidade]/[Ruralidade].[Ruralidade]	DELETE
+2015-07-23 17:34:30,841 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 613A2786-6A5C-DD22-9577-F295B74198C2 dimension Ruralidade to axis UNUSED  position-1
+2015-07-23 17:34:35,698 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/613A2786-6A5C-DD22-9577-F295B74198C2/axis/ROWS/dimension/Faixa de Renda Familiar/hierarchy/[Faixa de Renda Familiar]/[Faixa de Renda Familiar].[Faixa de Renda Familiar]	POST
+2015-07-23 17:34:35,698 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 613A2786-6A5C-DD22-9577-F295B74198C2 dimension Faixa de Renda Familiar to axis ROWS  position0
+2015-07-23 17:34:35,740 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/613A2786-6A5C-DD22-9577-F295B74198C2/resultflattened	GET
+2015-07-23 17:34:35,740 INFO  [org.saiku.service.olap.OlapQueryService] runId:32	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Domicílio].[Centro-Oeste].[Mato Grosso do Sul]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Faixa de Renda Familiar].[Faixa de Renda Familiar].Members})} ON ROWS
+FROM [MDS CadUnico (Familias)]
+2015-07-23 17:36:42,940 INFO  [org.saiku.service.olap.OlapQueryService] runId:32	Size: 2/4	Execute:	127199ms	Format:	1ms	 Total: 127200ms

@@ -1,0 +1,1334 @@
+Dez 23, 2014 12:34:44 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:34:44 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo1/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:34:44 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:34:44 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:34:44 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo1/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:34:44 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:34:45 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/comunidades.json.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:34:45 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/blank.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:34:46 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:34:46 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:34:46 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:34:46 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:34:46 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:34:46 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:35:04 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:35:04 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo3/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:35:04 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:35:04 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:35:04 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo3/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:35:04 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:53:03 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:53:03 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:53:03 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:53:03 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:53:03 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:53:03 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:59:21 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:59:21 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo1/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:59:21 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:59:21 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:59:21 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo1/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:59:21 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:59:21 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/comunidades.json.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:59:21 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/blank.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:59:23 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:59:23 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:59:23 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:59:23 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:59:23 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 12:59:23 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:00:00 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Error configuring application listener of class org.apache.shiro.web.env.EnvironmentLoaderListener
+java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+	at org.apache.shiro.web.env.EnvironmentLoader.<clinit>(EnvironmentLoader.java:108)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:379)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:134)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4727)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1247)
+	at org.apache.catalina.manager.HTMLManagerServlet.start(HTMLManagerServlet.java:714)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:219)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:186)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:581)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1711)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1556)
+	... 37 more
+
+Dez 23, 2014 1:00:00 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Skipped installing application listeners due to previous error(s)
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Searching for properties at: /org/apache/velocity/tools/view/velocity.properties
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Searching for properties at: /WEB-INF/velocity.properties
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Configuring Velocity with properties at: /WEB-INF/velocity.properties
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Searching for properties at: /WEB-INF/velocity.properties
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Configuring Velocity with properties at: /WEB-INF/velocity.properties
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Initializing Velocity, Calling init()...
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] *******************************************************************
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] RuntimeInstance initializing.
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Trying to use logger class org.apache.velocity.runtime.log.ServletLogChute
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Using logger class org.apache.velocity.runtime.log.ServletLogChute
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceLoader instantiated: org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] WebappResourceLoader: initialization starting.
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] WebappResourceLoader: initialization complete.
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.StringResourceLoader
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] StringResourceLoader : initialization starting.
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded repository 'org.apache.velocity.runtime.resource.util.StringResourceRepository' from static repo store
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] StringResourceLoader : initialization complete.
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Default ResourceManager initialization complete.
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Define
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Break
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Include
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Created '20' parsers.
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Velocimacro : initialization starting.
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.tools.view.WebappResourceLoader: WebappResourceLoader: Resource 'VM_global_library.vm' not found.
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : Default library not found.
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : allowInline = true : VMs can be defined inline in templates
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : autoload off : VM system will not automatically reload global library macros
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Velocimacro : Velocimacro : initialization complete.
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] RuntimeInstance successfully initialized.
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Searching for configuration at: /WEB-INF/toolbox.xml
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Did not find resource at: /WEB-INF/toolbox.xml
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Loading default tools configuration...
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Searching for configuration at: /WEB-INF/tools.xml
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded configuration from: /WEB-INF/tools.xml
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Configuring factory with: 
+FactoryConfiguration from 7 sources including 5 data with 3 toolboxes: 
+ Toolbox 'application' with 1 properties [scope -auto-> application; ] and 15 tools: 
+  Tool 'alternator' => org.apache.velocity.tools.generic.AlternatorTool 
+  Tool 'class' => org.apache.velocity.tools.generic.ClassTool 
+  Tool 'convert' => org.apache.velocity.tools.generic.ConversionTool 
+  Tool 'date' => org.apache.velocity.tools.generic.ComparisonDateTool 
+  Tool 'display' => org.apache.velocity.tools.generic.DisplayTool 
+  Tool 'esc' => org.apache.velocity.tools.generic.EscapeTool 
+  Tool 'featureProvider' => org.iadb.seppir.monitor.FeatureProvider with 1 properties [key -auto-> featureProvider; ]
+  Tool 'field' => org.apache.velocity.tools.generic.FieldTool 
+  Tool 'math' => org.apache.velocity.tools.generic.MathTool 
+  Tool 'number' => org.apache.velocity.tools.generic.NumberTool 
+  Tool 'panelRenderer' => org.iadb.seppir.monitor.PanelRenderer with 1 properties [key -auto-> panelRenderer; ]
+  Tool 'sorter' => org.apache.velocity.tools.generic.SortTool 
+  Tool 'tableProvider' => org.iadb.seppir.monitor.TableProvider with 1 properties [key -auto-> tableProvider; ]
+  Tool 'text' => org.apache.velocity.tools.generic.ResourceTool 
+  Tool 'xml' => org.apache.velocity.tools.generic.XmlTool 
+  
+ Toolbox 'request' with 1 properties [scope -auto-> request; ] and 10 tools: 
+  Tool 'context' => org.apache.velocity.tools.view.ViewContextTool 
+  Tool 'cookies' => org.apache.velocity.tools.view.CookieTool 
+  Tool 'import' => org.apache.velocity.tools.view.ImportTool 
+  Tool 'include' => org.apache.velocity.tools.view.IncludeTool 
+  Tool 'link' => org.apache.velocity.tools.struts.StrutsLinkTool 
+  Tool 'loop' => org.apache.velocity.tools.generic.LoopTool 
+  Tool 'pager' => org.apache.velocity.tools.view.PagerTool 
+  Tool 'params' => org.apache.velocity.tools.view.ParameterTool 
+  Tool 'render' => org.apache.velocity.tools.generic.RenderTool 
+  Tool 'validator' => org.apache.velocity.tools.struts.ValidatorTool 
+  
+ Toolbox 'session' with 2 properties [createSession -auto-> false; scope -auto-> session; ] and 1 tools: 
+  Tool 'browser' => org.apache.velocity.tools.view.BrowserTool 
+  
+ Data 'GENERIC_TOOLS_AVAILABLE' -boolean-> true
+ Data 'STRUTS_TOOLS_AVAILABLE' -boolean-> true
+ Data 'TOOLS_VERSION' -number-> 2.0
+ Data 'VIEW_TOOLS_AVAILABLE' -boolean-> true
+ Data 'dashboard-version' -number-> 1.0
+ 
+ Source 0: org.apache.velocity.tools.config.FactoryConfiguration(VelocityView.configure(config,factory))
+ Source 1: org.apache.velocity.tools.config.XmlFactoryConfiguration(ConfigurationUtils.getDefaultTools())
+ Source 2:     .read(jar:file:/home/opt/tomcat7/lib/velocity-tools-2.0.jar!/org/apache/velocity/tools/generic/tools.xml)
+ Source 3:     .read(jar:file:/home/opt/tomcat7/lib/velocity-tools-2.0.jar!/org/apache/velocity/tools/view/tools.xml)
+ Source 4:     .read(jar:file:/home/opt/tomcat7/lib/velocity-tools-2.0.jar!/org/apache/velocity/tools/struts/tools.xml)
+ Source 5: org.apache.velocity.tools.config.FactoryConfiguration(ConfigurationUtils.getAutoLoaded(false))
+ Source 6: org.apache.velocity.tools.config.XmlFactoryConfiguration(ServletUtils.getConfiguration(/WEB-INF/tools.xml,ServletContext[,depMode=true]))
+
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Default Content-Type is: text/html; charset=UTF-8
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity   [info] VelocityLayoutServlet: Error screen is 'layout/error.vm'
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity   [info] VelocityLayoutServlet: Layout directory is 'layout/'
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity   [info] VelocityLayoutServlet: Default layout template is 'dashboard.vm'
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] org.apache.velocity.tools.view.servlet.VelocityLayoutServlet has been deprecated. Use org.apache.velocity.tools.view.servlet.VelocityLayoutServlet instead.
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:00:13 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo1/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:00:14 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:00:14 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:00:14 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo1/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:00:14 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:00:14 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/comunidades.json.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:00:15 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/blank.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:00:16 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:00:16 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:00:16 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:00:16 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:00:16 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:00:16 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:03:00 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:03:00 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:03:00 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:03:00 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:03:00 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:03:00 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Searching for properties at: /org/apache/velocity/tools/view/velocity.properties
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Searching for properties at: /WEB-INF/velocity.properties
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Configuring Velocity with properties at: /WEB-INF/velocity.properties
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Searching for properties at: /WEB-INF/velocity.properties
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Configuring Velocity with properties at: /WEB-INF/velocity.properties
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Initializing Velocity, Calling init()...
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] *******************************************************************
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] RuntimeInstance initializing.
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Trying to use logger class org.apache.velocity.runtime.log.ServletLogChute
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Using logger class org.apache.velocity.runtime.log.ServletLogChute
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceLoader instantiated: org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] WebappResourceLoader: initialization starting.
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] WebappResourceLoader: initialization complete.
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.StringResourceLoader
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] StringResourceLoader : initialization starting.
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded repository 'org.apache.velocity.runtime.resource.util.StringResourceRepository' from static repo store
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] StringResourceLoader : initialization complete.
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Default ResourceManager initialization complete.
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Define
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Break
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Include
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Created '20' parsers.
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Velocimacro : initialization starting.
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.tools.view.WebappResourceLoader: WebappResourceLoader: Resource 'VM_global_library.vm' not found.
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : Default library not found.
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : allowInline = true : VMs can be defined inline in templates
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : autoload off : VM system will not automatically reload global library macros
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Velocimacro : Velocimacro : initialization complete.
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] RuntimeInstance successfully initialized.
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Searching for configuration at: /WEB-INF/toolbox.xml
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Did not find resource at: /WEB-INF/toolbox.xml
+Dez 23, 2014 1:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Loading default tools configuration...
+Dez 23, 2014 1:03:18 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Searching for configuration at: /WEB-INF/tools.xml
+Dez 23, 2014 1:03:18 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded configuration from: /WEB-INF/tools.xml
+Dez 23, 2014 1:03:18 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Configuring factory with: 
+FactoryConfiguration from 7 sources including 5 data with 3 toolboxes: 
+ Toolbox 'application' with 1 properties [scope -auto-> application; ] and 15 tools: 
+  Tool 'alternator' => org.apache.velocity.tools.generic.AlternatorTool 
+  Tool 'class' => org.apache.velocity.tools.generic.ClassTool 
+  Tool 'convert' => org.apache.velocity.tools.generic.ConversionTool 
+  Tool 'date' => org.apache.velocity.tools.generic.ComparisonDateTool 
+  Tool 'display' => org.apache.velocity.tools.generic.DisplayTool 
+  Tool 'esc' => org.apache.velocity.tools.generic.EscapeTool 
+  Tool 'featureProvider' => org.iadb.seppir.monitor.FeatureProvider with 1 properties [key -auto-> featureProvider; ]
+  Tool 'field' => org.apache.velocity.tools.generic.FieldTool 
+  Tool 'math' => org.apache.velocity.tools.generic.MathTool 
+  Tool 'number' => org.apache.velocity.tools.generic.NumberTool 
+  Tool 'panelRenderer' => org.iadb.seppir.monitor.PanelRenderer with 1 properties [key -auto-> panelRenderer; ]
+  Tool 'sorter' => org.apache.velocity.tools.generic.SortTool 
+  Tool 'tableProvider' => org.iadb.seppir.monitor.TableProvider with 1 properties [key -auto-> tableProvider; ]
+  Tool 'text' => org.apache.velocity.tools.generic.ResourceTool 
+  Tool 'xml' => org.apache.velocity.tools.generic.XmlTool 
+  
+ Toolbox 'request' with 1 properties [scope -auto-> request; ] and 10 tools: 
+  Tool 'context' => org.apache.velocity.tools.view.ViewContextTool 
+  Tool 'cookies' => org.apache.velocity.tools.view.CookieTool 
+  Tool 'import' => org.apache.velocity.tools.view.ImportTool 
+  Tool 'include' => org.apache.velocity.tools.view.IncludeTool 
+  Tool 'link' => org.apache.velocity.tools.struts.StrutsLinkTool 
+  Tool 'loop' => org.apache.velocity.tools.generic.LoopTool 
+  Tool 'pager' => org.apache.velocity.tools.view.PagerTool 
+  Tool 'params' => org.apache.velocity.tools.view.ParameterTool 
+  Tool 'render' => org.apache.velocity.tools.generic.RenderTool 
+  Tool 'validator' => org.apache.velocity.tools.struts.ValidatorTool 
+  
+ Toolbox 'session' with 2 properties [createSession -auto-> false; scope -auto-> session; ] and 1 tools: 
+  Tool 'browser' => org.apache.velocity.tools.view.BrowserTool 
+  
+ Data 'GENERIC_TOOLS_AVAILABLE' -boolean-> true
+ Data 'STRUTS_TOOLS_AVAILABLE' -boolean-> true
+ Data 'TOOLS_VERSION' -number-> 2.0
+ Data 'VIEW_TOOLS_AVAILABLE' -boolean-> true
+ Data 'dashboard-version' -number-> 1.0
+ 
+ Source 0: org.apache.velocity.tools.config.FactoryConfiguration(VelocityView.configure(config,factory))
+ Source 1: org.apache.velocity.tools.config.XmlFactoryConfiguration(ConfigurationUtils.getDefaultTools())
+ Source 2:     .read(jar:file:/home/opt/tomcat7/lib/velocity-tools-2.0.jar!/org/apache/velocity/tools/generic/tools.xml)
+ Source 3:     .read(jar:file:/home/opt/tomcat7/lib/velocity-tools-2.0.jar!/org/apache/velocity/tools/view/tools.xml)
+ Source 4:     .read(jar:file:/home/opt/tomcat7/lib/velocity-tools-2.0.jar!/org/apache/velocity/tools/struts/tools.xml)
+ Source 5: org.apache.velocity.tools.config.FactoryConfiguration(ConfigurationUtils.getAutoLoaded(false))
+ Source 6: org.apache.velocity.tools.config.XmlFactoryConfiguration(ServletUtils.getConfiguration(/WEB-INF/tools.xml,ServletContext[,depMode=true]))
+
+Dez 23, 2014 1:03:18 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Default Content-Type is: text/html; charset=UTF-8
+Dez 23, 2014 1:03:18 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity   [info] VelocityLayoutServlet: Error screen is 'layout/error.vm'
+Dez 23, 2014 1:03:18 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity   [info] VelocityLayoutServlet: Layout directory is 'layout/'
+Dez 23, 2014 1:03:18 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity   [info] VelocityLayoutServlet: Default layout template is 'dashboard.vm'
+Dez 23, 2014 1:03:18 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] org.apache.velocity.tools.view.servlet.VelocityLayoutServlet has been deprecated. Use org.apache.velocity.tools.view.servlet.VelocityLayoutServlet instead.
+Dez 23, 2014 1:03:18 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:03:18 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo1/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:03:19 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:03:19 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:03:19 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo1/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:03:19 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:03:19 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/comunidades.json.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:03:19 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/blank.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:03:21 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:03:21 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:03:21 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:03:21 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:03:21 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:03:21 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:05:40 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:05:40 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo1/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:05:40 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:05:40 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:05:40 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo1/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:05:40 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:05:41 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/comunidades.json.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:05:41 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/blank.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:05:43 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:05:43 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:05:43 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:05:43 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:05:43 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:05:43 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:11:18 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:11:18 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo1/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:11:18 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:11:18 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:11:18 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo1/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:11:18 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:11:18 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/comunidades.json.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:11:18 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/blank.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:11:20 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:11:20 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:11:20 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:11:20 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:11:20 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:11:20 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:12:12 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:12:12 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:12:12 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:12:12 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:12:12 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:12:12 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Searching for properties at: /org/apache/velocity/tools/view/velocity.properties
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Searching for properties at: /WEB-INF/velocity.properties
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Configuring Velocity with properties at: /WEB-INF/velocity.properties
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Searching for properties at: /WEB-INF/velocity.properties
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Configuring Velocity with properties at: /WEB-INF/velocity.properties
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Initializing Velocity, Calling init()...
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] *******************************************************************
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] RuntimeInstance initializing.
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Trying to use logger class org.apache.velocity.runtime.log.ServletLogChute
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Using logger class org.apache.velocity.runtime.log.ServletLogChute
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceLoader instantiated: org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] WebappResourceLoader: initialization starting.
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] WebappResourceLoader: initialization complete.
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.StringResourceLoader
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] StringResourceLoader : initialization starting.
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded repository 'org.apache.velocity.runtime.resource.util.StringResourceRepository' from static repo store
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] StringResourceLoader : initialization complete.
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Default ResourceManager initialization complete.
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Define
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Break
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Include
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Created '20' parsers.
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Velocimacro : initialization starting.
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.tools.view.WebappResourceLoader: WebappResourceLoader: Resource 'VM_global_library.vm' not found.
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : Default library not found.
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : allowInline = true : VMs can be defined inline in templates
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : autoload off : VM system will not automatically reload global library macros
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Velocimacro : Velocimacro : initialization complete.
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] RuntimeInstance successfully initialized.
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Searching for configuration at: /WEB-INF/toolbox.xml
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Did not find resource at: /WEB-INF/toolbox.xml
+Dez 23, 2014 1:12:35 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Loading default tools configuration...
+Dez 23, 2014 1:12:36 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Searching for configuration at: /WEB-INF/tools.xml
+Dez 23, 2014 1:12:36 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded configuration from: /WEB-INF/tools.xml
+Dez 23, 2014 1:12:36 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Configuring factory with: 
+FactoryConfiguration from 7 sources including 5 data with 3 toolboxes: 
+ Toolbox 'application' with 1 properties [scope -auto-> application; ] and 15 tools: 
+  Tool 'alternator' => org.apache.velocity.tools.generic.AlternatorTool 
+  Tool 'class' => org.apache.velocity.tools.generic.ClassTool 
+  Tool 'convert' => org.apache.velocity.tools.generic.ConversionTool 
+  Tool 'date' => org.apache.velocity.tools.generic.ComparisonDateTool 
+  Tool 'display' => org.apache.velocity.tools.generic.DisplayTool 
+  Tool 'esc' => org.apache.velocity.tools.generic.EscapeTool 
+  Tool 'featureProvider' => org.iadb.seppir.monitor.FeatureProvider with 1 properties [key -auto-> featureProvider; ]
+  Tool 'field' => org.apache.velocity.tools.generic.FieldTool 
+  Tool 'math' => org.apache.velocity.tools.generic.MathTool 
+  Tool 'number' => org.apache.velocity.tools.generic.NumberTool 
+  Tool 'panelRenderer' => org.iadb.seppir.monitor.PanelRenderer with 1 properties [key -auto-> panelRenderer; ]
+  Tool 'sorter' => org.apache.velocity.tools.generic.SortTool 
+  Tool 'tableProvider' => org.iadb.seppir.monitor.TableProvider with 1 properties [key -auto-> tableProvider; ]
+  Tool 'text' => org.apache.velocity.tools.generic.ResourceTool 
+  Tool 'xml' => org.apache.velocity.tools.generic.XmlTool 
+  
+ Toolbox 'request' with 1 properties [scope -auto-> request; ] and 10 tools: 
+  Tool 'context' => org.apache.velocity.tools.view.ViewContextTool 
+  Tool 'cookies' => org.apache.velocity.tools.view.CookieTool 
+  Tool 'import' => org.apache.velocity.tools.view.ImportTool 
+  Tool 'include' => org.apache.velocity.tools.view.IncludeTool 
+  Tool 'link' => org.apache.velocity.tools.struts.StrutsLinkTool 
+  Tool 'loop' => org.apache.velocity.tools.generic.LoopTool 
+  Tool 'pager' => org.apache.velocity.tools.view.PagerTool 
+  Tool 'params' => org.apache.velocity.tools.view.ParameterTool 
+  Tool 'render' => org.apache.velocity.tools.generic.RenderTool 
+  Tool 'validator' => org.apache.velocity.tools.struts.ValidatorTool 
+  
+ Toolbox 'session' with 2 properties [createSession -auto-> false; scope -auto-> session; ] and 1 tools: 
+  Tool 'browser' => org.apache.velocity.tools.view.BrowserTool 
+  
+ Data 'GENERIC_TOOLS_AVAILABLE' -boolean-> true
+ Data 'STRUTS_TOOLS_AVAILABLE' -boolean-> true
+ Data 'TOOLS_VERSION' -number-> 2.0
+ Data 'VIEW_TOOLS_AVAILABLE' -boolean-> true
+ Data 'dashboard-version' -number-> 1.0
+ 
+ Source 0: org.apache.velocity.tools.config.FactoryConfiguration(VelocityView.configure(config,factory))
+ Source 1: org.apache.velocity.tools.config.XmlFactoryConfiguration(ConfigurationUtils.getDefaultTools())
+ Source 2:     .read(jar:file:/home/opt/tomcat7/lib/velocity-tools-2.0.jar!/org/apache/velocity/tools/generic/tools.xml)
+ Source 3:     .read(jar:file:/home/opt/tomcat7/lib/velocity-tools-2.0.jar!/org/apache/velocity/tools/view/tools.xml)
+ Source 4:     .read(jar:file:/home/opt/tomcat7/lib/velocity-tools-2.0.jar!/org/apache/velocity/tools/struts/tools.xml)
+ Source 5: org.apache.velocity.tools.config.FactoryConfiguration(ConfigurationUtils.getAutoLoaded(false))
+ Source 6: org.apache.velocity.tools.config.XmlFactoryConfiguration(ServletUtils.getConfiguration(/WEB-INF/tools.xml,ServletContext[,depMode=true]))
+
+Dez 23, 2014 1:12:36 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Default Content-Type is: text/html; charset=UTF-8
+Dez 23, 2014 1:12:36 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity   [info] VelocityLayoutServlet: Error screen is 'layout/error.vm'
+Dez 23, 2014 1:12:36 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity   [info] VelocityLayoutServlet: Layout directory is 'layout/'
+Dez 23, 2014 1:12:36 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity   [info] VelocityLayoutServlet: Default layout template is 'dashboard.vm'
+Dez 23, 2014 1:12:36 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] org.apache.velocity.tools.view.servlet.VelocityLayoutServlet has been deprecated. Use org.apache.velocity.tools.view.servlet.VelocityLayoutServlet instead.
+Dez 23, 2014 1:12:36 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:12:36 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo1/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:12:37 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:12:37 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:12:37 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo1/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:12:37 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:12:37 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/comunidades.json.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:12:37 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/blank.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:12:39 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:12:39 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:12:39 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:12:39 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:12:39 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:12:39 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:13:21 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:13:21 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo1/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:13:21 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:13:21 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:13:21 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo1/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:13:21 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:13:21 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/comunidades.json.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:13:21 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/blank.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:13:23 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:13:23 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:13:23 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:13:23 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:13:23 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:13:23 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:16:32 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:16:32 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo1/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:16:32 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:16:32 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:16:32 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo1/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:16:32 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:16:33 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/comunidades.json.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:16:33 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/blank.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:16:34 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:16:34 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:16:34 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:16:34 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:16:34 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:16:34 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:17:57 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:17:57 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo1/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:17:57 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:17:57 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:17:57 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo1/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:17:57 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:17:58 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/comunidades.json.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:17:58 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/blank.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:17:59 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:17:59 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:17:59 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:17:59 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:17:59 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:17:59 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 23, 2014 1:28:27 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Error configuring application listener of class org.apache.shiro.web.env.EnvironmentLoaderListener
+java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+	at org.apache.shiro.web.env.EnvironmentLoader.<clinit>(EnvironmentLoader.java:108)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:379)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:134)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4727)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1247)
+	at org.apache.catalina.manager.HTMLManagerServlet.start(HTMLManagerServlet.java:714)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:219)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:186)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:581)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1711)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1556)
+	... 37 more
+
+Dez 23, 2014 1:28:27 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Skipped installing application listeners due to previous error(s)
+Dez 23, 2014 1:31:23 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Error configuring application listener of class org.apache.shiro.web.env.EnvironmentLoaderListener
+java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+	at org.apache.shiro.web.env.EnvironmentLoader.<clinit>(EnvironmentLoader.java:108)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:379)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:134)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4727)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3920)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1357)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1451)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:296)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1711)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1556)
+	... 21 more
+
+Dez 23, 2014 1:31:23 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Skipped installing application listeners due to previous error(s)
+Dez 23, 2014 1:32:07 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Error configuring application listener of class org.apache.shiro.web.env.EnvironmentLoaderListener
+java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+	at org.apache.shiro.web.env.EnvironmentLoader.<clinit>(EnvironmentLoader.java:108)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:379)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:134)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4727)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3920)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1357)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1451)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:296)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1711)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1556)
+	... 21 more
+
+Dez 23, 2014 1:32:07 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Skipped installing application listeners due to previous error(s)
+Dez 23, 2014 1:32:46 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Error configuring application listener of class org.apache.shiro.web.env.EnvironmentLoaderListener
+java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+	at org.apache.shiro.web.env.EnvironmentLoader.<clinit>(EnvironmentLoader.java:108)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:379)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:134)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4727)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1247)
+	at org.apache.catalina.manager.HTMLManagerServlet.start(HTMLManagerServlet.java:714)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:219)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:186)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:581)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1711)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1556)
+	... 37 more
+
+Dez 23, 2014 1:32:46 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Skipped installing application listeners due to previous error(s)
+Dez 23, 2014 1:33:34 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Error configuring application listener of class org.apache.shiro.web.env.EnvironmentLoaderListener
+java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+	at org.apache.shiro.web.env.EnvironmentLoader.<clinit>(EnvironmentLoader.java:108)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:379)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:134)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4727)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3920)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:949)
+	at org.apache.catalina.manager.HTMLManagerServlet.reload(HTMLManagerServlet.java:655)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:213)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:186)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:581)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1711)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1556)
+	... 38 more
+
+Dez 23, 2014 1:33:34 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Skipped installing application listeners due to previous error(s)
+Dez 23, 2014 1:33:42 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Error configuring application listener of class org.apache.shiro.web.env.EnvironmentLoaderListener
+java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+	at org.apache.shiro.web.env.EnvironmentLoader.<clinit>(EnvironmentLoader.java:108)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:379)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:134)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4727)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1247)
+	at org.apache.catalina.manager.HTMLManagerServlet.start(HTMLManagerServlet.java:714)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:219)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:186)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:581)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1711)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1556)
+	... 37 more
+
+Dez 23, 2014 1:33:42 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Skipped installing application listeners due to previous error(s)
+Dez 23, 2014 1:34:14 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Error configuring application listener of class org.apache.shiro.web.env.EnvironmentLoaderListener
+java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+	at org.apache.shiro.web.env.EnvironmentLoader.<clinit>(EnvironmentLoader.java:108)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:379)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:134)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4727)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1247)
+	at org.apache.catalina.manager.HTMLManagerServlet.start(HTMLManagerServlet.java:714)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:219)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:186)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:581)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1711)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1556)
+	... 37 more
+
+Dez 23, 2014 1:34:14 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Skipped installing application listeners due to previous error(s)
+Dez 23, 2014 1:34:18 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Error configuring application listener of class org.apache.shiro.web.env.EnvironmentLoaderListener
+java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+	at org.apache.shiro.web.env.EnvironmentLoader.<clinit>(EnvironmentLoader.java:108)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:379)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:134)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4727)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1247)
+	at org.apache.catalina.manager.HTMLManagerServlet.start(HTMLManagerServlet.java:714)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:219)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:186)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:581)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1711)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1556)
+	... 37 more
+
+Dez 23, 2014 1:34:18 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Skipped installing application listeners due to previous error(s)
+Dez 23, 2014 1:34:48 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Error configuring application listener of class org.apache.shiro.web.env.EnvironmentLoaderListener
+java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+	at org.apache.shiro.web.env.EnvironmentLoader.<clinit>(EnvironmentLoader.java:108)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:379)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:134)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4727)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1247)
+	at org.apache.catalina.manager.HTMLManagerServlet.start(HTMLManagerServlet.java:714)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:219)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:186)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:581)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1711)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1556)
+	... 37 more
+
+Dez 23, 2014 1:34:48 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Skipped installing application listeners due to previous error(s)
+Dez 23, 2014 1:35:22 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Error configuring application listener of class org.apache.shiro.web.env.EnvironmentLoaderListener
+java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+	at org.apache.shiro.web.env.EnvironmentLoader.<clinit>(EnvironmentLoader.java:108)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:379)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:134)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4727)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:618)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1100)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1618)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1711)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1556)
+	... 20 more
+
+Dez 23, 2014 1:35:22 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Skipped installing application listeners due to previous error(s)
+Dez 23, 2014 1:36:11 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Error configuring application listener of class org.apache.shiro.web.env.EnvironmentLoaderListener
+java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+	at org.apache.shiro.web.env.EnvironmentLoader.<clinit>(EnvironmentLoader.java:108)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:379)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:134)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4727)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1247)
+	at org.apache.catalina.manager.HTMLManagerServlet.start(HTMLManagerServlet.java:714)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:219)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:186)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:581)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1711)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1556)
+	... 37 more
+
+Dez 23, 2014 1:36:11 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Skipped installing application listeners due to previous error(s)
+Dez 23, 2014 1:36:36 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Error configuring application listener of class org.apache.shiro.web.env.EnvironmentLoaderListener
+java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+	at org.apache.shiro.web.env.EnvironmentLoader.<clinit>(EnvironmentLoader.java:108)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:379)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:134)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4727)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3920)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1357)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1451)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:296)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1711)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1556)
+	... 21 more
+
+Dez 23, 2014 1:36:36 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Skipped installing application listeners due to previous error(s)

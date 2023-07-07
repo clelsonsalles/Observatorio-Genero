@@ -1,0 +1,183 @@
+﻿[
+ {
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Organismos Governamentais de Políticas para as Mulheres",
+		"source": "SPM",
+		"dataUrl": "csv/orgaos_de_informacao.csv",
+		"columnDelimiter": ";",
+  		"charts": [
+  				{ "type": "SVGMap",
+  				  "data": {
+  				  	"title": "Por UF",
+  				  	"file": "svg/brasil_uf_map.svg",
+					"width": 600,
+					"height": 372,
+					"xAxisCol": "UF",
+					"yAxisCol": "OPMS",
+					"minColor": "#9F79EE",
+					"maxColor": "#00CDCD",
+					"colorSteps": 6,					
+					"selectionBoxPosition": "bottom-left",
+					"info": "</br>",
+					"filters": {
+						"excluded": [ { "column": "UF", "value": "Todas as UFs" } ]
+					  }
+																
+				   }
+				  },
+				  {"type": "LINE_BREAK"},
+				  {
+				  	"type": "RowValue",
+				  	"data": {
+				  			"defaultRow": "Todas as UFs",
+				  			"defaultLabel": "Brasil",
+				  			"xAxisCol": "UF",
+				  			"yAxisCol": "OPMS",
+				  			"suffix": "OPM",
+				  			"numberFormat": ",.0f",
+				  			"icon": "img/icon/users_family_gray_48.png"
+				  		}
+				  } ]
+			 
+		  }
+  },
+{
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Conselhos Estaduais e Municipais dos Direitos das Mulheres",
+		"source": "SPM",
+		"dataUrl": "csv/orgaos_de_informacao.csv",
+		"columnDelimiter": ";",
+  		"charts": [
+  				{ "type": "SVGMap",
+  				  "data": {
+  				  	"title": "Por UF",
+  				  	"file": "svg/brasil_uf_map.svg",
+					"width": 550,
+					"height": 372,
+					"xAxisCol": "UF",
+					"yAxisCol": "Conselhos",
+					"minColor": "#9F79EE",
+					"maxColor": "#00CDCD",
+					"colorSteps": 6,					
+					"selectionBoxPosition": "bottom-left",
+					"info": "</br>",
+					"filters": {
+						"excluded": [ { "column": "UF", "value": "Todas as UFs" } ]
+					  }
+																
+				   }
+				  },
+				  {"type": "LINE_BREAK"},
+				  {
+				  	"type": "RowValue",
+				  	"data": {
+				  			"defaultRow": "Todas as UFs",
+				  			"defaultLabel": "Brasil",
+				  			"xAxisCol": "UF",
+				  			"yAxisCol": "Conselhos",
+				  			"suffix": "Conselhos",
+				  			"numberFormat": ",.0f",
+				  			"icon": "img/icon/users_family_gray_48.png"
+				  		}
+				  } ]
+			 
+		  }
+  },
+
+ {
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Organismos Governamentais de Políticas para as Mulheres",		
+		"dataUrl": "csv/orgaos_de_informacao_politicas_para_mulheres.csv",
+		"columnDelimiter": ";",
+		"source": "SPM",
+  		"charts": [
+				
+					{
+				  	"type": "RowValue",
+				  	"data": {
+				  			"defaultRow": "Todas as UFs",
+				  			"defaultLabel": "Brasil",
+				  			"xAxisCol": "UF",
+				  			"yAxisCol": "OPMS",
+				  			"suffix": "Organismos",
+				  			"numberFormat": ",.0f",
+							"icon": ""
+		                        
+                   	} 
+				  },
+				{ "type": "Datatable",
+				  "data": {
+				  	"title": "por UF",
+				  	"id": "UFs",
+                    "width": 1190,
+                    "height": 313,
+                    "colsIncluded": [
+                    		{ "name": "UF", "label": "UFs", "width": "5%" },
+                    		{ "name": "Município", "label": "Município", "width": "10%" },
+                    		{ "name": "Nome da Unidade", "label": "Nome da Unidade", "width": "30%" },
+                    		{ "name": "Endereço", "label": "Endereço", "width": "50%" },
+                    		{ "name": "Telefone", "label": "Telefone", "width": "100%" },
+                    		{ "name": "Email", "label": "E-mail", "width": "5%" }
+                    	],
+					"filters": {
+						"excluded": [ { "column": "Município", "value": "Todas" } ]
+					  },
+                     "selectionFilterCol": 0
+                   }                    
+                 }
+
+            ]
+     }
+  },
+
+ {
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Conselhos Estaduais e Municipais dos Direitos das Mulheres",		
+		"dataUrl": "csv/conselhos_estaduais_municipais_para_mulheres.csv",
+		"columnDelimiter": ";",
+		"source": "SPM",
+  		"charts": [
+				
+					{
+				  	"type": "RowValue",
+				  	"data": {
+				  			"defaultRow": "Todas as UFs",
+				  			"defaultLabel": "Brasil",
+				  			"xAxisCol": "UF",
+				  			"yAxisCol": "Conselhos",
+				  			"suffix": "Conselhos",
+				  			"numberFormat": ",.0f",
+							"icon": ""
+		                        
+                   	} 
+				  },
+				{ "type": "Datatable",
+				  "data": {
+				  	"title": "por UF",
+				  	"id": "UF",
+                    "width": 1190,
+                    "height": 313,
+                    "colsIncluded": [
+                    		{ "name": "UF", "label": "UF", "width": "5%" },
+                    		{ "name": "Município", "label": "Município", "width": "10%" },
+                    		{ "name": "Nome da Unidade", "label": "Nome da Unidade", "width": "30%" },
+                    		{ "name": "Endereço", "label": "Endereço", "width": "20%" },
+                    		{ "name": "CEP", "label": "CEP", "width": "10%" },
+                    		{ "name": "Telefone", "label": "Telefone", "width": "100%" },
+                    		{ "name": "Email", "label": "E-mail" }
+                    	],
+					"filters": {
+						"excluded": [ { "column": "Município", "value": "Todos" } ]
+					  },
+                     "selectionFilterCol": 0
+                   }                    
+                 }
+
+            ]
+     }
+  }
+]

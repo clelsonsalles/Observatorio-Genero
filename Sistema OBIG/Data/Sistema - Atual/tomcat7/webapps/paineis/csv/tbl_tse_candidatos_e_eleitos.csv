@@ -1,0 +1,108 @@
+UF;Cargo;Sexo;Candidatos;Eleitos
+Acre;Deputado Federal;Homens;41;7
+Acre;Deputado Federal;Mulheres;21;1
+Acre;Senador;Homens;3;1
+Acre;Senador;Mulheres;1;0
+Alagoas;Deputado Federal;Homens;70;9
+Alagoas;Deputado Federal;Mulheres;29;0
+Alagoas;Senador;Homens;6;1
+Alagoas;Senador;Mulheres;1;0
+Amapá;Deputado Federal;Homens;68;5
+Amapá;Deputado Federal;Mulheres;34;3
+Amapá;Senador;Homens;6;1
+Amapá;Senador;Mulheres;3;0
+Amazonas;Deputado Federal;Homens;50;7
+Amazonas;Deputado Federal;Mulheres;26;1
+Amazonas;Senador;Homens;6;1
+Bahia;Deputado Federal;Homens;212;37
+Bahia;Deputado Federal;Mulheres;75;2
+Bahia;Senador;Homens;4;1
+Bahia;Senador;Mulheres;1;0
+Ceará;Deputado Federal;Homens;133;20
+Ceará;Deputado Federal;Mulheres;58;2
+Ceará;Senador;Homens;2;1
+Ceará;Senador;Mulheres;2;0
+Distrito Federal;Deputado Federal;Homens;85;7
+Distrito Federal;Deputado Federal;Mulheres;40;1
+Distrito Federal;Senador;Homens;7;1
+Distrito Federal;Senador;Mulheres;1;0
+Espírito Santo;Deputado Federal;Homens;103;10
+Espírito Santo;Deputado Federal;Mulheres;45;0
+Espírito Santo;Senador;Homens;4;0
+Espírito Santo;Senador;Mulheres;1;1
+Goiás;Deputado Federal;Homens;67;15
+Goiás;Deputado Federal;Mulheres;25;2
+Goiás;Senador;Homens;6;1
+Goiás;Senador;Mulheres;1;0
+Maranhão;Deputado Federal;Homens;166;17
+Maranhão;Deputado Federal;Mulheres;58;1
+Maranhão;Senador;Homens;6;1
+Mato Grosso;Deputado Federal;Homens;61;8
+Mato Grosso;Deputado Federal;Mulheres;25;0
+Mato Grosso;Senador;Homens;4;1
+Mato Grosso do Sul;Deputado Federal;Homens;73;7
+Mato Grosso do Sul;Deputado Federal;Mulheres;41;1
+Mato Grosso do Sul;Senador;Homens;5;0
+Mato Grosso do Sul;Senador;Mulheres;1;1
+Minas Gerais;Deputado Federal;Homens;411;48
+Minas Gerais;Deputado Federal;Mulheres;185;5
+Minas Gerais;Senador;Homens;6;1
+Minas Gerais;Senador;Mulheres;2;0
+Pará;Deputado Federal;Homens;116;14
+Pará;Deputado Federal;Mulheres;54;3
+Pará;Senador;Homens;6;1
+Pará;Senador;Mulheres;2;0
+Paraíba;Deputado Federal;Homens;63;12
+Paraíba;Deputado Federal;Mulheres;27;0
+Paraíba;Senador;Homens;5;1
+Paraíba;Senador;Mulheres;2;0
+Paraná;Deputado Federal;Homens;208;29
+Paraná;Deputado Federal;Mulheres;80;1
+Paraná;Senador;Homens;7;1
+Pernambuco;Deputado Federal;Homens;112;24
+Pernambuco;Deputado Federal;Mulheres;40;1
+Pernambuco;Senador;Homens;3;1
+Pernambuco;Senador;Mulheres;2;0
+Piauí;Deputado Federal;Homens;57;8
+Piauí;Deputado Federal;Mulheres;29;2
+Piauí;Senador;Homens;5;1
+Rio de Janeiro;Deputado Federal;Homens;631;40
+Rio de Janeiro;Deputado Federal;Mulheres;232;6
+Rio de Janeiro;Senador;Homens;6;1
+Rio de Janeiro;Senador;Mulheres;1;0
+Rio Grande do Norte;Deputado Federal;Homens;56;7
+Rio Grande do Norte;Deputado Federal;Mulheres;24;1
+Rio Grande do Norte;Senador;Homens;1;0
+Rio Grande do Norte;Senador;Mulheres;3;1
+Rio Grande do Sul;Deputado Federal;Homens;209;30
+Rio Grande do Sul;Deputado Federal;Mulheres;96;1
+Rio Grande do Sul;Senador;Homens;6;1
+Rio Grande do Sul;Senador;Mulheres;1;0
+Rondônia;Deputado Federal;Homens;56;6
+Rondônia;Deputado Federal;Mulheres;25;2
+Rondônia;Senador;Homens;2;1
+Rondônia;Senador;Mulheres;1;0
+Roraima;Deputado Federal;Homens;51;6
+Roraima;Deputado Federal;Mulheres;27;2
+Roraima;Senador;Homens;5;1
+Roraima;Senador;Mulheres;1;0
+Santa Catarina;Deputado Federal;Homens;86;14
+Santa Catarina;Deputado Federal;Mulheres;38;2
+Santa Catarina;Senador;Homens;5;1
+Santa Catarina;Senador;Mulheres;2;0
+São Paulo;Deputado Federal;Homens;889;64
+São Paulo;Deputado Federal;Mulheres;350;6
+São Paulo;Senador;Homens;7;1
+São Paulo;Senador;Mulheres;2;0
+Sergipe;Deputado Federal;Homens;47;8
+Sergipe;Deputado Federal;Mulheres;25;0
+Sergipe;Senador;Homens;4;0
+Sergipe;Senador;Mulheres;1;1
+Tocantins;Deputado Federal;Homens;31;5
+Tocantins;Deputado Federal;Mulheres;15;3
+Tocantins;Senador;Homens;3;0
+Tocantins;Senador;Mulheres;2;1
+Todas as UFs;Deputado Federal;Homens;4152;464
+Todas as UFs;Deputado Federal;Mulheres;1724;49
+Todas as UFs;Senador;Homens;130;22
+Todas as UFs;Senador;Mulheres;34;5

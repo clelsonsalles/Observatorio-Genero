@@ -1,0 +1,26 @@
+2015-08-19 14:13:06,066 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-08-19 14:13:09,804 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9C44E300-298E-A88F-908C-C09EBD6A553B	POST	 xml:false
+2015-08-19 14:13:22,045 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9C44E300-298E-A88F-908C-C09EBD6A553B/axis/COLUMNS/dimension/Localidade/hierarchy/[Localidade]/[Localidade].[Município]	POST
+2015-08-19 14:13:22,046 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9C44E300-298E-A88F-908C-C09EBD6A553B dimension Localidade to axis COLUMNS  position0
+2015-08-19 14:13:38,014 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9C44E300-298E-A88F-908C-C09EBD6A553B/axis/ROWS/dimension/RaçaCor/hierarchy/[RaçaCor]/[RaçaCor].[Raça]	POST
+2015-08-19 14:13:38,014 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 9C44E300-298E-A88F-908C-C09EBD6A553B dimension RaçaCor to axis ROWS  position0
+2015-08-19 14:13:38,160 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/9C44E300-298E-A88F-908C-C09EBD6A553B/resultflattened	GET
+2015-08-19 14:13:38,180 INFO  [org.saiku.service.olap.OlapQueryService] runId:0	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Localidade].[Município].Members})} ON COLUMNS,
+NON EMPTY {Hierarchize({[RaçaCor].[Raça].Members})} ON ROWS
+FROM [IBGE Censo Demografico]
+2015-08-19 14:14:53,750 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-08-19 14:14:56,671 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1A375733-0631-B84C-B55A-B999CC5980FF	POST	 xml:false
+2015-08-19 14:15:01,861 INFO  [org.saiku.service.olap.OlapQueryService] runId:0	Size: 5566/7	Execute:	82779ms	Format:	918ms	 Total: 83697ms
+2015-08-19 14:15:12,571 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1A375733-0631-B84C-B55A-B999CC5980FF/axis/ROWS/dimension/Localidade/hierarchy/[Localidade]/[Localidade].[Município]	POST
+2015-08-19 14:15:12,571 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1A375733-0631-B84C-B55A-B999CC5980FF dimension Localidade to axis ROWS  position0
+2015-08-19 14:15:19,403 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1A375733-0631-B84C-B55A-B999CC5980FF/axis/COLUMNS/dimension/RaçaCor/hierarchy/[RaçaCor]/[RaçaCor].[Grupo]	POST
+2015-08-19 14:15:19,403 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 1A375733-0631-B84C-B55A-B999CC5980FF dimension RaçaCor to axis COLUMNS  position0
+2015-08-19 14:15:19,490 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/1A375733-0631-B84C-B55A-B999CC5980FF/resultflattened	GET
+2015-08-19 14:15:19,491 INFO  [org.saiku.service.olap.OlapQueryService] runId:1	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[RaçaCor].[Grupo].Members})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Localidade].[Município].Members})} ON ROWS
+FROM [IBGE Censo Demografico]
+2015-08-19 14:16:39,792 INFO  [org.saiku.service.olap.OlapQueryService] runId:1	Size: 4/5566	Execute:	80196ms	Format:	106ms	 Total: 80302ms

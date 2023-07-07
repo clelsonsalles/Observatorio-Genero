@@ -1,0 +1,140 @@
+Set 08, 2015 3:20:43 PM org.apache.catalina.core.AprLifecycleListener init
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Set 08, 2015 3:20:43 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-80"]
+Set 08, 2015 3:20:43 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+Set 08, 2015 3:20:43 PM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 1399 ms
+Set 08, 2015 3:20:43 PM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+Set 08, 2015 3:20:43 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.29
+Set 08, 2015 3:20:43 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/opt/tomcat7/webapps/geo.war
+Set 08, 2015 3:20:46 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 08, 2015 3:20:46 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 08, 2015 3:20:47 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/opt/tomcat7/webapps/paineis.war
+Set 08, 2015 3:20:49 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 08, 2015 3:20:49 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 08, 2015 3:20:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/ROOT
+Set 08, 2015 3:20:50 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 08, 2015 3:20:50 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 08, 2015 3:20:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/manager
+Set 08, 2015 3:20:50 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 08, 2015 3:20:50 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 08, 2015 3:20:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/saiku
+Set 08, 2015 3:21:01 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 08, 2015 3:21:01 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 08, 2015 3:21:06 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFORMAÇÕES: Scanning for root resource and provider classes in the packages:
+  org.saiku.web
+Set 08, 2015 3:21:07 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFORMAÇÕES: Root resource classes found:
+  class org.saiku.web.rest.resources.DataSourceResource
+  class org.saiku.web.rest.resources.OlapDiscoverResource
+  class org.saiku.web.rest.resources.BasicRepositoryResource
+  class org.saiku.web.rest.resources.ExporterResource
+  class org.saiku.web.rest.resources.QueryResource
+  class org.saiku.web.rest.resources.SessionResource
+  class org.saiku.web.rest.resources.BasicRepositoryResource2
+  class org.saiku.web.rest.resources.BasicTagRepositoryResource
+  class org.saiku.web.rest.resources.StatisticsResource
+Set 08, 2015 3:21:07 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFORMAÇÕES: No provider classes found.
+Set 08, 2015 3:21:07 PM org.codehaus.enunciate.modules.jersey.EnunciateJerseyServletContainer configure
+INFORMAÇÕES: org.codehaus.enunciate.modules.amf.JAXRSProvider not found.
+Set 08, 2015 3:21:07 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, datasourceResourceBean, of type org.saiku.web.rest.resources.DataSourceResource as a root resource class
+Set 08, 2015 3:21:07 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, olapDiscoverBean, of type org.saiku.web.rest.resources.OlapDiscoverResource as a root resource class
+Set 08, 2015 3:21:07 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, queryResource, of type org.saiku.web.rest.resources.QueryResource as a root resource class
+Set 08, 2015 3:21:07 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, sessionResource, of type org.saiku.web.rest.resources.SessionResource as a root resource class
+Set 08, 2015 3:21:07 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, repositoryBean, of type org.saiku.web.rest.resources.BasicRepositoryResource as a root resource class
+Set 08, 2015 3:21:07 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, repository2bean, of type org.saiku.web.rest.resources.BasicRepositoryResource2 as a root resource class
+Set 08, 2015 3:21:07 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, tagRepositoryBean, of type org.saiku.web.rest.resources.BasicTagRepositoryResource as a root resource class
+Set 08, 2015 3:21:07 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, exporterBean, of type org.saiku.web.rest.resources.ExporterResource as a root resource class
+Set 08, 2015 3:21:07 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, statsBean, of type org.saiku.web.rest.resources.StatisticsResource as a root resource class
+Set 08, 2015 3:21:07 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFORMAÇÕES: Initiating Jersey application, version 'Jersey: 1.11 12/09/2011 10:27 AM'
+Set 08, 2015 3:21:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/docs
+Set 08, 2015 3:21:08 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 08, 2015 3:21:08 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 08, 2015 3:21:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/dataseppir-admin
+Set 08, 2015 3:21:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 08, 2015 3:21:11 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 08, 2015 3:21:11 PM org.apache.catalina.core.StandardContext startInternal
+GRAVE: Error listenerStart
+Set 08, 2015 3:21:11 PM org.apache.catalina.core.StandardContext startInternal
+GRAVE: Context [/dataseppir-admin] startup failed due to previous errors
+Set 08, 2015 3:21:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/analise
+Set 08, 2015 3:21:12 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 08, 2015 3:21:12 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 08, 2015 3:21:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/host-manager
+Set 08, 2015 3:21:12 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 08, 2015 3:21:12 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Set 08, 2015 3:21:12 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-bio-80"]
+Set 08, 2015 3:21:12 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-bio-8009"]
+Set 08, 2015 3:21:12 PM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 28608 ms
+Set 08, 2015 3:24:36 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Set 08, 2015 3:24:36 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Set 08, 2015 3:24:36 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Set 08, 2015 3:24:38 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Conexão OLAP estabelecida com sucesso.
+Set 08, 2015 3:24:38 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Conexão SQL estabelecida com sucesso.
+Set 08, 2015 3:24:38 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 08, 2015 3:24:38 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 08, 2015 3:24:38 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 08, 2015 3:24:38 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 08, 2015 3:24:38 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Set 08, 2015 3:24:38 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_comunidade,nome_comunidade,nome_territorio,(case status_incra_territorio when 1 then '3 - Decreto' when 2 then '2 - Portaria' when 3 then '2 - Portaria' when 4 then '1 - RTID' when 5 then '4 - Titulada' else '0 - Certificada' end) as nome_status,(select sigla_uf from tbl_ibge_municipios as m left join tbl_ibge_ufs as u on m.cod_uf = u.cod_uf where cod_7 = cod_7_ibge_municipio) as uf from tbl_seppir_quilombola_comunidade as c left join tbl_seppir_quilombola_territorio as t on c.id_territorio=t.id_territorio;
+Set 08, 2015 3:24:38 PM org.iadb.seppir.monitor.CubeNavigatorServlet init
+INFORMAÇÕES: Servlet inicializado com sucesso: CubeProviderServlet. Este servlet provê informações sobre os Cubos existentes
+Set 08, 2015 3:24:39 PM org.iadb.seppir.monitor.DataProviderServlet init
+INFORMAÇÕES: Servlet inicializado com sucesso: DataProviderServlet. Este servlet intermedia a comunicação entre Painéis e Cubos

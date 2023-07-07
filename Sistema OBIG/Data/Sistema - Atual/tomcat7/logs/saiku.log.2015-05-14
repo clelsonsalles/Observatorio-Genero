@@ -1,0 +1,221 @@
+2015-05-14 16:52:13,479 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-05-14 16:52:24,793 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/BD4DE0A3-4907-7472-A78E-F08E1997DF0C	POST	 xml:false
+2015-05-14 16:52:38,804 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/BD4DE0A3-4907-7472-A78E-F08E1997DF0C/axis/COLUMNS/dimension/Situação de Funcionamento/hierarchy/[Situação de Funcionamento]/[Situação de Funcionamento].[Situação de Funcionamento]	POST
+2015-05-14 16:52:38,804 DEBUG [org.saiku.service.olap.OlapQueryService] move query: BD4DE0A3-4907-7472-A78E-F08E1997DF0C dimension Situação de Funcionamento to axis COLUMNS  position0
+2015-05-14 16:52:43,867 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/BD4DE0A3-4907-7472-A78E-F08E1997DF0C/axis/COLUMNS/dimension/Measures/member/[Measures].[Escolas]	POST
+2015-05-14 16:52:43,867 DEBUG [org.saiku.service.olap.OlapQueryService] move query: BD4DE0A3-4907-7472-A78E-F08E1997DF0C dimension Measures to axis COLUMNS  position1
+2015-05-14 16:52:50,205 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/BD4DE0A3-4907-7472-A78E-F08E1997DF0C/axis/COLUMNS/dimension/Measures/member/[Measures].[Escolas]	DELETE
+2015-05-14 16:52:50,205 DEBUG [org.saiku.service.olap.OlapQueryService] query: BD4DE0A3-4907-7472-A78E-F08E1997DF0C remove:MEMBER 2
+2015-05-14 16:52:50,205 DEBUG [org.saiku.service.olap.OlapQueryService] move query: BD4DE0A3-4907-7472-A78E-F08E1997DF0C dimension Measures to axis UNUSED  position-1
+2015-05-14 16:52:52,574 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/BD4DE0A3-4907-7472-A78E-F08E1997DF0C/axis/ROWS/dimension/Measures/member/[Measures].[Escolas Quilombolas]	POST
+2015-05-14 16:52:52,574 DEBUG [org.saiku.service.olap.OlapQueryService] move query: BD4DE0A3-4907-7472-A78E-F08E1997DF0C dimension Measures to axis ROWS  position0
+2015-05-14 16:52:52,635 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/BD4DE0A3-4907-7472-A78E-F08E1997DF0C/resultflattened	GET
+2015-05-14 16:52:52,635 INFO  [org.saiku.service.olap.OlapQueryService] runId:198	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Situação de Funcionamento].[Situação de Funcionamento].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+2015-05-14 16:52:52,720 INFO  [org.saiku.service.olap.OlapQueryService] runId:198	Size: 2/2	Execute:	85ms	Format:	0ms	 Total: 85ms
+2015-05-14 16:53:19,915 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/BD4DE0A3-4907-7472-A78E-F08E1997DF0C/axis/ROWS/dimension/Situação de Funcionamento	POST
+2015-05-14 16:53:19,916 DEBUG [org.saiku.service.olap.OlapQueryService] move query: BD4DE0A3-4907-7472-A78E-F08E1997DF0C dimension Situação de Funcionamento to axis ROWS  position1
+2015-05-14 16:53:21,121 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/BD4DE0A3-4907-7472-A78E-F08E1997DF0C/axis/COLUMNS/dimension/Measures	POST
+2015-05-14 16:53:21,121 DEBUG [org.saiku.service.olap.OlapQueryService] move query: BD4DE0A3-4907-7472-A78E-F08E1997DF0C dimension Measures to axis COLUMNS  position0
+2015-05-14 16:53:21,277 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/BD4DE0A3-4907-7472-A78E-F08E1997DF0C/resultflattened	GET
+2015-05-14 16:53:21,277 INFO  [org.saiku.service.olap.OlapQueryService] runId:199	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Escolas Quilombolas]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Situação de Funcionamento].[Situação de Funcionamento].Members})} ON ROWS
+FROM [PBQ Censo Escolar (Escolas Quilombolas)]
+2015-05-14 16:53:21,282 INFO  [org.saiku.service.olap.OlapQueryService] runId:199	Size: 2/2	Execute:	5ms	Format:	0ms	 Total: 5ms
+2015-05-14 16:54:49,994 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/BD4DE0A3-4907-7472-A78E-F08E1997DF0C	DELETE
+2015-05-14 16:54:50,000 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/49565284-232C-E128-9989-5A17D6616E7F	POST	 xml:false
+2015-05-14 16:54:52,508 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/49565284-232C-E128-9989-5A17D6616E7F/axis/COLUMNS/dimension/Measures/member/[Measures].[Alunos]	POST
+2015-05-14 16:54:52,508 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 49565284-232C-E128-9989-5A17D6616E7F dimension Measures to axis COLUMNS  position0
+2015-05-14 16:55:00,361 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/49565284-232C-E128-9989-5A17D6616E7F/axis/ROWS/dimension/Ⓣ Ano/hierarchy/[Ⓣ Ano]/[Ⓣ Ano].[Todos]	POST
+2015-05-14 16:55:00,361 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 49565284-232C-E128-9989-5A17D6616E7F dimension Ⓣ Ano to axis ROWS  position0
+2015-05-14 16:55:00,428 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/49565284-232C-E128-9989-5A17D6616E7F/resultflattened	GET
+2015-05-14 16:55:00,429 INFO  [org.saiku.service.olap.OlapQueryService] runId:200	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Alunos]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Ⓣ Ano].[Todos os Anos]})} ON ROWS
+FROM [Hist. PBQ Censo Escolar (Alunos de Escolas Quilombolas)]
+2015-05-14 16:55:00,719 INFO  [org.saiku.service.olap.OlapQueryService] runId:200	Size: 2/2	Execute:	290ms	Format:	1ms	 Total: 291ms
+2015-05-14 16:55:02,544 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/49565284-232C-E128-9989-5A17D6616E7F/axis/ROWS/dimension/Ⓣ Ano/hierarchy/[Ⓣ Ano]/[Ⓣ Ano].[Ano ]	POST
+2015-05-14 16:55:02,544 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 49565284-232C-E128-9989-5A17D6616E7F dimension Ⓣ Ano to axis ROWS  position0
+2015-05-14 16:55:02,613 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/49565284-232C-E128-9989-5A17D6616E7F/resultflattened	GET
+2015-05-14 16:55:02,613 INFO  [org.saiku.service.olap.OlapQueryService] runId:201	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Alunos]} ON COLUMNS,
+NON EMPTY {Hierarchize({{[Ⓣ Ano].[Todos os Anos]}, {[Ⓣ Ano].[Ano ].Members}})} ON ROWS
+FROM [Hist. PBQ Censo Escolar (Alunos de Escolas Quilombolas)]
+2015-05-14 16:55:03,248 INFO  [org.saiku.service.olap.OlapQueryService] runId:201	Size: 3/2	Execute:	634ms	Format:	1ms	 Total: 635ms
+2015-05-14 16:55:14,751 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/49565284-232C-E128-9989-5A17D6616E7F/axis/ROWS/dimension/Ⓣ Ano/hierarchy/[Ⓣ Ano]/[Ⓣ Ano].[Todos]	DELETE
+2015-05-14 16:55:14,816 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/49565284-232C-E128-9989-5A17D6616E7F/resultflattened	GET
+2015-05-14 16:55:14,816 INFO  [org.saiku.service.olap.OlapQueryService] runId:202	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Alunos]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Ⓣ Ano].[Ano ].Members})} ON ROWS
+FROM [Hist. PBQ Censo Escolar (Alunos de Escolas Quilombolas)]
+2015-05-14 16:55:14,821 INFO  [org.saiku.service.olap.OlapQueryService] runId:202	Size: 2/2	Execute:	4ms	Format:	1ms	 Total: 5ms
+2015-05-14 16:55:45,625 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/49565284-232C-E128-9989-5A17D6616E7F	DELETE
+2015-05-14 16:55:45,638 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/86DA3867-ADC6-329F-BE3B-4CB823F412DA	POST	 xml:false
+2015-05-14 16:56:00,497 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/812BD9E1-14E2-2A0D-9643-44282A282512	POST	 xml:false
+2015-05-14 16:56:00,509 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/86DA3867-ADC6-329F-BE3B-4CB823F412DA	DELETE
+2015-05-14 16:56:05,912 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/812BD9E1-14E2-2A0D-9643-44282A282512/axis/COLUMNS/dimension/Measures/member/[Measures].[PNAE: Estudantes Atendidos (quilombolas)]	POST
+2015-05-14 16:56:05,912 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 812BD9E1-14E2-2A0D-9643-44282A282512 dimension Measures to axis COLUMNS  position0
+2015-05-14 16:56:09,595 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/812BD9E1-14E2-2A0D-9643-44282A282512/axis/ROWS/dimension/Measures/member/[Measures].[Escolas Quilombolas]	POST
+2015-05-14 16:56:09,595 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 812BD9E1-14E2-2A0D-9643-44282A282512 dimension Measures to axis ROWS  position0
+2015-05-14 16:56:10,841 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/812BD9E1-14E2-2A0D-9643-44282A282512/axis/COLUMNS/dimension/Measures	POST
+2015-05-14 16:56:10,841 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 812BD9E1-14E2-2A0D-9643-44282A282512 dimension Measures to axis COLUMNS  position0
+2015-05-14 16:56:14,344 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/812BD9E1-14E2-2A0D-9643-44282A282512/axis/COLUMNS/dimension/Measures/member/[Measures].[Escolas Quilombolas]	DELETE
+2015-05-14 16:56:14,344 DEBUG [org.saiku.service.olap.OlapQueryService] query: 812BD9E1-14E2-2A0D-9643-44282A282512 remove:MEMBER 2
+2015-05-14 16:56:16,942 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/812BD9E1-14E2-2A0D-9643-44282A282512/axis/ROWS/dimension/Measures	POST
+2015-05-14 16:56:16,942 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 812BD9E1-14E2-2A0D-9643-44282A282512 dimension Measures to axis ROWS  position0
+2015-05-14 16:56:17,914 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/812BD9E1-14E2-2A0D-9643-44282A282512/axis/FILTER/dimension/Measures	POST
+2015-05-14 16:56:17,914 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 812BD9E1-14E2-2A0D-9643-44282A282512 dimension Measures to axis FILTER  position0
+2015-05-14 16:56:19,143 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/812BD9E1-14E2-2A0D-9643-44282A282512/axis/ROWS/dimension/Measures	POST
+2015-05-14 16:56:19,143 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 812BD9E1-14E2-2A0D-9643-44282A282512 dimension Measures to axis ROWS  position0
+2015-05-14 16:56:20,184 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/812BD9E1-14E2-2A0D-9643-44282A282512/axis/COLUMNS/dimension/Measures	POST
+2015-05-14 16:56:20,184 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 812BD9E1-14E2-2A0D-9643-44282A282512 dimension Measures to axis COLUMNS  position0
+2015-05-14 16:56:25,378 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/812BD9E1-14E2-2A0D-9643-44282A282512	DELETE
+2015-05-14 16:56:25,394 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/EA21302D-B042-0139-9355-3FD5A797269F	POST	 xml:false
+2015-05-14 16:56:28,146 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/EA21302D-B042-0139-9355-3FD5A797269F	DELETE
+2015-05-14 16:56:28,148 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AE5348DE-7DC8-B2BC-8C63-E1E599779B3C	POST	 xml:false
+2015-05-14 16:56:34,195 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/AE5348DE-7DC8-B2BC-8C63-E1E599779B3C	DELETE
+2015-05-14 16:56:34,195 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7	POST	 xml:false
+2015-05-14 16:56:46,450 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7/axis/COLUMNS/dimension/Measures/member/[Measures].[PNAE: Estudantes Atendidos (quilombolas)]	POST
+2015-05-14 16:56:46,450 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 33B0C459-85C8-B08F-85AB-8BB956D336A7 dimension Measures to axis COLUMNS  position0
+2015-05-14 16:56:51,700 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7/axis/ROWS/dimension/Ⓣ Período/hierarchy/[Ⓣ Período]/[Ⓣ Período].[Ano]	POST
+2015-05-14 16:56:51,700 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 33B0C459-85C8-B08F-85AB-8BB956D336A7 dimension Ⓣ Período to axis ROWS  position0
+2015-05-14 16:56:51,757 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7/resultflattened	GET
+2015-05-14 16:56:51,757 INFO  [org.saiku.service.olap.OlapQueryService] runId:203	Type:QM:
+SELECT
+NON EMPTY {[Measures].[PNAE: Estudantes Atendidos (quilombolas)]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Ⓣ Período].[Ano].Members})} ON ROWS
+FROM [Hist. PBQ Servicos (Paineis)]
+2015-05-14 16:56:51,774 INFO  [org.saiku.service.olap.OlapQueryService] runId:203	Size: 2/12	Execute:	16ms	Format:	1ms	 Total: 17ms
+2015-05-14 16:57:09,315 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7/axis/COLUMNS/dimension/Measures/member/[Measures].[Escolas Quilombolas]	POST
+2015-05-14 16:57:09,315 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 33B0C459-85C8-B08F-85AB-8BB956D336A7 dimension Measures to axis COLUMNS  position0
+2015-05-14 16:57:09,377 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7/resultflattened	GET
+2015-05-14 16:57:09,377 INFO  [org.saiku.service.olap.OlapQueryService] runId:204	Type:QM:
+SELECT
+NON EMPTY {[Measures].[PNAE: Estudantes Atendidos (quilombolas)], [Measures].[Escolas Quilombolas]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Ⓣ Período].[Ano].Members})} ON ROWS
+FROM [Hist. PBQ Servicos (Paineis)]
+2015-05-14 16:57:09,385 INFO  [org.saiku.service.olap.OlapQueryService] runId:204	Size: 3/12	Execute:	7ms	Format:	1ms	 Total: 8ms
+2015-05-14 16:57:21,767 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7/axis/COLUMNS/dimension/Measures/member/[Measures].[Ligações do Luz para Todos (Efetuadas)]	POST
+2015-05-14 16:57:21,767 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 33B0C459-85C8-B08F-85AB-8BB956D336A7 dimension Measures to axis COLUMNS  position0
+2015-05-14 16:57:21,845 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7/resultflattened	GET
+2015-05-14 16:57:21,845 INFO  [org.saiku.service.olap.OlapQueryService] runId:205	Type:QM:
+SELECT
+NON EMPTY {[Measures].[PNAE: Estudantes Atendidos (quilombolas)], [Measures].[Escolas Quilombolas], [Measures].[Ligações do Luz para Todos (Efetuadas)]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Ⓣ Período].[Ano].Members})} ON ROWS
+FROM [Hist. PBQ Servicos (Paineis)]
+2015-05-14 16:57:21,881 INFO  [org.saiku.service.olap.OlapQueryService] runId:205	Size: 4/12	Execute:	36ms	Format:	0ms	 Total: 36ms
+2015-05-14 16:57:25,408 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7/axis/COLUMNS/dimension/Measures/member/[Measures].[Escolas Quilombolas]	DELETE
+2015-05-14 16:57:25,409 DEBUG [org.saiku.service.olap.OlapQueryService] query: 33B0C459-85C8-B08F-85AB-8BB956D336A7 remove:MEMBER 2
+2015-05-14 16:57:25,479 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7/resultflattened	GET
+2015-05-14 16:57:25,479 INFO  [org.saiku.service.olap.OlapQueryService] runId:206	Type:QM:
+SELECT
+NON EMPTY {[Measures].[PNAE: Estudantes Atendidos (quilombolas)], [Measures].[Ligações do Luz para Todos (Efetuadas)]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Ⓣ Período].[Ano].Members})} ON ROWS
+FROM [Hist. PBQ Servicos (Paineis)]
+2015-05-14 16:57:25,484 INFO  [org.saiku.service.olap.OlapQueryService] runId:206	Size: 3/12	Execute:	4ms	Format:	1ms	 Total: 5ms
+2015-05-14 16:57:27,004 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7/axis/COLUMNS/dimension/Measures/member/[Measures].[PNAE: Estudantes Atendidos (quilombolas)]	DELETE
+2015-05-14 16:57:27,004 DEBUG [org.saiku.service.olap.OlapQueryService] query: 33B0C459-85C8-B08F-85AB-8BB956D336A7 remove:MEMBER 2
+2015-05-14 16:57:27,052 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7/resultflattened	GET
+2015-05-14 16:57:27,052 INFO  [org.saiku.service.olap.OlapQueryService] runId:207	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Ligações do Luz para Todos (Efetuadas)]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Ⓣ Período].[Ano].Members})} ON ROWS
+FROM [Hist. PBQ Servicos (Paineis)]
+2015-05-14 16:57:27,056 INFO  [org.saiku.service.olap.OlapQueryService] runId:207	Size: 2/12	Execute:	4ms	Format:	0ms	 Total: 4ms
+2015-05-14 16:57:36,671 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7/axis/COLUMNS/dimension/Measures/member/[Measures].[Ligações do Luz para Todos (Previstas no Ano)]	POST
+2015-05-14 16:57:36,671 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 33B0C459-85C8-B08F-85AB-8BB956D336A7 dimension Measures to axis COLUMNS  position0
+2015-05-14 16:57:36,811 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7/resultflattened	GET
+2015-05-14 16:57:36,811 INFO  [org.saiku.service.olap.OlapQueryService] runId:208	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Ligações do Luz para Todos (Efetuadas)], [Measures].[Ligações do Luz para Todos (Previstas no Ano)]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Ⓣ Período].[Ano].Members})} ON ROWS
+FROM [Hist. PBQ Servicos (Paineis)]
+2015-05-14 16:57:36,819 INFO  [org.saiku.service.olap.OlapQueryService] runId:208	Size: 3/12	Execute:	7ms	Format:	1ms	 Total: 8ms
+2015-05-14 16:57:46,554 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7/axis/ROWS/dimension/Ⓣ Período/hierarchy/[Ⓣ Período]/[Ⓣ Período].[Todos]	POST
+2015-05-14 16:57:46,554 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 33B0C459-85C8-B08F-85AB-8BB956D336A7 dimension Ⓣ Período to axis ROWS  position0
+2015-05-14 16:57:46,629 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7/resultflattened	GET
+2015-05-14 16:57:46,629 INFO  [org.saiku.service.olap.OlapQueryService] runId:209	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Ligações do Luz para Todos (Efetuadas)], [Measures].[Ligações do Luz para Todos (Previstas no Ano)]} ON COLUMNS,
+NON EMPTY {Hierarchize({{[Ⓣ Período].[Todos os Anos]}, {[Ⓣ Período].[Ano].Members}})} ON ROWS
+FROM [Hist. PBQ Servicos (Paineis)]
+2015-05-14 16:57:46,657 INFO  [org.saiku.service.olap.OlapQueryService] runId:209	Size: 4/12	Execute:	27ms	Format:	1ms	 Total: 28ms
+2015-05-14 16:57:47,899 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7/axis/ROWS/dimension/Ⓣ Período/hierarchy/[Ⓣ Período]/[Ⓣ Período].[Todos]	DELETE
+2015-05-14 16:57:47,969 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7/resultflattened	GET
+2015-05-14 16:57:47,970 INFO  [org.saiku.service.olap.OlapQueryService] runId:210	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Ligações do Luz para Todos (Efetuadas)], [Measures].[Ligações do Luz para Todos (Previstas no Ano)]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Ⓣ Período].[Ano].Members})} ON ROWS
+FROM [Hist. PBQ Servicos (Paineis)]
+2015-05-14 16:57:47,974 INFO  [org.saiku.service.olap.OlapQueryService] runId:210	Size: 3/12	Execute:	5ms	Format:	0ms	 Total: 5ms
+2015-05-14 16:57:56,032 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7/axis/COLUMNS/dimension/Measures	GET
+2015-05-14 16:58:11,654 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7/axis/ROWS/sort/BASC/[Measures].[Ligações do Luz para Todos (Efetuadas)]	POST
+2015-05-14 16:58:11,725 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7/resultflattened	GET
+2015-05-14 16:58:11,726 INFO  [org.saiku.service.olap.OlapQueryService] runId:211	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Ligações do Luz para Todos (Efetuadas)], [Measures].[Ligações do Luz para Todos (Previstas no Ano)]} ON COLUMNS,
+NON EMPTY Order({Hierarchize({[Ⓣ Período].[Ano].Members})}, [Measures].[Ligações do Luz para Todos (Efetuadas)], BASC) ON ROWS
+FROM [Hist. PBQ Servicos (Paineis)]
+2015-05-14 16:58:11,819 INFO  [org.saiku.service.olap.OlapQueryService] runId:211	Size: 3/12	Execute:	93ms	Format:	1ms	 Total: 94ms
+2015-05-14 16:58:14,795 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7/axis/ROWS/sort/BDESC/[Measures].[Ligações do Luz para Todos (Efetuadas)]	POST
+2015-05-14 16:58:14,873 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7/resultflattened	GET
+2015-05-14 16:58:14,873 INFO  [org.saiku.service.olap.OlapQueryService] runId:212	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Ligações do Luz para Todos (Efetuadas)], [Measures].[Ligações do Luz para Todos (Previstas no Ano)]} ON COLUMNS,
+NON EMPTY Order({Hierarchize({[Ⓣ Período].[Ano].Members})}, [Measures].[Ligações do Luz para Todos (Efetuadas)], BDESC) ON ROWS
+FROM [Hist. PBQ Servicos (Paineis)]
+2015-05-14 16:58:14,879 INFO  [org.saiku.service.olap.OlapQueryService] runId:212	Size: 3/12	Execute:	5ms	Format:	1ms	 Total: 6ms
+2015-05-14 16:58:52,886 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B0C459-85C8-B08F-85AB-8BB956D336A7	DELETE
+2015-05-14 16:58:52,892 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CF65A555-730B-080E-AFA9-655767AA4AA5	POST	 xml:false
+2015-05-14 16:59:04,962 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CF65A555-730B-080E-AFA9-655767AA4AA5/axis/COLUMNS/dimension/Measures/member/[Measures].[PNAE: Estudantes Atendidos (quilombolas)]	POST
+2015-05-14 16:59:04,962 DEBUG [org.saiku.service.olap.OlapQueryService] move query: CF65A555-730B-080E-AFA9-655767AA4AA5 dimension Measures to axis COLUMNS  position0
+2015-05-14 16:59:18,009 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CF65A555-730B-080E-AFA9-655767AA4AA5/axis/ROWS/dimension/UF/hierarchy/[UF]/[UF].[Todos]	POST
+2015-05-14 16:59:18,009 DEBUG [org.saiku.service.olap.OlapQueryService] move query: CF65A555-730B-080E-AFA9-655767AA4AA5 dimension UF to axis ROWS  position0
+2015-05-14 16:59:18,081 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CF65A555-730B-080E-AFA9-655767AA4AA5/resultflattened	GET
+2015-05-14 16:59:18,081 INFO  [org.saiku.service.olap.OlapQueryService] runId:213	Type:QM:
+SELECT
+NON EMPTY {[Measures].[PNAE: Estudantes Atendidos (quilombolas)]} ON COLUMNS,
+NON EMPTY {Hierarchize({[UF].[Todos os Estados]})} ON ROWS
+FROM [PBQ Servicos (Paineis)]
+2015-05-14 16:59:18,110 INFO  [org.saiku.service.olap.OlapQueryService] runId:213	Size: 2/2	Execute:	29ms	Format:	0ms	 Total: 29ms
+2015-05-14 16:59:30,725 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CF65A555-730B-080E-AFA9-655767AA4AA5/axis/COLUMNS/dimension/Measures/member/[Measures].[Escolas Quilombolas]	POST
+2015-05-14 16:59:30,725 DEBUG [org.saiku.service.olap.OlapQueryService] move query: CF65A555-730B-080E-AFA9-655767AA4AA5 dimension Measures to axis COLUMNS  position0
+2015-05-14 16:59:30,789 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CF65A555-730B-080E-AFA9-655767AA4AA5/resultflattened	GET
+2015-05-14 16:59:30,789 INFO  [org.saiku.service.olap.OlapQueryService] runId:214	Type:QM:
+SELECT
+NON EMPTY {[Measures].[PNAE: Estudantes Atendidos (quilombolas)], [Measures].[Escolas Quilombolas]} ON COLUMNS,
+NON EMPTY {Hierarchize({[UF].[Todos os Estados]})} ON ROWS
+FROM [PBQ Servicos (Paineis)]
+2015-05-14 16:59:30,795 INFO  [org.saiku.service.olap.OlapQueryService] runId:214	Size: 3/2	Execute:	6ms	Format:	0ms	 Total: 6ms
+2015-05-14 16:59:55,023 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/CF65A555-730B-080E-AFA9-655767AA4AA5	DELETE
+2015-05-14 16:59:55,023 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7D6A9ADD-714B-CE0E-B36B-3EF435C3F94F	POST	 xml:false
+2015-05-14 16:59:56,589 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7D6A9ADD-714B-CE0E-B36B-3EF435C3F94F	DELETE
+2015-05-14 16:59:56,598 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/34403E36-14ED-CC4D-9D2D-6F8767733449	POST	 xml:false
+2015-05-14 17:00:00,869 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/34403E36-14ED-CC4D-9D2D-6F8767733449/axis/COLUMNS/dimension/Measures/member/[Measures].[Ligações do Luz para Todos (Previstas no Ano)]	POST
+2015-05-14 17:00:00,869 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 34403E36-14ED-CC4D-9D2D-6F8767733449 dimension Measures to axis COLUMNS  position0
+2015-05-14 17:00:05,520 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/34403E36-14ED-CC4D-9D2D-6F8767733449/axis/ROWS/dimension/Ⓣ Período/hierarchy/[Ⓣ Período]/[Ⓣ Período].[Ano]	POST
+2015-05-14 17:00:05,520 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 34403E36-14ED-CC4D-9D2D-6F8767733449 dimension Ⓣ Período to axis ROWS  position0
+2015-05-14 17:00:05,597 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/34403E36-14ED-CC4D-9D2D-6F8767733449/resultflattened	GET
+2015-05-14 17:00:05,598 INFO  [org.saiku.service.olap.OlapQueryService] runId:215	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Ligações do Luz para Todos (Previstas no Ano)]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Ⓣ Período].[Ano].Members})} ON ROWS
+FROM [Hist. PBQ Servicos (Paineis)]
+2015-05-14 17:00:05,602 INFO  [org.saiku.service.olap.OlapQueryService] runId:215	Size: 2/12	Execute:	4ms	Format:	0ms	 Total: 4ms
+2015-05-14 17:01:13,345 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/34403E36-14ED-CC4D-9D2D-6F8767733449/axis/COLUMNS/dimension/Measures/member/[Measures].[Minha Casa Minha Vida: Unidades Contratadas]	POST
+2015-05-14 17:01:13,345 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 34403E36-14ED-CC4D-9D2D-6F8767733449 dimension Measures to axis COLUMNS  position0
+2015-05-14 17:01:13,407 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/34403E36-14ED-CC4D-9D2D-6F8767733449/resultflattened	GET
+2015-05-14 17:01:13,407 INFO  [org.saiku.service.olap.OlapQueryService] runId:216	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Ligações do Luz para Todos (Previstas no Ano)], [Measures].[Minha Casa Minha Vida: Unidades Contratadas]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Ⓣ Período].[Ano].Members})} ON ROWS
+FROM [Hist. PBQ Servicos (Paineis)]
+2015-05-14 17:01:13,436 INFO  [org.saiku.service.olap.OlapQueryService] runId:216	Size: 3/12	Execute:	28ms	Format:	1ms	 Total: 29ms

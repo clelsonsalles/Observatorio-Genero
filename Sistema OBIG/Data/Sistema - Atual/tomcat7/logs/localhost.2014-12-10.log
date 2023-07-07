@@ -1,0 +1,827 @@
+Dez 10, 2014 9:09:26 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:09:28 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo1/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:09:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:09:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:09:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo1/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:09:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:09:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/comunidades.json.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:09:32 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/blank.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:09:37 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:09:38 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:09:43 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:09:43 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:09:43 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:09:43 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Searching for properties at: /org/apache/velocity/tools/view/velocity.properties
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Searching for properties at: /WEB-INF/velocity.properties
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Configuring Velocity with properties at: /WEB-INF/velocity.properties
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Searching for properties at: /WEB-INF/velocity.properties
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Configuring Velocity with properties at: /WEB-INF/velocity.properties
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Initializing Velocity, Calling init()...
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] *******************************************************************
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] RuntimeInstance initializing.
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Trying to use logger class org.apache.velocity.runtime.log.ServletLogChute
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Using logger class org.apache.velocity.runtime.log.ServletLogChute
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceLoader instantiated: org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] WebappResourceLoader: initialization starting.
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] WebappResourceLoader: initialization complete.
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.StringResourceLoader
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] StringResourceLoader : initialization starting.
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded repository 'org.apache.velocity.runtime.resource.util.StringResourceRepository' from static repo store
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] StringResourceLoader : initialization complete.
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Default ResourceManager initialization complete.
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Define
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Break
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Include
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Created '20' parsers.
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Velocimacro : initialization starting.
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.tools.view.WebappResourceLoader: WebappResourceLoader: Resource 'VM_global_library.vm' not found.
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : Default library not found.
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : allowInline = true : VMs can be defined inline in templates
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Velocimacro : autoload off : VM system will not automatically reload global library macros
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Velocimacro : Velocimacro : initialization complete.
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] RuntimeInstance successfully initialized.
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Searching for configuration at: /WEB-INF/toolbox.xml
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Did not find resource at: /WEB-INF/toolbox.xml
+Dez 10, 2014 9:15:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Loading default tools configuration...
+Dez 10, 2014 9:15:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [trace] Searching for configuration at: /WEB-INF/tools.xml
+Dez 10, 2014 9:15:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Loaded configuration from: /WEB-INF/tools.xml
+Dez 10, 2014 9:15:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Configuring factory with: 
+FactoryConfiguration from 7 sources including 5 data with 3 toolboxes: 
+ Toolbox 'application' with 1 properties [scope -auto-> application; ] and 15 tools: 
+  Tool 'alternator' => org.apache.velocity.tools.generic.AlternatorTool 
+  Tool 'class' => org.apache.velocity.tools.generic.ClassTool 
+  Tool 'convert' => org.apache.velocity.tools.generic.ConversionTool 
+  Tool 'date' => org.apache.velocity.tools.generic.ComparisonDateTool 
+  Tool 'display' => org.apache.velocity.tools.generic.DisplayTool 
+  Tool 'esc' => org.apache.velocity.tools.generic.EscapeTool 
+  Tool 'featureProvider' => org.iadb.seppir.monitor.FeatureProvider with 1 properties [key -auto-> featureProvider; ]
+  Tool 'field' => org.apache.velocity.tools.generic.FieldTool 
+  Tool 'math' => org.apache.velocity.tools.generic.MathTool 
+  Tool 'number' => org.apache.velocity.tools.generic.NumberTool 
+  Tool 'panelRenderer' => org.iadb.seppir.monitor.PanelRenderer with 1 properties [key -auto-> panelRenderer; ]
+  Tool 'sorter' => org.apache.velocity.tools.generic.SortTool 
+  Tool 'tableProvider' => org.iadb.seppir.monitor.TableProvider with 1 properties [key -auto-> tableProvider; ]
+  Tool 'text' => org.apache.velocity.tools.generic.ResourceTool 
+  Tool 'xml' => org.apache.velocity.tools.generic.XmlTool 
+  
+ Toolbox 'request' with 1 properties [scope -auto-> request; ] and 10 tools: 
+  Tool 'context' => org.apache.velocity.tools.view.ViewContextTool 
+  Tool 'cookies' => org.apache.velocity.tools.view.CookieTool 
+  Tool 'import' => org.apache.velocity.tools.view.ImportTool 
+  Tool 'include' => org.apache.velocity.tools.view.IncludeTool 
+  Tool 'link' => org.apache.velocity.tools.struts.StrutsLinkTool 
+  Tool 'loop' => org.apache.velocity.tools.generic.LoopTool 
+  Tool 'pager' => org.apache.velocity.tools.view.PagerTool 
+  Tool 'params' => org.apache.velocity.tools.view.ParameterTool 
+  Tool 'render' => org.apache.velocity.tools.generic.RenderTool 
+  Tool 'validator' => org.apache.velocity.tools.struts.ValidatorTool 
+  
+ Toolbox 'session' with 2 properties [createSession -auto-> false; scope -auto-> session; ] and 1 tools: 
+  Tool 'browser' => org.apache.velocity.tools.view.BrowserTool 
+  
+ Data 'GENERIC_TOOLS_AVAILABLE' -boolean-> true
+ Data 'STRUTS_TOOLS_AVAILABLE' -boolean-> true
+ Data 'TOOLS_VERSION' -number-> 2.0
+ Data 'VIEW_TOOLS_AVAILABLE' -boolean-> true
+ Data 'dashboard-version' -number-> 1.0
+ 
+ Source 0: org.apache.velocity.tools.config.FactoryConfiguration(VelocityView.configure(config,factory))
+ Source 1: org.apache.velocity.tools.config.XmlFactoryConfiguration(ConfigurationUtils.getDefaultTools())
+ Source 2:     .read(jar:file:/home/opt/tomcat7/lib/velocity-tools-2.0.jar!/org/apache/velocity/tools/generic/tools.xml)
+ Source 3:     .read(jar:file:/home/opt/tomcat7/lib/velocity-tools-2.0.jar!/org/apache/velocity/tools/view/tools.xml)
+ Source 4:     .read(jar:file:/home/opt/tomcat7/lib/velocity-tools-2.0.jar!/org/apache/velocity/tools/struts/tools.xml)
+ Source 5: org.apache.velocity.tools.config.FactoryConfiguration(ConfigurationUtils.getAutoLoaded(false))
+ Source 6: org.apache.velocity.tools.config.XmlFactoryConfiguration(ServletUtils.getConfiguration(/WEB-INF/tools.xml,ServletContext[,depMode=true]))
+
+Dez 10, 2014 9:15:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Default Content-Type is: text/html; charset=UTF-8
+Dez 10, 2014 9:15:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity   [info] VelocityLayoutServlet: Error screen is 'layout/error.vm'
+Dez 10, 2014 9:15:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity   [info] VelocityLayoutServlet: Layout directory is 'layout/'
+Dez 10, 2014 9:15:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity   [info] VelocityLayoutServlet: Default layout template is 'dashboard.vm'
+Dez 10, 2014 9:15:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] org.apache.velocity.tools.view.servlet.VelocityLayoutServlet has been deprecated. Use org.apache.velocity.tools.view.servlet.VelocityLayoutServlet instead.
+Dez 10, 2014 9:15:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:15:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo3/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:15:32 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:15:32 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:15:32 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo3/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:15:32 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:15:34 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:15:34 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:15:34 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:15:34 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:15:34 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:15:34 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:15:57 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:15:57 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo3/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:15:57 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:15:57 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:15:57 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo3/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:15:57 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:16:08 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:16:08 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:16:08 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:16:08 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:16:08 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:16:08 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:28 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:28 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo3/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:28 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:28 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:28 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo3/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:28 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:56 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:56 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo3/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:56 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:56 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:56 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo3/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:56 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:57 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:57 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:57 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:57 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:57 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:18:57 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:19:09 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:19:09 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo3/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:19:09 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:19:09 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:19:09 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo3/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:19:09 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:19:10 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:19:10 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:19:10 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:19:10 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:19:10 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:19:10 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:21:31 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:21:31 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:21:31 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:21:31 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:21:31 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:21:31 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:21:45 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:21:45 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:21:45 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:21:45 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:21:45 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:21:45 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:50:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:50:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:50:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:50:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:50:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:50:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:50:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:50:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:50:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:50:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:50:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:50:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:51:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:51:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:51:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:51:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:51:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:51:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:51:49 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:51:49 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:51:49 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:51:49 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:51:49 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:51:49 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:52:11 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:52:11 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:52:11 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:52:11 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:52:11 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:52:11 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:52:32 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:52:32 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:52:32 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:52:32 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:52:32 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:52:32 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:53:02 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:53:02 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:53:02 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:53:02 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:53:02 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:53:02 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:53:55 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:53:55 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:53:55 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:53:55 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:53:55 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:54:01 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:54:12 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:54:12 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:54:12 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:54:12 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:54:12 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:54:12 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:55:42 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:55:42 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:55:42 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:55:42 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:55:42 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:55:42 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:55:56 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:55:56 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:55:56 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:55:56 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:55:56 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:55:56 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:56:17 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:56:17 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:56:17 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:56:17 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:56:17 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:56:17 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:56:33 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:56:33 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:56:33 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:56:33 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:56:33 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:56:33 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:56:44 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:56:44 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:56:44 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:56:44 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:56:44 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:56:44 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:57:09 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:57:09 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:57:09 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:57:09 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:57:09 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 9:57:09 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:11:35 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:11:36 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:11:36 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:11:36 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:11:36 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:11:36 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:14:01 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:14:01 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:14:01 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:14:01 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:14:01 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:14:01 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:15:22 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:15:22 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:15:23 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:15:23 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:15:23 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:15:23 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:16:40 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:16:40 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:16:40 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:16:40 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:16:40 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:16:40 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:16:53 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:16:53 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:16:53 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:16:53 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:16:53 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:16:53 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:16:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:16:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:16:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:16:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:16:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:16:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:17:08 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:17:08 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:17:08 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:17:08 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:17:08 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:17:08 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:17:25 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:17:25 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:17:25 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:17:25 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:17:25 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:17:25 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:17:26 AM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [org.iadb.seppir.monitor.DataProviderServlet] in context with path [/paineis] threw exception
+java.lang.NullPointerException
+	at org.iadb.seppir.monitor.OlapCurrentService.convertToJson(OlapCurrentService.java:601)
+	at org.iadb.seppir.monitor.DataProviderServlet.doPost(DataProviderServlet.java:205)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Dez 10, 2014 10:17:45 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:17:45 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:17:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:17:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:17:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:17:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:18:05 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:18:05 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:18:05 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:18:05 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:18:05 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:18:05 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:18:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:18:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:18:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:18:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:18:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:18:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:19:02 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:19:02 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:19:02 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:19:02 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:19:02 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:19:02 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:19:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:19:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:19:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Null reference [template '/pbq/index.vm', line 104, column 50] : ${view.name} cannot be resolved.
+Dez 10, 2014 10:19:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Null reference [template '/pbq/index.vm', line 104, column 66] : ${view.type} cannot be resolved.
+Dez 10, 2014 10:19:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Null reference [template '/pbq/index.vm', line 104, column 81] : $view.properties cannot be resolved.
+Dez 10, 2014 10:19:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Null reference [template '/pbq/index.vm', line 108, column 21] : ${view.name} cannot be resolved.
+Dez 10, 2014 10:19:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] Null reference [template '/pbq/index.vm', line 108, column 56] : ${view.properties} cannot be resolved.
+Dez 10, 2014 10:19:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:19:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:19:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:19:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:20:03 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:20:03 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:20:03 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:20:03 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:20:03 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:20:03 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:20:18 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:20:18 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:20:18 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:20:18 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:20:18 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:20:18 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:23:04 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:23:04 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:23:04 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:23:04 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:23:04 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:23:04 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:23:57 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:23:57 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:23:57 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:23:57 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:23:57 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:23:57 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:24:48 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:24:48 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:24:48 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:24:48 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:24:48 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:24:48 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:24:55 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:24:55 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:24:55 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:24:55 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:24:55 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 10:24:55 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 11:50:50 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 11:50:50 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 11:50:50 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 11:50:50 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 11:50:50 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 11:50:50 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 11:50:53 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 11:50:53 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 11:50:53 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 11:50:53 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 11:50:53 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 11:50:53 AM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 12:02:50 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 12:02:50 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 12:02:50 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 12:02:50 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 12:02:50 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo2/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 12:02:50 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 12:02:51 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 12:02:51 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo3/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 12:02:51 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 12:02:51 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 12:02:51 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo3/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 12:02:51 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 12:02:53 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found /pbq/index.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 12:02:53 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/painel.vars.js with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 12:02:53 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found layout/dashboard.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 12:02:53 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/navigator.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 12:02:53 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found pbq/eixo4/containers.vm with loader org.apache.velocity.tools.view.WebappResourceLoader
+Dez 10, 2014 12:02:53 PM org.apache.catalina.core.ApplicationContext log
+INFORMAÇÕES:  Velocity  [debug] ResourceManager : found svg/brasil_uf_map.svg with loader org.apache.velocity.tools.view.WebappResourceLoader

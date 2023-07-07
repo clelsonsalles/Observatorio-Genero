@@ -1,0 +1,94 @@
+2015-01-23 13:46:39,030 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-01-23 13:47:08,037 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701	POST	 xml:false
+2015-01-23 13:47:17,389 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/axis/COLUMNS/dimension/Local de Domicílio/hierarchy/[Local de Domicílio]/[Local de Domicílio].[Município]	POST
+2015-01-23 13:47:17,389 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 15910C79-FEEE-5A52-B1CB-E1C850C73701 dimension Local de Domicílio to axis COLUMNS  position0
+2015-01-23 13:47:17,956 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/result/metadata/dimensions/Local de Domicílio/hierarchies/[Local de Domicílio]/levels/[Local de Domicílio].[Município]	GET
+2015-01-23 13:47:20,138 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/axis/COLUMNS/dimension/Local de Domicílio	GET
+2015-01-23 13:47:30,177 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/axis/COLUMNS/dimension/Local de Domicílio	PUT	
+2015-01-23 13:47:30,182 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/axis/COLUMNS/dimension/Local de Domicílio	GET
+2015-01-23 13:47:36,722 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/axis/ROWS/dimension/Faixa de Renda Familiar/hierarchy/[Faixa de Renda Familiar]/[Faixa de Renda Familiar].[Faixa de Renda Familiar]	POST
+2015-01-23 13:47:36,722 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 15910C79-FEEE-5A52-B1CB-E1C850C73701 dimension Faixa de Renda Familiar to axis ROWS  position0
+2015-01-23 13:47:38,287 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/resultflattened	GET
+2015-01-23 13:47:38,287 INFO  [org.saiku.service.olap.OlapQueryService] runId:62	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Domicílio].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Faixa de Renda Familiar].[Faixa de Renda Familiar].Members})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-23 13:47:38,451 INFO  [org.saiku.service.olap.OlapQueryService] runId:62	Size: 2/4	Execute:	164ms	Format:	0ms	 Total: 164ms
+2015-01-23 13:48:19,824 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/axis/ROWS/dimension/Faixa de Renda Familiar/hierarchy/[Faixa de Renda Familiar]/[Faixa de Renda Familiar].[Faixa de Renda Familiar]	DELETE
+2015-01-23 13:48:19,824 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 15910C79-FEEE-5A52-B1CB-E1C850C73701 dimension Faixa de Renda Familiar to axis UNUSED  position-1
+2015-01-23 13:48:24,100 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/axis/ROWS/dimension/Faixa de Renda Familiar/hierarchy/[Faixa de Renda Familiar]/[Faixa de Renda Familiar].[Todas]	POST
+2015-01-23 13:48:24,100 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 15910C79-FEEE-5A52-B1CB-E1C850C73701 dimension Faixa de Renda Familiar to axis ROWS  position0
+2015-01-23 13:48:24,290 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/resultflattened	GET
+2015-01-23 13:48:24,291 INFO  [org.saiku.service.olap.OlapQueryService] runId:63	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Domicílio].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Faixa de Renda Familiar].[Todas as Faixas]})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-23 13:48:24,353 INFO  [org.saiku.service.olap.OlapQueryService] runId:63	Size: 2/2	Execute:	62ms	Format:	0ms	 Total: 62ms
+2015-01-23 13:49:45,239 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/axis/ROWS/dimension/Faixa de Renda Familiar/hierarchy/[Faixa de Renda Familiar]/[Faixa de Renda Familiar].[Todas]	DELETE
+2015-01-23 13:49:45,240 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 15910C79-FEEE-5A52-B1CB-E1C850C73701 dimension Faixa de Renda Familiar to axis UNUSED  position-1
+2015-01-23 13:49:50,181 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/axis/ROWS/dimension/Ruralidade/hierarchy/[Ruralidade]/[Ruralidade].[Ruralidade]	POST
+2015-01-23 13:49:50,181 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 15910C79-FEEE-5A52-B1CB-E1C850C73701 dimension Ruralidade to axis ROWS  position0
+2015-01-23 13:49:50,383 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/resultflattened	GET
+2015-01-23 13:49:50,383 INFO  [org.saiku.service.olap.OlapQueryService] runId:64	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Domicílio].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Ruralidade].[Ruralidade].Members})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-23 13:49:50,454 INFO  [org.saiku.service.olap.OlapQueryService] runId:64	Size: 2/3	Execute:	70ms	Format:	1ms	 Total: 71ms
+2015-01-23 13:50:23,521 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/axis/ROWS/dimension/Ruralidade/hierarchy/[Ruralidade]/[Ruralidade].[Ruralidade]	DELETE
+2015-01-23 13:50:23,522 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 15910C79-FEEE-5A52-B1CB-E1C850C73701 dimension Ruralidade to axis UNUSED  position-1
+2015-01-23 13:50:33,143 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/axis/ROWS/dimension/Tipo de Iluminação/hierarchy/[Tipo de Iluminação]/[Tipo de Iluminação].[Tipo de Iluminação]	POST
+2015-01-23 13:50:33,143 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 15910C79-FEEE-5A52-B1CB-E1C850C73701 dimension Tipo de Iluminação to axis ROWS  position0
+2015-01-23 13:50:33,333 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/resultflattened	GET
+2015-01-23 13:50:33,333 INFO  [org.saiku.service.olap.OlapQueryService] runId:65	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Domicílio].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Tipo de Iluminação].[Tipo de Iluminação].Members})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-23 13:50:33,394 INFO  [org.saiku.service.olap.OlapQueryService] runId:65	Size: 2/7	Execute:	61ms	Format:	0ms	 Total: 61ms
+2015-01-23 13:50:54,646 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/axis/ROWS/dimension/Tipo de Iluminação/hierarchy/[Tipo de Iluminação]/[Tipo de Iluminação].[Tipo de Iluminação]	DELETE
+2015-01-23 13:50:54,647 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 15910C79-FEEE-5A52-B1CB-E1C850C73701 dimension Tipo de Iluminação to axis UNUSED  position-1
+2015-01-23 13:50:57,781 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/axis/ROWS/dimension/Tarifa Social de Energia/hierarchy/[Tarifa Social de Energia]/[Tarifa Social de Energia].[Tarifa Social de Energia]	POST
+2015-01-23 13:50:57,781 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 15910C79-FEEE-5A52-B1CB-E1C850C73701 dimension Tarifa Social de Energia to axis ROWS  position0
+2015-01-23 13:50:57,972 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/resultflattened	GET
+2015-01-23 13:50:57,973 INFO  [org.saiku.service.olap.OlapQueryService] runId:66	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Domicílio].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Tarifa Social de Energia].[Tarifa Social de Energia].Members})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-23 13:50:58,055 INFO  [org.saiku.service.olap.OlapQueryService] runId:66	Size: 2/2	Execute:	81ms	Format:	1ms	 Total: 82ms
+2015-01-23 13:51:10,620 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/axis/ROWS/dimension/Tarifa Social de Energia/hierarchy/[Tarifa Social de Energia]/[Tarifa Social de Energia].[Tarifa Social de Energia]	DELETE
+2015-01-23 13:51:10,620 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 15910C79-FEEE-5A52-B1CB-E1C850C73701 dimension Tarifa Social de Energia to axis UNUSED  position-1
+2015-01-23 13:51:21,453 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/axis/ROWS/dimension/Tipo de Iluminação/hierarchy/[Tipo de Iluminação]/[Tipo de Iluminação].[Existência de Eletricidade]	POST
+2015-01-23 13:51:21,453 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 15910C79-FEEE-5A52-B1CB-E1C850C73701 dimension Tipo de Iluminação to axis ROWS  position0
+2015-01-23 13:51:21,668 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/resultflattened	GET
+2015-01-23 13:51:21,668 INFO  [org.saiku.service.olap.OlapQueryService] runId:67	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Domicílio].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Tipo de Iluminação].[Existência de Eletricidade].Members})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-23 13:51:21,727 INFO  [org.saiku.service.olap.OlapQueryService] runId:67	Size: 2/3	Execute:	58ms	Format:	1ms	 Total: 59ms
+2015-01-23 13:51:35,950 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/axis/ROWS/dimension/Tipo de Iluminação/hierarchy/[Tipo de Iluminação]/[Tipo de Iluminação].[Existência de Eletricidade]	DELETE
+2015-01-23 13:51:35,950 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 15910C79-FEEE-5A52-B1CB-E1C850C73701 dimension Tipo de Iluminação to axis UNUSED  position-1
+2015-01-23 13:51:40,082 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/axis/ROWS/dimension/Tipo de Abastecimento de Água/hierarchy/[Tipo de Abastecimento de Água]/[Tipo de Abastecimento de Água].[Tipo de Abastecimento de Água]	POST
+2015-01-23 13:51:40,082 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 15910C79-FEEE-5A52-B1CB-E1C850C73701 dimension Tipo de Abastecimento de Água to axis ROWS  position0
+2015-01-23 13:51:40,264 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/resultflattened	GET
+2015-01-23 13:51:40,264 INFO  [org.saiku.service.olap.OlapQueryService] runId:68	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Domicílio].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Tipo de Abastecimento de Água].[Tipo de Abastecimento de Água].Members})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-23 13:51:40,324 INFO  [org.saiku.service.olap.OlapQueryService] runId:68	Size: 2/5	Execute:	60ms	Format:	0ms	 Total: 60ms
+2015-01-23 13:52:34,110 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/axis/ROWS/dimension/Tipo de Abastecimento de Água/hierarchy/[Tipo de Abastecimento de Água]/[Tipo de Abastecimento de Água].[Tipo de Abastecimento de Água]	DELETE
+2015-01-23 13:52:34,111 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 15910C79-FEEE-5A52-B1CB-E1C850C73701 dimension Tipo de Abastecimento de Água to axis UNUSED  position-1
+2015-01-23 13:52:37,713 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/axis/ROWS/dimension/Tipo de Escoamento Sanitário/hierarchy/[Tipo de Escoamento Sanitário]/[Tipo de Escoamento Sanitário].[Tipo de Escoamento Sanitário]	POST
+2015-01-23 13:52:37,713 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 15910C79-FEEE-5A52-B1CB-E1C850C73701 dimension Tipo de Escoamento Sanitário to axis ROWS  position0
+2015-01-23 13:52:37,946 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/15910C79-FEEE-5A52-B1CB-E1C850C73701/resultflattened	GET
+2015-01-23 13:52:37,946 INFO  [org.saiku.service.olap.OlapQueryService] runId:69	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Domicílio].[Norte].[Pará].[Nordeste Paraense].[Tomé-Açu].[Acará]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Tipo de Escoamento Sanitário].[Tipo de Escoamento Sanitário].Members})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-01-23 13:52:38,020 INFO  [org.saiku.service.olap.OlapQueryService] runId:69	Size: 2/6	Execute:	73ms	Format:	1ms	 Total: 74ms

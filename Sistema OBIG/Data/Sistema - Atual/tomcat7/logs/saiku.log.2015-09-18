@@ -1,0 +1,13 @@
+2015-09-18 17:15:27,157 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-09-18 17:15:37,259 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B125E6-2228-2EC8-8AE5-80084AA86235	POST	 xml:false
+2015-09-18 17:15:42,787 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B125E6-2228-2EC8-8AE5-80084AA86235/axis/COLUMNS/dimension/Calçamento no Entorno/hierarchy/[Calçamento no Entorno]/[Calçamento no Entorno].[Calçamento no Entorno]	POST
+2015-09-18 17:15:42,787 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 33B125E6-2228-2EC8-8AE5-80084AA86235 dimension Calçamento no Entorno to axis COLUMNS  position0
+2015-09-18 17:15:45,800 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B125E6-2228-2EC8-8AE5-80084AA86235/axis/ROWS/dimension/Measures/member/[Measures].[Famílias]	POST
+2015-09-18 17:15:45,800 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 33B125E6-2228-2EC8-8AE5-80084AA86235 dimension Measures to axis ROWS  position0
+2015-09-18 17:15:45,859 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/33B125E6-2228-2EC8-8AE5-80084AA86235/resultflattened	GET
+2015-09-18 17:15:45,860 INFO  [org.saiku.service.olap.OlapQueryService] runId:55	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Calçamento no Entorno].[Calçamento no Entorno].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [MDS CadUnico (Familias)]
+2015-09-18 17:19:49,008 INFO  [org.saiku.service.olap.OlapQueryService] runId:55	Size: 4/2	Execute:	243147ms	Format:	1ms	 Total: 243148ms

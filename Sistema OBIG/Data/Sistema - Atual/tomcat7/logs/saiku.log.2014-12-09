@@ -1,0 +1,182 @@
+2014-12-09 13:04:09,072 WARN  [mondrian.rolap.RolapUtil] Mondrian: Warning: JDBC driver sun.jdbc.odbc.JdbcOdbcDriver not found
+2014-12-09 13:04:09,073 WARN  [mondrian.rolap.RolapUtil] Mondrian: Warning: JDBC driver oracle.jdbc.OracleDriver not found
+2014-12-09 13:04:22,013 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/729115AA-F608-2DD1-AB8D-B928B206251F	POST	 xml:false
+2014-12-09 13:04:22,066 INFO  [org.saiku.olap.util.SaikuProperties] Saiku: properties loaded from 'file:/home/opt/tomcat7/webapps/saiku/WEB-INF/classes/saiku.properties'
+2014-12-09 13:04:22,066 INFO  [org.saiku.olap.util.SaikuProperties] Saiku: loaded 0 system properties
+2014-12-09 13:04:28,343 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/729115AA-F608-2DD1-AB8D-B928B206251F/axis/COLUMNS/dimension/Comunidade/hierarchy/[Comunidade]/[Comunidade].[Comunidade]	POST
+2014-12-09 13:04:28,344 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 729115AA-F608-2DD1-AB8D-B928B206251F dimension Comunidade to axis COLUMNS  position0
+2014-12-09 13:04:30,926 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/729115AA-F608-2DD1-AB8D-B928B206251F/axis/ROWS/dimension/Measures/member/[Measures].[Pessoas]	POST
+2014-12-09 13:04:30,926 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 729115AA-F608-2DD1-AB8D-B928B206251F dimension Measures to axis ROWS  position0
+2014-12-09 13:04:30,959 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/729115AA-F608-2DD1-AB8D-B928B206251F/resultflattened	GET
+2014-12-09 13:04:30,977 INFO  [org.saiku.service.olap.OlapQueryService] runId:0	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[Comunidade].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Pessoas]} ON ROWS
+FROM [PBQ CadUnico (Pessoas Quilombolas)]
+2014-12-09 13:04:32,555 INFO  [org.saiku.service.olap.OlapQueryService] runId:0	Exception: PSQLException: ERRO: coluna tbl_mds_cadunico_pessoa_pbq.id_quilombola_pbq não existe
+  Posição: 274
+2014-12-09 13:04:32,557 ERROR [org.saiku.web.rest.resources.QueryResource] Cannot execute query (729115AA-F608-2DD1-AB8D-B928B206251F)
+org.saiku.service.util.exception.SaikuServiceException: runId:0	Can't execute query: 729115AA-F608-2DD1-AB8D-B928B206251F
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:253)
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:207)
+	at org.saiku.web.rest.resources.QueryResource.execute(QueryResource.java:717)
+	at org.saiku.web.rest.resources.QueryResource$$FastClassByCGLIB$$e130f1a0.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:617)
+	at org.saiku.web.rest.resources.QueryResource$$EnhancerByCGLIB$$e19ca8a4.execute(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at org.codehaus.enunciate.modules.jersey.EnunciateJerseyServletContainer.service(EnunciateJerseyServletContainer.java:248)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.codehaus.enunciate.webapp.HTTPRequestContextFilter.doFilter(HTTPRequestContextFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:343)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:97)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:78)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:35)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilter(BasicAuthenticationFilter.java:177)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:187)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:79)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:149)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1001)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:585)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.olap4j.OlapException: mondrian gave exception while executing query
+	at mondrian.olap4j.MondrianOlap4jConnection$Helper.createException(MondrianOlap4jConnection.java:827)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQueryInternal(MondrianOlap4jStatement.java:421)
+	at mondrian.olap4j.MondrianOlap4jStatement.executeOlapQuery(MondrianOlap4jStatement.java:347)
+	at org.saiku.olap.query.OlapQuery.execute(OlapQuery.java:260)
+	at org.saiku.service.olap.OlapQueryService.execute(OlapQueryService.java:233)
+	... 74 more
+Caused by: mondrian.olap.MondrianException: Mondrian Error:Internal error: Error while executing query [select NON EMPTY {Hierarchize({[Comunidade].[Comunidade].Members})} ON COLUMNS,
+  NON EMPTY {[Measures].[Pessoas]} ON ROWS
+from [PBQ CadUnico (Pessoas Quilombolas)]
+]
+	at mondrian.resource.MondrianResource$_Def0.ex(MondrianResource.java:972)
+	at mondrian.olap.Util.newInternal(Util.java:2421)
+	at mondrian.olap.Util.newError(Util.java:2437)
+	at mondrian.rolap.RolapConnection.executeInternal(RolapConnection.java:715)
+	at mondrian.rolap.RolapConnection.access$000(RolapConnection.java:51)
+	at mondrian.rolap.RolapConnection$1.call(RolapConnection.java:631)
+	at mondrian.rolap.RolapConnection$1.call(RolapConnection.java:630)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	... 3 more
+Caused by: mondrian.olap.MondrianException: Mondrian Error:mondrian.olap.MondrianException: Mondrian Error:Failed to load segment form SQL
+	at mondrian.rolap.agg.SegmentLoader.loadImpl(SegmentLoader.java:240)
+	at mondrian.rolap.agg.SegmentLoader.access$000(SegmentLoader.java:51)
+	at mondrian.rolap.agg.SegmentLoader$SegmentLoadCommand.call(SegmentLoader.java:166)
+	at mondrian.rolap.agg.SegmentLoader$SegmentLoadCommand.call(SegmentLoader.java:140)
+	... 4 more
+Caused by: mondrian.olap.MondrianException: Mondrian Error:Failed to load segment form SQL
+	at mondrian.rolap.agg.SegmentLoader.createExecuteSql(SegmentLoader.java:643)
+	at mondrian.rolap.agg.SegmentLoader.loadImpl(SegmentLoader.java:195)
+	... 7 more
+Caused by: mondrian.olap.MondrianException: Mondrian Error:Internal error: Error while loading segment; sql=[select "tbl_seppir_quilombola_comunidade"."id_comunidade" as "c0", count("tbl_mds_cadunico_pessoa_pbq"."cod_pessoa") as "m0" from "tbl_seppir_quilombola_comunidade" as "tbl_seppir_quilombola_comunidade", "tbl_mds_cadunico_pessoa_pbq" as "tbl_mds_cadunico_pessoa_pbq" where "tbl_mds_cadunico_pessoa_pbq"."id_quilombola_pbq" = "tbl_seppir_quilombola_comunidade"."id_comunidade" group by "tbl_seppir_quilombola_comunidade"."id_comunidade"]
+	at mondrian.resource.MondrianResource$_Def0.ex(MondrianResource.java:972)
+	at mondrian.olap.Util.newInternal(Util.java:2421)
+	at mondrian.olap.Util.newError(Util.java:2437)
+	at mondrian.rolap.SqlStatement.handle(SqlStatement.java:348)
+	at mondrian.rolap.SqlStatement.execute(SqlStatement.java:247)
+	at mondrian.rolap.RolapUtil.executeQuery(RolapUtil.java:333)
+	at mondrian.rolap.agg.SegmentLoader.createExecuteSql(SegmentLoader.java:625)
+	... 8 more
+Caused by: org.postgresql.util.PSQLException: ERRO: coluna tbl_mds_cadunico_pessoa_pbq.id_quilombola_pbq não existe
+  Posição: 274
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2094)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1827)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:255)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:508)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:370)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:250)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at mondrian.rolap.SqlStatement.execute(SqlStatement.java:193)
+	... 10 more
+2014-12-09 13:15:39,416 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/729115AA-F608-2DD1-AB8D-B928B206251F/axis/COLUMNS/dimension/Comunidade/hierarchy/[Comunidade]/[Comunidade].[Comunidade]	DELETE
+2014-12-09 13:15:39,432 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 729115AA-F608-2DD1-AB8D-B928B206251F dimension Comunidade to axis UNUSED  position-1
+2014-12-09 13:15:40,085 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/729115AA-F608-2DD1-AB8D-B928B206251F/axis/ROWS/dimension/Measures	POST
+2014-12-09 13:15:40,086 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 729115AA-F608-2DD1-AB8D-B928B206251F dimension Measures to axis ROWS  position0
+2014-12-09 13:15:41,727 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/729115AA-F608-2DD1-AB8D-B928B206251F/axis/ROWS/dimension/Measures/member/[Measures].[Pessoas]	DELETE
+2014-12-09 13:15:41,728 DEBUG [org.saiku.service.olap.OlapQueryService] query: 729115AA-F608-2DD1-AB8D-B928B206251F remove:MEMBER 2
+2014-12-09 13:15:41,728 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 729115AA-F608-2DD1-AB8D-B928B206251F dimension Measures to axis UNUSED  position-1
+2014-12-09 13:15:57,861 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/729115AA-F608-2DD1-AB8D-B928B206251F/axis/COLUMNS/dimension/Local de Domicílio/hierarchy/[Local de Domicílio]/[Local de Domicílio].[UF]	POST
+2014-12-09 13:15:57,861 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 729115AA-F608-2DD1-AB8D-B928B206251F dimension Local de Domicílio to axis COLUMNS  position0
+2014-12-09 13:16:03,703 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/729115AA-F608-2DD1-AB8D-B928B206251F/axis/ROWS/dimension/Measures/member/[Measures].[Pessoas]	POST
+2014-12-09 13:16:03,703 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 729115AA-F608-2DD1-AB8D-B928B206251F dimension Measures to axis ROWS  position0
+2014-12-09 13:16:03,731 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/729115AA-F608-2DD1-AB8D-B928B206251F/resultflattened	GET
+2014-12-09 13:16:03,732 INFO  [org.saiku.service.olap.OlapQueryService] runId:1	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Domicílio].[UF].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Pessoas]} ON ROWS
+FROM [PBQ CadUnico (Pessoas Quilombolas)]
+2014-12-09 13:16:04,174 INFO  [org.saiku.service.olap.OlapQueryService] runId:1	Size: 28/2	Execute:	405ms	Format:	37ms	 Total: 442ms
+2014-12-09 13:16:06,540 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/729115AA-F608-2DD1-AB8D-B928B206251F/axis/FILTER/dimension/Measures/member/[Measures].[Declaram-se Trabalhadores Extrativistas]	POST
+2014-12-09 13:16:06,540 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 729115AA-F608-2DD1-AB8D-B928B206251F dimension Measures to axis FILTER  position0
+2014-12-09 13:16:08,685 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/729115AA-F608-2DD1-AB8D-B928B206251F/axis/ROWS/dimension/Measures	POST
+2014-12-09 13:16:08,686 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 729115AA-F608-2DD1-AB8D-B928B206251F dimension Measures to axis ROWS  position0
+2014-12-09 13:16:08,810 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/729115AA-F608-2DD1-AB8D-B928B206251F/resultflattened	GET
+2014-12-09 13:16:08,810 INFO  [org.saiku.service.olap.OlapQueryService] runId:2	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Domicílio].[UF].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Pessoas], [Measures].[Declaram-se Trabalhadores Extrativistas]} ON ROWS
+FROM [PBQ CadUnico (Pessoas Quilombolas)]
+2014-12-09 13:16:09,226 INFO  [org.saiku.service.olap.OlapQueryService] runId:2	Size: 28/3	Execute:	405ms	Format:	11ms	 Total: 416ms
+2014-12-09 13:16:16,015 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/729115AA-F608-2DD1-AB8D-B928B206251F/axis/FILTER/dimension/Measures	POST
+2014-12-09 13:16:16,015 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 729115AA-F608-2DD1-AB8D-B928B206251F dimension Measures to axis FILTER  position0
+2014-12-09 13:16:17,290 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/729115AA-F608-2DD1-AB8D-B928B206251F/axis/FILTER/dimension/Measures/member/[Measures].[Declaram-se Trabalhadores Extrativistas]	DELETE
+2014-12-09 13:16:17,290 DEBUG [org.saiku.service.olap.OlapQueryService] query: 729115AA-F608-2DD1-AB8D-B928B206251F remove:MEMBER 2
+2014-12-09 13:16:18,866 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/729115AA-F608-2DD1-AB8D-B928B206251F/axis/FILTER/dimension/Measures/member/[Measures].[Pessoas]	DELETE
+2014-12-09 13:16:18,867 DEBUG [org.saiku.service.olap.OlapQueryService] query: 729115AA-F608-2DD1-AB8D-B928B206251F remove:MEMBER 2
+2014-12-09 13:16:18,867 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 729115AA-F608-2DD1-AB8D-B928B206251F dimension Measures to axis UNUSED  position-1
+2014-12-09 13:16:20,046 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/729115AA-F608-2DD1-AB8D-B928B206251F/axis/COLUMNS/dimension/Local de Domicílio/hierarchy/[Local de Domicílio]/[Local de Domicílio].[UF]	DELETE
+2014-12-09 13:16:20,046 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 729115AA-F608-2DD1-AB8D-B928B206251F dimension Local de Domicílio to axis UNUSED  position-1

@@ -1,0 +1,113 @@
+﻿UF;Raça/Cor;Sexo;Taxa
+Acre;Todas;Homens;  5.9
+Acre;Todas;Mulheres; 12.6
+Acre;Branca;Todos;  8.1
+Acre;Negra;Todos;  8.9
+Alagoas;Todas;Homens;  9.0
+Alagoas;Todas;Mulheres; 16.6
+Alagoas;Branca;Todos; 11.9
+Alagoas;Negra;Todos; 12.2
+Amapá;Todas;Homens;  6.3
+Amapá;Todas;Mulheres; 13.9
+Amapá;Branca;Todos; 12.7
+Amapá;Negra;Todos;  8.4
+Amazonas;Todas;Homens;  6.3
+Amazonas;Todas;Mulheres; 14.2
+Amazonas;Branca;Todos; 10.1
+Amazonas;Negra;Todos;  9.5
+Bahia;Todas;Homens;  6.7
+Bahia;Todas;Mulheres; 12.5
+Bahia;Branca;Todos;  7.1
+Bahia;Negra;Todos;  9.9
+Ceará;Todas;Homens;  6.2
+Ceará;Todas;Mulheres;  8.9
+Ceará;Branca;Todos;  7.4
+Ceará;Negra;Todos;  7.4
+Distrito Federal;Todas;Homens;  6.3
+Distrito Federal;Todas;Mulheres; 12.7
+Distrito Federal;Branca;Todos;  8.7
+Distrito Federal;Negra;Todos;  9.8
+Espírito Santo;Todas;Homens;  5.4
+Espírito Santo;Todas;Mulheres;  8.3
+Espírito Santo;Branca;Todos;  5.1
+Espírito Santo;Negra;Todos;  7.8
+Goiás;Todas;Homens;  3.5
+Goiás;Todas;Mulheres;  6.8
+Goiás;Branca;Todos;  5.0
+Goiás;Negra;Todos;  4.8
+Maranhão;Todas;Homens;  4.7
+Maranhão;Todas;Mulheres;  9.1
+Maranhão;Branca;Todos;  7.6
+Maranhão;Negra;Todos;  6.5
+Mato Grosso;Todas;Homens;  2.7
+Mato Grosso;Todas;Mulheres;  7.5
+Mato Grosso;Branca;Todos;  3.2
+Mato Grosso;Negra;Todos;  5.5
+Mato Grosso do Sul;Todas;Homens;  3.4
+Mato Grosso do Sul;Todas;Mulheres;  5.5
+Mato Grosso do Sul;Branca;Todos;  3.6
+Mato Grosso do Sul;Negra;Todos;  5.0
+Minas Gerais;Todas;Homens;  5.0
+Minas Gerais;Todas;Mulheres;  8.5
+Minas Gerais;Branca;Todos;  5.5
+Minas Gerais;Negra;Todos;  7.4
+Pará;Todas;Homens;  5.3
+Pará;Todas;Mulheres; 11.0
+Pará;Branca;Todos;  6.9
+Pará;Negra;Todos;  7.8
+Paraíba;Todas;Homens;  5.5
+Paraíba;Todas;Mulheres;  9.3
+Paraíba;Branca;Todos;  7.9
+Paraíba;Negra;Todos;  6.8
+Paraná;Todas;Homens;  3.4
+Paraná;Todas;Mulheres;  5.7
+Paraná;Branca;Todos;  4.3
+Paraná;Negra;Todos;  4.5
+Pernambuco;Todas;Homens;  8.1
+Pernambuco;Todas;Mulheres; 10.8
+Pernambuco;Branca;Todos;  8.9
+Pernambuco;Negra;Todos;  9.5
+Piauí;Todas;Homens;  3.8
+Piauí;Todas;Mulheres;  6.5
+Piauí;Branca;Todos;  4.1
+Piauí;Negra;Todos;  5.3
+Rio de Janeiro;Todas;Homens;  6.0
+Rio de Janeiro;Todas;Mulheres; 10.9
+Rio de Janeiro;Branca;Todos;  7.4
+Rio de Janeiro;Negra;Todos;  8.8
+Rio Grande do Norte;Todas;Homens;  8.9
+Rio Grande do Norte;Todas;Mulheres; 13.7
+Rio Grande do Norte;Branca;Todos;  9.4
+Rio Grande do Norte;Negra;Todos; 12.0
+Rio Grande do Sul;Todas;Homens;  3.7
+Rio Grande do Sul;Todas;Mulheres;  5.6
+Rio Grande do Sul;Branca;Todos;  4.1
+Rio Grande do Sul;Negra;Todos;  6.7
+Rondônia;Todas;Homens;  3.1
+Rondônia;Todas;Mulheres;  6.3
+Rondônia;Branca;Todos;  4.1
+Rondônia;Negra;Todos;  4.6
+Roraima;Todas;Homens;  5.6
+Roraima;Todas;Mulheres; 10.3
+Roraima;Branca;Todos;  6.5
+Roraima;Negra;Todos;  8.0
+Santa Catarina;Todas;Homens;  3.0
+Santa Catarina;Todas;Mulheres;  3.1
+Santa Catarina;Branca;Todos;  2.8
+Santa Catarina;Negra;Todos;  4.6
+São Paulo;Todas;Homens;  6.5
+São Paulo;Todas;Mulheres;  9.6
+São Paulo;Branca;Todos;  7.1
+São Paulo;Negra;Todos;  9.2
+Sergipe;Todas;Homens;  5.8
+Sergipe;Todas;Mulheres; 11.1
+Sergipe;Branca;Todos;  6.3
+Sergipe;Negra;Todos;  8.9
+Tocantins;Todas;Homens;  3.7
+Tocantins;Todas;Mulheres;  8.4
+Tocantins;Branca;Todos;  4.7
+Tocantins;Negra;Todos;  6.1
+Todas as UFs;Branca;Todos;  6.1
+Todas as UFs;Negra;Todos;  8.0
+Todas as UFs;Todas;Homens;  5.5
+Todas as UFs;Todas;Mulheres;  9.2

@@ -1,0 +1,278 @@
+Dez 17, 2014 12:54:38 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 17, 2014 12:54:38 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 17, 2014 12:54:38 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 17, 2014 12:54:38 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 17, 2014 12:54:38 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 17, 2014 12:54:40 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_comunidade,nome_comunidade,nome_territorio,(case status_incra_territorio when 1 then '3 - Decreto' when 2 then '2 - Portaria' when 3 then '2 - Portaria' when 4 then '1 - RTID' when 5 then '4 - Titulada' else '0 - Certificada' end) as nome_status,(select sigla_uf from tbl_ibge_municipios as m left join tbl_ibge_ufs as u on m.cod_uf = u.cod_uf where cod_7 = cod_7_ibge_municipio) as uf from tbl_seppir_quilombola_comunidade as c left join tbl_seppir_quilombola_territorio as t on c.id_territorio=t.id_territorio;
+Dez 17, 2014 12:54:43 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 17, 2014 12:54:43 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MS SIM';
+Dez 17, 2014 12:54:43 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='MS SIM';
+Dez 17, 2014 12:54:43 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 17, 2014 12:54:43 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 17, 2014 12:54:43 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 17, 2014 12:54:43 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 17, 2014 12:54:43 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 17, 2014 12:54:43 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='IBGE Censo Demografico';
+Dez 17, 2014 12:54:44 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome_municipio,sigla_uf,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio group by agg.cod_munic),1) as taxa_todos,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio and (raca_cor=2 or raca_cor=4)	 group by agg.cod_munic),1) as taxa_negros,round((select sum(homicidios_jovens_2010)*100000.0/sum(jovens) from agg_seppir_pjv as agg where agg.cod_munic = pjv.cod_7_ibge_municipio and raca_cor=1	 group by agg.cod_munic),1) as taxa_brancos from tbl_seppir_municipios_pjv as pjv;
+Dez 17, 2014 1:12:11 PM org.apache.catalina.core.StandardServer await
+INFORMAÇÕES: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Dez 17, 2014 1:12:11 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-bio-80"]
+Dez 17, 2014 1:12:12 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dez 17, 2014 1:12:12 PM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+Dez 17, 2014 1:12:12 PM org.iadb.seppir.monitor.DataProviderServlet destroy
+INFORMAÇÕES: OLAP Disconnected.
+Dez 17, 2014 1:12:12 PM org.iadb.seppir.monitor.CubeNavigatorServlet destroy
+INFORMAÇÕES: OLAP Disconnected.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+GRAVE: The web application [/paineis] registered the JDBC driver [mondrian.olap4j.MondrianOlap4jDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/paineis] appears to have started a thread named [Mondrian Monitor] but has failed to stop it. This is very likely to create a memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/paineis] appears to have started a thread named [mondrian.rolap.agg.SegmentCacheManager$ACTOR] but has failed to stop it. This is very likely to create a memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/paineis] appears to have started a thread named [mondrian.rolap.RolapResultShepherd#timer] but has failed to stop it. This is very likely to create a memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/paineis] appears to have started a thread named [Thread-8] but has failed to stop it. This is very likely to create a memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/paineis] appears to have started a thread named [mondrian.util.ExpiringReference$timer] but has failed to stop it. This is very likely to create a memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.rolap.RolapStar$1] (value [mondrian.rolap.RolapStar$1@75f9a03b]) and a value of type [mondrian.rolap.RolapStar.Bar] (value [mondrian.rolap.RolapStar$Bar@a33beb3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.rolap.RolapStar$1] (value [mondrian.rolap.RolapStar$1@4b2cdf00]) and a value of type [mondrian.rolap.RolapStar.Bar] (value [mondrian.rolap.RolapStar$Bar@6ee49f8e]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.rolap.RolapStar$1] (value [mondrian.rolap.RolapStar$1@63a75c82]) and a value of type [mondrian.rolap.RolapStar.Bar] (value [mondrian.rolap.RolapStar$Bar@aa8deb]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.rolap.RolapStar$1] (value [mondrian.rolap.RolapStar$1@3d4b3fa4]) and a value of type [mondrian.rolap.RolapStar.Bar] (value [mondrian.rolap.RolapStar$Bar@173f476c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.rolap.RolapStar$1] (value [mondrian.rolap.RolapStar$1@3b6a0f60]) and a value of type [mondrian.rolap.RolapStar.Bar] (value [mondrian.rolap.RolapStar$Bar@30178619]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.rolap.RolapStar$1] (value [mondrian.rolap.RolapStar$1@5864ebf9]) and a value of type [mondrian.rolap.RolapStar.Bar] (value [mondrian.rolap.RolapStar$Bar@49c055c5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@723f1e56]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.rolap.RolapStar$1] (value [mondrian.rolap.RolapStar$1@de0dab3]) and a value of type [mondrian.rolap.RolapStar.Bar] (value [mondrian.rolap.RolapStar$Bar@253624e3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.rolap.RolapStar$1] (value [mondrian.rolap.RolapStar$1@5afc62b]) and a value of type [mondrian.rolap.RolapStar.Bar] (value [mondrian.rolap.RolapStar$Bar@56fb33f7]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.rolap.RolapStar$1] (value [mondrian.rolap.RolapStar$1@610c9be]) and a value of type [mondrian.rolap.RolapStar.Bar] (value [mondrian.rolap.RolapStar$Bar@382cdc0e]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@723f1e56]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@723f1e56]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@723f1e56]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@723f1e56]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@723f1e56]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@723f1e56]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@723f1e56]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@723f1e56]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@723f1e56]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/paineis] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@723f1e56]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+GRAVE: The web application [/saiku] registered the JDBC driver [mondrian.olap4j.MondrianOlap4jDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+GRAVE: The web application [/saiku] registered the JDBC driver [org.hsqldb.jdbcDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+GRAVE: The web application [/saiku] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [org.apache.commons.vfs.cache.SoftRefFilesCache$SoftRefReleaseThread] but has failed to stop it. This is very likely to create a memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [Mondrian Monitor] but has failed to stop it. This is very likely to create a memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [mondrian.rolap.agg.SegmentCacheManager$ACTOR] but has failed to stop it. This is very likely to create a memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [mondrian.rolap.RolapResultShepherd#timer] but has failed to stop it. This is very likely to create a memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [Timer-1] but has failed to stop it. This is very likely to create a memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/saiku] appears to have started a thread named [mondrian.util.ExpiringReference$timer] but has failed to stop it. This is very likely to create a memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [mondrian.rolap.RolapStar$1] (value [mondrian.rolap.RolapStar$1@572132b4]) and a value of type [mondrian.rolap.RolapStar.Bar] (value [mondrian.rolap.RolapStar$Bar@27bff6c8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@2be2d8db]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [mondrian.rolap.RolapStar$1] (value [mondrian.rolap.RolapStar$1@3a0b285f]) and a value of type [mondrian.rolap.RolapStar.Bar] (value [mondrian.rolap.RolapStar$Bar@328792be]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@2be2d8db]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@2be2d8db]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@2be2d8db]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@2be2d8db]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/saiku] created a ThreadLocal with key of type [mondrian.server.Locus$1] (value [mondrian.server.Locus$1@2be2d8db]) and a value of type [java.util.Stack] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dez 17, 2014 1:12:12 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-bio-80"]
+Dez 17, 2014 1:12:12 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dez 17, 2014 1:12:12 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-bio-80"]
+Dez 17, 2014 1:12:12 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-bio-8009"]
+Dez 17, 2014 1:28:15 PM org.apache.catalina.core.AprLifecycleListener init
+INFORMAÇÕES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dez 17, 2014 1:28:16 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-bio-80"]
+Dez 17, 2014 1:28:16 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dez 17, 2014 1:28:16 PM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 1447 ms
+Dez 17, 2014 1:28:16 PM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+Dez 17, 2014 1:28:16 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.29
+Dez 17, 2014 1:28:16 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/opt/tomcat7/webapps/dataseppir-admin.war
+Dez 17, 2014 1:28:20 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 17, 2014 1:28:20 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 17, 2014 1:28:20 PM org.apache.catalina.core.StandardContext startInternal
+GRAVE: Error listenerStart
+Dez 17, 2014 1:28:20 PM org.apache.catalina.core.StandardContext startInternal
+GRAVE: Context [/dataseppir-admin] startup failed due to previous errors
+Dez 17, 2014 1:28:20 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/opt/tomcat7/webapps/geo.war
+Dez 17, 2014 1:28:21 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 17, 2014 1:28:21 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 17, 2014 1:28:22 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMAÇÕES: Deploying web application archive /home/opt/tomcat7/webapps/paineis.war
+Dez 17, 2014 1:28:24 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 17, 2014 1:28:24 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 17, 2014 1:28:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/ROOT
+Dez 17, 2014 1:28:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 17, 2014 1:28:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 17, 2014 1:28:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/manager
+Dez 17, 2014 1:28:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 17, 2014 1:28:25 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 17, 2014 1:28:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/saiku
+Dez 17, 2014 1:28:37 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 17, 2014 1:28:37 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 17, 2014 1:28:42 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFORMAÇÕES: Scanning for root resource and provider classes in the packages:
+  org.saiku.web
+Dez 17, 2014 1:28:42 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFORMAÇÕES: Root resource classes found:
+  class org.saiku.web.rest.resources.StatisticsResource
+  class org.saiku.web.rest.resources.BasicRepositoryResource
+  class org.saiku.web.rest.resources.BasicRepositoryResource2
+  class org.saiku.web.rest.resources.ExporterResource
+  class org.saiku.web.rest.resources.DataSourceResource
+  class org.saiku.web.rest.resources.BasicTagRepositoryResource
+  class org.saiku.web.rest.resources.SessionResource
+  class org.saiku.web.rest.resources.QueryResource
+  class org.saiku.web.rest.resources.OlapDiscoverResource
+Dez 17, 2014 1:28:42 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFORMAÇÕES: No provider classes found.
+Dez 17, 2014 1:28:42 PM org.codehaus.enunciate.modules.jersey.EnunciateJerseyServletContainer configure
+INFORMAÇÕES: org.codehaus.enunciate.modules.amf.JAXRSProvider not found.
+Dez 17, 2014 1:28:42 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, datasourceResourceBean, of type org.saiku.web.rest.resources.DataSourceResource as a root resource class
+Dez 17, 2014 1:28:42 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, olapDiscoverBean, of type org.saiku.web.rest.resources.OlapDiscoverResource as a root resource class
+Dez 17, 2014 1:28:42 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, queryResource, of type org.saiku.web.rest.resources.QueryResource as a root resource class
+Dez 17, 2014 1:28:42 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, sessionResource, of type org.saiku.web.rest.resources.SessionResource as a root resource class
+Dez 17, 2014 1:28:42 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, repositoryBean, of type org.saiku.web.rest.resources.BasicRepositoryResource as a root resource class
+Dez 17, 2014 1:28:42 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, repository2bean, of type org.saiku.web.rest.resources.BasicRepositoryResource2 as a root resource class
+Dez 17, 2014 1:28:42 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, tagRepositoryBean, of type org.saiku.web.rest.resources.BasicTagRepositoryResource as a root resource class
+Dez 17, 2014 1:28:42 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, exporterBean, of type org.saiku.web.rest.resources.ExporterResource as a root resource class
+Dez 17, 2014 1:28:42 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFORMAÇÕES: Registering Spring bean, statsBean, of type org.saiku.web.rest.resources.StatisticsResource as a root resource class
+Dez 17, 2014 1:28:42 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFORMAÇÕES: Initiating Jersey application, version 'Jersey: 1.11 12/09/2011 10:27 AM'
+Dez 17, 2014 1:28:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/docs
+Dez 17, 2014 1:28:44 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 17, 2014 1:28:44 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 17, 2014 1:28:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/analise
+Dez 17, 2014 1:28:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 17, 2014 1:28:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 17, 2014 1:28:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory /home/opt/tomcat7/webapps/host-manager
+Dez 17, 2014 1:28:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 17, 2014 1:28:45 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMAÇÕES: TLD skipped. URI: http://velocity.apache.org/velocity-view is already defined
+Dez 17, 2014 1:28:45 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-bio-80"]
+Dez 17, 2014 1:28:45 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-bio-8009"]
+Dez 17, 2014 1:28:45 PM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 29328 ms
+Dez 17, 2014 4:09:27 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Carregando configurações de /opt/tomcat7/conf/olap.properties
+Dez 17, 2014 4:09:27 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - Driver: org.postgresql.Driver
+Dez 17, 2014 4:09:27 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: - URL: jdbc:postgresql://localhost:5432/seppir
+Dez 17, 2014 4:09:28 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Conexão OLAP estabelecida com sucesso.
+Dez 17, 2014 4:09:28 PM org.iadb.seppir.monitor.OlapCurrentService init
+INFORMAÇÕES: Conexão SQL estabelecida com sucesso.
+Dez 17, 2014 4:09:28 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 17, 2014 4:09:28 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 17, 2014 4:09:28 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 17, 2014 4:09:28 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 17, 2014 4:09:28 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select nome,cod_mes_atual,ano_atual from tbl_config_cubos where nome='PBQ Dados Integrados';
+Dez 17, 2014 4:09:29 PM org.iadb.seppir.monitor.OlapCurrentService getRows
+INFORMAÇÕES: select id_comunidade,nome_comunidade,nome_territorio,(case status_incra_territorio when 1 then '3 - Decreto' when 2 then '2 - Portaria' when 3 then '2 - Portaria' when 4 then '1 - RTID' when 5 then '4 - Titulada' else '0 - Certificada' end) as nome_status,(select sigla_uf from tbl_ibge_municipios as m left join tbl_ibge_ufs as u on m.cod_uf = u.cod_uf where cod_7 = cod_7_ibge_municipio) as uf from tbl_seppir_quilombola_comunidade as c left join tbl_seppir_quilombola_territorio as t on c.id_territorio=t.id_territorio;
+Dez 17, 2014 4:09:29 PM org.iadb.seppir.monitor.CubeNavigatorServlet init
+INFORMAÇÕES: Servlet inicializado com sucesso: CubeProviderServlet. Este servlet provê informações sobre os Cubos existentes
+Dez 17, 2014 4:09:29 PM org.iadb.seppir.monitor.DataProviderServlet init
+INFORMAÇÕES: Servlet inicializado com sucesso: DataProviderServlet. Este servlet intermedia a comunicação entre Painéis e Cubos

@@ -1,0 +1,7 @@
+10.1.2.101 - - [31/Jul/2015:14:23:15 -0300] "GET /servicos_pbq HTTP/1.1" 404 991 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36"
+10.1.2.101 - - [31/Jul/2015:14:23:15 -0300] "GET /favicon.ico HTTP/1.1" 200 1150 "http://10.210.5.50/servicos_pbq" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36"
+10.1.2.101 - - [31/Jul/2015:14:23:55 -0300] "GET /sevicos_pbq HTTP/1.1" 404 988 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+10.1.2.101 - - [31/Jul/2015:14:24:14 -0300] "GET /sevicos_pbq HTTP/1.1" 404 988 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+10.1.2.101 - - [31/Jul/2015:14:24:14 -0300] "GET /favicon.ico HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+10.1.2.101 - - [31/Jul/2015:14:24:18 -0300] "GET /sevi%C3%A7os_pbq HTTP/1.1" 404 1003 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"
+10.1.2.101 - - [31/Jul/2015:14:24:25 -0300] "GET /sevicos_pbq HTTP/1.1" 404 988 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0"

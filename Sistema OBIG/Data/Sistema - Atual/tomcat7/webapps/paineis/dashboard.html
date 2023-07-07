@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- //////////////////////////////////////
+    C. A. L. Oliveira
+	clins@iadb.org
+	
+	Inter-American Development Bank
+	Gender and Diversity Division, 2015
+ /////////////////////////////////////// -->
+<head>
+  <meta charset="utf-8">
+  <!-- meta http-equiv="cache-control" content="max-age=0" />
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="expires" content="0" />
+  <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+  <meta http-equiv="pragma" content="no-cache" / -->
+  
+  <title>Painel Observa Gênero</title>
+  
+  
+  
+  <link rel="stylesheet" href="css/colorbrewer/colorbrewer.css"/>
+  <link rel="stylesheet" href="css/smoothness/jquery-ui-1.10.3.custom.min.css"/>
+  
+  <link rel="stylesheet" href="css/dataTables.css"/>
+  <link rel="stylesheet" href="css/alertify.core.css"/>
+  <link rel="stylesheet" href="css/alertify.default.css"/>
+  <link rel="stylesheet" href="css/base.css"/>
+  <link rel="stylesheet" href="css/base.layout.css"/>
+  <link rel="stylesheet" href="css/charts.css"/>
+  <link rel="stylesheet" href="css/charts.layout.css"/>
+  <link rel="stylesheet" href="css/branding.css"/>
+    
+</head>
+
+<body>
+  
+
+  <div id="app" class="appContainer">
+    <p>Carregando... <img src="img/loading-small-blue.gif"/></p>
+  </div>
+
+
+  <script src="js/lib/jquery-1.11.1.js"></script>
+  <script src="js/lib/underscore.js"></script>
+  <script src="js/lib/backbone.js"></script>
+  <script src="js/lib/d3.v3.min.js"></script>
+  <script src="js/lib/d3pie.min.js"></script>
+  <script src="js/lib/jquery-ui-1.10.3.custom.min.js"></script>
+  <script src="js/lib/alertify.min.js"></script>
+  <script src="js/lib/jquery.dataTables.min.js"></script>
+  <script src="js/lib/jquery.blockUI.js"></script>
+  <!-- script src="js/lib/intro/intro.min.js"></script -->
+  <!-- script src="js/lib/mason.min.js"></script -->
+  <!--  script src="backbone.localStorage.js"></script -->
+  
+  <script src="js/Lang.js"></script>
+  <!-- MODELS -->
+  <script src="js/model/charts/Legend.js"></script>
+  <script src="js/model/charts/SelectionBox.js"></script>
+  <script src="js/model/charts/HTMLSnippet.js"></script>
+  <script src="js/model/data/DataUtils.js"></script>
+  <script src="js/model/layout/LayoutFactory.js"></script>
+  <script src="js/model/layout/Layout.js"></script>
+  <script src="js/model/Error.js"></script>
+  <script src="js/model/charts/PercentageArc.js"></script>
+  <script src="js/model/charts/People.js"></script>
+  <script src="js/model/charts/Plot2D.js"></script>
+  <script src="js/model/charts/Pie.js"></script>
+  <script src="js/model/charts/SVGMap.js"></script>
+  <script src="js/model/charts/Table.js"></script>
+  <script src="js/model/charts/RowValue.js"></script>
+  <script src="js/model/charts/Comparator.js"></script>
+  <script src="js/model/charts/Datatable.js"></script>
+  <script src="js/model/Indicator.js"></script>
+  <script src="js/model/IndicatorFactory.js"></script>  
+  <script src="js/model/Catalog.js"></script>
+  
+  <!-- VIEWS -->
+  <script src="js/view/charts/LegendView.js"></script>
+  <script src="js/view/charts/SelectionBoxView.js"></script>
+  <script src="js/view/charts/HTMLSnippetView.js"></script>
+  <script src="js/view/charts/PercentageArcView.js"></script>
+  <script src="js/view/charts/PeopleView.js"></script>
+  <script src="js/view/charts/Plot2DView.js"></script>
+  <script src="js/view/charts/PieView.js"></script>
+  <script src="js/view/charts/SVGMapView.js"></script>
+  <script src="js/view/charts/TableView.js"></script>
+  <script src="js/view/charts/RowValueView.js"></script>
+  <script src="js/view/charts/ComparatorView.js"></script>
+  <script src="js/view/charts/DatatableView.js"></script>
+  <script src="js/view/charts/ChartViewFactory.js"></script>
+  
+  <script src="js/view/ErrorView.js"></script>
+  <script src="js/view/IndicatorGraphicView.js"></script>
+  <script src="js/view/CatalogView.js"></script>
+  <script src="js/view/NavigatorView.js"></script>
+  
+  <!-- MAIN APP -->
+  <script src="js/main.js"></script>
+
+  <!-- Templates -->
+  <script type="text/template" id="navigator-template">
+	
+    <div id="app-banner">
+		
+		<h1>Painel Observa Gênero</h1>
+	</div>						
+    <div id="app-menu">  
+  	</div>
+	<div id="app-workspace">
+	</div>
+  	<div id="app-footer">
+		<div>Governo Federal
+		<br><b>Ministério das Mulheres, da Igualdade Racial, da Juventude e dos Direitos Humanos</b>
+		<br>Secretaria Especial de Políticas para as Mulheres, SPM</div>
+    </div>
+  </script>
+  
+  <script type="text/template" id="mainMenu-template">
+    <div class="menu" id="mainMenu">
+	<ul>
+		<% _.each(menu, function(item) { %>
+                    <li><a title="<%= item.desc %>"
+                        href="#<%= item.href %>" <% var current = window.location.hash; var sidx=window.location.hash.lastIndexOf('/'); if (sidx > 8) current=window.location.hash.substring(0, sidx); if (current == '#'+item.href) print('class="active"'); %> >
+						<%= item.caption %>
+						</a>
+                    </li>
+        <% }); %>
+	</ul>
+	</div>
+  </script>
+  
+  <script type="text/template" id="chart-template">    
+		<p class="chart-title"><%= title %></p>
+		<svg style="position: relative; left:0px; top:0px; z-index:1;"></svg>
+		<p class="chart-footer"><%= info %></p>
+		<div class="chart-legend"></div>
+  </script>
+  
+  <script type="text/template" id="legend-template">
+    <div class="legend-container">
+		<% for (var i=0; i < numCols; i++) { %>
+			 <div class="legend-col" style="width: <% print((100/numCols).toFixed(0) + '%'); %>;">
+			 <% for (var j=0; j < numRows; j++) { %>
+				  <div class="legend-item">
+					<% if (labels.length > i*numRows + j) { %>
+                      <div class="legend-color" style="background-color: <%= colors[i*numRows + j] %>;"></div>
+					  <span class="legend-label"><%= labels[i*numRows + j] %></span>
+					<% } %>
+				 </div>
+			<% } %>
+			</div>
+        <% } %>
+	</div>
+  </script>
+
+  <script type="text/template" id="indicator-template">
+		<div class="indicator-header">
+			<span class="indicator-title">Indicador</span>			
+		</div>
+		<div class="indicator-toolbar">			
+			<a href="#layout/catalog/<% print(encodeURIComponent(name)); %>" class="indicator-tool catalog" title="Catálogo de Indicadores: Para mais informações sobre este indicador, clique aqui"></a>
+			<a href="<%= dataUrl %>" class="indicator-tool tabular" title="Baixar dados em formato CSV"></a>
+			
+			<span class="indicator-filter-text"></span>
+		</div>
+		<div class="indicator-visualization"></div>
+		<div class="indicator-footer">Fonte: </div>
+  </script>
+  
+  <script type="text/template" id="error-template">    
+		<p class="error-title">Erro</p>
+		<div class="error-contents"><%= error %></div>
+		<div class="error-details"><%= details %></div>
+  </script>
+  
+  <script type="text/template" id="catalog-template">
+	<img src="img/icon/book_31x31.png" style="float:left"/><h2><font face="Open Sans">Catálogo de indicadores disponíveis no painel</font></h2>
+    <div class="catalog-container">
+		<% for (var i=0; i < indicators.length; i++) { %>
+			 <h3><%= indicators[i].name %></h3>
+			 <div class="catalog-indicator-data">
+				<p><%= indicators[i].info %></p>
+				<div>
+				 <b>Fonte:</b> <%= indicators[i].source %><br/>
+				 <b>Data de Referência:</b> <%= indicators[i].date %><br/>
+				 <b>Fórmula de Cálculo:</b> <%= indicators[i].formula %>
+				</div>
+				<p><a href="csv/<%= indicators[i].id %>.csv"><img src="img/icon/disket_16x16.png"/> Baixar dados em formato CSV</a></p>
+			 </div>
+        <% } %>
+	</div>
+  </script>
+  
+  <script type="text/template" id="table-chart-template">
+	<div class="table-title"><p><%= title %></p>
+		<div class="table-header-title" style="padding-left: 5px; width: <%= columnWidth[0] %>px"><%= columnLabels[0] %></div>
+		<div class="table-header-title" style="width: <%= columnWidth[1] %>px"><%= columnLabels[1] %></div>
+		<div class="table-header-title" style="width: <%= columnWidth[2] %>px"><%= columnLabels[2] %></div>
+		<div style="clear: both;"/>
+	</div>
+    <ul class="table-chart-contents">
+		<% for (var i=0; i < rows.length; i++) { var s = i%2 == 0 ? 'even' : 'odd'; var selectedClass = rows[i].selected ? 'selected' : ''; %>			 
+			 <li class="<%= s %> <%= selectedClass %>">
+				<div class="table-column table-row-text" style="padding-left: 5px; width: <%= columnWidth[0] %>px"><%= rows[i].name %></div>
+				<div class="table-column table-row-value" style="width: <%= columnWidth[1] %>px"><%= rows[i].value %></div>
+				<div title="<%= columnLabels[1] %>: <%= rows[i].value %>" class="table-column table-row-bar" style="height: 15px; width: <%= rows[i].width %>px; background-color: <%= rows[i].color %>;"/></div>				
+			 </li>
+        <% } %>
+	</ul>
+  </script>
+  
+  <script type="text/template" id="datatable-chart-template">
+	<table id="<%= id %>" cellspacing="0">
+		<thead>
+			<tr>
+			<% for (var i=0; i < colsIncluded.length; i++) {  %>			 
+			 	<th><%= colsIncluded[i].label %></th>
+        	<% } %>
+			</tr>
+		</thead>
+		<tbody>
+		<% for (var i=0; i < rows.length; i++) { %>	
+			 <tr>
+				<% for (var j=0; j < rows[i].length; j++) { %>
+				<td><%= rows[i][j] %></td>
+				<% } %>				
+			 </tr>
+        <% } %>
+		</tbody>
+	</table>
+  </script>
+  
+  <script type="text/template" id="comparator-template">
+		<div class='htmlBox' style='background-color:<%= background %>; float: left; width: <%= widthFormatted %>; clear: none;'>
+		<div class='symbolBox'><img src='<%= symbol %>' width='50px' height='50px'/></div>
+		<div class='valueBox'><%= valueFormatted %></div>
+		<div style='float:right;opacity:0.5;font-size:10pt;margin-top:-22px;padding:8px;'><%= text %></div>
+		<div style='clear: both'/></div>
+  </script>
+  
+  </body>
+</html>

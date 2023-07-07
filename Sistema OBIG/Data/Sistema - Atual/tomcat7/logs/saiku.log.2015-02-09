@@ -1,0 +1,357 @@
+2015-02-09 09:38:55,225 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-02-09 09:39:09,815 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/28BC5F99-65F4-755B-B71B-238668E9346E	POST	 xml:false
+2015-02-09 09:39:18,920 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/28BC5F99-65F4-755B-B71B-238668E9346E/axis/COLUMNS/dimension/Comunidade/hierarchy/[Comunidade]/[Comunidade].[Todas]	POST
+2015-02-09 09:39:18,920 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 28BC5F99-65F4-755B-B71B-238668E9346E dimension Comunidade to axis COLUMNS  position0
+2015-02-09 09:39:20,768 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/28BC5F99-65F4-755B-B71B-238668E9346E/axis/ROWS/dimension/Measures/member/[Measures].[Famílias]	POST
+2015-02-09 09:39:20,768 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 28BC5F99-65F4-755B-B71B-238668E9346E dimension Measures to axis ROWS  position0
+2015-02-09 09:39:20,821 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/28BC5F99-65F4-755B-B71B-238668E9346E/resultflattened	GET
+2015-02-09 09:39:20,821 INFO  [org.saiku.service.olap.OlapQueryService] runId:91	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[Todas as Comunidades]})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:39:21,085 INFO  [org.saiku.service.olap.OlapQueryService] runId:91	Size: 2/2	Execute:	263ms	Format:	1ms	 Total: 264ms
+2015-02-09 09:41:35,820 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/28BC5F99-65F4-755B-B71B-238668E9346E/axis/COLUMNS/dimension/Comunidade/hierarchy/[Comunidade]/[Comunidade].[Todas]	DELETE
+2015-02-09 09:41:35,820 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 28BC5F99-65F4-755B-B71B-238668E9346E dimension Comunidade to axis UNUSED  position-1
+2015-02-09 09:41:37,014 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/28BC5F99-65F4-755B-B71B-238668E9346E/axis/COLUMNS/dimension/Comunidade/hierarchy/[Comunidade]/[Comunidade].[Comunidade]	POST
+2015-02-09 09:41:37,014 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 28BC5F99-65F4-755B-B71B-238668E9346E dimension Comunidade to axis COLUMNS  position0
+2015-02-09 09:41:37,058 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/28BC5F99-65F4-755B-B71B-238668E9346E/resultflattened	GET
+2015-02-09 09:41:37,058 INFO  [org.saiku.service.olap.OlapQueryService] runId:92	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[Comunidade].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:41:37,246 INFO  [org.saiku.service.olap.OlapQueryService] runId:92	Size: 1447/2	Execute:	174ms	Format:	14ms	 Total: 188ms
+2015-02-09 09:41:40,243 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/28BC5F99-65F4-755B-B71B-238668E9346E/swapaxes	PUT
+2015-02-09 09:41:40,339 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/28BC5F99-65F4-755B-B71B-238668E9346E/resultflattened	GET
+2015-02-09 09:41:40,339 INFO  [org.saiku.service.olap.OlapQueryService] runId:93	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Famílias]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Comunidade].[Comunidade].Members})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:41:40,371 INFO  [org.saiku.service.olap.OlapQueryService] runId:93	Size: 2/1447	Execute:	16ms	Format:	16ms	 Total: 32ms
+2015-02-09 09:42:43,033 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-02-09 09:42:50,266 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09	POST	 xml:false
+2015-02-09 09:42:53,876 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/axis/COLUMNS/dimension/Comunidade/hierarchy/[Comunidade]/[Comunidade].[Comunidade]	POST
+2015-02-09 09:42:53,876 DEBUG [org.saiku.service.olap.OlapQueryService] move query: E594A985-79BB-9F11-9692-8EE3ED167C09 dimension Comunidade to axis COLUMNS  position0
+2015-02-09 09:42:54,647 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/result/metadata/dimensions/Comunidade/hierarchies/[Comunidade]/levels/[Comunidade].[Comunidade]	GET
+2015-02-09 09:42:54,739 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/axis/COLUMNS/dimension/Comunidade	GET
+2015-02-09 09:43:07,955 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/axis/COLUMNS/dimension/Comunidade	PUT	
+2015-02-09 09:43:07,959 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/axis/COLUMNS/dimension/Comunidade	GET
+2015-02-09 09:43:14,990 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/axis/ROWS/dimension/Faixa de Renda Familiar/hierarchy/[Faixa de Renda Familiar]/[Faixa de Renda Familiar].[Faixa de Renda Familiar]	POST
+2015-02-09 09:43:14,990 DEBUG [org.saiku.service.olap.OlapQueryService] move query: E594A985-79BB-9F11-9692-8EE3ED167C09 dimension Faixa de Renda Familiar to axis ROWS  position0
+2015-02-09 09:43:15,006 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/resultflattened	GET
+2015-02-09 09:43:15,006 INFO  [org.saiku.service.olap.OlapQueryService] runId:94	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[Comunidade].Members})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Faixa de Renda Familiar].[Faixa de Renda Familiar].Members})} ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:43:17,188 INFO  [org.saiku.service.olap.OlapQueryService] runId:94	Size: 1472/4	Execute:	2145ms	Format:	37ms	 Total: 2182ms
+2015-02-09 09:43:17,616 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/28BC5F99-65F4-755B-B71B-238668E9346E/axis/ROWS/dimension/Local de Domicílio/hierarchy/[Local de Domicílio]/[Local de Domicílio].[Município]	POST
+2015-02-09 09:43:17,617 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 28BC5F99-65F4-755B-B71B-238668E9346E dimension Local de Domicílio to axis ROWS  position1
+2015-02-09 09:43:18,055 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/28BC5F99-65F4-755B-B71B-238668E9346E/resultflattened	GET
+2015-02-09 09:43:18,055 INFO  [org.saiku.service.olap.OlapQueryService] runId:95	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Famílias]} ON COLUMNS,
+NON EMPTY CrossJoin([Comunidade].[Comunidade].Members, [Local de Domicílio].[Município].Members) ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:43:20,732 INFO  [org.saiku.service.olap.OlapQueryService] runId:95	Size: 3/1464	Execute:	2653ms	Format:	24ms	 Total: 2677ms
+2015-02-09 09:43:21,578 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/result/metadata/dimensions/Comunidade/hierarchies/[Comunidade]/levels/[Comunidade].[Comunidade]	GET
+2015-02-09 09:43:21,578 DEBUG [org.saiku.service.olap.OlapQueryService] Found hierarchy in the result: [Comunidade]
+2015-02-09 09:43:21,587 DEBUG [org.saiku.service.olap.OlapQueryService] Found members in the result: 1364
+2015-02-09 09:43:21,666 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/axis/COLUMNS/dimension/Comunidade	GET
+2015-02-09 09:43:24,051 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/28BC5F99-65F4-755B-B71B-238668E9346E/axis/ROWS/dimension/Local de Domicílio	POST
+2015-02-09 09:43:24,051 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 28BC5F99-65F4-755B-B71B-238668E9346E dimension Local de Domicílio to axis ROWS  position1
+2015-02-09 09:43:24,617 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/28BC5F99-65F4-755B-B71B-238668E9346E/resultflattened	GET
+2015-02-09 09:43:24,618 INFO  [org.saiku.service.olap.OlapQueryService] runId:96	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Famílias]} ON COLUMNS,
+NON EMPTY CrossJoin([Comunidade].[Comunidade].Members, [Local de Domicílio].[Município].Members) ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:43:24,657 INFO  [org.saiku.service.olap.OlapQueryService] runId:96	Size: 3/1464	Execute:	17ms	Format:	23ms	 Total: 40ms
+2015-02-09 09:43:27,568 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/28BC5F99-65F4-755B-B71B-238668E9346E/axis/ROWS/dimension/Comunidade	POST
+2015-02-09 09:43:27,568 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 28BC5F99-65F4-755B-B71B-238668E9346E dimension Comunidade to axis ROWS  position0
+2015-02-09 09:43:28,227 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/28BC5F99-65F4-755B-B71B-238668E9346E/resultflattened	GET
+2015-02-09 09:43:28,227 INFO  [org.saiku.service.olap.OlapQueryService] runId:97	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Famílias]} ON COLUMNS,
+NON EMPTY CrossJoin([Comunidade].[Comunidade].Members, [Local de Domicílio].[Município].Members) ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:43:28,266 INFO  [org.saiku.service.olap.OlapQueryService] runId:97	Size: 3/1464	Execute:	17ms	Format:	21ms	 Total: 38ms
+2015-02-09 09:43:30,022 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/axis/COLUMNS/dimension/Comunidade	PUT	
+2015-02-09 09:43:30,051 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/axis/COLUMNS/dimension/Comunidade	GET
+2015-02-09 09:43:30,237 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/resultflattened	GET
+2015-02-09 09:43:30,238 INFO  [org.saiku.service.olap.OlapQueryService] runId:98	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[CHÃO DOS NEGROS]})} ON COLUMNS,
+NON EMPTY {Hierarchize({[Faixa de Renda Familiar].[Faixa de Renda Familiar].Members})} ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:43:30,243 INFO  [org.saiku.service.olap.OlapQueryService] runId:98	Size: 2/4	Execute:	6ms	Format:	0ms	 Total: 6ms
+2015-02-09 09:43:30,278 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/28BC5F99-65F4-755B-B71B-238668E9346E/axis/ROWS/dimension/Comunidade/hierarchy/[Comunidade]/[Comunidade].[Comunidade]	DELETE
+2015-02-09 09:43:30,278 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 28BC5F99-65F4-755B-B71B-238668E9346E dimension Comunidade to axis UNUSED  position-1
+2015-02-09 09:43:30,908 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/28BC5F99-65F4-755B-B71B-238668E9346E/resultflattened	GET
+2015-02-09 09:43:30,908 INFO  [org.saiku.service.olap.OlapQueryService] runId:99	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Famílias]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Local de Domicílio].[Município].Members})} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:43:37,173 INFO  [org.saiku.service.olap.OlapQueryService] runId:99	Size: 2/1092	Execute:	6254ms	Format:	11ms	 Total: 6265ms
+2015-02-09 09:43:41,283 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/28BC5F99-65F4-755B-B71B-238668E9346E/axis/ROWS/dimension/Comunidade/hierarchy/[Comunidade]/[Comunidade].[Comunidade]	POST
+2015-02-09 09:43:41,283 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 28BC5F99-65F4-755B-B71B-238668E9346E dimension Comunidade to axis ROWS  position1
+2015-02-09 09:43:41,672 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/28BC5F99-65F4-755B-B71B-238668E9346E/resultflattened	GET
+2015-02-09 09:43:41,673 INFO  [org.saiku.service.olap.OlapQueryService] runId:100	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Famílias]} ON COLUMNS,
+NON EMPTY CrossJoin([Local de Domicílio].[Município].Members, [Comunidade].[Comunidade].Members) ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:43:46,584 INFO  [org.saiku.service.olap.OlapQueryService] runId:100	Size: 3/1464	Execute:	4892ms	Format:	19ms	 Total: 4911ms
+2015-02-09 09:43:54,942 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/28BC5F99-65F4-755B-B71B-238668E9346E/axis/COLUMNS/dimension/Faixa de Renda Familiar/hierarchy/[Faixa de Renda Familiar]/[Faixa de Renda Familiar].[Faixa de Renda Familiar]	POST
+2015-02-09 09:43:54,942 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 28BC5F99-65F4-755B-B71B-238668E9346E dimension Faixa de Renda Familiar to axis COLUMNS  position1
+2015-02-09 09:43:55,549 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/28BC5F99-65F4-755B-B71B-238668E9346E/resultflattened	GET
+2015-02-09 09:43:55,550 INFO  [org.saiku.service.olap.OlapQueryService] runId:101	Type:QM:
+SELECT
+NON EMPTY CrossJoin({[Measures].[Famílias]}, [Faixa de Renda Familiar].[Faixa de Renda Familiar].Members) ON COLUMNS,
+NON EMPTY CrossJoin([Local de Domicílio].[Município].Members, [Comunidade].[Comunidade].Members) ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:44:00,919 INFO  [org.saiku.service.olap.OlapQueryService] runId:101	Size: 5/1465	Execute:	5338ms	Format:	31ms	 Total: 5369ms
+2015-02-09 09:44:14,315 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/axis/ROWS/dimension/Tipo de Iluminação/hierarchy/[Tipo de Iluminação]/[Tipo de Iluminação].[Existência de Eletricidade]	POST
+2015-02-09 09:44:14,315 DEBUG [org.saiku.service.olap.OlapQueryService] move query: E594A985-79BB-9F11-9692-8EE3ED167C09 dimension Tipo de Iluminação to axis ROWS  position1
+2015-02-09 09:44:14,603 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/resultflattened	GET
+2015-02-09 09:44:14,603 INFO  [org.saiku.service.olap.OlapQueryService] runId:102	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[CHÃO DOS NEGROS]})} ON COLUMNS,
+NON EMPTY CrossJoin([Faixa de Renda Familiar].[Faixa de Renda Familiar].Members, [Tipo de Iluminação].[Existência de Eletricidade].Members) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:44:20,044 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/28BC5F99-65F4-755B-B71B-238668E9346E/axis/COLUMNS/dimension/Faixa de Renda Familiar/hierarchy/[Faixa de Renda Familiar]/[Faixa de Renda Familiar].[Faixa de Renda Familiar]	DELETE
+2015-02-09 09:44:20,044 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 28BC5F99-65F4-755B-B71B-238668E9346E dimension Faixa de Renda Familiar to axis UNUSED  position-1
+2015-02-09 09:44:20,902 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/28BC5F99-65F4-755B-B71B-238668E9346E/resultflattened	GET
+2015-02-09 09:44:20,902 INFO  [org.saiku.service.olap.OlapQueryService] runId:103	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Famílias]} ON COLUMNS,
+NON EMPTY CrossJoin([Local de Domicílio].[Município].Members, [Comunidade].[Comunidade].Members) ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:44:20,933 INFO  [org.saiku.service.olap.OlapQueryService] runId:103	Size: 3/1464	Execute:	15ms	Format:	16ms	 Total: 31ms
+2015-02-09 09:44:29,152 INFO  [org.saiku.service.olap.OlapQueryService] runId:102	Size: 3/4	Execute:	14549ms	Format:	0ms	 Total: 14549ms
+2015-02-09 09:44:42,460 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/axis/COLUMNS/dimension/Measures/member/[Measures].[Famílias]	POST
+2015-02-09 09:44:42,460 DEBUG [org.saiku.service.olap.OlapQueryService] move query: E594A985-79BB-9F11-9692-8EE3ED167C09 dimension Measures to axis COLUMNS  position1
+2015-02-09 09:44:42,480 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/resultflattened	GET
+2015-02-09 09:44:42,480 INFO  [org.saiku.service.olap.OlapQueryService] runId:104	Type:QM:
+SELECT
+NON EMPTY CrossJoin({[Comunidade].[CHÃO DOS NEGROS]}, {[Measures].[Famílias]}) ON COLUMNS,
+NON EMPTY CrossJoin([Faixa de Renda Familiar].[Faixa de Renda Familiar].Members, [Tipo de Iluminação].[Existência de Eletricidade].Members) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:44:42,683 INFO  [org.saiku.service.olap.OlapQueryService] runId:104	Size: 3/5	Execute:	202ms	Format:	1ms	 Total: 203ms
+2015-02-09 09:44:50,566 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/axis/ROWS/dimension/Measures	POST
+2015-02-09 09:44:50,566 DEBUG [org.saiku.service.olap.OlapQueryService] move query: E594A985-79BB-9F11-9692-8EE3ED167C09 dimension Measures to axis ROWS  position2
+2015-02-09 09:44:50,591 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/resultflattened	GET
+2015-02-09 09:44:50,592 INFO  [org.saiku.service.olap.OlapQueryService] runId:105	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[CHÃO DOS NEGROS]})} ON COLUMNS,
+NON EMPTY CrossJoin([Faixa de Renda Familiar].[Faixa de Renda Familiar].Members, CrossJoin([Tipo de Iluminação].[Existência de Eletricidade].Members, {[Measures].[Famílias]})) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:44:51,273 INFO  [org.saiku.service.olap.OlapQueryService] runId:105	Size: 4/4	Execute:	682ms	Format:	0ms	 Total: 682ms
+2015-02-09 09:44:52,143 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/axis/ROWS/dimension/Tipo de Iluminação/hierarchy/[Tipo de Iluminação]/[Tipo de Iluminação].[Existência de Eletricidade]	DELETE
+2015-02-09 09:44:52,143 DEBUG [org.saiku.service.olap.OlapQueryService] move query: E594A985-79BB-9F11-9692-8EE3ED167C09 dimension Tipo de Iluminação to axis UNUSED  position-1
+2015-02-09 09:44:52,171 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/resultflattened	GET
+2015-02-09 09:44:52,172 INFO  [org.saiku.service.olap.OlapQueryService] runId:106	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[CHÃO DOS NEGROS]})} ON COLUMNS,
+NON EMPTY CrossJoin([Faixa de Renda Familiar].[Faixa de Renda Familiar].Members, {[Measures].[Famílias]}) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:44:52,400 INFO  [org.saiku.service.olap.OlapQueryService] runId:106	Size: 3/4	Execute:	228ms	Format:	0ms	 Total: 228ms
+2015-02-09 09:44:54,812 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/axis/ROWS/dimension/Faixa de Renda Familiar/hierarchy/[Faixa de Renda Familiar]/[Faixa de Renda Familiar].[Faixa de Renda Familiar]	DELETE
+2015-02-09 09:44:54,812 DEBUG [org.saiku.service.olap.OlapQueryService] move query: E594A985-79BB-9F11-9692-8EE3ED167C09 dimension Faixa de Renda Familiar to axis UNUSED  position-1
+2015-02-09 09:44:54,837 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/resultflattened	GET
+2015-02-09 09:44:54,837 INFO  [org.saiku.service.olap.OlapQueryService] runId:107	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[CHÃO DOS NEGROS]})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:44:54,842 INFO  [org.saiku.service.olap.OlapQueryService] runId:107	Size: 2/2	Execute:	5ms	Format:	0ms	 Total: 5ms
+2015-02-09 09:45:06,251 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/result/metadata/dimensions/Comunidade/hierarchies/[Comunidade]/levels/[Comunidade].[Comunidade]	GET
+2015-02-09 09:45:06,251 DEBUG [org.saiku.service.olap.OlapQueryService] Found hierarchy in the result: [Comunidade]
+2015-02-09 09:45:06,252 DEBUG [org.saiku.service.olap.OlapQueryService] Found members in the result: 1
+2015-02-09 09:45:06,351 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/axis/COLUMNS/dimension/Comunidade	GET
+2015-02-09 09:45:26,040 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09/resultflattened	GET
+2015-02-09 09:45:26,041 INFO  [org.saiku.service.olap.OlapQueryService] runId:108	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[CHÃO DOS NEGROS]})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:45:26,046 INFO  [org.saiku.service.olap.OlapQueryService] runId:108	Size: 2/2	Execute:	4ms	Format:	1ms	 Total: 5ms
+2015-02-09 09:45:35,126 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/191CEBB5-0C17-75DC-B068-E2EC747A5628	POST	 xml:false
+2015-02-09 09:45:40,098 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/191CEBB5-0C17-75DC-B068-E2EC747A5628	DELETE
+2015-02-09 09:45:40,121 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F7AAC8DC-D40B-1486-B87F-C23FE5DF660E	POST	 xml:false
+2015-02-09 09:45:45,638 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F7AAC8DC-D40B-1486-B87F-C23FE5DF660E/axis/COLUMNS/dimension/Measures/member/[Measures].[Famílias]	POST
+2015-02-09 09:45:45,639 DEBUG [org.saiku.service.olap.OlapQueryService] move query: F7AAC8DC-D40B-1486-B87F-C23FE5DF660E dimension Measures to axis COLUMNS  position0
+2015-02-09 09:45:50,007 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F7AAC8DC-D40B-1486-B87F-C23FE5DF660E/axis/ROWS/dimension/Comunidade/hierarchy/[Comunidade]/[Comunidade].[Comunidade]	POST
+2015-02-09 09:45:50,007 DEBUG [org.saiku.service.olap.OlapQueryService] move query: F7AAC8DC-D40B-1486-B87F-C23FE5DF660E dimension Comunidade to axis ROWS  position0
+2015-02-09 09:45:50,069 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F7AAC8DC-D40B-1486-B87F-C23FE5DF660E/resultflattened	GET
+2015-02-09 09:45:50,069 INFO  [org.saiku.service.olap.OlapQueryService] runId:109	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Famílias]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Comunidade].[Comunidade].Members})} ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:45:50,274 INFO  [org.saiku.service.olap.OlapQueryService] runId:109	Size: 2/1472	Execute:	196ms	Format:	9ms	 Total: 205ms
+2015-02-09 09:45:55,578 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/E594A985-79BB-9F11-9692-8EE3ED167C09	DELETE
+2015-02-09 09:45:55,585 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05	POST	 xml:false
+2015-02-09 09:45:59,302 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F7AAC8DC-D40B-1486-B87F-C23FE5DF660E/axis/ROWS/dimension/Ⓣ Período/hierarchy/[Ⓣ Período]/[Ⓣ Período].[Mês]	POST
+2015-02-09 09:45:59,302 DEBUG [org.saiku.service.olap.OlapQueryService] move query: F7AAC8DC-D40B-1486-B87F-C23FE5DF660E dimension Ⓣ Período to axis ROWS  position1
+2015-02-09 09:45:59,774 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F7AAC8DC-D40B-1486-B87F-C23FE5DF660E/resultflattened	GET
+2015-02-09 09:45:59,775 INFO  [org.saiku.service.olap.OlapQueryService] runId:110	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Famílias]} ON COLUMNS,
+NON EMPTY CrossJoin([Comunidade].[Comunidade].Members, [Ⓣ Período].[Mês].Members) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:46:00,621 INFO  [org.saiku.service.olap.OlapQueryService] runId:110	Size: 3/4280	Execute:	790ms	Format:	57ms	 Total: 847ms
+2015-02-09 09:46:00,814 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/axis/COLUMNS/dimension/Comunidade/hierarchy/[Comunidade]/[Comunidade].[Comunidade]	POST
+2015-02-09 09:46:00,814 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 7843A84A-C771-9ED6-BC07-B316EA0B1E05 dimension Comunidade to axis COLUMNS  position0
+2015-02-09 09:46:01,400 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/result/metadata/dimensions/Comunidade/hierarchies/[Comunidade]/levels/[Comunidade].[Comunidade]	GET
+2015-02-09 09:46:01,485 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/axis/COLUMNS/dimension/Comunidade	GET
+2015-02-09 09:46:09,547 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/axis/COLUMNS/dimension/Comunidade	PUT	
+2015-02-09 09:46:09,554 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/axis/COLUMNS/dimension/Comunidade	GET
+2015-02-09 09:46:14,910 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/axis/ROWS/dimension/Measures/member/[Measures].[Famílias]	POST
+2015-02-09 09:46:14,910 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 7843A84A-C771-9ED6-BC07-B316EA0B1E05 dimension Measures to axis ROWS  position0
+2015-02-09 09:46:14,929 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/resultflattened	GET
+2015-02-09 09:46:14,929 INFO  [org.saiku.service.olap.OlapQueryService] runId:111	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[CHÃO DOS NEGROS]})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias]} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:46:14,975 INFO  [org.saiku.service.olap.OlapQueryService] runId:111	Size: 2/2	Execute:	45ms	Format:	1ms	 Total: 46ms
+2015-02-09 09:46:24,431 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F7AAC8DC-D40B-1486-B87F-C23FE5DF660E/axis/ROWS/dimension/Comunidade/hierarchy/[Comunidade]/[Comunidade].[Comunidade]	DELETE
+2015-02-09 09:46:24,431 DEBUG [org.saiku.service.olap.OlapQueryService] move query: F7AAC8DC-D40B-1486-B87F-C23FE5DF660E dimension Comunidade to axis UNUSED  position-1
+2015-02-09 09:46:26,116 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F7AAC8DC-D40B-1486-B87F-C23FE5DF660E/resultflattened	GET
+2015-02-09 09:46:26,116 INFO  [org.saiku.service.olap.OlapQueryService] runId:112	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Famílias]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Ⓣ Período].[Mês].Members})} ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:46:26,361 INFO  [org.saiku.service.olap.OlapQueryService] runId:112	Size: 2/4	Execute:	244ms	Format:	1ms	 Total: 245ms
+2015-02-09 09:46:27,272 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F7AAC8DC-D40B-1486-B87F-C23FE5DF660E/axis/ROWS/dimension/Ⓣ Período/hierarchy/[Ⓣ Período]/[Ⓣ Período].[Mês]	DELETE
+2015-02-09 09:46:27,273 DEBUG [org.saiku.service.olap.OlapQueryService] move query: F7AAC8DC-D40B-1486-B87F-C23FE5DF660E dimension Ⓣ Período to axis UNUSED  position-1
+2015-02-09 09:46:27,364 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/axis/ROWS/dimension/Measures/member/[Measures].[Média das Rendas Médias]	POST
+2015-02-09 09:46:27,364 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 7843A84A-C771-9ED6-BC07-B316EA0B1E05 dimension Measures to axis ROWS  position0
+2015-02-09 09:46:27,388 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/resultflattened	GET
+2015-02-09 09:46:27,389 INFO  [org.saiku.service.olap.OlapQueryService] runId:113	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[CHÃO DOS NEGROS]})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias], [Measures].[Média das Rendas Médias]} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:46:27,468 INFO  [org.saiku.service.olap.OlapQueryService] runId:113	Size: 2/3	Execute:	44ms	Format:	35ms	 Total: 79ms
+2015-02-09 09:46:29,025 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F7AAC8DC-D40B-1486-B87F-C23FE5DF660E/axis/ROWS/dimension/Comunidade/hierarchy/[Comunidade]/[Comunidade].[Todas]	POST
+2015-02-09 09:46:29,025 DEBUG [org.saiku.service.olap.OlapQueryService] move query: F7AAC8DC-D40B-1486-B87F-C23FE5DF660E dimension Comunidade to axis ROWS  position0
+2015-02-09 09:46:29,087 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F7AAC8DC-D40B-1486-B87F-C23FE5DF660E/resultflattened	GET
+2015-02-09 09:46:29,087 INFO  [org.saiku.service.olap.OlapQueryService] runId:114	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Famílias]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Comunidade].[Todas as Comunidades]})} ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:46:29,151 INFO  [org.saiku.service.olap.OlapQueryService] runId:114	Size: 2/2	Execute:	63ms	Format:	0ms	 Total: 63ms
+2015-02-09 09:46:35,040 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/axis/ROWS/dimension/Measures/member/[Measures].[• Famílias que Contam com Tratamento de Esgoto]	POST
+2015-02-09 09:46:35,040 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 7843A84A-C771-9ED6-BC07-B316EA0B1E05 dimension Measures to axis ROWS  position0
+2015-02-09 09:46:35,062 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/resultflattened	GET
+2015-02-09 09:46:35,063 INFO  [org.saiku.service.olap.OlapQueryService] runId:115	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[CHÃO DOS NEGROS]})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias], [Measures].[Média das Rendas Médias], [Measures].[• Famílias que Contam com Tratamento de Esgoto]} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:46:35,117 INFO  [org.saiku.service.olap.OlapQueryService] runId:115	Size: 2/4	Execute:	54ms	Format:	0ms	 Total: 54ms
+2015-02-09 09:46:36,877 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F7AAC8DC-D40B-1486-B87F-C23FE5DF660E/axis/ROWS/dimension/Ⓣ Período/hierarchy/[Ⓣ Período]/[Ⓣ Período].[Mês]	POST
+2015-02-09 09:46:36,878 DEBUG [org.saiku.service.olap.OlapQueryService] move query: F7AAC8DC-D40B-1486-B87F-C23FE5DF660E dimension Ⓣ Período to axis ROWS  position1
+2015-02-09 09:46:36,973 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/F7AAC8DC-D40B-1486-B87F-C23FE5DF660E/resultflattened	GET
+2015-02-09 09:46:36,973 INFO  [org.saiku.service.olap.OlapQueryService] runId:116	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Famílias]} ON COLUMNS,
+NON EMPTY CrossJoin({[Comunidade].[Todas as Comunidades]}, [Ⓣ Período].[Mês].Members) ON ROWS
+FROM [Hist. PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:46:37,078 INFO  [org.saiku.service.olap.OlapQueryService] runId:116	Size: 3/4	Execute:	104ms	Format:	1ms	 Total: 105ms
+2015-02-09 09:46:46,094 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/axis/ROWS/dimension/Measures/member/[Measures].[Taxa de Famílias com Energia Elétrica]	POST
+2015-02-09 09:46:46,094 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 7843A84A-C771-9ED6-BC07-B316EA0B1E05 dimension Measures to axis ROWS  position0
+2015-02-09 09:46:46,114 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/resultflattened	GET
+2015-02-09 09:46:46,114 INFO  [org.saiku.service.olap.OlapQueryService] runId:117	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[CHÃO DOS NEGROS]})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias], [Measures].[Média das Rendas Médias], [Measures].[• Famílias que Contam com Tratamento de Esgoto], [Measures].[Taxa de Famílias com Energia Elétrica]} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:46:46,196 INFO  [org.saiku.service.olap.OlapQueryService] runId:117	Size: 2/5	Execute:	80ms	Format:	2ms	 Total: 82ms
+2015-02-09 09:51:06,445 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/axis/ROWS/dimension/Measures/member/[Measures].[Famílias que Tem Coleta de Lixo]	POST
+2015-02-09 09:51:06,445 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 7843A84A-C771-9ED6-BC07-B316EA0B1E05 dimension Measures to axis ROWS  position0
+2015-02-09 09:51:06,463 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/resultflattened	GET
+2015-02-09 09:51:06,463 INFO  [org.saiku.service.olap.OlapQueryService] runId:118	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[CHÃO DOS NEGROS]})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias], [Measures].[Média das Rendas Médias], [Measures].[• Famílias que Contam com Tratamento de Esgoto], [Measures].[Taxa de Famílias com Energia Elétrica], [Measures].[Famílias que Tem Coleta de Lixo]} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:51:06,517 INFO  [org.saiku.service.olap.OlapQueryService] runId:118	Size: 2/6	Execute:	53ms	Format:	1ms	 Total: 54ms
+2015-02-09 09:51:11,890 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/axis/ROWS/dimension/Measures/member/[Measures].[• Famílias com Água Canalizada]	POST
+2015-02-09 09:51:11,890 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 7843A84A-C771-9ED6-BC07-B316EA0B1E05 dimension Measures to axis ROWS  position0
+2015-02-09 09:51:11,911 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/resultflattened	GET
+2015-02-09 09:51:11,911 INFO  [org.saiku.service.olap.OlapQueryService] runId:119	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[CHÃO DOS NEGROS]})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias], [Measures].[Média das Rendas Médias], [Measures].[• Famílias que Contam com Tratamento de Esgoto], [Measures].[Taxa de Famílias com Energia Elétrica], [Measures].[Famílias que Tem Coleta de Lixo], [Measures].[• Famílias com Água Canalizada]} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:51:11,968 INFO  [org.saiku.service.olap.OlapQueryService] runId:119	Size: 2/7	Execute:	56ms	Format:	1ms	 Total: 57ms
+2015-02-09 09:51:25,178 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/axis/ROWS/dimension/Local de Domicílio/hierarchy/[Local de Domicílio]/[Local de Domicílio].[Município]	POST
+2015-02-09 09:51:25,178 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 7843A84A-C771-9ED6-BC07-B316EA0B1E05 dimension Local de Domicílio to axis ROWS  position1
+2015-02-09 09:51:25,201 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/resultflattened	GET
+2015-02-09 09:51:25,201 INFO  [org.saiku.service.olap.OlapQueryService] runId:120	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Comunidade].[CHÃO DOS NEGROS]})} ON COLUMNS,
+NON EMPTY Hierarchize(Union(CrossJoin({[Measures].[Famílias]}, [Local de Domicílio].[Município].Members), Union(CrossJoin({[Measures].[Média das Rendas Médias]}, [Local de Domicílio].[Município].Members), Union(CrossJoin({[Measures].[• Famílias que Contam com Tratamento de Esgoto]}, [Local de Domicílio].[Município].Members), Union(CrossJoin({[Measures].[Taxa de Famílias com Energia Elétrica]}, [Local de Domicílio].[Município].Members), Union(CrossJoin({[Measures].[Famílias que Tem Coleta de Lixo]}, [Local de Domicílio].[Município].Members), CrossJoin({[Measures].[• Famílias com Água Canalizada]}, [Local de Domicílio].[Município].Members))))))) ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:51:32,926 INFO  [org.saiku.service.olap.OlapQueryService] runId:120	Size: 3/7	Execute:	7724ms	Format:	1ms	 Total: 7725ms
+2015-02-09 09:51:49,031 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/axis/COLUMNS/dimension/Local de Domicílio	POST
+2015-02-09 09:51:49,031 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 7843A84A-C771-9ED6-BC07-B316EA0B1E05 dimension Local de Domicílio to axis COLUMNS  position0
+2015-02-09 09:51:49,053 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/resultflattened	GET
+2015-02-09 09:51:49,053 INFO  [org.saiku.service.olap.OlapQueryService] runId:121	Type:QM:
+SELECT
+NON EMPTY CrossJoin([Local de Domicílio].[Município].Members, {[Comunidade].[CHÃO DOS NEGROS]}) ON COLUMNS,
+NON EMPTY {[Measures].[Famílias], [Measures].[Média das Rendas Médias], [Measures].[• Famílias que Contam com Tratamento de Esgoto], [Measures].[Taxa de Famílias com Energia Elétrica], [Measures].[Famílias que Tem Coleta de Lixo], [Measures].[• Famílias com Água Canalizada]} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:51:49,116 INFO  [org.saiku.service.olap.OlapQueryService] runId:121	Size: 2/8	Execute:	62ms	Format:	1ms	 Total: 63ms
+2015-02-09 09:51:53,382 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/axis/COLUMNS/dimension/Comunidade/hierarchy/[Comunidade]/[Comunidade].[Comunidade]	DELETE
+2015-02-09 09:51:53,383 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 7843A84A-C771-9ED6-BC07-B316EA0B1E05 dimension Comunidade to axis UNUSED  position-1
+2015-02-09 09:51:53,409 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/resultflattened	GET
+2015-02-09 09:51:53,409 INFO  [org.saiku.service.olap.OlapQueryService] runId:122	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Domicílio].[Município].Members})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias], [Measures].[Média das Rendas Médias], [Measures].[• Famílias que Contam com Tratamento de Esgoto], [Measures].[Taxa de Famílias com Energia Elétrica], [Measures].[Famílias que Tem Coleta de Lixo], [Measures].[• Famílias com Água Canalizada]} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:51:53,617 INFO  [org.saiku.service.olap.OlapQueryService] runId:122	Size: 1092/7	Execute:	175ms	Format:	33ms	 Total: 208ms
+2015-02-09 09:51:55,821 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/result/metadata/dimensions/Local de Domicílio/hierarchies/[Local de Domicílio]/levels/[Local de Domicílio].[Município]	GET
+2015-02-09 09:51:55,821 DEBUG [org.saiku.service.olap.OlapQueryService] Found hierarchy in the result: [Local de Domicílio]
+2015-02-09 09:51:55,826 DEBUG [org.saiku.service.olap.OlapQueryService] Found members in the result: 1091
+2015-02-09 09:51:56,470 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/axis/COLUMNS/dimension/Local de Domicílio	GET
+2015-02-09 09:52:03,997 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/axis/COLUMNS/dimension/Local de Domicílio	PUT	
+2015-02-09 09:52:04,017 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/axis/COLUMNS/dimension/Local de Domicílio	GET
+2015-02-09 09:52:04,289 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/resultflattened	GET
+2015-02-09 09:52:04,289 INFO  [org.saiku.service.olap.OlapQueryService] runId:123	Type:QM:
+SELECT
+NON EMPTY {Hierarchize({[Local de Domicílio].[Nordeste].[Pernambuco].[Agreste Pernambucano].[Médio Capibaribe].[Passira]})} ON COLUMNS,
+NON EMPTY {[Measures].[Famílias], [Measures].[Média das Rendas Médias], [Measures].[• Famílias que Contam com Tratamento de Esgoto], [Measures].[Taxa de Famílias com Energia Elétrica], [Measures].[Famílias que Tem Coleta de Lixo], [Measures].[• Famílias com Água Canalizada]} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:52:04,299 INFO  [org.saiku.service.olap.OlapQueryService] runId:123	Size: 2/7	Execute:	10ms	Format:	0ms	 Total: 10ms
+2015-02-09 09:56:05,605 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/axis/COLUMNS/dimension/Comunidade/hierarchy/[Comunidade]/[Comunidade].[Comunidade]	POST
+2015-02-09 09:56:05,606 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 7843A84A-C771-9ED6-BC07-B316EA0B1E05 dimension Comunidade to axis COLUMNS  position1
+2015-02-09 09:56:05,627 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/resultflattened	GET
+2015-02-09 09:56:05,627 INFO  [org.saiku.service.olap.OlapQueryService] runId:124	Type:QM:
+SELECT
+NON EMPTY CrossJoin({[Local de Domicílio].[Nordeste].[Pernambuco].[Agreste Pernambucano].[Médio Capibaribe].[Passira]}, [Comunidade].[Comunidade].Members) ON COLUMNS,
+NON EMPTY {[Measures].[Famílias], [Measures].[Média das Rendas Médias], [Measures].[• Famílias que Contam com Tratamento de Esgoto], [Measures].[Taxa de Famílias com Energia Elétrica], [Measures].[Famílias que Tem Coleta de Lixo], [Measures].[• Famílias com Água Canalizada]} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:56:05,689 INFO  [org.saiku.service.olap.OlapQueryService] runId:124	Size: 2/8	Execute:	62ms	Format:	0ms	 Total: 62ms
+2015-02-09 09:56:11,248 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/result/metadata/dimensions/Comunidade/hierarchies/[Comunidade]/levels/[Comunidade].[Comunidade]	GET
+2015-02-09 09:56:11,249 DEBUG [org.saiku.service.olap.OlapQueryService] Found hierarchy in the result: [Comunidade]
+2015-02-09 09:56:11,249 DEBUG [org.saiku.service.olap.OlapQueryService] Found members in the result: 1
+2015-02-09 09:56:11,383 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/axis/COLUMNS/dimension/Comunidade	GET
+2015-02-09 09:56:13,236 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/axis/COLUMNS/dimension/Comunidade	PUT	
+2015-02-09 09:56:13,239 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/axis/COLUMNS/dimension/Comunidade	GET
+2015-02-09 09:56:13,319 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/7843A84A-C771-9ED6-BC07-B316EA0B1E05/resultflattened	GET
+2015-02-09 09:56:13,320 INFO  [org.saiku.service.olap.OlapQueryService] runId:125	Type:QM:
+SELECT
+NON EMPTY CrossJoin({[Local de Domicílio].[Nordeste].[Pernambuco].[Agreste Pernambucano].[Médio Capibaribe].[Passira]}, [Comunidade].[Comunidade].Members) ON COLUMNS,
+NON EMPTY {[Measures].[Famílias], [Measures].[Média das Rendas Médias], [Measures].[• Famílias que Contam com Tratamento de Esgoto], [Measures].[Taxa de Famílias com Energia Elétrica], [Measures].[Famílias que Tem Coleta de Lixo], [Measures].[• Famílias com Água Canalizada]} ON ROWS
+FROM [PBQ CadUnico (Familias Quilombolas)]
+2015-02-09 09:56:13,329 INFO  [org.saiku.service.olap.OlapQueryService] runId:125	Size: 2/8	Execute:	9ms	Format:	0ms	 Total: 9ms

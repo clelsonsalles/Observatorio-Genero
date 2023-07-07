@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DataSPM - Configurações</title>
+<link rel="stylesheet" href="/paineis/css/smoothness/jquery-ui-1.10.3.custom.min.css">
+<link rel="stylesheet" href="/paineis/css/alertify.core.css" />
+<link rel="stylesheet" href="/paineis/css/alertify.default.css" />
+
+<script type="text/javascript" src="/paineis/js/lib/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/paineis/js/lib/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="/paineis/js/lib/alertify.min.js"></script>
+
+<style>
+
+body { 
+	margin: 0px; 
+	background-color: #E6E6D3; 
+	font-size: 10pt;
+}
+
+h1 {
+	background-color: #E6E6D3;
+	padding: 5px;
+}
+
+.status-saved {
+	font-size: 9pt;
+	padding-left: 10px;
+	color: green;
+}
+
+.status-changed {
+	font-size: 9pt;
+	padding-left: 10px;
+	color: orange;
+}
+
+#content {
+	padding: 0px;
+	background-color: white;
+}
+
+#logoutRow {
+	width: 100%;
+	background-color: #739756;
+	color: white;
+	padding: 5px;
+}
+#logoutRow a { color: white; text-decoration: none; font-family: verdana, trebuchet, arial; font-size: 12pt; }
+
+.cubeName {
+	background-color: #EEE;
+	padding: 10px;
+}
+
+.ui-state-highlight {
+	color: #353;
+	font-size: 9pt;
+}
+</style>
+<script>
+#[[
+   
+  var cubeData; 
+  
+  var isChanged = new Array();
+   
+  function save(cubeIndex)
+  {	  
+	  $.post( "save",
+			  {
+		  		nome: cubeData[cubeIndex].nome,
+		  		orgao: $("#orgaoTxt-"+cubeIndex).val(),
+		  		contato: $("#contatoTxt-"+cubeIndex).val(),
+		  		periodicidade: $("#periodoCombo-"+cubeIndex).val(),
+		  		cod_mes_atual: $("#mesAtualCombo-"+cubeIndex).val(),
+		  		ano_atual: $("#periodoTxt-"+cubeIndex).val(),
+		  		responsavel: $("#responsavelTxt-"+cubeIndex).val(),
+		  		setor_responsavel: $("#setorTxt-"+cubeIndex).val(),
+		  		proxima_atualizacao: $("#proximaTxt-"+cubeIndex).val()
+		  	  },
+		  	  function( returnData ) {
+		  		  
+		  		console.log( returnData );
+		  		
+		  		if (returnData[0] == "ok")
+		  		{
+	 				alertify.success('Cubo "'+ cubeData[cubeIndex].nome + '" salvo.');	 			
+	 				$("span[id$='"+ cubeIndex +"']").html("Saved").removeClass( "status-changed" ).addClass( "status-saved" );
+		  		}
+		  		else
+		  		{
+		  			alertify.error("Ocorreu um erro no servidor: " + returnData[1]);	
+		  		}
+	 			
+		}, "json"); //return data is in json format 
+	  
+  }
+  
+  function grant(cubeIndex)
+  {	  
+	  $.post( "grant",
+			  {
+		  		nome: cubeData[cubeIndex].nome,		  		
+		  		mes: $("#mesGrantCombo-"+cubeIndex).val(),
+		  		ano: $("#anoGrantTxt-"+cubeIndex).val()
+		  	  },
+		  	  function( returnData ) {
+		  		  
+		  		//console.log( returnData );
+		  		
+		  		if (returnData[0] == "ok")
+		  		{
+	 				alertify.success('Cubo "'+ cubeData[cubeIndex].nome + '" liberado para atualização.');	 			
+	 				$("#grantStatus-"+cubeIndex).html('<span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span><b>Esta base encontra-se liberada para atualização do período <code>'+ returnData[1] +'</code>.</b>');
+		  		}
+		  		else
+		  		{
+		  			alertify.error("Ocorreu um erro no servidor: " + returnData[1]);	
+		  		}
+	 			
+		}, "json"); //return data is in json format 
+	  
+  }
+   
+  $(function() {
+    $( "#content" ).tabs();
+  });
+  
+  $.getJSON( "cubos?metadata=true", function( data ) {
+	  
+	  cubeData = data;
+	  
+	  $.each( data, function( i, d ) {
+		  
+		  isChanged[i] = false;
+	    
+		  var cubeDataInput = '<div class="data"><p class="cubeName"><img src="images/cube_24.png" style="float: left; margin-right: 5px;"/> <b>' + d.nome + '</b></p>' +
+		  
+		  '<p>Base extraída em: <b>'+ (d.extraida_em || 'Não extraída') +'</b><br/>' +
+	 	   'Órgão produtor: <input id="orgaoTxt-' + i + '" type="text" size="15" value="'+ (d.orgao || '') +'"/><span id="status-orgaoTxt-'+i+'" class="status-saved">Saved</span><br/>' +
+	 	   'Contato no órgão: <input id="contatoTxt-' + i + '" type="text" size="25" value="'+ (d.contato || '') +'"/><span id="status-contatoTxt-'+i+'" class="status-saved">Saved</span><br/>' +
+	 	   'Período de atualização: <select id="periodoCombo-' + i + '">' +
+			'  <option value="1">Mensal</option>' +
+			'  <option value="2">Trimestral</option>' +
+			' <option value="3">Semestral</option>' +
+			'  <option value="4">Anual</option>' +
+			'</select><span id="status-periodoCombo-'+i+'" class="status-saved">Saved</span><br/>' +
+	 	   'Base atualizada para o período: <select id="mesAtualCombo-' + i + '">' +
+	  		'  <option value="0">(Base é anual)</option>' +
+	  		'  <option value="1">Janeiro</option>' +
+			'  <option value="2">Fevereiro</option>' +
+			' <option value="3">Março</option>' +
+			'  <option value="4">Abril</option>' +
+			'  <option value="5">Maio</option>' +
+			'  <option value="6">Junho</option>' +
+			'  <option value="7">Julho</option>' +
+			'  <option value="8">Agosto</option>' +
+			'  <option value="9">Setembro</option>' +
+			'  <option value="10">Outubro</option>' +
+			'  <option value="11">Novembro</option>' +
+			'  <option value="12">Dezembro</option>' +
+			'</select><span id="status-mesAtualCombo-'+i+'" class="status-saved">Saved</span> <input id="periodoTxt-' + i + '"type="text" size="15" value="'+ (d.ano_atual || '') +'"/><span id="status-periodoTxt-'+i+'" class="status-saved">Saved</span><br/>' +
+	 	   'Pessoa responsável pela atualização:  <input id="responsavelTxt-' + i + '"type="text" size="25" value="'+ (d.responsavel || '') +'"/><span id="status-responsavelTxt-'+i+'" class="status-saved">Saved</span><br/>' +
+	 	   'Setor da pessoa responsável pela atualização: <input id="setorTxt-' + i + '"type="text" size="20" value="'+ (d.setor_responsavel || '') +'"/><span id="status-setorTxt-'+i+'" class="status-saved">Saved</span><br/>' +
+	 	   'Próxima atualização prevista para: <input id="proximaTxt-' + i + '"type="text" size="10" value="'+ 
+	 	 		 $.datepicker.formatDate( "dd/mm/yy", $.datepicker.parseDate( "dd/mm/yy 00:00:00", (d.proxima_atualizacao || ''))) 
+	 	 				 +'"/><span id="status-proximaTxt-'+i+'" class="status-saved">Saved</span>' +
+	 	   '</p>' +	 	   
+		  		'</div>' +
+		  		'<div id="conffirmFooter-' + i +'"><button id="saveBtn-' + i + '" onClick="save(' + i +');">Salvar Alterações</button></div><hr/>';
+		  
+		  $("#info").append(cubeDataInput);
+	  	
+		  $("#periodoCombo-"+i).val((d.periodicidade || 1));
+		  $("#mesAtualCombo-"+i).val((d.cod_mes_atual || 0));
+		  
+		  //=============================
+			  
+		  var updateInput = '<div class="grant"><p class="cubeName"><img src="images/cube_24.png"/> <b>' + d.nome + '</b></p>' +
+		  		'<p id="grantStatus-' + i + '" class="ui-state-highlight">'+ (d.bool_atualizacao_liberada ? ('<span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span><b>Esta base encontra-se liberada para atualização do período <code>' + d.cod_mes_proximo + '/' + d.ano_proximo + '</code></b>.') : 'Esta base está atualmente bloqueada para atualizações.') +'</p>' +
+		  		'<p>Liberar a atualização desta base para o período: <select id="mesGrantCombo-' + i + '">' +
+		  		'  <option value="0">(Base é anual)</option>' +
+		  		'  <option value="1">Janeiro</option>' +
+				'  <option value="2">Fevereiro</option>' +
+				' <option value="3">Março</option>' +
+				'  <option value="4">Abril</option>' +
+				'  <option value="5">Maio</option>' +
+				'  <option value="6">Junho</option>' +
+				'  <option value="7">Julho</option>' +
+				'  <option value="8">Agosto</option>' +
+				'  <option value="9">Setembro</option>' +
+				'  <option value="10">Outubro</option>' +
+				'  <option value="11">Novembro</option>' +
+				'  <option value="12">Dezembro</option>' +
+				'</select><input id="anoGrantTxt-' + i + '"type="text" size="15"/>' +
+		  		'<button id="grantBtn-' + i + '" onClick="grant(' + i +');">Liberar</button>' +
+		  		'<button id="blockBtn-' + i + '" onClick="block(' + i +');">Bloquear</button> </p>'
+		  		"</div>";
+		  		
+		  $("#atualizar").append(updateInput);
+	  });
+	  
+	  
+	  $("button").button({ icons: { primary: "ui-icon-disk" }});
+	 
+	  $("input,select").change(function() {
+		  $("#status-"+this.id).html("Changed").removeClass( "status-saved" ).addClass( "status-changed" );
+	  });
+	  
+	  
+	  $("input[id^='proximaTxt']").datepicker({ constrainInput: true, dateFormat: "dd/mm/yy" });
+  });
+]]#
+  </script>
+</head>
+<body>
+<h1>Administração do DataSPM</h1>
+<div id="logoutRow"><a href="logout">Sair</a></div>
+<div id="content">
+ <ul>
+    <li><a href="#info">Informações dos cubos</a></li>
+    <li><a href="#atualizar">Atualização dos cubos</a></li>
+  </ul>
+ <div id="info">
+ 	
+ 	
+ </div>
+ 
+ <div id="atualizar">
+ 
+ 
+ 
+ </div>
+</div>
+
+</body>
+</html>

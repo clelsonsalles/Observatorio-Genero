@@ -1,0 +1,353 @@
+﻿[
+ {
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Proporção Deputadas Estaduais Eleitas",
+		"source": "Tribunal Superior Eleitoral, 2014</br>(*) As deputadas distritais do DF foram consideradas na contagem",
+		"dataUrl": "csv/tse_deputadas_estaduais_eleitas_por_uf.csv",
+		"columnDelimiter": ";",
+  		"charts": [
+  				{ "type": "SVGMap",
+  				  "data": {
+  				  	"title": "Por UF",
+  				  	"file": "svg/brasil_uf_map.svg",
+					"width": 410,
+					"height": 372,
+					"xAxisCol": "UF",
+					"yAxisCol": "Proporção de mulheres",
+					"minColor": "#EE82EE",
+					"maxColor": "#9ACD32",
+					"colorSteps": 4,
+				  	"numberFormat": ".1f",
+					"colorize": "fixed",
+							
+					"colorizeModel": {
+							"intervals": [[1,5.09], [5.10,9.99],[10.00,20.09],[20.10,30.01],[30.10,100.99]],
+							"colors": ["#ea810c", "#b28700", "#598f04","#33747a","#595487"],
+							"labels": [ "Até 5,0", "De 5,1 a 9,9", "De 10,0 a 20,0", "20,1 a 30,0", "Acima de 30,1" ]
+						},					
+					"selectionBoxPosition": "bottom-left",
+					"info": "</br>",
+					"filters": {
+						"excluded": [ { "column": "UF", "value": "Todas as UFs" } ]
+					  }
+																
+				   }
+				  },
+				  {"type": "LINE_BREAK"},
+				  {
+				  	"type": "RowValue",
+				  	"data": {
+				  			"defaultRow": "Todas as UFs",
+				  			"defaultLabel": "Brasil",
+				  			"xAxisCol": "UF",
+				  			"yAxisCol": "Deputadas Estaduais Eleitas",
+				  			"suffix": "Deputadas Estaduais Eleitas",
+				  			"numberFormat": ",.0f",
+				  			"icon": ""
+				  		}
+				  } ]
+			 
+		  }
+  },
+  {
+  "type": "IndicatorGraphicView",
+  "data": {
+  			"name": "Deputadas e Deputados Federais - Eleições 2014",
+		    "dataUrl": "csv/tbl_tse_candidatos_e_eleitos.csv",
+		    "source": "Tribunal Superior Eleitoral, 2014",
+		    "columnDelimiter": ";",
+   			"charts": [
+				
+                 { "type": "Pie",
+	  			  "data": {
+	  			  	"title": "Candidatas e Candidatos",
+	  			  	
+					"width": 365,
+					"height": 215,
+					"labelPosition": "outer",
+					"order": "label-asc",
+					"decimals": 1,
+					"xAxisCol": "Sexo",
+					"yAxisCol": "Candidatos",
+					"colors": ["#598f04","#ea810c"],
+					"selectionAxisCol": "UF",
+					"filters": {                                                            				
+	                	"included": [ { "column": "UF", "value": "Todas as UFs" }
+	                                ],
+						"excluded": [
+										{ "column": "Cargo", "value": "Senador" }
+									]
+	                  }																
+				  }
+				 },
+				 
+				 { "type": "Pie",
+	  			  "data": {
+	  			  	"title": "Eleitas e Eleitos",
+	  			  	
+					"width": 370,
+					"height": 220,
+					"labelPosition": "outer",
+					"order": "label-asc",
+					"decimals": 1,
+					"xAxisCol": "Sexo",
+					"yAxisCol": "Eleitos",
+					"colors": ["#598f04","#ea810c"],
+					"selectionAxisCol": "UF",
+					"filters": {                                                            				
+	                	"included": [ { "column": "UF", "value": "Todas as UFs" }
+	                                ],
+						"excluded": [
+										{ "column": "Cargo", "value": "Senador" }
+									]
+	                  }																
+				  }
+				 }					
+             ]
+ 	}
+ },
+ {
+  "type": "IndicatorGraphicView",
+  "data": {
+  			"name": "Senadoras e Senadores - Eleições 2014",
+		    "dataUrl": "csv/tbl_tse_candidatos_e_eleitos.csv",
+		    "source": "Tribunal Superior Eleitoral, 2014",
+		    "columnDelimiter": ";",
+   			"charts": [
+				
+                 { "type": "Pie",
+	  			  "data": {
+	  			  	"title": "Candidatos e Candidatas",
+	  			  	
+					"width": 365,
+					"height": 230,
+					"labelPosition": "outer",
+					"order": "label-asc",
+					"decimals": 1,
+					"xAxisCol": "Sexo",
+					"yAxisCol": "Candidatos",
+					"colors": ["#598f04","#ea810c"],
+					"selectionAxisCol": "UF",
+					"filters": {                                                            				
+	                	"included": [ { "column": "UF", "value": "Todas as UFs" }
+	                                ],
+						"excluded": [
+										{ "column": "Cargo", "value": "Deputado Federal" }
+									]
+	                  }																
+				  }
+				 },
+				 
+				 { "type": "Pie",
+	  			  "data": {
+	  			  	"title": "Eleitas e Eleitos",
+	  			  	
+					"width": 370,
+					"height": 210,
+					"labelPosition": "outer",
+					"order": "label-asc",
+					"decimals": 1,
+					"xAxisCol": "Sexo",
+					"yAxisCol": "Eleitos",
+					"colors": ["#598f04","#ea810c"],
+					"selectionAxisCol": "UF",
+					"filters": {                                                            				
+	                	"included": [ { "column": "UF", "value": "Todas as UFs" }
+	                                ],
+						"excluded": [
+										{ "column": "Cargo", "value": "Deputado Federal" }
+									]
+	                  }																
+				  }
+				 }					
+             ]
+ 	}
+ },
+{
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Deputadas Estaduais",		
+		"dataUrl": "csv/dep_estadual_candidatas_eleitas_por_cor.csv",
+		"columnDelimiter": ";",
+		"source": "Tribunal Superior Eleitoral, 2014",
+  		"charts": [
+  				
+				{ "type": "Plot2D",
+				  "data": {
+				  	"title": "Por Raça/Cor",
+				  	
+                    "yUnit": "Mulheres",
+                    "numberFormat": ",.0f",
+                    "type": "column",
+                    "width": 350,
+                    "height": 200,
+                    "marginLeft": 80,
+                    "marginBottom": 58,
+                    "xRotation": -25,
+                    "xAxisCol": "Raça",
+                    "selectionAxisCol": "UF",
+                    "yAxisCol": ["Candidatas", "Eleitas"],
+                    "colors": ["#598f04","#ea810c"],
+                    "legendNumCols": 2,
+                    "filters": {                                                            				
+                    	"included": [ { "column": "UF",
+                    					"value": "Todas as UFs" }
+										]
+						
+                        }
+                    }
+                 }                 
+                 
+            ]
+     }
+  },
+
+  {
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Composição das Casas Legislativas",		
+		"dataUrl": "csv/congresso_nacional_proporcao_cand_eleitas.csv",
+		"columnDelimiter": ";",
+		"source": "Tribunal Superior Eleitoral, 2014</br>Senado Federal, 2016",
+  		"charts": [
+  				
+				{ "type": "Plot2D",
+				  "data": {
+				  	"title": "Distribuição percentual por sexo",
+				  	
+                    "yUnit": " ",
+                    "numberFormat": ".1f",
+		    "suffix": "%",
+                    "type": "column",
+                    "width": 370,
+                    "height": 190,
+                    "marginLeft": 80,
+                    "marginBottom": 78,
+                    "xRotation": -25,
+                    "xAxisCol": "Casa",
+                    "selectionAxisCol": "UF",
+                    "yAxisCol": ["Mulheres", "Homens"],
+                     "colors": ["#ea810c","#598f04"],
+                    "legendNumCols": 2,
+			"filters": {
+						"included": [ { "column": "UF",
+                    					"value": "Todas as UFs" }
+										]
+					  }
+                        
+                    }
+                 }                 
+                 
+            ]
+     }
+  },
+  {
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Candidatas e Eleitas no Congresso Nacional",		
+		"dataUrl": "csv/congresso_candidatos_e_eleitos_por_cor.csv",
+		"columnDelimiter": ";",
+		"source": "Tribunal Superior Eleitoral, 2014",
+  		"charts": [
+  				
+				{ "type": "Plot2D",
+				  "data": {
+				  	"title": "Por Raça/Cor",
+				  	
+                    "yUnit": "Mulheres",
+                    "numberFormat": ",.0f",
+                    "type": "column",
+                    "width": 400,
+                    "height":220,
+                    "marginLeft": 80,
+                    "marginBottom": 58,
+                    "xRotation": -25,
+                    "xAxisCol": "Raça",
+                    "selectionAxisCol": "UF",
+                    "yAxisCol": ["Candidatas", "Eleitas"],
+                    "colors": ["#598f04","#ea810c"],
+                    "legendNumCols": 2,
+                    "filters": {                                                            				
+                    	"included": [ { "column": "UF",
+                    					"value": "Todas as UFs" }
+										]
+						
+                        }
+                    }
+                 }                 
+                 
+            ]
+     }
+  },
+  {
+  "type": "IndicatorGraphicView",
+  "data": {
+  		"name": "Distribuição percentual de congressistas eleitas e eleitos",		
+		"dataUrl": "csv/congresso_eleitos_e_eleitos_por_ano.csv",
+		"columnDelimiter": ";",
+		"source": "Tribunal Superior Eleitoral, 2014",
+  		"charts": [
+  				
+				{ "type": "Plot2D",
+				  "data": {
+				  	"title": "Por Sexo e Ano (Série Histórica)",
+				  	
+                    "yUnit": "Eleitos",
+                    "numberFormat": ".1f",
+		    "suffix": "%",
+                    "type": "column",
+                    "width": 390,
+                    "height": 170,
+                    "marginLeft": 80,
+                    "marginBottom": 58,
+                    "xRotation": -25,
+                    "xAxisCol": "Ano",
+                    "selectionAxisCol": "UF",
+                    "yAxisCol": ["Mulheres","Homens"],
+                    "colors": ["#ea810c","#598f04"],
+                    "legendNumCols": 2,
+                    "filters": {                                                            				
+                    	"included": [ { "column": "UF",
+                    					"value": "Todas as UFs" }
+										]
+						
+                        }
+                    }
+                 }                 
+                 
+            ]
+     }
+  },
+ {
+  "type": "IndicatorGraphicView",
+  "data": {
+  			"name":"População ocupada em cargos de direção",
+		    "dataUrl": "csv/pessoas_25_ou_mais_cargo_direcao_sexo_uf.csv",
+		    "source": "Pesquisa Nacional por Amostra de Domicílios/ IBGE, 2014",
+		    "columnDelimiter": ";",
+   			"charts": [
+				
+                 { "type": "Pie",
+	  			  "data": {
+	  			  	"title": "Por Sexo",
+	  			  	
+					"width": 355,
+					"height": 225,
+					"labelPosition": "outer",
+					"order": "label-asc",
+					"decimals": 1,
+					"xAxisCol": "Sexo",
+					"yAxisCol": "Pessoas",
+					"tooltips": "false",
+					"colors": ["#ea810c","#598f04"],
+					"selectionAxisCol": "UF",
+					"filters": {                                                            				
+	                		"included": [ { "column": "UF", "value": "Todas as UFs" }]
+	                  		}																
+				  }
+				 }					
+             ]
+ 	}
+ }
+]

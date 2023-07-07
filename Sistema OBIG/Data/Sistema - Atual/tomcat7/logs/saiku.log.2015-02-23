@@ -1,0 +1,36 @@
+2015-02-23 15:32:22,925 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-02-23 15:32:29,157 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/6281509A-9C24-B5D8-9810-014F6C588E88	POST	 xml:false
+2015-02-23 15:32:39,925 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/6281509A-9C24-B5D8-9810-014F6C588E88/axis/ROWS/dimension/Ⓣ Período/hierarchy/[Ⓣ Período]/[Ⓣ Período].[Mês]	POST
+2015-02-23 15:32:39,925 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 6281509A-9C24-B5D8-9810-014F6C588E88 dimension Ⓣ Período to axis ROWS  position0
+2015-02-23 15:32:43,324 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/6281509A-9C24-B5D8-9810-014F6C588E88/axis/COLUMNS/dimension/Measures/member/[Measures].[Pessoas]	POST
+2015-02-23 15:32:43,325 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 6281509A-9C24-B5D8-9810-014F6C588E88 dimension Measures to axis COLUMNS  position0
+2015-02-23 15:32:43,466 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/6281509A-9C24-B5D8-9810-014F6C588E88/resultflattened	GET
+2015-02-23 15:32:43,466 INFO  [org.saiku.service.olap.OlapQueryService] runId:182	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Pessoas]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Ⓣ Período].[Mês].Members})} ON ROWS
+FROM [Hist. MDS CadUnico (Pessoas)]
+2015-02-23 15:34:18,313 INFO  [org.saiku.service.olap.OlapQueryService] runId:182	Size: 2/4	Execute:	94847ms	Format:	0ms	 Total: 94847ms
+2015-02-23 15:38:57,202 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/6281509A-9C24-B5D8-9810-014F6C588E88	DELETE
+2015-02-23 15:38:57,214 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/84753783-194C-4488-BEA1-1B17BC572DB5	POST	 xml:false
+2015-02-23 15:39:02,448 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/84753783-194C-4488-BEA1-1B17BC572DB5/axis/ROWS/dimension/Ⓣ Período/hierarchy/[Ⓣ Período]/[Ⓣ Período].[Mês]	POST
+2015-02-23 15:39:02,448 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 84753783-194C-4488-BEA1-1B17BC572DB5 dimension Ⓣ Período to axis ROWS  position0
+2015-02-23 15:39:05,678 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/84753783-194C-4488-BEA1-1B17BC572DB5/axis/COLUMNS/dimension/Measures/member/[Measures].[Pessoas]	POST
+2015-02-23 15:39:05,678 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 84753783-194C-4488-BEA1-1B17BC572DB5 dimension Measures to axis COLUMNS  position0
+2015-02-23 15:39:05,778 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/84753783-194C-4488-BEA1-1B17BC572DB5/resultflattened	GET
+2015-02-23 15:39:05,778 INFO  [org.saiku.service.olap.OlapQueryService] runId:183	Type:QM:
+SELECT
+NON EMPTY {[Measures].[Pessoas]} ON COLUMNS,
+NON EMPTY {Hierarchize({[Ⓣ Período].[Mês].Members})} ON ROWS
+FROM [Hist. PBQ CadUnico (Pessoas Quilombolas)]
+2015-02-23 15:39:10,093 INFO  [org.saiku.service.olap.OlapQueryService] runId:183	Size: 2/4	Execute:	4315ms	Format:	0ms	 Total: 4315ms
+2015-02-23 15:49:18,887 DEBUG [org.saiku.web.service.SessionService] Logging in with [org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN]
+2015-02-23 15:49:29,363 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/883431AB-3EB7-FF83-B3B9-CA27926B8744	POST	 xml:false
+2015-02-23 15:49:37,389 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/883431AB-3EB7-FF83-B3B9-CA27926B8744	DELETE
+2015-02-23 15:49:37,392 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/41C22086-DDC7-02D7-B162-F59304425970	POST	 xml:false
+2015-02-23 15:49:43,742 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/41C22086-DDC7-02D7-B162-F59304425970/axis/COLUMNS/dimension/Measures/member/[Measures].[Óbitos]	POST
+2015-02-23 15:49:43,742 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 41C22086-DDC7-02D7-B162-F59304425970 dimension Measures to axis COLUMNS  position0
+2015-02-23 15:50:13,322 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/41C22086-DDC7-02D7-B162-F59304425970/result/metadata/dimensions/Causa (CID10)/hierarchies/[Causa (CID10)]/levels/[Causa (CID10)].[Causa]	GET
+2015-02-23 15:50:13,569 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/41C22086-DDC7-02D7-B162-F59304425970/axis/FILTER/dimension/Causa (CID10)/hierarchy/[Causa (CID10)]/[Causa (CID10)].[Causa]	POST
+2015-02-23 15:50:13,569 DEBUG [org.saiku.service.olap.OlapQueryService] move query: 41C22086-DDC7-02D7-B162-F59304425970 dimension Causa (CID10) to axis FILTER  position0
+2015-02-23 15:50:15,862 DEBUG [org.saiku.web.rest.resources.QueryResource] TRACK		/query/41C22086-DDC7-02D7-B162-F59304425970/axis/FILTER/dimension/Causa (CID10)	GET
